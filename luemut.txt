@@ -1,1 +1,0 @@
-Heitin ensimmäisen osapalautuksen suoraan kandipohjalle. Varsinainen sisältö löytyy johdannosta. En saanut BibTeXiä toimimaan, mutta lähteet löytyvät lahteet.bib -tiedostosta. 

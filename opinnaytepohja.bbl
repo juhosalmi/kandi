@@ -1,53 +1,10 @@
 \begin{thebibliography}{1}
 
-\bibitem{RefWorks:1}
-{\em Muutamme ilmastoa Ilmatieteen laitoksen tutkijoiden katsaus
-  ilmastonmuutokseen}.
-\newblock Karttakeskus, Helsinki], 2008.
-\newblock ID: L{\_}OPAC{\_}TEEMU; M1: 237 s.; p{\"a}{\"a}toimittaja: Heikki
-  Nevanlinna.; ID: ALLI - Aalto-yliopiston kokoelmatietokanta.
-
-\bibitem{RefWorks:4}
-T.~S. Fiddaman.
-\newblock Exploring policy options with a behavioral climate-economy model.
-\newblock {\em System Dynamics Review, 2002, Vol.18(2), pp.243-267},
-  18(2):243--267, 2002.
-\newblock ID: NEWPC; ID: Primo Central Index (Ex Libris).
-
-\bibitem{RefWorks:3}
-Thomas Fiddaman.
-\newblock Dynamics of climate policy.
-\newblock {\em System Dynamics Review}, 23(1), 2007.
-\newblock ID: PQ{\_}MS; ID: Advanced Technologies Database with Aerospace
-  (Proquest).
-
-\bibitem{RefWorks:5}
-Charles~A. Jones.
-\newblock The renewable energy industry in massachusetts as a complex system:
-  Developing a shared understanding for policy making.
-\newblock {\em ProQuest Dissertations and Theses}, 2008.
-\newblock ID: PQ{\_}MS; ID: Digital Dissertations (ProQuest ).
-
-\bibitem{RefWorks:13}
-P.~L. Kunsch.
-\newblock The zero-emission certificates: A novel co 2-pollution reduction
-  instrument applied to the electricity market.
-\newblock {\em European Journal of Operational Research, 2004, Vol.153(2),
-  pp.386-399}, 153(2):386--399, 2004.
-\newblock ID: NEWPC; ID: Primo Central Index (Ex Libris).
-
 \bibitem{WhatIsSystemDynamics}
-System~Dynamics Society.
-\newblock The field of system dynamics.
-\newblock \url{http://www.systemdynamics.org/what-is-s/}.
-\newblock Viitattu: 2013-10-27.
+{What is system dynamics?}
 
-\bibitem{RefWorks:2}
-John~D. Sterman.
-\newblock {\em Business dynamics systems thinking and modeling for a complex
-  world}.
-\newblock McGraw-Hill, Boston (Mass.), 2000.
-\newblock ID: L{\_}OPAC{\_}TEEMU; M1: xxvi, 982 s.; John D. Sterman.; ID: ALLI
-  - Aalto-yliopiston kokoelmatietokanta.
+\bibitem{Forrester1989}
+Jay~W Forrester.
+\newblock {The Beginning of System Dynamics}, 1989.
 
 \end{thebibliography}

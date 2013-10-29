@@ -1,14 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: opinnaytepohja.aux
 The style file: plain.bst
-Database file #1: lahteet.bib
-Repeated entry---line 261 of file lahteet.bib
- : %@online{WhatIsSystemDynamics
- :                              , % Toimii BibLaTEXilla.
-I'm skipping whatever remains of this entry
-"}" immediately follows an entry type---line 263 of file lahteet.bib
- : % title = {The Field of System Dynamics {@ONLINE
- :                                                 }},
-I'm skipping whatever remains of this entry
-Warning--to sort, need author, editor, or key in RefWorks:1
-Warning--empty author and editor in RefWorks:1
-(There were 2 error messages)
+Database file #1: viitteet.bib
+Warning--to sort, need author or key in WhatIsSystemDynamics
+(There was 1 warning)
