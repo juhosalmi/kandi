@@ -5,11 +5,14 @@
 \contentsline {section}{Sis\"allysluettelo}{v}{section*.4}
 \contentsline {section}{Symbolit ja lyhenteet}{vi}{section*.6}
 \contentsline {section}{\numberline {1}Johdanto}{1}{section.1}
-\contentsline {section}{\numberline {2}Teoreettinen tausta}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Systeemidynamiikka}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Ilmastomallit}{3}{subsection.2.2}
-\contentsline {section}{\numberline {3}Tutkimusaineisto ja -menetelm\IeC {\"a}t}{4}{section.3}
+\contentsline {section}{\numberline {2}Systeemidynamiikka}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Systeemiajattelu}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Kausaalidiagrammi}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Takaisinkytkent\IeC {\"a}}{3}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Varastot ja virtaukset}{3}{subsection.2.4}
+\contentsline {section}{\numberline {3}Ilmastonmuutos}{3}{section.3}
 \contentsline {subsection}{\numberline {3.1}Fysikaaliset ilmastomallit}{4}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Systeemidynaamiset mallit 1}{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Fiddamanin malli}{4}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Systeemidynaamiset mallit 2}{4}{subsection.3.3}
 \contentsline {section}{\numberline {4}Yhteenveto}{5}{section.4}
+\contentsline {section}{Viitteet}{6}{section*.8}

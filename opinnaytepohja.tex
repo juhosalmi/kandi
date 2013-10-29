@@ -39,6 +39,9 @@
 %\documentclass[finnish,12pt,a4paper,dvips]{article}
 
 
+
+
+
 %% Käytä näitä, jos kirjoitat englanniksi
 %%
 %% Uncomment one of these if you write in English
@@ -174,7 +177,7 @@ linkcolor=blue,citecolor=black,pdfstartview=FitH]{hyperref}
 %% B.Sc. or M.Sc. thesis supervisor 
 %% Note the "\" after the comma. This forces the following space to be 
 %% a normal interword space, not the space that starts a new sentence. 
-\supervisor{Prof.\ }{Prof.\ }
+\supervisor{D.Sc.\ (Tech.) Pekka Forsman}{TkT Pekka Forsman}
 
 %% Kandidaatintyön ohjaaja(t) tai diplomityön ohjaaja(t)
 %% 
@@ -241,8 +244,9 @@ Placeholderina alkuperäinen tehtävänanto: Systeemidynamiikkaa on käytetty pa
 %% Preface
 \mysection{Esipuhe}
 %\mysection{Preface}
-Esipuhe.
-\\
+
+
+
 
 \vspace{5cm}
 Otaniemi, 24.9.2013
@@ -366,27 +370,40 @@ Tässä kandidaatintyössä käydään läpi, mitä on systeemidynamiikka ja mit
 %% In a thesis, every section starts a new page, hence \clearpage
 \clearpage
 
-\section{Teoreettinen tausta}
+% \section{Teoreettinen tausta}
 % \section{Background}
 
 
-\subsection{Systeemidynamiikka}
-Systeemidynamiikka pintapuolisesti, jos tätä ei avaa riittävästi jo johdannossa. 
+\section{Systeemidynamiikka}
+Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja monimutkaisten järjestelmien mallintamiseen. \cite{WhatIsSystemDynamics}
 
-\subsection{Ilmastomallit}
+Systeemidynamiikan on aluperin perustanut sähkötekniikan alalta operaatiotutkimuksen puolelle päätynyt Jay W. Forrester. 
+
+\subsection{Systeemiajattelu}
+
+\subsection{Kausaalidiagrammi}
+
+\subsection{Takaisinkytkentä}
+
+\subsection{Varastot ja virtaukset}
+
+\section{Ilmastonmuutos}
 Ilmastomalleista yleisesti.
 
 
 \clearpage
 
-\section{Tutkimusaineisto ja -menetelmät}
+%\section{Tutkimusaineisto ja -menetelmät}
 %\section{Materials and methods}
 
 \subsection{Fysikaaliset ilmastomallit}
 Fysikaalisista ilmastomalleista. 
 
-\subsection{Systeemidynaamiset mallit 1}
+\subsection{Fiddamanin malli}
 Systeemidynaamisia ilmastomalleja on todennäköisesti useampia, joten nämä voi ehkä ryhmitellä tai ottaa esille case-tyyppisesti. 
+\cite{RefWorks:1, RefWorks:2, RefWorks:3, RefWorks:4, RefWorks:5, RefWorks:13} %jne.
+
+Tom Fiddaman mallintaa ilmaston lämpenemistä systeemidynaamisesti jakaen mallin kahteen osaan: hiilidioksidi- ja lämpövarastoihin. 
 
 \subsection{Systeemidynaamiset mallit 2}
 
@@ -402,9 +419,12 @@ Systeemidynaamisia ilmastomalleja on todennäköisesti useampia, joten nämä vo
 \section{Yhteenveto}
 %\section{Summary} 
 
+\clearpage
 
-
-
+\phantomsection
+\addcontentsline{toc}{section}{Viitteet}
+\bibliographystyle{plain}
+\bibliography{lahteet}
 
 
 \end{document}
