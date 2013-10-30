@@ -1,0 +1,98 @@
+{UTF-8}
+Muiden päätökset  = A FUNCTION OF( Muiden tavoitteet,Ympäristö)
+	~	
+	~		|
+
+Muiden tavoitteet  = A FUNCTION OF( Ympäristö)
+	~	
+	~		|
+
+Muut vaikutukset  = A FUNCTION OF( Päätökset)
+	~	
+	~		|
+
+Päätökset  = A FUNCTION OF( Tavoitteet,Ympäristö)
+	~	
+	~		|
+
+Tavoitteet  = A FUNCTION OF( Ympäristö)
+	~	
+	~		|
+
+Ympäristö  = A FUNCTION OF( Muiden päätökset,Muut vaikutukset,Päätökset)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,Päätökset,473,362,32,11,8,3,0,0,0,0,0,0
+10,2,Ympäristö,475,498,34,11,8,3,0,0,0,0,0,0
+10,3,Tavoitteet,299,426,32,11,8,3,0,0,0,0,0,0
+1,4,2,1,1,0,0,0,0,64,0,-1--1--1,,1|(405,423)|
+1,5,1,2,1,0,0,0,0,64,0,-1--1--1,,1|(539,429)|
+1,6,3,1,1,0,0,0,0,64,0,-1--1--1,,1|(362,382)|
+1,7,2,3,1,0,0,0,0,64,0,-1--1--1,,1|(388,488)|
+10,8,Muut vaikutukset,640,428,54,11,8,3,0,0,0,0,0,0
+1,9,1,8,1,0,0,0,0,64,0,-1--1--1,,1|(561,375)|
+1,10,8,2,1,0,0,0,0,64,0,-1--1--1,,1|(582,475)|
+10,11,Muiden päätökset,478,625,57,11,8,3,0,0,0,0,0,0
+10,12,Muiden tavoitteet,303,559,55,11,8,3,0,0,0,0,0,0
+1,13,2,12,1,0,0,0,0,64,0,-1--1--1,,1|(388,515)|
+1,14,12,11,1,0,0,0,0,64,0,-1--1--1,,1|(373,608)|
+1,15,2,11,1,0,0,0,0,64,0,-1--1--1,,1|(412,548)|
+1,16,11,2,1,0,0,0,0,64,0,-1--1--1,,1|(540,569)|
+///---\\\
+:L<%^E!@
+22:$,Dollar,Dollars,$s
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+22:Day,Days
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+5:FINAL TIME
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+24:0
+25:0
+26:0

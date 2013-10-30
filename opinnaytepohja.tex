@@ -105,6 +105,8 @@ linkcolor=blue,citecolor=black,pdfstartview=FitH]{hyperref}
 \setlength{\topmargin}{25mm-\headheight-\headsep}
 \setlength{\textheight}{23cm}
 
+\usepackage{setspace}  % KYPSYYSNÄYTETTÄ VARTEN
+
 
 %% Kaikki mikä paperille tulostuu, on tämän jälkeen
 %%
@@ -305,6 +307,8 @@ Otaniemi, 24.9.2013
 %$\mathbf{A} \cdot \mathbf{B}$    & vektorien $\mathbf{A}$ ja $\mathbf{B}$ pistetulo
 %\end{tabular}
 
+\begin{onehalfspacing} % KYPSYYSNÄYTETTÄ VARTEN
+
 \subsection*{Lyhenteet}
 %\subsection*{Abbreviations}
 
@@ -327,6 +331,7 @@ SD         & systeemidynamiikka \\
 \storeinipagenumber
 \pagenumbering{arabic}
 \setcounter{page}{1}
+
 
 
 %% Leipäteksti alkaa
@@ -364,7 +369,6 @@ Tässä kandidaatintyössä käydään läpi, mitä on systeemidynamiikka ja mit
 
 
 
-
 %% Opinnäytteessä jokainen osa alkaa uudelta sivulta, joten \clearpage
 %%
 %% In a thesis, every section starts a new page, hence \clearpage
@@ -375,11 +379,49 @@ Tässä kandidaatintyössä käydään läpi, mitä on systeemidynamiikka ja mit
 
 
 \section{Systeemidynamiikka}
-Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja monimutkaisten järjestelmien mallintamiseen. \cite{WhatIsSystemDynamics}
+Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja monimutkaisten järjestelmien mallintamiseen. Keskeistä systeemidynamiikassa on järjestelmän osien keskinäinen vuorovaikutus. \cite{WhatIsSystemDynamics}
 
-Systeemidynamiikan on aluperin perustanut Jay W. Forrester, joka vuonna 1956 siirtyi MIT:ssä sähkötekniikan alalta Sloan School of Managementiin tekemään operaatiotutkimusta. Forrester alkoi tutkia, miksi General Electricin tehtailla työskenneltiin välillä kolmessa vuorossa ja välillä jouduttiin puolet työntekijöistä irtisanomaan. Forrester ryhtyi simuloimaan teollisuustuotantoa sekä luomaan sille säätöjärjestelmiä tietokoneavusteisesti. Tämän tutkimuksen pohjalta syntyi systeemidynamiikka. \cite{Forrester1989}
+Tämän luvun tavoite on tutustuttaa lukija systeemidynamiikkaan. 
 
-\subsection{Systeemiajattelu}
+\subsection{Systeemidynamiikan historia}
+
+Systeemidynamiikan ymmärtämiseen auttaa sen historian tunteminen. Tämä alaluku käsittelee systeemidynamiikan historiaa, etenkin sen syntyyn ja kehitykseen vaikuttaneita tekijöitä. % Onko tämä järkevää metatekstiä?
+
+Systeemidynamiikan on alunperin perustanut Jay W. Forrester, joka vuonna 1956 siirtyi MIT:ssä sähkötekniikan alalta Sloan School of Managementiin tekemään operaatiotutkimusta. Forrester alkoi tutkia, miksi General Electricin tehtailla työskenneltiin välillä kolmessa vuorossa ja välillä jouduttiin puolet työntekijöistä irtisanomaan. Forrester alkoi yhdistellä säätö- ja systeemiteoriaa operaatiotutkimukseen ja ryhtyi simuloimaan teollisuustuotantoa sekä luomaan sille säätöjärjestelmiä tietokoneavusteisesti. Tämän tutkimuksen pohjalta syntyi systeemidynamiikka ja alan ensimmäinen julkaisu Industrial Dynamics \cite{Forrester1961}. \cite{Forrester1989} 
+
+Forresterin \cite[s. 398-399]{Forrester1968} mukaan sen aikainen operaatiotutkimus ei tarjonnut hyviä työkaluja laajoihin, ylimmän tason johtamisen haasteisiin. Operaatiotutkimuksessa keskityttiin pääsääntöisesti yksittäisten, irrallisten päätösten seurausten hahmottelemiseen avoimen silmukan järjestelminä oletuksella, että itse päätös ei vaikuta päätöksentekoon vaikuttaviin tekijöihin. Tällaisella tarkastelulla pystyttiin yksinkeraistamaan analyysiä, mutta näin kyettiin tarkastelemaan riittävällä tarkkuudella vain yksinkertaisia, lineaarisia tilanteita. Systeemidynamiikalla pystytään ottamaan huomioon monimutkaisetkin järjestelmän osien vuorovaikutukset ja mallintamaan monimutkaisia, epälineaarisia järjestelmiä. \cite[s. 398-399]{Forrester1968}
+
+Forresterin \cite[s. 398-399]{Forrester1968} mukaan takaisinkytkettyjä järjestelmiä oli jo pitkään tutkittu ja hyödynnetty insinööritieteissä, biologiassa ja taloustieteessä, mutta niitä oli vasta hiljattain alettu ymmärtää. Samat takaisinkytkettyjen järjestelmien periaatteet keskenään vuorovaikutuksessa olevista järjestelmän osista on yleistettävissä eri tieteenaloille. Systeemidynamiikka onkin poikkitieteellistä ja sitä hyödynnetään nykyisin lukuisilla eri tieteenaloilla. \cite{Forrester1968, Sterman2000, WhatIsSystemDynamics}
+
+
+
+\subsection{Systeemiajattelu ja päätöksenteko}
+
+Systeemiajattelu on tapa jäsentää maailma monimutkaisena järjestelmänä, jonka osat ovat vuorovaikutuksessa keskenään. Systeemidynamiikka on puolestaan systeemiajattelun työkalu. Sterman \cite[s. 4-5]{Sterman2000} vertaa systeemidynamista mallintamista lentosimulaattoriin: lentosimulaattori opettaa turvallisesti lentäjän lentämään ja systeemidynamiikka johtajan ymmärtämään järjestelmää, johon tämän päätökset kohdistuvat. \cite{Sterman2000}
+
+Tie helvettiin on kivetty hyvillä aikomuksilla. Stermanin \cite[s. 5-6]{Sterman2000} mukaan hyvää tarkoittavilla päätöksillä saatetaan tehdä ongelmia pahemmiksi, sillä monilla päätöksillä on seurauksia, joita on vaikea ennalta arvioida. 
+
+Päätöksenteon maailmankuvan voi jakaa tapahtumasuuntautuneeseen ja takaisinkytkentäsuuntautuneeseen. Tapahtumasuuntautunut maailmankuva on ihmiselle luonteva, sillä se on lineaarinen ja suoraviivainen: jokaisella teolla on seurauksensa. Kuva \ref{tapahtumasuuntautunut} kuvaa tapahtumasuuntautunutta ajattelutapaa. Olkoon tilanne ja asetetut tavoitteet. Mitä enemmän tilanne poikkeaa tavoitteista, sitä suurempi on ongelma. Ongelman pohjalta tehdään päätös ja saadaan haluttu lopputulos. Päätös voi kuitenkin vaikuttaa ympäröivään tilanteeseen mitä moninaisimmin tavoin. Tapahtumasuuntautuneessa maailmankuvassa tätä ei välttämättä huomioida, ja päätöksistä saattaa seurata odottamattomia sivuvaikutuksia. \cite[s. 10]{Sterman2000}
+
+\begin{figure}[htb]
+\centering \includegraphics{tapahtumasuuntautunut}
+\caption{Tapahtumasuuntautunut maailmankuva. \label{tapahtumasuuntautunut}}
+\end{figure}
+
+Takaisinkytkentäsuuntautuneessa maailmankuvassa ymmärretään, että päätöksenteko vaikuttaa ympäröivään tilanteeseen, jonka pohjalta tehdään päätöksiä (Kuva \ref{takaisinkytkentasuuntautunut}). 
+
+\begin{figure}[htb]
+\centering \includegraphics{takaisinkytkentasuuntautunut}
+\caption{Takaisinkytkentäsuuntautunut maailmankuva. \label{takaisinkytkentasuuntautunut}}
+\end{figure}
+
+Tämäkään ei ole vielä kokototuus, vaan päätösten seurauksena muuttuva ympäristö vaikuttaa omiin tavoitteisiin ja esim. kilpailijoiden tavoitteisiin ja toimintaan sekä aiheuttaa muita sivuvaikutuksia (Kuva \ref{laajennettutakaisinkytkentasuuntautunut}). 
+
+\begin{figure}[htb]
+\centering \includegraphics{laajennettutakaisinkytkentasuuntautunut}
+\caption{Laajennettu takaisinkytkentäsuuntautunut maailmankuva. \label{laajennettutakaisinkytkentasuuntautunut}}
+\end{figure}
+
 
 \subsection{Kausaalidiagrammi}
 
@@ -387,11 +429,12 @@ Systeemidynamiikan on aluperin perustanut Jay W. Forrester, joka vuonna 1956 sii
 
 \subsection{Varastot ja virtaukset}
 
+
+\clearpage
 \section{Ilmastonmuutos}
 Ilmastomalleista yleisesti.
 
 
-\clearpage
 
 %\section{Tutkimusaineisto ja -menetelmät}
 %\section{Materials and methods}
@@ -424,6 +467,9 @@ Tom Fiddaman mallintaa ilmaston lämpenemistä systeemidynaamisesti jakaen malli
 \addcontentsline{toc}{section}{Viitteet}
 \bibliographystyle{plain}
 \bibliography{viitteet}
+
+
+\end{onehalfspacing} % KYPSYYSNÄYTETTÄ VARTEN
 
 
 \end{document}

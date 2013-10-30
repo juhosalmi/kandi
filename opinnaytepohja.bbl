@@ -3,8 +3,23 @@
 \bibitem{WhatIsSystemDynamics}
 {What is system dynamics?}
 
+\bibitem{Forrester1961}
+Jay~W Forrester.
+\newblock {\em {Industrial Dynamics}}.
+\newblock 1961.
+
+\bibitem{Forrester1968}
+Jay~W Forrester.
+\newblock {Industrial Dynamics — After the First Decade}.
+\newblock {\em Management Science}, 14(7):398--415, 1968.
+
 \bibitem{Forrester1989}
 Jay~W Forrester.
 \newblock {The Beginning of System Dynamics}, 1989.
+
+\bibitem{Sterman2000}
+John~D. Sterman.
+\newblock {\em {Business Dynamics}}.
+\newblock Jeffrey J. Shelstad, 2000.
 
 \end{thebibliography}
