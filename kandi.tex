@@ -379,61 +379,60 @@ Tässä kandidaatintyössä käydään läpi, mitä on systeemidynamiikka ja mit
 % \section{Background}
 
 
-\section{Systeemidynamiikka}
+\section{Systeemidynamiikka \label{sysdyn}}
 
-Systeemi eli järjestelmä tarkoittaa toistensa kanssa vuorovaikutuksessa olevien osien muodostamaa kokonaisuutta \cite{Flood1988}. Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja mutkikkaiden systeemien mallintamiseen \cite{WhatIsSystemDynamics}. Mutkikkaalle systeemille ei ole yksikäsitteistä määritelmää, mutta systeemin mutkikkuutta lisäävät sen epälineaarisuudet ja takaisinkytkennät \cite{Zadeh1973}. Nämä ovat systeemidynaamisessa mallintamisessa keskeisiä ominaisuuksia \cite{WhatIsSystemDynamics}. % systeemin ja mutkikkaan systeemin määrittelyt viitteet kuntoon! 
 
-mutta systeemidynamiikassa tutkitaan erityisesti systeemin takaisinkytkentöjä ja epälineaarisuuksia, jotka ovat systeemin mutkikkuutta lisääviä ominaisuuksia. 
+Systeemi eli järjestelmä tarkoittaa toistensa kanssa vuorovaikutuksessa olevien osien muodostamaa kokonaisuutta \cite{Flood1988}. Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja mutkikkaiden systeemien mallintamiseen \cite{WhatIsSystemDynamics}. Mutkikkaalle systeemille ei ole yksikäsitteistä määritelmää \cite{Zadeh1973}, mutta systeemidynamiikalla kyetään mallintamaan erityisesti systeemien takaisinkytkentöjä ja epälineaarisuuksia \cite{WhatIsSystemDynamics}, jotka ovat systeemin mutkikkuutta lisääviä ominaisuuksia \cite{Zadeh1973}. 
 
-Tämän luvun tavoite on tutustua systeemidynamiikkaan. Alaluvussa \ref{historia} tutustutaan systeemidynamiikan historiaan, alaluvussa \ref{paatos} tutustutaan systeemiajatteluun ja päätöksentekoon, alaluvussa \ref{takaisinkytkenta} tutustutaan takaisinkytkentään ja alaluvussa \ref{kausaali} tutustutaan kausaalidiagrammeihin sekä varastoihin ja virtauksiin.
+Tämän luvun tavoite on tutustuttaa lukija systeemidynamiikkaan. Alaluvussa \ref{sysdyn:historia} tutustutaan systeemidynamiikan historiaan sekä motivaatioon systeemidynamiikan synnylle, alaluvussa \ref{sysdyn:paatos} systeemiajatteluun ja päätöksentekoon, alaluvussa \ref{sysdyn:takaisinkytkenta} takaisinkytkentään ja alaluvussa \ref{sysdyn:kausaali} kausaalidiagrammeihin sekä varastoihin ja virtauksiin. 
 
-\subsection{Systeemidynamiikan historia \label{historia}} 
+\subsection{Systeemidynamiikan historia \label{sysdyn:historia}} 
 
-Systeemidynamiikan ymmärtämiseen auttaa sen historian tunteminen. Tämä alaluku käsittelee systeemidynamiikan historiaa, etenkin sen syntyyn ja kehitykseen vaikuttaneita tekijöitä. % Onko tämä järkevää metatekstiä?
+% Systeemidynamiikan ymmärtämiseen auttaa sen historian tunteminen. Tämä alaluku käsittelee systeemidynamiikan historiaa, etenkin sen syntyyn ja kehitykseen vaikuttaneita tekijöitä. 
 
 Systeemidynamiikan on alunperin perustanut Jay W. Forrester, joka vuonna 1956 siirtyi MIT:ssä sähkötekniikan alalta Sloan School of Managementiin tekemään operaatiotutkimusta. Forrester alkoi tutkia, miksi General Electricin tehtailla työskenneltiin välillä kolmessa vuorossa ja välillä jouduttiin puolet työntekijöistä irtisanomaan. Forrester alkoi yhdistellä säätö- ja systeemiteoriaa operaatiotutkimukseen ja ryhtyi simuloimaan teollisuustuotantoa sekä luomaan sille säätöjärjestelmiä tietokoneavusteisesti. Tämän tutkimuksen pohjalta syntyi systeemidynamiikka ja alan ensimmäinen julkaisu Industrial Dynamics \cite{Forrester1961}. \cite{Forrester1989} 
 
-Forresterin \cite[s. 398-399]{Forrester1968} mukaan sen aikainen operaatiotutkimus ei tarjonnut hyviä työkaluja laajoihin, ylimmän tason johtamisen haasteisiin. Operaatiotutkimuksessa keskityttiin pääsääntöisesti yksittäisten, irrallisten päätösten seurausten hahmottelemiseen avoimen silmukan järjestelminä oletuksella, että itse päätös ei vaikuta päätöksentekoon vaikuttaviin tekijöihin. Tällaisella tarkastelulla pystyttiin yksinkeraistamaan analyysiä, mutta näin kyettiin tarkastelemaan riittävällä tarkkuudella vain yksinkertaisia, lineaarisia tilanteita siinä, missä systeemidynamiikalla pystytään ottamaan huomioon monimutkaisetkin järjestelmän osien vuorovaikutukset ja mallintamaan monimutkaisia, epälineaarisia järjestelmiä. \cite[s. 398-399]{Forrester1968}
+Forresterin \cite[s. 398--399]{Forrester1968} mukaan sen aikainen operaatiotutkimus ei tarjonnut hyviä työkaluja laajoihin, ylimmän tason johtamisen haasteisiin. Operaatiotutkimuksessa keskityttiin pääsääntöisesti yksittäisten, irrallisten päätösten seurausten hahmottelemiseen oletuksella, että päätöksen seuraukset eivät vaikuta päätöksentekoon vaikuttaviin tekijöihin. Oletusta kutsutaan avoimen silmukan oletukseksi. Tällaisella tarkastelulla pystyttiin yksinkeraistamaan analyysiä, mutta näin kyettiin tarkastelemaan riittävällä tarkkuudella vain yksinkertaisia, lineaarisia tilanteita, siinä missä systeemidynamiikalla pystytään ottamaan huomioon mutkikkaidenkin järjestelmän osien takaisinkytkennät ja epälineaarisuudet. Takaisinkytkettyjä systeemeitä oli jo pitkään tutkittu ja hyödynnetty insinööritieteissä, biologiassa ja taloustieteessä, mutta niitä oli vasta hiljattain alettu ymmärtää. 
 
-Forresterin \cite[s. 398-399]{Forrester1968} mukaan takaisinkytkettyjä järjestelmiä oli jo pitkään tutkittu ja hyödynnetty insinööritieteissä, biologiassa ja taloustieteessä, mutta niitä oli vasta hiljattain alettu ymmärtää. Samat takaisinkytkettyjen järjestelmien periaatteet keskenään vuorovaikutuksessa olevista järjestelmän osista on yleistettävissä eri tieteenaloille. Systeemidynamiikka onkin poikkitieteellistä ja sitä hyödynnetään nykyisin lukuisilla eri tieteenaloilla. \cite{Forrester1968, Sterman2000, WhatIsSystemDynamics}
+Samat takaisinkytkettyjen systeemien periaatteet olivat yleistettävissä eri tieteenaloille. Systeemidynamiikasta onkin kehittynyt yhä poikkitieteellisempää ja sitä hyödynnetään nykyisin lukuisilla eri tieteenaloilla. \cite{Forrester1968, Sterman2000, WhatIsSystemDynamics} % Tätä voisi hioa
 
 
 
-\subsection{Systeemiajattelu ja päätöksenteko \label{paatos}}
+\subsection{Systeemiajattelu ja päätöksenteko \label{sysdyn:paatos}}
 
-Systeemiajattelu on tapa jäsentää maailma monimutkaisena järjestelmänä, jonka osat ovat vuorovaikutuksessa keskenään. Systeemidynamiikka on puolestaan systeemiajattelun työkalu. Sterman \cite[s. 4-5]{Sterman2000} vertaa systeemidynamista mallintamista lentosimulaattoriin: lentosimulaattori opettaa turvallisesti lentäjän lentämään ja systeemidynamiikka johtajan systeemiajattelemaan eli ymmärtämään järjestelmää, johon tämän päätökset kohdistuvat. \cite{Sterman2000}
+Systeemiajattelu on tapa jäsentää maailma mielessään mutkikkaana systeeminä, ja sen työkaluna voi käyttää systeemidynamiikkaa \cite[s. 4--5]{Sterman2000}. Sterman \cite[s. 4--5]{Sterman2000} vertaa systeemidynamista mallintamista lentosimulaattoriin: lentosimulaattori opettaa turvallisesti lentäjän lentämään ja systeemidynamiikka johtajan systeemiajattelemaan eli hahmottamaan johtamansa organisaation systeeminä. 
 
-Tie helvettiin on kivetty hyvillä aikomuksilla. Stermanin \cite[s. 5-6]{Sterman2000} mukaan hyvää tarkoittavilla päätöksillä saatetaan tehdä ongelmia pahemmiksi, sillä monilla päätöksillä on seurauksia, joita on vaikea ennalta arvioida. 
+Systeemidynamiikan asiantuntijat käyttävät usein sanontaa: "Tie helvettiin on kivetty hyvillä aikomuksilla." Stermanin \cite[s. 5--6]{Sterman2000} mukaan hyvää tarkoittavilla päätöksillä saatetaan tehdä ongelmia pahemmiksi, sillä monilla päätöksillä on seurauksia, joita on vaikea ennalta arvioida. % Miten tällaiseen sitaattiin viittaa? 
 
-Päätöksentekoa koskettavan maailmankuvan voi jakaa tapahtumasuuntautuneeseen ja takaisinkytkentäsuuntautuneeseen maailmankuvaan. Tapahtumasuuntautunut maailmankuva on ihmiselle luonteva, sillä se on lineaarinen ja suoraviivainen: jokaisella teolla on seurauksensa. Kuva \ref{tapahtumasuuntautunut} kuvaa tapahtumasuuntautunutta ajattelutapaa. Olkoon tilanne ja asetetut tavoitteet. Mitä enemmän tilanne poikkeaa tavoitteista, sitä suurempi on ongelma. Ongelman pohjalta tehdään päätös ja saadaan haluttu lopputulos. Päätös voi kuitenkin vaikuttaa ympäröivään tilanteeseen mitä moninaisimmin tavoin. Tapahtumasuuntautuneessa maailmankuvassa tätä ei välttämättä huomioida, ja päätöksistä saattaa seurata odottamattomia sivuvaikutuksia. \cite[s. 10]{Sterman2000}
+Päätöksenteon maailmankuvan voi jakaa tapahtumasuuntautuneeseen ja takaisinkytkentäsuuntautuneeseen. Alla oleva kuva \ref{tapahtuma} esittää tapahtumasuuntautunutta maailmankuvaa. Tapahtumasuuntautuneisuus on ihmiselle luontevaa, sillä se on lineaarista ja suoraviivaista: jokaisella teolla on seurauksensa. Kun on tilanne ja asetetut tavoitteet, niin ongelma syntyy siitä, kun ne poikkeavat toisistaan. Mitä enemmän tilanne ja tavoite poikkeavat toisistaan, sitä suurempi ongelma. Ongelman ratkaisemiseksi tarvitaan päätös, joka johtaa haluttuun lopputulokseen. Päätös voi kuitenkin vaikuttaa ympäröivään tilanteeseen mitä moninaisimmin tavoin. Tapahtumasuuntautuneessa maailmankuvassa tätä ei tyypillisesti huomioida, ja päätöksistä saattaa seurata odottamattomia sivuvaikutuksia. \cite[s. 10]{Sterman2000}
 
 \begin{figure}[htb]
-\centering \includegraphics{tapahtumasuuntautunut}
-\caption{Tapahtumasuuntautunut maailmankuva. \label{tapahtumasuuntautunut}}
+\centering \includegraphics{tapahtuma}
+\caption{Tapahtumasuuntautunut maailmankuva. \cite[s. 11]{Sterman2000} \label{tapahtuma}}
 \end{figure}
 
-Takaisinkytkentäsuuntautuneessa maailmankuvassa ymmärretään, että päätöksenteko vaikuttaa ympäröivään tilanteeseen, jonka pohjalta tehdään päätöksiä (Kuva \ref{takaisinkytkentasuuntautunut}). 
+Stermanin \cite[s. 11]{Sterman2000} mukaan sivuvaikutuksia ei ole todellisuudessa kuitenkaan olemassa. On vain olemassa vuorovaikutussuhteita, joita ei ole otettu huomioon. Alla oleva kuva \ref{takaisinkytkentasuuntautunut} esittää takaisinkytkentäsuuntautunutta maailmankuvaa. Systeemiajattelijan maailmankuva on takaisinkytkentäsuuntautunut, ja hän ymmärtää päätösten vaikuttavan ympäristön tekijöihin, jotka puolestaan vaikuttavat päätöksiin. 
 
 \begin{figure}[htb]
 \centering \includegraphics{takaisinkytkentasuuntautunut}
-\caption{Takaisinkytkentäsuuntautunut maailmankuva. \label{takaisinkytkentasuuntautunut}}
+\caption{Takaisinkytkentäsuuntautunut maailmankuva. \cite[s. 11]{Sterman2000} \label{takaisinkytkentasuuntautunut}}
 \end{figure}
 
-Tämäkään ei ole vielä kokototuus, vaan päätösten seurauksena muuttuva ympäristö vaikuttaa omiin tavoitteisiin ja esim. kilpailijoiden tavoitteisiin ja toimintaan sekä aiheuttaa muita sivuvaikutuksia (Kuva \ref{laajennettutakaisinkytkentasuuntautunut}). Tätäkin mallia voidaan edelleen laajentaa löydettäessä lisää tekijöitä, jotka ovat vuorovaikutuksessa järjestelmän osien kanssa. \cite[s. 10-12]{Sterman2000}
+Maailmankuvaa voi edelleen laajentaa. Seuraava kuva \ref{laajennettutakaisinkytkentasuuntautunut} on laajennettu edellisestä kuvasta \ref{takaisinkytkentasuuntautunut} ottamaan huomioon useampia systeemin tekijöitä. Systeemiajattelija hahmottaa, että päätöksillä on myös muita seurauksia, ja nekin muuttavat ympäristöä. Muuttuva ympäristö vaikuttaa myös tavoitteisiin -- niin omiin kuin muidenkin. Kun ympäristö ja muiden tavoitteet muuttuvat, tekevät muut päätöksiään sen pohjalta, mikä puolestaan muuttaa ympäristöä. \cite[s. 11--12]{Sterman2000}
 
 \begin{figure}[htb]
 \centering \includegraphics{laajennettutakaisinkytkentasuuntautunut}
-\caption{Laajennettu takaisinkytkentäsuuntautunut maailmankuva. \label{laajennettutakaisinkytkentasuuntautunut}}
+\caption{Laajennettu takaisinkytkentäsuuntautunut maailmankuva. \cite[s. 11]{Sterman2000} \label{laajennettutakaisinkytkentasuuntautunut}}
 \end{figure}
 
 
-\subsection{Takaisinkytkentä \label{takaisinkytkenta}}
+\subsection{Takaisinkytkentä \label{sysdyn:takaisinkytkenta}}
 
 Stermanin \cite[s. 12]{Sterman2000} mukaan takaisinkytkennät  eli järjestelmän sisäiset vuorovaikutussuhteet vaikuttavat järjestelmän monimutkaisuuteen enemmän kuin järjestelmän osien monimutkaisuus itse. Tämän vuoksi takaisinkytkentöjen löytäminen on keskeisin osa systeemidynaamista mallinnusta. 
 
 Takaisinkytkettyjä silmukoita on kahdenlaisia: negatiivisia ja positiivisia. 
 
-\subsection{Kausaalidiagrammi: varastot ja virtaukset \label{kausaali}}
+\subsection{Kausaalidiagrammi: varastot ja virtaukset \label{sysdyn:kausaali}}
 
 
 \clearpage
