@@ -3,6 +3,12 @@
 \bibitem{WhatIsSystemDynamics}
 {What is system dynamics?}
 
+\bibitem{Flood1988}
+Robert~L. Flood and Ewart~R. Carson.
+\newblock {\em {Dealing with Complexity: An Introduction to the Theory and
+  Application of Systems Science}}.
+\newblock Plenum Publishing Corporation, New York, 2nd edition, 1988.
+
 \bibitem{Forrester1961}
 Jay~W Forrester.
 \newblock {\em {Industrial Dynamics}}.
@@ -21,5 +27,12 @@ Jay~W Forrester.
 John~D. Sterman.
 \newblock {\em {Business Dynamics}}.
 \newblock Jeffrey J. Shelstad, 2000.
+
+\bibitem{Zadeh1973}
+Lotfi~a. Zadeh.
+\newblock {Outline of a New Approach to the Analysis of Complex Systems and
+  Decision Processes}.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics},
+  SMC-3(1):28--44, 1973.
 
 \end{thebibliography}

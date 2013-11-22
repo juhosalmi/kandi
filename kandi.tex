@@ -105,7 +105,7 @@ linkcolor=blue,citecolor=black,pdfstartview=FitH]{hyperref}
 \setlength{\topmargin}{25mm-\headheight-\headsep}
 \setlength{\textheight}{23cm}
 
-\usepackage{setspace}  % KYPSYYSNÄYTETTÄ VARTEN
+% \usepackage{setspace}  % KYPSYYSNÄYTETTÄ VARTEN
 
 
 %% Kaikki mikä paperille tulostuu, on tämän jälkeen
@@ -195,6 +195,7 @@ linkcolor=blue,citecolor=black,pdfstartview=FitH]{hyperref}
 %\instructor{Prof. Pirjo Professori}{Prof. Pirjo Professori}
 %\instructor{D.Sc.\ (Tech.) Olli Ohjaaja}{TkT Olli Ohjaaja}
 \instructor{M.Sc.\ (Tech.) Tomi Sorasalmi}{DI Tomi Sorasalmi}
+\instructor{D.Sc.\ (Tech.) Pekka Forsman}{TkT Pekka Forsman}
 
 %% Aaltologo: syntaksi:
 %% \uselogo{aaltoRed|aaltoBlue|aaltoYellow|aaltoGray|aaltoGrayScale}{?|!|''}
@@ -307,7 +308,7 @@ Otaniemi, 24.9.2013
 %$\mathbf{A} \cdot \mathbf{B}$    & vektorien $\mathbf{A}$ ja $\mathbf{B}$ pistetulo
 %\end{tabular}
 
-\begin{onehalfspacing} % KYPSYYSNÄYTETTÄ VARTEN
+% \begin{onehalfspacing} % KYPSYYSNÄYTETTÄ VARTEN
 
 \subsection*{Lyhenteet}
 %\subsection*{Abbreviations}
@@ -379,7 +380,10 @@ Tässä kandidaatintyössä käydään läpi, mitä on systeemidynamiikka ja mit
 
 
 \section{Systeemidynamiikka}
-Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja monimutkaisten järjestelmien mallintamiseen. Systeemidynaamisessa mallintamisessa keskeistä on järjestelmän osien keskinäinen vuorovaikutus eli järjestelmän sisäiset takaisinkytkennät. \cite{WhatIsSystemDynamics}
+
+Systeemi eli järjestelmä tarkoittaa toistensa kanssa vuorovaikutuksessa olevien osien muodostamaa kokonaisuutta \cite{Flood1988}. Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja mutkikkaiden systeemien mallintamiseen \cite{WhatIsSystemDynamics}. Mutkikkaalle systeemille ei ole yksikäsitteistä määritelmää, mutta systeemin mutkikkuutta lisäävät sen epälineaarisuudet ja takaisinkytkennät \cite{Zadeh1973}. Nämä ovat systeemidynaamisessa mallintamisessa keskeisiä ominaisuuksia \cite{WhatIsSystemDynamics}. % systeemin ja mutkikkaan systeemin määrittelyt viitteet kuntoon! 
+
+mutta systeemidynamiikassa tutkitaan erityisesti systeemin takaisinkytkentöjä ja epälineaarisuuksia, jotka ovat systeemin mutkikkuutta lisääviä ominaisuuksia. 
 
 Tämän luvun tavoite on tutustua systeemidynamiikkaan. Alaluvussa \ref{historia} tutustutaan systeemidynamiikan historiaan, alaluvussa \ref{paatos} tutustutaan systeemiajatteluun ja päätöksentekoon, alaluvussa \ref{takaisinkytkenta} tutustutaan takaisinkytkentään ja alaluvussa \ref{kausaali} tutustutaan kausaalidiagrammeihin sekä varastoihin ja virtauksiin.
 
@@ -471,7 +475,7 @@ Tom Fiddaman mallintaa ilmaston lämpenemistä systeemidynaamisesti jakaen malli
 \bibliography{viitteet}
 
 
-\end{onehalfspacing} % KYPSYYSNÄYTETTÄ VARTEN
+% \end{onehalfspacing} % KYPSYYSNÄYTETTÄ VARTEN
 
 
 \end{document}
