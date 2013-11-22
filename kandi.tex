@@ -68,6 +68,7 @@
 %% Use this if you run pdflatex and use jpg/pdf-format pictures.
 %%
 \usepackage{graphicx}
+\usepackage{float}
 
 %% Jos et jostain syystä pidä, miten alla oleva hyperref-paketti käyttää
 %% fontteja, värejä yms., käytä tämän paketin makroja muuttamaan
@@ -406,21 +407,21 @@ Systeemidynamiikan asiantuntijat käyttävät usein sanontaa: "Tie helvettiin on
 
 Päätöksenteon maailmankuvan voi jakaa tapahtumasuuntautuneeseen ja takaisinkytkentäsuuntautuneeseen. Alla oleva kuva \ref{tapahtuma} esittää tapahtumasuuntautunutta maailmankuvaa. Tapahtumasuuntautuneisuus on ihmiselle luontevaa, sillä se on lineaarista ja suoraviivaista: jokaisella teolla on seurauksensa. Kun on tilanne ja asetetut tavoitteet, niin ongelma syntyy siitä, kun ne poikkeavat toisistaan. Mitä enemmän tilanne ja tavoite poikkeavat toisistaan, sitä suurempi ongelma. Ongelman ratkaisemiseksi tarvitaan päätös, joka johtaa haluttuun lopputulokseen. Päätös voi kuitenkin vaikuttaa ympäröivään tilanteeseen mitä moninaisimmin tavoin. Tapahtumasuuntautuneessa maailmankuvassa tätä ei tyypillisesti huomioida, ja päätöksistä saattaa seurata odottamattomia sivuvaikutuksia. \cite[s. 10]{Sterman2000}
 
-\begin{figure}[htb]
+\begin{figure}[H]
 \centering \includegraphics{tapahtuma}
-\caption{Tapahtumasuuntautunut maailmankuva. \cite[s. 11]{Sterman2000} \label{tapahtuma}}
+\caption{Tapahtumasuuntautunut maailmankuva. \cite[s. 10]{Sterman2000} \label{tapahtuma}}
 \end{figure}
 
 Stermanin \cite[s. 11]{Sterman2000} mukaan sivuvaikutuksia ei ole todellisuudessa kuitenkaan olemassa. On vain olemassa vuorovaikutussuhteita, joita ei ole otettu huomioon. Alla oleva kuva \ref{takaisinkytkentasuuntautunut} esittää takaisinkytkentäsuuntautunutta maailmankuvaa. Systeemiajattelijan maailmankuva on takaisinkytkentäsuuntautunut, ja hän ymmärtää päätösten vaikuttavan ympäristön tekijöihin, jotka puolestaan vaikuttavat päätöksiin. 
 
-\begin{figure}[htb]
+\begin{figure}[H]
 \centering \includegraphics{takaisinkytkentasuuntautunut}
 \caption{Takaisinkytkentäsuuntautunut maailmankuva. \cite[s. 11]{Sterman2000} \label{takaisinkytkentasuuntautunut}}
 \end{figure}
 
 Maailmankuvaa voi edelleen laajentaa. Seuraava kuva \ref{laajennettutakaisinkytkentasuuntautunut} on laajennettu edellisestä kuvasta \ref{takaisinkytkentasuuntautunut} ottamaan huomioon useampia systeemin tekijöitä. Systeemiajattelija hahmottaa, että päätöksillä on myös muita seurauksia, ja nekin muuttavat ympäristöä. Muuttuva ympäristö vaikuttaa myös tavoitteisiin -- niin omiin kuin muidenkin. Kun ympäristö ja muiden tavoitteet muuttuvat, tekevät muut päätöksiään sen pohjalta, mikä puolestaan muuttaa ympäristöä. \cite[s. 11--12]{Sterman2000}
 
-\begin{figure}[htb]
+\begin{figure}[H]
 \centering \includegraphics{laajennettutakaisinkytkentasuuntautunut}
 \caption{Laajennettu takaisinkytkentäsuuntautunut maailmankuva. \cite[s. 11]{Sterman2000} \label{laajennettutakaisinkytkentasuuntautunut}}
 \end{figure}
@@ -428,31 +429,37 @@ Maailmankuvaa voi edelleen laajentaa. Seuraava kuva \ref{laajennettutakaisinkytk
 
 \subsection{Takaisinkytkentä \label{sysdyn:takaisinkytkenta}}
 
-Stermanin \cite[s. 12]{Sterman2000} mukaan takaisinkytkennät  eli järjestelmän sisäiset vuorovaikutussuhteet vaikuttavat järjestelmän monimutkaisuuteen enemmän kuin järjestelmän osien monimutkaisuus itse. Tämän vuoksi takaisinkytkentöjen löytäminen on keskeisin osa systeemidynaamista mallinnusta. 
+Stermanin \cite[s. 12]{Sterman2000} mukaan takaisinkytkennät  eli järjestelmän sisäiset vuorovaikutussuhteet vaikuttavat systeemin mutkikkuuteen enemmän kuin järjestelmän osien mutkikkuus itse. Tämän vuoksi takaisinkytkentöjen löytäminen on keskeisin osa systeemidynaamista mallinnusta. 
 
-Takaisinkytkettyjä silmukoita on kahdenlaisia: negatiivisia ja positiivisia. 
+Takaisinkytkettyjä silmukoita on kahdenlaisia: negatiivisia ja positiivisia. Positiiviset silmukat ovat itseään vahvistavia. Kuvassa \ref{positiivinen} on positiivinen takaisinkytketty silmukka, jossa kanojen määrä lisää munien määrää, mikä puolestaan lisää kanojen määrää. Positiiviset silmukat merkitään kuvan \ref{positiivinen} mukaisesti R-kirjaimella, mikä tulee englannin kielen sanasta "reinforcing" eli vahvistava. \cite[s. 12--13]{Sterman2000}
+
+\begin{figure}[H]
+\centering \includegraphics{positiivinen}
+\caption{Positiivinen takaisinkytketty silmukka. \cite[s. 12--13]{Sterman2000} \label{positiivinen}}
+\end{figure}
+
+Negatiiviset silmukat ovat itseään tasapainottavia. Alla olevassa kuvassa \ref{negatiivinen} on negatiivinen takaisinkytketty silmukka, jossa mitä enemmän on kanoja, sitä useampi ylittää tien ja jää auton alle, mikä vähentää kanojen määrää, mikä puolestaan vähentää tien ylityksiä. Negatiiviset silmukat merkitään kuvan \ref{negatiivinen} mukaisesti B-kirjaimella, mikä tulee englannin kielen sanasta "balancing" eli tasapainottava. \cite[s. 12--13]{Sterman2000}
+
+\begin{figure}[H]
+\centering \includegraphics{negatiivinen}
+\caption{Negatiivinen takaisinkytketty silmukka. \cite[s. 12--13]{Sterman2000} \label{negatiivinen}}
+\end{figure}
+
+Silmukan positiivisuuteen ja negatiivisuuteen vaikuttaa negatiivisten kytkentöjen lukumäärä silmukassa. Positiivisessa silmukassa on parillinen ja negatiivisessa pariton määrä negatiivisia kytkentöjä. 
 
 \subsection{Kausaalidiagrammi: varastot ja virtaukset \label{sysdyn:kausaali}}
 
 
 \clearpage
-\section{Ilmastonmuutos}
+\section{Ilmastonmuutoksen mallintaminen}
 Ilmastomalleista yleisesti.
 
-
-
-%\section{Tutkimusaineisto ja -menetelmät}
-%\section{Materials and methods}
-
-\subsection{Fysikaaliset ilmastomallit}
-Fysikaalisista ilmastomalleista. 
-
-\subsection{Fiddamanin malli}
+\subsection{Fiddamanin ilmastomalli}
 Systeemidynaamisia ilmastomalleja on todennäköisesti useampia, joten nämä voi ehkä ryhmitellä tai ottaa esille case-tyyppisesti. 
 
 Tom Fiddaman mallintaa ilmaston lämpenemistä systeemidynaamisesti jakaen mallin kahteen osaan: hiilidioksidi- ja lämpövarastoihin. 
 
-\subsection{Systeemidynaamiset mallit 2}
+\subsection{C-Roads ilmastomalli}
 
 
 \clearpage

@@ -9,10 +9,9 @@
 \contentsline {subsection}{\numberline {2.1}Systeemidynamiikan historia }{3}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Systeemiajattelu ja p\IeC {\"a}\IeC {\"a}t\IeC {\"o}ksenteko }{3}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Takaisinkytkent\IeC {\"a} }{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Kausaalidiagrammi: varastot ja virtaukset }{5}{subsection.2.4}
-\contentsline {section}{\numberline {3}Ilmastonmuutos}{6}{section.3}
-\contentsline {subsection}{\numberline {3.1}Fysikaaliset ilmastomallit}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Fiddamanin malli}{6}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Systeemidynaamiset mallit 2}{6}{subsection.3.3}
-\contentsline {section}{\numberline {4}Yhteenveto}{7}{section.4}
-\contentsline {section}{Viitteet}{8}{section*.8}
+\contentsline {subsection}{\numberline {2.4}Kausaalidiagrammi: varastot ja virtaukset }{6}{subsection.2.4}
+\contentsline {section}{\numberline {3}Ilmastonmuutoksen mallintaminen}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Fiddamanin ilmastomalli}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}C-Roads ilmastomalli}{7}{subsection.3.2}
+\contentsline {section}{\numberline {4}Yhteenveto}{8}{section.4}
+\contentsline {section}{Viitteet}{9}{section*.8}
