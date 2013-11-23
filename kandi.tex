@@ -385,7 +385,7 @@ Tässä kandidaatintyössä käydään läpi, mitä on systeemidynamiikka ja mit
 
 Systeemi eli järjestelmä tarkoittaa toistensa kanssa vuorovaikutuksessa olevien osien muodostamaa kokonaisuutta \cite{Flood1988}. Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja mutkikkaiden systeemien mallintamiseen \cite{WhatIsSystemDynamics}. Mutkikkaalle systeemille ei ole yksikäsitteistä määritelmää \cite{Zadeh1973}, mutta systeemidynamiikalla kyetään mallintamaan erityisesti systeemien takaisinkytkentöjä ja epälineaarisuuksia \cite{WhatIsSystemDynamics}, jotka ovat systeemin mutkikkuutta lisääviä ominaisuuksia \cite{Zadeh1973}. % Perustele termin valinta?
 
-Tämän luvun tavoite on tutustuttaa lukija systeemidynamiikkaan. Alaluvussa \ref{sysdyn:historia} tutustutaan systeemidynamiikan historiaan sekä motivaatioon systeemidynamiikan synnylle, alaluvussa \ref{sysdyn:paatos} systeemiajatteluun ja päätöksentekoon, alaluvussa \ref{sysdyn:takaisinkytkenta} takaisinkytkentään ja alaluvussa \ref{sysdyn:kausaali} kausaalidiagrammeihin sekä varastoihin ja virtauksiin. % Nämä kuntoon
+Tämän luvun tavoite on tutustuttaa lukija systeemidynamiikkaan. Alaluvussa \ref{sysdyn:historia} tutustutaan systeemidynamiikan historiaan sekä motivaatioon systeemidynamiikan synnylle, alaluvussa \ref{sysdyn:paatos} systeemiajatteluun ja päätöksentekoon, alaluvussa \ref{sysdyn:takaisinkytkenta} systeemien takaisinkytkentöihin ja alaluvussa \ref{sysdyn:vvv} systeemien viiveisiin, varastoihin ja virtauksiin. 
 
 \subsection{Systeemidynamiikan historia \label{sysdyn:historia}} 
 
@@ -405,25 +405,25 @@ Systeemiajattelu on tapa jäsentää maailma mielessään mutkikkaana systeemin�
 
 Systeemidynamiikan asiantuntijat käyttävät usein sanontaa: "Tie helvettiin on kivetty hyvillä aikomuksilla." Stermanin \cite[s. 5--6]{Sterman2000} mukaan hyvää tarkoittavilla päätöksillä saatetaan tehdä ongelmia pahemmiksi, sillä monilla päätöksillä on seurauksia, joita on vaikea ennalta arvioida. % Miten tällaiseen sitaattiin viittaa? 
 
-Päätöksenteon maailmankuvan voi jakaa tapahtumasuuntautuneeseen ja takaisinkytkentäsuuntautuneeseen. Alla oleva kuva \ref{tapahtuma} esittää tapahtumasuuntautunutta maailmankuvaa. Tapahtumasuuntautuneisuus on ihmiselle luontevaa, sillä se on lineaarista ja suoraviivaista: jokaisella teolla on seurauksensa. Kun on tilanne ja asetetut tavoitteet, niin ongelma syntyy siitä, kun ne poikkeavat toisistaan. Mitä enemmän tilanne ja tavoite poikkeavat toisistaan, sitä suurempi ongelma. Ongelman ratkaisemiseksi tarvitaan päätös, joka johtaa haluttuun lopputulokseen. Päätös voi kuitenkin vaikuttaa ympäröivään tilanteeseen mitä moninaisimmin tavoin. Tapahtumasuuntautuneessa maailmankuvassa tätä ei tyypillisesti huomioida, ja päätöksistä saattaa seurata odottamattomia sivuvaikutuksia. \cite[s. 10]{Sterman2000}
+Päätöksenteon maailmankuvan voi jakaa tapahtumasuuntautuneeseen ja takaisinkytkentäsuuntautuneeseen. Seuraava kuva \ref{sysdyn:tapahtumasuuntautunut} esittää tapahtumasuuntautunutta maailmankuvaa. Tapahtumasuuntautuneisuus on ihmiselle luontevaa, sillä se on lineaarista ja suoraviivaista: jokaisella teolla on seurauksensa. Kun on tilanne ja asetetut tavoitteet, niin ongelma syntyy siitä, kun ne poikkeavat toisistaan. Mitä enemmän tilanne ja tavoite poikkeavat toisistaan, sitä suurempi ongelma. Ongelman ratkaisemiseksi tarvitaan päätös, joka johtaa haluttuun lopputulokseen. Päätös voi kuitenkin vaikuttaa ympäröivään tilanteeseen mitä moninaisimmin tavoin. Tapahtumasuuntautuneessa maailmankuvassa tätä ei tyypillisesti huomioida, ja päätöksistä saattaa seurata odottamattomia sivuvaikutuksia. \cite[s. 10]{Sterman2000}
 
 \begin{figure}[H]
 \centering \includegraphics{tapahtuma}
-\caption{Tapahtumasuuntautunut maailmankuva. \cite[s. 10]{Sterman2000} \label{tapahtuma}}
+\caption{Tapahtumasuuntautunut maailmankuva. \cite[s. 10]{Sterman2000} \label{sysdyn:tapahtumasuuntautunut}}
 \end{figure}
 
-Stermanin \cite[s. 11]{Sterman2000} mukaan sivuvaikutuksia ei ole todellisuudessa kuitenkaan olemassa. On vain olemassa vuorovaikutussuhteita, joita ei ole otettu huomioon. Alla oleva kuva \ref{takaisinkytkentasuuntautunut} esittää takaisinkytkentäsuuntautunutta maailmankuvaa. Systeemiajattelijan maailmankuva on takaisinkytkentäsuuntautunut, ja hän ymmärtää päätösten vaikuttavan ympäristön tekijöihin, jotka puolestaan vaikuttavat päätöksiin. 
+Stermanin \cite[s. 11]{Sterman2000} mukaan sivuvaikutuksia ei ole todellisuudessa kuitenkaan olemassa. On vain olemassa vuorovaikutussuhteita, joita ei ole otettu huomioon. Seuraava kuva \ref{sysdyn:takaisinkytkentasuuntautunut} esittää takaisinkytkentäsuuntautunutta maailmankuvaa. Systeemiajattelijan maailmankuva on takaisinkytkentäsuuntautunut, ja hän ymmärtää päätösten vaikuttavan ympäristön tekijöihin, jotka puolestaan vaikuttavat päätöksiin. 
 
 \begin{figure}[H]
 \centering \includegraphics{takaisinkytkentasuuntautunut}
-\caption{Takaisinkytkentäsuuntautunut maailmankuva. \cite[s. 11]{Sterman2000} \label{takaisinkytkentasuuntautunut}}
+\caption{Takaisinkytkentäsuuntautunut maailmankuva. \cite[s. 11]{Sterman2000} \label{sysdyn:takaisinkytkentasuuntautunut}}
 \end{figure}
 
-Maailmankuvaa voi edelleen laajentaa. Seuraava kuva \ref{laajennettutakaisinkytkentasuuntautunut} on laajennettu edellisestä kuvasta \ref{takaisinkytkentasuuntautunut} ottamaan huomioon useampia systeemin tekijöitä. Systeemiajattelija hahmottaa, että päätöksillä on myös muita seurauksia, ja nekin muuttavat ympäristöä. Muuttuva ympäristö vaikuttaa myös tavoitteisiin -- niin omiin kuin muidenkin. Kun ympäristö ja muiden tavoitteet muuttuvat, tekevät muut päätöksiään sen pohjalta, mikä puolestaan muuttaa ympäristöä. \cite[s. 11--12]{Sterman2000}
+Maailmankuvaa voi edelleen laajentaa. Seuraava kuva \ref{sysdyn:laajennettutakaisinkytkentasuuntautunut} on laajennettu edellisestä kuvasta \ref{sysdyn:takaisinkytkentasuuntautunut} ottamaan huomioon useampia systeemin tekijöitä. Systeemiajattelija hahmottaa, että päätöksillä on myös muita seurauksia, ja nekin muuttavat ympäristöä. Muuttuva ympäristö vaikuttaa myös tavoitteisiin -- niin omiin kuin muidenkin. Kun ympäristö ja muiden tavoitteet muuttuvat, tekevät muut päätöksiään sen pohjalta, mikä puolestaan muuttaa ympäristöä. \cite[s. 11--12]{Sterman2000}
 
 \begin{figure}[H]
 \centering \includegraphics{laajennettutakaisinkytkentasuuntautunut}
-\caption{Laajennettu takaisinkytkentäsuuntautunut maailmankuva. \cite[s. 11]{Sterman2000} \label{laajennettutakaisinkytkentasuuntautunut}}
+\caption{Laajennettu takaisinkytkentäsuuntautunut maailmankuva. \cite[s. 11]{Sterman2000} \label{sysdyn:laajennettutakaisinkytkentasuuntautunut}}
 \end{figure}
 
 
@@ -433,31 +433,31 @@ Systeemeillä on tuloja ja lähtöjä. Tulot (myös sisääntulo, eng. input) ov
 
 Stermanin \cite[s. 12]{Sterman2000} mukaan takaisinkytkennät vaikuttavat systeemin mutkikkuuteen enemmän kuin järjestelmän osien mutkikkuus itse. Tämän vuoksi takaisinkytkentöjen löytäminen on keskeisin osa systeemidynaamista mallinnusta. 
 
-Systeemidynaamisia malleja esitetään kausaalidiagrammein, joihin merkitään systeemin osat eli muuttujanimet sekä niiden väliset vuorovaikutussuhteet nuolten avulla. Nuolet piirretään lähtemään muuttujasta, joka vaikuttaa nuolen päätepisteen muuttujaan. Nuoliin merkitään plus- tai miinus merkki sen mukaan, kasvattaako vaiko vähentääkö lähtömuuttujan arvon kasvu tulomuuttujan arvoa. Nuolet piirretään kaareviksi, jotta systeemin dynamiikkaa, etenkin silmukat, olisi helpompi hahmottaa. 
+Systeemidynaamisia malleja esitetään kausaalidiagrammein, joihin merkitään systeemin osat eli muuttujanimet sekä niiden väliset vuorovaikutussuhteet nuolten avulla. Nuolet piirretään lähtemään muuttujasta, joka vaikuttaa nuolen päätepisteen muuttujaan. Nuoliin merkitään plus- tai miinus merkki sen mukaan, kasvattaako vaiko vähentääkö lähtömuuttujan arvon kasvu tulomuuttujan arvoa. Nuolet piirretään kaareviksi, jotta systeemin dynamiikkaa, etenkin silmukat, olisi helpompi hahmottaa. \cite{Sterman2000}
 
-Takaisinkytkettyjä silmukoita on kahdenlaisia: negatiivisia ja positiivisia. Positiiviset silmukat ovat itseään vahvistavia. Kuvassa \ref{positiivinen} on positiivinen takaisinkytketty silmukka, jossa kanojen määrä lisää munien määrää, mikä puolestaan lisää kanojen määrää. Positiiviset silmukat merkitään kausaalidiagrammiin kuvan \ref{positiivinen} mukaisesti R-kirjaimella, mikä tulee englannin kielen sanasta "reinforcing" eli suomeksi "vahvistava". \cite[s. 12--13]{Sterman2000}
+Takaisinkytkettyjä silmukoita on kahdenlaisia: negatiivisia ja positiivisia. Positiiviset silmukat ovat itseään vahvistavia. Seuraavassa kuvassa \ref{sysdyn:positiivinen} on positiivinen takaisinkytketty silmukka, jossa kanojen määrä lisää munien määrää, mikä puolestaan lisää kanojen määrää. Positiiviset silmukat merkitään kausaalidiagrammiin kuvan \ref{sysdyn:positiivinen} mukaisesti R-kirjaimella, mikä tulee englannin kielen sanasta "reinforcing" eli suomeksi "vahvistava". \cite[s. 12--13]{Sterman2000}
 
 \begin{figure}[H]
 \centering \includegraphics{positiivinen}
-\caption{Positiivinen takaisinkytketty silmukka. \cite[s. 13]{Sterman2000} \label{positiivinen}}
+\caption{Positiivinen takaisinkytketty silmukka. \cite[s. 13]{Sterman2000} \label{sysdyn:positiivinen}}
 \end{figure}
 
-Negatiiviset silmukat ovat itseään tasapainottavia. Alla olevassa kuvassa \ref{negatiivinen} on negatiivinen takaisinkytketty silmukka, jossa mitä enemmän on kanoja, sitä useampi ylittää tien ja jää auton alle, mikä vähentää kanojen määrää, mikä puolestaan vähentää tien ylityksiä. Negatiiviset silmukat merkitään kuvan \ref{negatiivinen} mukaisesti B-kirjaimella, mikä tulee englannin kielen sanasta "balancing" eli suomeksi "tasapainottava". \cite[s. 12--14]{Sterman2000}
+Negatiiviset silmukat ovat itseään tasapainottavia. Seuraavassa kuvassa \ref{sysdyn:negatiivinen} on negatiivinen takaisinkytketty silmukka, jossa kanojen lisääntyminen johtaa siihen, että useampi niistä ylittää tien ja jää auton alle, mikä puolestaan vähentää kanojen määrää, mikä puolestaan vähentää tien ylityksiä. Negatiiviset silmukat merkitään kuvan \ref{sysdyn:negatiivinen} mukaisesti B-kirjaimella, mikä tulee englannin kielen sanasta "balancing" eli suomeksi "tasapainottava". \cite[s. 12--14]{Sterman2000}
 
 \begin{figure}[H]
 \centering \includegraphics{negatiivinen}
-\caption{Negatiivinen takaisinkytketty silmukka. \cite[s. 13]{Sterman2000} \label{negatiivinen}}
+\caption{Negatiivinen takaisinkytketty silmukka. \cite[s. 13]{Sterman2000} \label{sysdyn:negatiivinen}}
 \end{figure}
 
-Silmukka on positiivinen, kun siinä on parillinen määrä negatiivisia kytkentöjä. Kuvan \ref{positiivinen} positiivisessa silmukassa on nolla negatiivista kytkentää. Silmukka on negatiivinen, kun siinä on pariton määrä negatiiivisia kytkentöjä. Kuvan \ref{negatiivinen} negatiivisessa silmukassa on yksi negatiivinen kytkentä. \cite[s. 12--14]{Sterman2000}
+Silmukka on positiivinen, kun siinä on parillinen määrä negatiivisia kytkentöjä. Kuvan \ref{sysdyn:positiivinen} positiivisessa silmukassa on nolla negatiivista kytkentää. Silmukka on negatiivinen, kun siinä on pariton määrä negatiiivisia kytkentöjä. Kuvan \ref{sysdyn:negatiivinen} negatiivisessa silmukassa on yksi negatiivinen kytkentä. \cite[s. 12--14]{Sterman2000}
 
-\subsection{Varastot, virtaukset ja viiveet \label{sysdyn:kausaali}}
+\subsection{Viiveet, varastot ja virtaukset \label{sysdyn:vvv}}
 
-Viiveet aiheuttavat systeemiin hitautta, aiheuttavat värähtelyitä sekä johtavat kompromisseihin päätösten lyhyen ja pitkän aikavälin seurausten välillä. Kuvassa \ref{viive} on esitetty systeemi, jossa hinnan nousu lisää viiveellä tuotantoa. Kausaalidiagrammeihin viiveet merkitään kytkentänuolen päälle joko kahdella viivalla tai laatikolla, jossa lukee "viive". \cite[s. 150--152]{Sterman2000} 
+Viiveet aiheuttavat systeemiin hitautta, aiheuttavat värähtelyitä sekä johtavat siihen, että päätösten seuraukset johtavat pitkällä aikajänteellä erilaisiin tilanteisiin kuin lyhyellä aikajänteellä. Seuraavassa kuvassa \ref{sysdyn:viive} on esitetty systeemi, jossa hinnan nousu lisää viiveellä tuotantoa. Kausaalidiagrammeihin viiveet merkitään kytkentänuolen päälle joko kahdella viivalla tai laatikolla, jossa lukee "viive". \cite[s. 150--152]{Sterman2000} 
 
 \begin{figure}[H]
 \centering \includegraphics{viive}
-\caption{Viiveellinen systeemi \cite[s. 150]{Sterman2000} \label{viive}}
+\caption{Viiveellinen systeemi \cite[s. 150]{Sterman2000} \label{sysdyn:viive}}
 \end{figure}
 
 
