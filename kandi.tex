@@ -383,7 +383,7 @@ Tässä kandidaatintyössä käydään läpi, mitä on systeemidynamiikka ja mit
 \section{Systeemidynamiikka \label{sysdyn}}
 
 
-Systeemi eli järjestelmä tarkoittaa toistensa kanssa vuorovaikutuksessa olevien osien muodostamaa kokonaisuutta \cite{Flood1988}. Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja mutkikkaiden systeemien mallintamiseen \cite{WhatIsSystemDynamics}. Mutkikkaalle systeemille ei ole yksikäsitteistä määritelmää \cite{Zadeh1973}, mutta systeemidynamiikalla kyetään mallintamaan erityisesti systeemien takaisinkytkentöjä ja epälineaarisuuksia \cite{WhatIsSystemDynamics}, jotka ovat systeemin mutkikkuutta lisääviä ominaisuuksia \cite{Zadeh1973}. 
+Systeemi eli järjestelmä tarkoittaa toistensa kanssa vuorovaikutuksessa olevien osien muodostamaa kokonaisuutta \cite{Flood1988}. Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja mutkikkaiden systeemien mallintamiseen \cite{WhatIsSystemDynamics}. Mutkikkaalle systeemille ei ole yksikäsitteistä määritelmää \cite{Zadeh1973}, mutta systeemidynamiikalla kyetään mallintamaan erityisesti systeemien takaisinkytkentöjä ja epälineaarisuuksia \cite{WhatIsSystemDynamics}, jotka ovat systeemin mutkikkuutta lisääviä ominaisuuksia \cite{Zadeh1973}. % Perustele termin valinta?
 
 Tämän luvun tavoite on tutustuttaa lukija systeemidynamiikkaan. Alaluvussa \ref{sysdyn:historia} tutustutaan systeemidynamiikan historiaan sekä motivaatioon systeemidynamiikan synnylle, alaluvussa \ref{sysdyn:paatos} systeemiajatteluun ja päätöksentekoon, alaluvussa \ref{sysdyn:takaisinkytkenta} takaisinkytkentään ja alaluvussa \ref{sysdyn:kausaali} kausaalidiagrammeihin sekä varastoihin ja virtauksiin. 
 
@@ -427,27 +427,31 @@ Maailmankuvaa voi edelleen laajentaa. Seuraava kuva \ref{laajennettutakaisinkytk
 \end{figure}
 
 
-\subsection{Takaisinkytkentä \label{sysdyn:takaisinkytkenta}}
+\subsection{Takaisinkytketyt systeemit \label{sysdyn:takaisinkytkenta}}
 
-Stermanin \cite[s. 12]{Sterman2000} mukaan takaisinkytkennät  eli järjestelmän sisäiset vuorovaikutussuhteet vaikuttavat systeemin mutkikkuuteen enemmän kuin järjestelmän osien mutkikkuus itse. Tämän vuoksi takaisinkytkentöjen löytäminen on keskeisin osa systeemidynaamista mallinnusta. 
+Systeemeillä on tuloja ja lähtöjä. Tulot (myös sisääntulo, eng. input) ovat systeemiin tulevia arvoja, jotka vaikuttavat systeemin käyttäytymiseen. Lähdöt (myös ulostulo, eng. output) ovat systeemin käyttäytymisestä seuraavia arvoja. Erilaisilla tuloilla saadaan systeemistä erilaiset lähdöt. Takaisinkytkentä tarkoittaa systeemin lähdön käyttämistä systeemin tulona. Tällöin systeemi kytkeytyy takaisin itseensä, muodostaa kytkennöistä silmukan ja vaikuttaa itse itseensä. Takaisinkytkennästä käytetään erityisesti ihmistieteiden puolella myös termiä "palaute". \cite{Sterman2000} % Viitteet kuntoon! Perustele termin valinta? 
 
-Takaisinkytkettyjä silmukoita on kahdenlaisia: negatiivisia ja positiivisia. Positiiviset silmukat ovat itseään vahvistavia. Kuvassa \ref{positiivinen} on positiivinen takaisinkytketty silmukka, jossa kanojen määrä lisää munien määrää, mikä puolestaan lisää kanojen määrää. Positiiviset silmukat merkitään kuvan \ref{positiivinen} mukaisesti R-kirjaimella, mikä tulee englannin kielen sanasta "reinforcing" eli vahvistava. \cite[s. 12--13]{Sterman2000}
+Stermanin \cite[s. 12]{Sterman2000} mukaan takaisinkytkennät vaikuttavat systeemin mutkikkuuteen enemmän kuin järjestelmän osien mutkikkuus itse. Tämän vuoksi takaisinkytkentöjen löytäminen on keskeisin osa systeemidynaamista mallinnusta. 
+
+Systeemidynaamisia malleja esitetään kausaalidiagrammein, joihin merkitään systeemin osat eli muuttujanimet sekä niiden väliset vuorovaikutussuhteet nuolten avulla. Nuolet piirretään lähtemään muuttujasta, joka vaikuttaa nuolen päätepisteen muuttujaan. Nuoliin merkitään plus- tai miinus merkki sen mukaan, kasvattaako vaiko vähentääkö lähtömuuttujan arvon kasvu tulomuuttujan arvoa. Nuolet piirretään kaareviksi, jotta systeemin dynamiikkaa, etenkin silmukat, olisi helpompi hahmottaa. 
+
+Takaisinkytkettyjä silmukoita on kahdenlaisia: negatiivisia ja positiivisia. Positiiviset silmukat ovat itseään vahvistavia. Kuvassa \ref{positiivinen} on positiivinen takaisinkytketty silmukka, jossa kanojen määrä lisää munien määrää, mikä puolestaan lisää kanojen määrää. Positiiviset silmukat merkitään kausaalidiagrammiin kuvan \ref{positiivinen} mukaisesti R-kirjaimella, mikä tulee englannin kielen sanasta "reinforcing" eli suomeksi "vahvistava". \cite[s. 12--13]{Sterman2000}
 
 \begin{figure}[H]
 \centering \includegraphics{positiivinen}
 \caption{Positiivinen takaisinkytketty silmukka. \cite[s. 12--13]{Sterman2000} \label{positiivinen}}
 \end{figure}
 
-Negatiiviset silmukat ovat itseään tasapainottavia. Alla olevassa kuvassa \ref{negatiivinen} on negatiivinen takaisinkytketty silmukka, jossa mitä enemmän on kanoja, sitä useampi ylittää tien ja jää auton alle, mikä vähentää kanojen määrää, mikä puolestaan vähentää tien ylityksiä. Negatiiviset silmukat merkitään kuvan \ref{negatiivinen} mukaisesti B-kirjaimella, mikä tulee englannin kielen sanasta "balancing" eli tasapainottava. \cite[s. 12--13]{Sterman2000}
+Negatiiviset silmukat ovat itseään tasapainottavia. Alla olevassa kuvassa \ref{negatiivinen} on negatiivinen takaisinkytketty silmukka, jossa mitä enemmän on kanoja, sitä useampi ylittää tien ja jää auton alle, mikä vähentää kanojen määrää, mikä puolestaan vähentää tien ylityksiä. Negatiiviset silmukat merkitään kuvan \ref{negatiivinen} mukaisesti B-kirjaimella, mikä tulee englannin kielen sanasta "balancing" eli suomeksi "tasapainottava". \cite[s. 12--13]{Sterman2000}
 
 \begin{figure}[H]
 \centering \includegraphics{negatiivinen}
 \caption{Negatiivinen takaisinkytketty silmukka. \cite[s. 12--13]{Sterman2000} \label{negatiivinen}}
 \end{figure}
 
-Silmukan positiivisuuteen ja negatiivisuuteen vaikuttaa negatiivisten kytkentöjen lukumäärä silmukassa. Positiivisessa silmukassa on parillinen ja negatiivisessa pariton määrä negatiivisia kytkentöjä. 
+Silmukka on positiivinen, kun siinä on parillinen määrä negatiivisia kytkentöjä. Kuvan \ref{positiivinen} positiivisessa silmukassa on nolla negatiivista kytkentää. Silmukka on negatiivinen, kun siinä on pariton määrä negatiiivisia kytkentöjä. Kuvan \ref{negatiivinen} negatiivisessa silmukassa on yksi negatiivinen kytkentä. \cite[s. 12--14]{Sterman2000}
 
-\subsection{Kausaalidiagrammi: varastot ja virtaukset \label{sysdyn:kausaali}}
+\subsection{Varastot, virtaukset ja viiveet \label{sysdyn:kausaali}}
 
 
 \clearpage
