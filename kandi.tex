@@ -385,7 +385,7 @@ Tässä kandidaatintyössä käydään läpi, mitä on systeemidynamiikka ja mit
 
 Systeemi eli järjestelmä tarkoittaa toistensa kanssa vuorovaikutuksessa olevien osien muodostamaa kokonaisuutta \cite{Flood1988}. Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja mutkikkaiden systeemien mallintamiseen \cite{WhatIsSystemDynamics}. Mutkikkaalle systeemille ei ole yksikäsitteistä määritelmää \cite{Zadeh1973}, mutta systeemidynamiikalla kyetään mallintamaan erityisesti systeemien takaisinkytkentöjä ja epälineaarisuuksia \cite{WhatIsSystemDynamics}, jotka ovat systeemin mutkikkuutta lisääviä ominaisuuksia \cite{Zadeh1973}. % Perustele termin valinta?
 
-Tämän luvun tavoite on tutustuttaa lukija systeemidynamiikkaan. Alaluvussa \ref{sysdyn:historia} tutustutaan systeemidynamiikan historiaan sekä motivaatioon systeemidynamiikan synnylle, alaluvussa \ref{sysdyn:paatos} systeemiajatteluun ja päätöksentekoon, alaluvussa \ref{sysdyn:takaisinkytkenta} systeemien takaisinkytkentöihin ja alaluvussa \ref{sysdyn:vvv} systeemien viiveisiin, varastoihin ja virtauksiin. 
+Tämän luvun tavoite on tutustuttaa lukija systeemidynamiikan perusperiaatteisiin, jotka ovat välttämättömiä luvun \ref{ilmasto} systeemidynaamisten ilmastomallien ymmärtämiseksi. Alaluvussa \ref{sysdyn:historia} selvitetään, miksi ja miten systeemidynamiikka syntyi ja kehittyi, alaluvussa \ref{sysdyn:paatos} tutustutaan systeemiajatteluun ja päätöksentekoon, alaluvussa \ref{sysdyn:takaisinkytkenta} systeemien takaisinkytkentöihin ja alaluvussa \ref{sysdyn:vvv} systeemien viiveisiin, varastoihin ja virtauksiin. 
 
 \subsection{Systeemidynamiikan historia \label{sysdyn:historia}} 
 
@@ -449,20 +449,41 @@ Negatiiviset silmukat ovat itseään tasapainottavia. Seuraavassa kuvassa \ref{s
 \caption{Negatiivinen takaisinkytketty silmukka. \cite[s. 13]{Sterman2000} \label{sysdyn:negatiivinen}}
 \end{figure}
 
-Silmukka on positiivinen, kun siinä on parillinen määrä negatiivisia kytkentöjä. Kuvan \ref{sysdyn:positiivinen} positiivisessa silmukassa on nolla negatiivista kytkentää. Silmukka on negatiivinen, kun siinä on pariton määrä negatiiivisia kytkentöjä. Kuvan \ref{sysdyn:negatiivinen} negatiivisessa silmukassa on yksi negatiivinen kytkentä. \cite[s. 12--14]{Sterman2000}
+Silmukka on positiivinen, kun siinä on parillinen määrä negatiivisia kytkentöjä. Kuvan \ref{sysdyn:positiivinen} positiivisessa silmukassa on nolla negatiivista kytkentää. Silmukka on negatiivinen, kun siinä on pariton määrä negatiivisia kytkentöjä. Kuvan \ref{sysdyn:negatiivinen} negatiivisessa silmukassa on yksi negatiivinen kytkentä. \cite[s. 12--14]{Sterman2000}
 
 \subsection{Viiveet, varastot ja virtaukset \label{sysdyn:vvv}}
 
-Viiveet aiheuttavat systeemiin hitautta, aiheuttavat värähtelyitä sekä johtavat siihen, että päätösten seuraukset johtavat pitkällä aikajänteellä erilaisiin tilanteisiin kuin lyhyellä aikajänteellä. Seuraavassa kuvassa \ref{sysdyn:viive} on esitetty systeemi, jossa hinnan nousu lisää viiveellä tuotantoa. Kausaalidiagrammeihin viiveet merkitään kytkentänuolen päälle joko kahdella viivalla tai laatikolla, jossa lukee "viive". \cite[s. 150--152]{Sterman2000} 
+Viiveet aiheuttavat systeemiin hitautta, aiheuttavat värähtelyitä sekä johtavat siihen, että päätösten seuraukset johtavat pitkällä aikajänteellä erilaisiin tilanteisiin kuin lyhyellä aikajänteellä. Seuraavassa kuvassa \ref{sysdyn:viive} on esitetty systeemi, jossa hinnan nousu lisää viiveellä tuotantoa. Kausaalidiagrammeihin viiveet merkitään kytkentänuolen päälle joko kahdella poikkiviivalla tai laatikolla, jossa lukee "viive". \cite[s. 150--152]{Sterman2000} 
 
 \begin{figure}[H]
 \centering \includegraphics{viive}
 \caption{Viiveellinen systeemi \cite[s. 150]{Sterman2000} \label{sysdyn:viive}}
 \end{figure}
 
+Varastot ovat systeemin osia, joiden arvo kertyy. Ne tuottavat systeemiin muistia sekä hitautta ja niillä voi kuvata viiveitä. Varastot myös kertovat päättäjille, mikä on systeemin tila. Varastoon voi tulla sisäänvirtauksia ja sieltä voi lähteä ulosvirtauksia. Sisäänvirtaukset kerryttävät ja ulosvirtaukset kuluttavat varaston arvoa. Seuraava kuva \ref{sysdyn:varastovirtaus} on yksinkertainen kausaalidiagrammiesitys varastosta ja virtauksista. Varastot merkitään kausaalidiagrammiin suorakulmioilla, virtauskytkennät putkinuolilla, virtausmuuttujat venttiilisymboleilla sekä systeemin ulkopuoliset lähteet ja nielut pilvillä. \cite[s. 191--197]{Sterman2000} 
+
+\begin{figure}[H]
+\centering \includegraphics{varastovirtaus}
+\caption{Yksinkertainen kausaalidiagrammi varastoista ja virtauksista. \cite[s. 150]{Sterman2000} \label{sysdyn:varastovirtaus}}
+\end{figure}
+
+Varaston matemaattinen esitys vastaa integraattoria, joka integroi sisäänvirtauksen ja ulosvirtauksen erotusta: 
+
+\begin{equation}
+  Varasto(t) = \int_{t_0}^t \Big( Sis\ddot{a}\ddot{a}nvirtaus(s) - Ulosvirtaus(s) \Big) ds + Varasto(t_0) 
+\end{equation} \cite[s. 194--195]{Sterman2000} 
+
+Varastot ja virtaukset ovat intuitiivinen esitystapa, mutta saman dynamiikan voi esittää ilmankin niitä \cite[s. 191--230]{Sterman2000}. Seuraavassa kuvassa \ref{sysdyn:varastovirtauskana} on esitetty kuvan \ref{sysdyn:negatiivinen} negatiivisesti takaisinkytketty silmukka varastojen ja virtausten avulla. 
+
+\begin{figure}[H]
+\centering \includegraphics{varastovirtauskana}
+\caption{Kuvan \ref{sysdyn:negatiivinen} negatiivisesti takaisinkytketyn silmukan esitys varastojen ja virtausten avulla. \label{sysdyn:varastovirtauskana}}
+\end{figure}
+
+% Tänne vielä mahdollisesti kylpyammedynamiikasta juttua sekä muuta systeemidynamiikkasaivartelua, mikä auttaa lukijaa ymmärtämään seuraavat käsitteet
 
 \clearpage
-\section{Ilmastonmuutoksen mallintaminen}
+\section{Ilmastonmuutoksen mallintaminen \label{ilmasto}}
 Ilmastomalleista yleisesti.
 
 \subsection{Fiddamanin ilmastomalli}
