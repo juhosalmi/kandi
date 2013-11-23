@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {2}Systeemidynamiikka }{3}{section.2}
 \contentsline {subsection}{\numberline {2.1}Systeemidynamiikan historia }{3}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Systeemiajattelu ja p\IeC {\"a}\IeC {\"a}t\IeC {\"o}ksenteko }{4}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Takaisinkytketyt systeemit }{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.3}Takaisinkytketyt systeemit }{6}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Viiveet, varastot ja virtaukset }{7}{subsection.2.4}
 \contentsline {section}{\numberline {3}Ilmastonmuutoksen mallintaminen }{9}{section.3}
 \contentsline {subsection}{\numberline {3.1}Fiddamanin ilmastomalli}{9}{subsection.3.1}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.23)  23 NOV 2013 23:48
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.23)  24 NOV 2013 00:14
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
 (//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
@@ -1163,22 +1163,22 @@ File: laajennettutakaisinkytkentasuuntautunut.png Graphic file (type png)
 <use laajennettutakaisinkytkentasuuntautunut.png> [5 <//home.org.aalto.fi/jtsal
 mi/data/Desktop/GitHub/kandi/takaisinkytkentasuuntautunut.png> <//home.org.aalt
 o.fi/jtsalmi/data/Desktop/GitHub/kandi/laajennettutakaisinkytkentasuuntautunut.
-png>] <positiivinen.png, id=198, 184.43906pt x 109.91063pt>
+png>] <positiivinen.png, id=200, 184.43906pt x 109.91063pt>
 File: positiivinen.png Graphic file (type png)
 
-<use positiivinen.png> <negatiivinen.png, id=203, 189.70876pt x 108.405pt>
+<use positiivinen.png> [6 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kand
+i/positiivinen.png>] <negatiivinen.png, id=212, 189.70876pt x 108.405pt>
 File: negatiivinen.png Graphic file (type png)
 
-<use negatiivinen.png> [6 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kand
-i/positiivinen.png>] <viive.png, id=217, 183.68625pt x 64.74188pt>
+<use negatiivinen.png> <viive.png, id=219, 183.68625pt x 64.74188pt>
 File: viive.png Graphic file (type png)
 
-<use viive.png> <varastovirtaus.png, id=221, 271.0125pt x 65.49469pt>
+<use viive.png> [7 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/negat
+iivinen.png> <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/viive.png>]
+<varastovirtaus.png, id=232, 271.0125pt x 65.49469pt>
 File: varastovirtaus.png Graphic file (type png)
-
-<use varastovirtaus.png> [7 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/ka
-ndi/negatiivinen.png> <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/vi
-ive.png>] <varastovirtauskana.png, id=236, 184.43906pt x 131.74219pt>
+ <use varastovirtaus.png>
+<varastovirtauskana.png, id=238, 184.43906pt x 131.74219pt>
 File: varastovirtauskana.png Graphic file (type png)
 
 <use varastovirtauskana.png> [8 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHu
@@ -1203,7 +1203,7 @@ Package rerunfilecheck Info: File `kandi.out' has not changed.
 Here is how much of TeX's memory you used:
  15847 strings out of 494053
  281340 string characters out of 3147733
- 769757 words of memory out of 3000000
+ 769755 words of memory out of 3000000
  18706 multiletter control sequences out of 15000+200000
  25371 words of font info for 49 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1225,9 +1225,9 @@ X_2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/f
 onts/type1/public/cm-super/sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/ty
 pe1/public/cm-super/sfti1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw
 /helvetic/uhvb8a.pfb>
-Output written on kandi.pdf (17 pages, 316642 bytes).
+Output written on kandi.pdf (17 pages, 315928 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
+ 336 PDF objects out of 1000 (max. 8388607)
  54 named destinations out of 1000 (max. 500000)
  186 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -350,7 +350,7 @@ SD         & systeemidynamiikka \\
 %% Leave first page empty
 \thispagestyle{empty}
 
-Ihmiselle on luontaista ajatella, että asioille on selkeät ja suoraviivaiset syy-seuraus-suhteet; yksi asia vaikuttaa toiseen. Maailma ei kuitenkaan olen niin yksinkertainen ja lineaarinen, vaan asiat ovat mitä moninaisimmin tavoin vuorovaikutuksessa toistensa kanssa. Systeemidynamiikka on tapa ymmärtää, mallintaa ja simuloida tätä vuorovaikutusta sekä niiden muodostamaa monimutkaista systeemiä. 
+Ihmiselle on luontaista ajatella, että asioille on selkeät ja suoraviivaiset syy-seuraus-suhteet: yksi asia vaikuttaa toiseen. Maailma ei kuitenkaan olen niin yksinkertainen ja lineaarinen, vaan asiat ovat mitä moninaisimmin tavoin vuorovaikutuksessa toistensa kanssa. Systeemidynamiikka on tapa ymmärtää, mallintaa ja simuloida tätä vuorovaikutusta sekä niiden muodostamaa monimutkaista systeemiä. 
 
 % Tähän voisi olla mielenkiintoista laittaa vertailu lineaarisesta tavasta ajatella sekä systeemidynaamisesta tavasta ajatella. Etenkin jos löytyisi naseva vertaus ilmastonmuutoksen puolelta. 
 
@@ -385,7 +385,7 @@ Tässä kandidaatintyössä käydään läpi, mitä on systeemidynamiikka ja mit
 
 Systeemi eli järjestelmä tarkoittaa toistensa kanssa vuorovaikutuksessa olevien osien muodostamaa kokonaisuutta \cite{Flood1988}. Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja mutkikkaiden systeemien mallintamiseen \cite{WhatIsSystemDynamics}. Mutkikkaalle systeemille ei ole yksikäsitteistä määritelmää \cite{Zadeh1973}, mutta systeemidynamiikalla kyetään mallintamaan erityisesti systeemien takaisinkytkentöjä ja epälineaarisuuksia \cite{WhatIsSystemDynamics}, jotka ovat systeemin mutkikkuutta lisääviä ominaisuuksia \cite{Zadeh1973}. % Perustele termin valinta?
 
-Tämän luvun tavoite on tutustuttaa lukija systeemidynamiikan perusperiaatteisiin, jotka ovat välttämättömiä luvun \ref{ilmasto} systeemidynaamisten ilmastomallien ymmärtämiseksi. Alaluvussa \ref{sysdyn:historia} selvitetään, miksi ja miten systeemidynamiikka syntyi ja kehittyi, alaluvussa \ref{sysdyn:paatos} tutustutaan systeemiajatteluun ja päätöksentekoon, alaluvussa \ref{sysdyn:takaisinkytkenta} systeemien takaisinkytkentöihin ja alaluvussa \ref{sysdyn:vvv} systeemien viiveisiin, varastoihin ja virtauksiin. 
+Tämän luvun tavoite on tutustuttaa lukija systeemidynamiikan perusperiaatteisiin, jotka ovat välttämättömiä luvun \ref{ilmasto} systeemidynaamisten ilmastomallien ymmärtämiseksi. Alaluvussa \ref{sysdyn:historia} selvitetään, miksi ja miten systeemidynamiikka syntyi ja kehittyi, alaluvussa \ref{sysdyn:paatos} tutustutaan systeemiajatteluun ja päätöksentekoon, alaluvussa \ref{sysdyn:takaisinkytkenta} systeemien takaisinkytkentöihin sekä alaluvussa \ref{sysdyn:vvv} systeemien viiveisiin, varastoihin ja virtauksiin. 
 
 \subsection{Systeemidynamiikan historia \label{sysdyn:historia}} 
 
@@ -395,7 +395,7 @@ Systeemidynamiikan on alunperin perustanut Jay W. Forrester, joka vuonna 1956 si
 
 Forresterin \cite[s. 398--399]{Forrester1968} mukaan sen aikainen operaatiotutkimus ei tarjonnut hyviä työkaluja laajoihin, ylimmän tason johtamisen haasteisiin. Operaatiotutkimuksessa keskityttiin pääsääntöisesti yksittäisten, irrallisten päätösten seurausten hahmottelemiseen oletuksella, että päätöksen seuraukset eivät vaikuta päätöksentekoon vaikuttaviin tekijöihin. Oletusta kutsutaan avoimen silmukan oletukseksi. Tällaisella tarkastelulla pystyttiin yksinkeraistamaan analyysiä, mutta näin kyettiin tarkastelemaan riittävällä tarkkuudella vain yksinkertaisia, lineaarisia tilanteita, siinä missä systeemidynamiikalla pystytään ottamaan huomioon mutkikkaidenkin järjestelmän osien takaisinkytkennät ja epälineaarisuudet. Takaisinkytkettyjä systeemeitä oli jo pitkään tutkittu ja hyödynnetty insinööritieteissä, biologiassa ja taloustieteessä, mutta niitä oli vasta hiljattain alettu ymmärtää. 
 
-Samat takaisinkytkettyjen systeemien periaatteet olivat yleistettävissä eri tieteenaloille. Systeemidynamiikasta onkin kehittynyt yhä poikkitieteellisempää ja sitä hyödynnetään nykyisin lukuisilla eri tieteenaloilla. \cite{Forrester1968, Sterman2000, WhatIsSystemDynamics} % Tätä voisi hioa
+Samat takaisinkytkettyjen systeemien periaatteet olivat yleistettävissä eri tieteenaloille, minkä johdosta monilla aloille otettiin systeemidynaamisia menetelmiä käyttöön. Systeemidynamiikasta kehittyikin nopeasti hyvin poikkitieteellinen ala. \cite{WhatIsSystemDynamics, Forrester1968, Sterman2000} % Tätä voisi hioa
 
 
 
@@ -429,13 +429,13 @@ Maailmankuvaa voi edelleen laajentaa. Seuraava kuva \ref{sysdyn:laajennettutakai
 
 \subsection{Takaisinkytketyt systeemit \label{sysdyn:takaisinkytkenta}}
 
-Systeemeillä on tuloja ja lähtöjä. Tulot (myös sisääntulo, eng. input) ovat systeemiin tulevia arvoja, jotka vaikuttavat systeemin käyttäytymiseen. Lähdöt (myös ulostulo, eng. output) ovat systeemin käyttäytymisestä seuraavia arvoja. Erilaisilla tuloilla saadaan systeemistä erilaiset lähdöt. Takaisinkytkentä tarkoittaa systeemin lähdön käyttämistä systeemin tulona. Tällöin systeemi kytkeytyy takaisin itseensä, muodostaa kytkennöistä silmukan ja vaikuttaa itse itseensä. Takaisinkytkennästä käytetään erityisesti ihmistieteiden puolella myös termiä "palaute". \cite{Sterman2000} % Viitteet kuntoon! Perustele termin valinta? 
+Systeemeillä on tuloja ja lähtöjä. Tulot (myös sisääntulo, eng. input) ovat systeemiin tulevia arvoja, jotka vaikuttavat systeemin käyttäytymiseen. Lähdöt (myös ulostulo, eng. output) ovat systeemin käyttäytymisestä seuraavia arvoja. Erilaisilla tuloilla saadaan systeemistä erilaiset lähdöt. Takaisinkytkentä tarkoittaa systeemin lähdön käyttämistä systeemin tulona. Tällöin systeemi kytkeytyy takaisin itseensä, muodostaa kytkennöistä silmukan ja vaikuttaa itse itseensä. Takaisinkytkennästä käytetään erityisesti ihmistieteiden puolella myös termiä "palaute". \cite{Sterman2000, WhatIsSystemDynamics} % Viitteet kuntoon! Perustele termin valinta? 
 
 Stermanin \cite[s. 12]{Sterman2000} mukaan takaisinkytkennät vaikuttavat systeemin mutkikkuuteen enemmän kuin järjestelmän osien mutkikkuus itse. Tämän vuoksi takaisinkytkentöjen löytäminen on keskeisin osa systeemidynaamista mallinnusta. 
 
-Systeemidynaamisia malleja esitetään kausaalidiagrammein, joihin merkitään systeemin osat eli muuttujanimet sekä niiden väliset vuorovaikutussuhteet nuolten avulla. Nuolet piirretään lähtemään muuttujasta, joka vaikuttaa nuolen päätepisteen muuttujaan. Nuoliin merkitään plus- tai miinus merkki sen mukaan, kasvattaako vaiko vähentääkö lähtömuuttujan arvon kasvu tulomuuttujan arvoa. Nuolet piirretään kaareviksi, jotta systeemin dynamiikkaa, etenkin silmukat, olisi helpompi hahmottaa. \cite{Sterman2000}
+Systeemidynaamisia malleja esitetään kausaalidiagrammein, joihin merkitään systeemin osat eli muuttujanimet sekä niiden väliset vuorovaikutussuhteet kausaaliyhteysnuolten avulla. Nuolet piirretään lähtemään muuttujasta, joka vaikuttaa nuolen päätepisteen muuttujaan. Nuoliin merkitään plus- tai miinus merkki sen mukaan, kasvattaako vaiko vähentääkö lähtömuuttujan arvon kasvu tulomuuttujan arvoa. Nuolet piirretään kaareviksi, jotta systeemin dynamiikkaa, etenkin silmukat, olisi helpompi hahmottaa. \cite{Sterman2000}
 
-Takaisinkytkettyjä silmukoita on kahdenlaisia: negatiivisia ja positiivisia. Positiiviset silmukat ovat itseään vahvistavia. Seuraavassa kuvassa \ref{sysdyn:positiivinen} on positiivinen takaisinkytketty silmukka, jossa kanojen määrä lisää munien määrää, mikä puolestaan lisää kanojen määrää. Positiiviset silmukat merkitään kausaalidiagrammiin kuvan \ref{sysdyn:positiivinen} mukaisesti R-kirjaimella, mikä tulee englannin kielen sanasta "reinforcing" eli suomeksi "vahvistava". \cite[s. 12--13]{Sterman2000}
+Takaisinkytkettyjä silmukoita on kahdenlaisia: negatiivisia ja positiivisia. Positiiviset silmukat ovat itseään vahvistavia. Seuraavassa kuvassa \ref{sysdyn:positiivinen} on positiivinen takaisinkytketty silmukka, jossa kanojen määrä lisää munien määrää, mikä puolestaan lisää kanojen määrää. Positiiviset silmukat merkitään kausaalidiagrammiin kuvan \ref{sysdyn:positiivinen} mukaisesti R-kirjaimella, mikä tulee englannin kielen sanasta "reinforcing" eli suomeksi "vahvistava". \cite[s. 12--13]{Sterman2000}\cite{WhatIsSystemDynamics}
 
 \begin{figure}[H]
 \centering \includegraphics{positiivinen}
@@ -453,14 +453,14 @@ Silmukka on positiivinen, kun siinä on parillinen määrä negatiivisia kytkent
 
 \subsection{Viiveet, varastot ja virtaukset \label{sysdyn:vvv}}
 
-Viiveet aiheuttavat systeemiin hitautta, aiheuttavat värähtelyitä sekä johtavat siihen, että päätösten seuraukset johtavat pitkällä aikajänteellä erilaisiin tilanteisiin kuin lyhyellä aikajänteellä. Seuraavassa kuvassa \ref{sysdyn:viive} on esitetty systeemi, jossa hinnan nousu lisää viiveellä tuotantoa. Kausaalidiagrammeihin viiveet merkitään kytkentänuolen päälle joko kahdella poikkiviivalla tai laatikolla, jossa lukee "viive". \cite[s. 150--152]{Sterman2000} 
+Viiveet aiheuttavat systeemiin hitautta, aiheuttavat värähtelyitä sekä johtavat siihen, että päätösten seuraukset johtavat pitkällä aikajänteellä erilaisiin tilanteisiin kuin lyhyellä aikajänteellä. Seuraavassa kuvassa \ref{sysdyn:viive} on esitetty systeemi, jossa hinnan nousu lisää viiveellä tuotantoa. Kausaalidiagrammeihin viiveet merkitään nuolen päälle joko kahdella poikkiviivalla tai laatikolla, jossa lukee "viive". \cite[s. 150--152]{Sterman2000} 
 
 \begin{figure}[H]
 \centering \includegraphics{viive}
 \caption{Viiveellinen systeemi \cite[s. 150]{Sterman2000} \label{sysdyn:viive}}
 \end{figure}
 
-Varastot ovat systeemin osia, joiden arvo kertyy. Ne tuottavat systeemiin muistia sekä hitautta ja niillä voi kuvata viiveitä. Varastot myös kertovat päättäjille, mikä on systeemin tila. Varastoon voi tulla sisäänvirtauksia ja sieltä voi lähteä ulosvirtauksia. Sisäänvirtaukset kerryttävät ja ulosvirtaukset kuluttavat varaston arvoa. Seuraava kuva \ref{sysdyn:varastovirtaus} on yksinkertainen kausaalidiagrammiesitys varastosta ja virtauksista. Varastot merkitään kausaalidiagrammiin suorakulmioilla, virtauskytkennät putkinuolilla, virtausmuuttujat venttiilisymboleilla sekä systeemin ulkopuoliset lähteet ja nielut pilvillä. \cite[s. 191--197]{Sterman2000} 
+Varastot ovat systeemin osia, joiden arvo kertyy. Ne tuottavat systeemiin muistia sekä hitautta ja niillä voi kuvata viiveitä. Varastot myös kertovat päättäjille, mikä on systeemin tila. Varastoon voi tulla sisäänvirtauksia ja sieltä voi lähteä ulosvirtauksia. Sisäänvirtaukset kerryttävät ja ulosvirtaukset kuluttavat varaston arvoa. Seuraava kuva \ref{sysdyn:varastovirtaus} on yksinkertainen kausaalidiagrammiesitys varastosta ja virtauksista. Varastot merkitään kausaalidiagrammiin suorakulmioilla, virtauskytkennät virtausnuolilla, virtausmuuttujat venttiilisymboleilla sekä systeemin ulkopuoliset lähteet ja nielut pilvillä. \cite[s. 191--197]{Sterman2000} 
 
 \begin{figure}[H]
 \centering \includegraphics{varastovirtaus}
