@@ -354,21 +354,13 @@ Ihmiselle on luontaista ajatella, että asioille on selkeät ja suoraviivaiset s
 
 % Tähän voisi olla mielenkiintoista laittaa vertailu lineaarisesta tavasta ajatella sekä systeemidynaamisesta tavasta ajatella. Etenkin jos löytyisi naseva vertaus ilmastonmuutoksen puolelta. 
 
-Systeemidynaaminen malli rakentuu varantojen, virtausten sekä takaisinkytkettyjen silmukoiden varaan. Systeemidynaamiset mallit kuvataan yleensä kausaalidiagrammilla.  Kuva \ref{sysdyn_example} on esimerkki populaation ja luonnon kantokyvyn kausaalidiagrammista. 
-
-\begin{figure}[htb]
-\centering \includegraphics[height=12cm]{sysdyn_example}
-\caption{Esimerkki systeemidynaamisesta kausaalidiagrammista. \label{sysdyn_example}}
-\end{figure}
-
-Systeemidynamiikan tapa lähestyä asioita tarjoaa erinomaiset työkalut päätöksenteolle ja ajattelulle yleisesti. Yksi keskeinen systeemidynamiikan etu on sen ilmaisuvoima. Kausaalidiagrammit kiteyttävät hyvin, mistä systeemidynaamisessa mallissa on kyse. Lisäksi systeemidynaamisia malleja on verrattaen luonteva lähteä rakentamaan tunnettujen ja tutkittujen kausaliteettien varaan. Systeemidynaamiset mallit ovat myös laskennallisesti kevyitä, joten mallin parametrien muuttamisen vaikutusten demonstroiminen käy hetkessä.  
+Systeemidynaaminen malli rakentuu varantojen, virtausten sekä takaisinkytkettyjen silmukoiden varaan. Systeemidynamiikan tapa lähestyä asioita tarjoaa erinomaiset työkalut päätöksenteolle ja ajattelulle yleisesti. Yksi keskeinen systeemidynamiikan etu on sen ilmaisuvoima. Kausaalidiagrammit kiteyttävät hyvin, mistä systeemidynaamisessa mallissa on kyse. Lisäksi systeemidynaamisia malleja on verrattaen luonteva lähteä rakentamaan tunnettujen ja tutkittujen kausaliteettien varaan. Systeemidynaamiset mallit ovat myös laskennallisesti kevyitä, joten mallin parametrien muuttamisen vaikutusten demonstroiminen käy hetkessä.  
 
 Ilmastonmuutos on tilastollisesti merkittävää ja pitkäkestoista muutosta globaalissa tai paikallisessa ilmastossa. Tässä kandidaatintyössä keskitytään ihmisen toiminnasta johtuvaan globaaliin ilmastonmuutokseen, erityisesti ilmaston lämpenemiseen. 
 
-Ilmaston muutosta mallinnetaan, jotta kykenisimme arvioimaan, millaisia vaikutuksia toiminnallamme on, ja millaisin päätöksin voisimme saada ilmaston kehitttymään haluttuun suuntaan. Ilmastoa ja sen muutosta mallinnetaan tieteellisiin tarkoituksiin pääasiassa fysikaalisilla malleilla. Fysikaaliset mallit ovat tarkkoja, mutta laskennallisesti raskaita, eivätkä ne ole maallikon tai poliittisen päättäjän ymmärrettävissä. Systeemidynamiikalla voidaan ilmastomalli esittää ymmärrettävässä muodossa siten, että maallikko poliittinen päättäjä kykenee suurpiirteisesti hahmottamaan, mistä mallissa on kyse. Lisäksi systeemidynaaminen simulaatio on ajettavissa hetkessä, joten parametrien muutosten seuraukset esim. ympäristöpoliittisiin päätöksiin liittyen on nopeasti havainnollistettavissa. 
+Ilmastonmuutosta mallinnetaan, jotta kykenisimme arvioimaan, millaisia vaikutuksia toiminnallamme on, ja millaisin päätöksin voisimme saada ilmaston kehittymään haluttuun suuntaan. Ilmastoa ja sen muutosta mallinnetaan tieteellisiin tarkoituksiin pääasiassa tarkoilla fysikaalisilla malleilla. Tarkat mallit ovat laskennallisesti raskaita, eivätkä ne ole maallikon tai poliittisen päättäjän ymmärrettävissä. Systeemidynamiikalla voidaan ilmastomalli esittää ymmärrettävässä muodossa siten, että päättäjä kykeneei hahmottamaan, mistä mallissa on kyse. Tämän lisäksi systeemidynaaminen simulaatio on ajettavissa hetkessä, joten esimerkiksi ympäristöpoliittisten päätösten seuraukset on nopeasti havainnollistettavissa. 
 
-Tässä kandidaatintyössä käydään läpi, mitä on systeemidynamiikka ja mitä uutta se on tuonut ilmaston ja sen muutoksen mallintamiseen sekä käydään läpi erilaisia systeemidynaamisia ilmastomalleja sekä niiden etuja. 
-
+Tämän kandidaatintyön tavoite on tutkia systeemidynamiikkaa ja sen soveltamista ilmastonmuutoksen mallintamiseen ja simulointiin. Luvussa \ref{sysdyn} otetaan katsaus systeemidynamiikan perusperiaatteisiin. Luvussa \ref{ilmasto} tutustutaan ilmastonmuutokseen ja sen mallintamiseen. Ilmastonmuutoksen systeemidynaaminen mallintaminen havainnollistetaan kahta esimerkkiä käyttäen. Lopuksi luvussa \ref{yhteenveto} tehdään yhteenveto tämän kandidaatintyön löydöksistä ja havainnoista. 
 
 
 %% Opinnäytteessä jokainen osa alkaa uudelta sivulta, joten \clearpage
@@ -485,6 +477,12 @@ Varastot ja virtaukset ovat intuitiivinen esitystapa, mutta saman dynamiikan voi
 \clearpage
 \section{Ilmastonmuutoksen mallintaminen \label{ilmasto}}
 
+Ilmastonmuutoksen mallintamiseen tarvitaan aina jonkinlainen fysikaalinen malli. Raskaimmissa fysikaalisissa malleissa ilmakehä ja meret saatetaan pilkkoa lukuisiksi osiksi neliökilometrin alueisiin ja useisiin kerroksiin. Näiden osien keskinäistä vuorovaikutusta simuloidaan erilaisin kasvihuonekaasujen parametrein. Raskaimpien fysikaalisten mallien simuloimiseen voi supertietokoneeltakin mennä päiväkausia. [viite]
+
+Systeemidynaamiset fysiikkamallit ovat pääsääntöisesti karkeita ja ottavat huomioon vain yksittäisiä maailmanlaajuisia suureita. Näin ollen mallin simuloiminen on nopeaa. Tässä työssä esiteltävien systeemidynaamisten ilmastomallien simuloiminen vie kotikoneella sekunnin murto-osan. Systeemidynaamiset fysiikkamallit viritetään ja validoidaan historiadatalla sekä tarkkojen fysiikkamallien avulla: kun systeemidynaaminen fysiikkamalli tekee oikeita ennustuksia historiadatan pohjalta sekä vastaavia ennustuksia kuin yleisesti hyväksytyt fysiikkamallit, voidaan malli katsoa oikeaksi. [viite]
+
+Fysiikkamallia voi laajentaa kuvaamaan 
+
 Tämän luvun tavoitteena on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja systeemidynaamisiin malleihin pureutuen. Aluksi alaluvussa \ref{ilmasto:historia} tutustutaan ilmastonmuutoksen ja ilmastomallien historiaan sekä hahmotellaan, miksi myös mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Seuraavat alaluvut \ref{ilmasto:croads} ja \ref{ilmasto:enroads} esittelevät systeemidynaamiset Climate Interactiven C-ROADS- ja En-ROADS-ilmastomallit. Lopuksi alaluvussa \ref{ilmasto:muut} otetaan lyhyt katsaus muutamaan muuhun tunnettuun ilmastomalliin. 
 
 \subsection{Ilmastomallien historia \label{ilmasto:historia}}
@@ -519,7 +517,7 @@ Tom Fiddaman mallintaa ilmaston lämpenemistä systeemidynaamisesti jakaen malli
 
 %\clearpage
 
-\section{Yhteenveto}
+\section{Yhteenveto \label{yhteenveto}}
 %\section{Summary} 
 
 \clearpage
