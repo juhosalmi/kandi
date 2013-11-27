@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  27 NOV 2013 04:52
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  27 NOV 2013 06:00
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
 (//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
@@ -1141,79 +1141,79 @@ Overfull \hbox (2.00002pt too wide) in paragraph at lines 239--241
 ] (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.toc)
 \tf@toc=\write5
 
-[5] [6] [1
+[5] [1
 
 ] [2
 
-] <tapahtuma.png, id=170, 327.47343pt x 82.05656pt>
+] <tapahtuma.png, id=160, 327.47343pt x 82.05656pt>
 File: tapahtuma.png Graphic file (type png)
 
 <use tapahtuma.png>
-<takaisinkytkentasuuntautunut.png, id=175, 225.09094pt x 128.73094pt>
+<takaisinkytkentasuuntautunut.png, id=165, 225.09094pt x 128.73094pt>
 File: takaisinkytkentasuuntautunut.png Graphic file (type png)
 
 <use takaisinkytkentasuuntautunut.png> [3 <//home.org.aalto.fi/jtsalmi/data/Des
 ktop/GitHub/kandi/tapahtuma.png>]
-<laajennettutakaisinkytkentasuuntautunut.png, id=188, 358.33875pt x 234.1247pt>
+<laajennettutakaisinkytkentasuuntautunut.png, id=178, 358.33875pt x 234.1247pt>
 File: laajennettutakaisinkytkentasuuntautunut.png Graphic file (type png)
 <use laajennettutakaisinkytkentasuuntautunut.png> [4 <//home.org.aalto.fi/jtsal
 mi/data/Desktop/GitHub/kandi/takaisinkytkentasuuntautunut.png> <//home.org.aalt
 o.fi/jtsalmi/data/Desktop/GitHub/kandi/laajennettutakaisinkytkentasuuntautunut.
-png>] <positiivinen.png, id=205, 184.43906pt x 109.91063pt>
+png>] <positiivinen.png, id=195, 184.43906pt x 109.91063pt>
 File: positiivinen.png Graphic file (type png)
 
 <use positiivinen.png> [5 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kand
-i/positiivinen.png>] <negatiivinen.png, id=217, 189.70876pt x 108.405pt>
+i/positiivinen.png>] <negatiivinen.png, id=207, 189.70876pt x 108.405pt>
 File: negatiivinen.png Graphic file (type png)
 
-<use negatiivinen.png> <viive.png, id=224, 183.68625pt x 64.74188pt>
+<use negatiivinen.png> <viive.png, id=214, 183.68625pt x 64.74188pt>
 File: viive.png Graphic file (type png)
 
 <use viive.png> [6 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/negat
 iivinen.png> <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/viive.png>]
-<varastovirtaus.png, id=236, 271.0125pt x 65.49469pt>
+<varastovirtaus.png, id=226, 271.0125pt x 65.49469pt>
 File: varastovirtaus.png Graphic file (type png)
  <use varastovirtaus.png>
-<varastovirtauskana.png, id=242, 184.43906pt x 131.74219pt>
+<varastovirtauskana.png, id=232, 184.43906pt x 131.74219pt>
 File: varastovirtauskana.png Graphic file (type png)
 
 <use varastovirtauskana.png> [7 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHu
 b/kandi/varastovirtaus.png> <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/ka
 ndi/varastovirtauskana.png>]
-Overfull \hbox (12.07924pt too wide) in paragraph at lines 496--497
-\T1/cmr/m/n/12 diok-si-di ($\OML/cmm/m/it/12 N[]H$\T1/cmr/m/n/12 ), perfluo-ro-
+Overfull \hbox (10.72281pt too wide) in paragraph at lines 497--498
+\T1/cmr/m/n/12 diok-si-di ($\OML/cmm/m/it/12 N[]O$\T1/cmr/m/n/12 ), perfluo-ro-
 hii-liyh-dis-teet ($\OML/cmm/m/it/12 PFC$\T1/cmr/m/n/12 ), rik-ki-hek-safluo-ri
 -di ($\OML/cmm/m/it/12 SF[]$\T1/cmr/m/n/12 ) se-kä hydrofluo-
  []
 
 [8
 
-] <c-roads-co2.png, id=275, 422.32782pt x 430.60875pt>
+] <c-roads-co2.png, id=264, 422.32782pt x 430.60875pt>
 File: c-roads-co2.png Graphic file (type png)
  <use c-roads-co2.png>
 [9] [10 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-co2.png>
 ] [11
 
 ] (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 536.
 
 [12
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 536.
  (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 533.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 536.
 Package rerunfilecheck Info: File `kandi.out' has not changed.
-(rerunfilecheck)             Checksum: 9026D71D1D295AB8685C00F49B53771B;1162.
+(rerunfilecheck)             Checksum: A147FEE4232D4879EF6F72E8DDDAC83C;1103.
  ) 
 Here is how much of TeX's memory you used:
- 15861 strings out of 494053
- 281516 string characters out of 3147733
- 771078 words of memory out of 3000000
- 18715 multiletter control sequences out of 15000+200000
+ 15857 strings out of 494053
+ 281477 string characters out of 3147733
+ 770077 words of memory out of 3000000
+ 18714 multiletter control sequences out of 15000+200000
  25371 words of font info for 49 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 70i,10n,59p,1516b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,10n,59p,1032b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/P
 ROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/fontname/8r.enc}<C:/PROGRAMS/MiKTeX/M
 iKTeX_2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_
@@ -1231,9 +1231,9 @@ X_2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/f
 onts/type1/public/cm-super/sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/ty
 pe1/public/cm-super/sfti1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw
 /helvetic/uhvb8a.pfb>
-Output written on kandi.pdf (18 pages, 324266 bytes).
+Output written on kandi.pdf (17 pages, 322724 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

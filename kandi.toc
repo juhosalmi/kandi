@@ -3,7 +3,6 @@
 \contentsline {section}{Tiivistelm\"a{} (englanniksi)}{iii}{section*.2}
 \contentsline {section}{Esipuhe}{iv}{section*.3}
 \contentsline {section}{Sis\"allysluettelo}{v}{section*.4}
-\contentsline {section}{Symbolit ja lyhenteet}{vi}{section*.6}
 \contentsline {section}{\numberline {1}Johdanto}{1}{section.1}
 \contentsline {section}{\numberline {2}Systeemidynamiikka }{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Systeemidynamiikan historia }{2}{subsection.2.1}
@@ -16,4 +15,4 @@
 \contentsline {subsection}{\numberline {3.3}En-ROADS-ilmastomalli }{10}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Muita ilmastomalleja }{10}{subsection.3.4}
 \contentsline {section}{\numberline {4}Yhteenveto }{11}{section.4}
-\contentsline {section}{Viitteet}{12}{section*.8}
+\contentsline {section}{Viitteet}{12}{section*.6}

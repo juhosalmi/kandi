@@ -270,11 +270,12 @@ Otaniemi, 24.9.2013
 %% Table of contents. 
 \thesistableofcontents
 
+% TÄNNE VOISI LISÄTÄ TERMISTÖN: FI - ENG
 
 %% Symbolit ja lyhenteet
 %%
 %% Symbols and abbreviations
-\mysection{Symbolit ja lyhenteet}
+%\mysection{Symbolit ja lyhenteet}
 %\mysection{Symbols and abbreviations}
 %\subsection*{Symbolit}
 %%\subsection*{Symbols}
@@ -311,12 +312,12 @@ Otaniemi, 24.9.2013
 
 \begin{onehalfspacing} % KYPSYYSNÄYTETTÄ VARTEN
 
-\subsection*{Lyhenteet}
+%\subsection*{Lyhenteet}
 %\subsection*{Abbreviations}
 
-\begin{tabular}{ll}
-SD         & systeemidynamiikka \\
-\end{tabular}
+%\begin{tabular}{ll}
+%SD         & systeemidynamiikka \\
+%\end{tabular}
 
 
 %% Sivulaskurin viilausta opinnäytteen vaatimusten mukaan:
@@ -459,13 +460,13 @@ Varastot ovat systeemin osia, joiden arvo kertyy. Ne tuottavat systeemiin muisti
 \caption{Yksinkertainen kausaalidiagrammi varastoista ja virtauksista. \cite[s. 150]{Sterman2000} \label{sysdyn:varastovirtaus}}
 \end{figure}
 
-Varaston matemaattinen esitys vastaa integraattoria, joka integroi sisäänvirtauksen ja ulosvirtauksen erotusta: 
+Varaston matemaattinen esitys vastaa integraattoria, joka integroi sisäänvirtauksen ja ulosvirtauksen erotusta alkuhetkestä $t_0$ hetkeen $t$: 
 
 \begin{equation}
-  Varasto(t) = \int_{t_0}^t \Big( Sis\ddot{a}\ddot{a}nvirtaus(s) - Ulosvirtaus(s) \Big) ds + Varasto(t_0) 
+  Varasto(t) = \int_{t_0}^t \Big( Sis\ddot{a}\ddot{a}nvirtaus(s) - Ulosvirtaus(s) \Big) ds + Varasto(t_0)
 \end{equation} \cite[s. 194--195]{Sterman2000} 
 
-Varastot ja virtaukset ovat intuitiivinen esitystapa, mutta saman dynamiikan voi esittää ilmankin niitä \cite[s. 191--230]{Sterman2000}. Seuraavassa kuvassa \ref{sysdyn:varastovirtauskana} on esitetty kuvan \ref{sysdyn:negatiivinen} negatiivisesti takaisinkytketty silmukka varastojen ja virtausten avulla. 
+Varastot ja virtaukset ovat intuitiivinen esitystapa, mutta saman dynamiikan voi esittää ilmankin niitä \cite[s. 191--230]{Sterman2000}. Seuraavassa kuvassa \ref{sysdyn:varastovirtauskana} on esitetty kuvan \ref{sysdyn:negatiivinen} negatiivisesti takaisinkytketty silmukka varastojen ja virtausten avulla. Kanojen määrä voidaan ajatella varastona ja tien ylitykset virtauksena, joka vähentää kanojen määrää. Kanojen määrä säätää tien ylitykset -venttiiliä: mitä enemmän kanoja, sitä avonaisempi venttiili ja suurempi virta. 
 
 \begin{figure}[H]
 \centering \includegraphics{varastovirtauskana}
@@ -481,9 +482,9 @@ Ilmastonmuutoksen mallintamiseen tarvitaan aina jonkinlainen fysikaalinen malli.
 
 Systeemidynaamiset fysiikkamallit ovat pääsääntöisesti karkeita ja ottavat huomioon vain yksittäisiä maailmanlaajuisia suureita. Näin ollen mallin simuloiminen on nopeaa. Tässä työssä esiteltävien systeemidynaamisten ilmastomallien simuloiminen vie kotikoneella sekunnin murto-osan. Systeemidynaamiset fysiikkamallit viritetään ja validoidaan historiadatalla sekä tarkkojen fysiikkamallien avulla: kun systeemidynaaminen fysiikkamalli tekee oikeita ennustuksia historiadatan pohjalta sekä vastaavia ennustuksia kuin yleisesti hyväksytyt fysiikkamallit, voidaan malli katsoa oikeaksi. [viite]
 
-Fysiikkamallia voi laajentaa kuvaamaan 
+Fysiikkamallin voi laajentaa ihmisiin. Ilmastomalleilla voidaan myös tutkia, miten ilmastonmuutos vaikuttaa esimerkiksi väestönkasvuun, talouskasvuun ja hyvinvointiin. Tällaisia eri tieteenaloja yhdisteleviä malleja kutsutaan integroiduiksi malleiksi. [viite]
 
-Tämän luvun tavoitteena on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja systeemidynaamisiin malleihin pureutuen. Aluksi alaluvussa \ref{ilmasto:historia} tutustutaan ilmastonmuutoksen ja ilmastomallien historiaan sekä hahmotellaan, miksi myös mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Seuraavat alaluvut \ref{ilmasto:croads} ja \ref{ilmasto:enroads} esittelevät systeemidynaamiset Climate Interactiven C-ROADS- ja En-ROADS-ilmastomallit. Lopuksi alaluvussa \ref{ilmasto:muut} otetaan lyhyt katsaus muutamaan muuhun tunnettuun ilmastomalliin. 
+Tämän luvun tavoitteena on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja sitten systeemidynaamisiin malleihin pureutuen. Aluksi alaluvussa \ref{ilmasto:historia} tutustutaan ilmastonmuutoksen ja ilmastomallien historiaan sekä hahmotellaan, miksi myös mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Seuraavat alaluvut \ref{ilmasto:croads} ja \ref{ilmasto:enroads} esittelevät systeemidynaamiset Climate Interactiven C-ROADS- ja En-ROADS-ilmastomallit. Lopuksi alaluvussa \ref{ilmasto:muut} otetaan lyhyt katsaus muutamaan muuhun tunnettuun ilmastomalliin. 
 
 \subsection{Ilmastomallien historia \label{ilmasto:historia}}
 
@@ -491,11 +492,15 @@ Tämän luvun tavoitteena on tutustuttaa lukija ilmastonmuutoksen mallintamiseen
 
 \subsection{C-ROADS-ilmastomalli \label{ilmasto:croads}}
 
-C-ROADS-ilmastomalli perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen ilmastomalliin. C-ROADS-ilmastomalli koostuu useasta alimallista. Kullekin kasvihuonekaasulle on oma alimallinsa, samoin metsien kasvattamiselle ja tuhoamiselle, meren pinnan korkeudelle sekä maapallolle kertyneelle lämpöenergialle. \cite{croads}
+C-ROADS-ilmastomalli on fysikaalinen ja perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen ilmastomalliin. C-ROADS-ilmastomalli koostuu useasta alimallista. Kullekin kasvihuonekaasulle on oma alimallinsa, samoin metsien kasvattamiselle ja tuhoamiselle, meren pinnan korkeudelle sekä maapallolle kertyneelle lämpöenergialle. \cite{croads}
 
-Kasvihuonekaasuista malliin on otettu hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2H$), perfluorohiiliyhdisteet ($PFC$), rikkiheksafluoridi ($SF_6$) sekä hydrofluorihiiliyhdisteet ($HFC$). Tarkimmin mallissa on esitetty hiilidioksidin kiertokulku, joten kasvihuonekaasuista tässä työssä esitetään vain sen alimalli. 
+Kasvihuonekaasuista malliin on otettu hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2O$), perfluorohiiliyhdisteet ($PFC$), rikkiheksafluoridi ($SF_6$) sekä hydrofluorihiiliyhdisteet ($HFC$). Tarkimmin mallissa on esitetty hiilidioksidin kiertokulku, joten kasvihuonekaasuista tässä työssä esitetään vain sen alimalli. 
 
-Seuraava kuva \ref{ilmasto:co2} on yksinkertaistettu hiilidioksidin alimalli, jossa on kuusi varastomuuttujaa, joista kukin kuvaa hiilidioksidivarastoa. Näitä varastoja ovat: ilmakehä (C in Atmosphere), biomassa (C in Biomass), maaperä (C in Humus), metsät (C AF Sequestered) sekä merten pinta- (C in Mixed Layer) ja syvät (C in Deep Ocean) kerrokset. Näistä ainoastaan ilmakehässä oleva hiilidioksidi vaikuttaa ilmaston lämpötilaan. Hiilidioksidia ei poistu systeemistä, mutta sitä tulee systeemiin kahdesta lähteestä, joista tärkeimpänä ihmisen aiheuttamat päästöt (Global total C emissions). Myös hiilidioksidiksi hapettuva metaani lisää hiilidioksidin määrää. Ilmakehän hiilidioksidia liukenee merten pintakerroksiin (Flux Atm to Ocean), josta se voi joko vapautua takaisin ilmakehään tai vajota meren pohjaan (Diffusion Flux). Ilmakehän hiilidioksidia sitoutuu myös metsiin ja biomassaan. Biomassasta hiilidioksidi voi vapautua takaisin ilmakehään tai vajota maaperään, josta se voi edelleen vapautua takaisin ilmakehään. Myös metsistä hiilidioksidi voi vapautua takaisin ilmakehään. Hiilidioksidin kohdalla ilmastonlämpenemistä ehkäistään siis vähentämällä hiilidioksidi- ja metaanipäästöjä sekä lisäämällä metsien ja biomassan määrää. Varastomuuttujilla on ylärajansa: metsiä ei voi kaataa loputtomasti ja meriin ei voi liueta loputtomasti hiilidioksidia. 
+Seuraava kuva \ref{ilmasto:co2} on yksinkertaistettu hiilidioksidin alimalli, jossa on kuusi varastomuuttujaa, joista kukin kuvaa hiilidioksidivarastoa. Näitä varastoja ovat: ilmakehä (C in Atmosphere), biomassa (C in Biomass), maaperä (C in Humus), metsät (C AF Sequestered) sekä merten pinta- (C in Mixed Layer) ja syvät (C in Deep Ocean) kerrokset. Näistä ainoastaan ilmakehässä oleva hiilidioksidi vaikuttaa ilmaston lämpötilaan. Hiilidioksidia ei poistu systeemistä, mutta sitä tulee systeemiin kahdesta lähteestä. Merkittävin lähde on ihmisen suoraan aiheuttamat päästöt (Global total C emissions), mutta myös ilmakehään vapautunut metaani hapettuu hiilidioksidiksi (C from CH4 oxidation). 
+
+Ilmakehän hiilidioksidia liukenee merten pintakerroksiin (Flux Atm to Ocean), josta se voi joko vapautua takaisin ilmakehään tai vajota meren syvempiin kerroksiin (Diffusion Flux). Ilmakehän hiilidioksidia sitoutuu myös metsiin ja biomassaan. Biomassasta hiilidioksidi voi vapautua takaisin ilmakehään tai vajota maaperään, josta se voi edelleen vapautua takaisin ilmakehään. Myös metsistä hiilidioksidi voi vapautua takaisin ilmakehään. Hiilidioksidin kohdalla ilmastonlämpenemistä ehkäistään siis vähentämällä hiilidioksidi- ja metaanipäästöjä sekä lisäämällä metsien ja biomassan määrää. Varastomuuttujilla on ylärajansa: metsiä ei voi kaataa loputtomasti ja meriin ei voi liueta loputtomasti hiilidioksidia. 
+
+
 
 \begin{figure}[H]
 \centering \includegraphics{c-roads-co2}
