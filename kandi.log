@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.23)  25 NOV 2013 01:07
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  27 NOV 2013 03:56
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
 (//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
@@ -1192,7 +1192,7 @@ hii-liyh-dis-teet ($\OML/cmm/m/it/12 PFC$\T1/cmr/m/n/12 ), rik-ki-hek-safluo-ri
 
 [9
 
-] <c-roads-co2.png, id=276, 422.32782pt x 430.60875pt>
+] <c-roads-co2.png, id=280, 422.32782pt x 430.60875pt>
 File: c-roads-co2.png Graphic file (type png)
  <use c-roads-co2.png>
 [10 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-co2.png>]
@@ -1211,13 +1211,13 @@ Package rerunfilecheck Info: File `kandi.out' has not changed.
 (rerunfilecheck)             Checksum: CF0B74F20198C2694F4E4DF2879AEE02;1161.
  ) 
 Here is how much of TeX's memory you used:
- 15863 strings out of 494053
- 281588 string characters out of 3147733
- 770056 words of memory out of 3000000
- 18717 multiletter control sequences out of 15000+200000
+ 15867 strings out of 494053
+ 281638 string characters out of 3147733
+ 770118 words of memory out of 3000000
+ 18719 multiletter control sequences out of 15000+200000
  25371 words of font info for 49 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 70i,10n,59p,1519b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,10n,59p,1516b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/P
 ROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/fontname/8r.enc}<C:/PROGRAMS/MiKTeX/M
 iKTeX_2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_
@@ -1235,9 +1235,9 @@ X_2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/f
 onts/type1/public/cm-super/sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/ty
 pe1/public/cm-super/sfti1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw
 /helvetic/uhvb8a.pfb>
-Output written on kandi.pdf (18 pages, 333464 bytes).
+Output written on kandi.pdf (18 pages, 334861 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
  207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
