@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {3}Ilmastonmuutoksen mallintaminen }{8}{section.3}
 \contentsline {subsection}{\numberline {3.1}Ilmastomallien historia }{8}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}C-ROADS-ilmastomalli }{8}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}En-ROADS-ilmastomalli }{11}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Muita ilmastomalleja }{11}{subsection.3.4}
-\contentsline {section}{\numberline {4}Yhteenveto }{12}{section.4}
-\contentsline {section}{Viitteet}{13}{section*.6}
+\contentsline {subsection}{\numberline {3.3}En-ROADS-ilmastomalli }{14}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Muita ilmastomalleja }{14}{subsection.3.4}
+\contentsline {section}{\numberline {4}Yhteenveto }{15}{section.4}
+\contentsline {section}{Viitteet}{16}{section*.6}
