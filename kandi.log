@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  27 NOV 2013 06:33
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  27 NOV 2013 08:47
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
 (//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
@@ -1223,7 +1223,7 @@ Package rerunfilecheck Info: File `kandi.out' has not changed.
 Here is how much of TeX's memory you used:
  15865 strings out of 494053
  281606 string characters out of 3147733
- 770134 words of memory out of 3000000
+ 770135 words of memory out of 3000000
  18719 multiletter control sequences out of 15000+200000
  25371 words of font info for 49 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1245,7 +1245,7 @@ X_2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/f
 onts/type1/public/cm-super/sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/ty
 pe1/public/cm-super/sfti1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw
 /helvetic/uhvb8a.pfb>
-Output written on kandi.pdf (18 pages, 342557 bytes).
+Output written on kandi.pdf (18 pages, 342558 bytes).
 PDF statistics:
  360 PDF objects out of 1000 (max. 8388607)
  58 named destinations out of 1000 (max. 500000)
