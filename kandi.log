@@ -1,21 +1,21 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.20)  27 NOV 2013 11:25
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.3)  3 DEC 2013 16:49
 entering extended mode
-**kandi.tex
-("C:\Users\Juho Salmi\Documents\GitHub\kandi\kandi.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+**//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
+(//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -30,39 +30,39 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\Juho Salmi\Documents\GitHub\kandi\aaltothesis.sty"
+(\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\aaltothesis.sty
 Package: aaltothesis 2013/09/26 Version 1.7
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\babel\babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\00miktex\bblopts.cfg
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\finnish.ldf"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\babel\finnish.ldf
 Language: finnish 2007/10/20 v1.3q Finnish support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\babel\babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 89.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\tools\calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count88
 \calc@Bcount=\count89
@@ -75,19 +75,19 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count90
 \calc@Cskip=\skip45
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -237,7 +237,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -268,7 +268,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -292,14 +292,14 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -449,7 +449,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -480,7 +480,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -504,61 +504,54 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/01/28 v0.05d Graphics/color for pdfTeX
 \Gread@gobject=\count91
 ))
-("C:\Users\Juho Salmi\Documents\GitHub\kandi\aaltologo.sty"
+(\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\aaltologo.sty
 Package: aaltologo 2011/02/19 v1.1.2 Package for drawing Aalto University logos
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\pgf\frontendlayer\tikz.sty
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\pgf\basiclayer\pgf.sty
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\utilities\pgfutil-latex.def
 \pgfutil@abb=\box26
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
 Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
 ))
 Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
@@ -566,16 +559,16 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks18
 \pgfkeys@temptoks=\toks19
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
-x"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.t
+ex
 \pgfkeys@tmptoks=\toks20
 ))
 \pgf@x=\dimen108
@@ -592,31 +585,31 @@ x"
 \c@pgf@countb=\count93
 \c@pgf@countc=\count94
 \c@pgf@countd=\count95
- ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+ (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\systemlayer\pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
-"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.de
+f
 File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
-ex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.
+tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
 \pgfsyssoftpath@smallbuffer@items=\count96
 \pgfsyssoftpath@bigbuffer@items=\count97
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
-ex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.
+tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+)) (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -631,13 +624,13 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
 Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmath.code.tex
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmathcalc.code.tex
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmathutil.code.tex)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen116
 \pgfmath@count=\count98
 \pgfmath@box=\box27
@@ -645,26 +638,26 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks22
 \pgfmath@stack@operation=\toks23
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
-ic.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
-.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
-code.tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
-ex"))) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
-"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code
+.tex)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmathfunctions.trigonomet
+ric.code.tex)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmathfunctions.random.cod
+e.tex)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmathfunctions.comparison
+.code.tex)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.
+tex)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmathfunctions.round.code
+.tex)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.
+tex)))
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count99
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
-"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.te
+x
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@picminx=\dimen117
 \pgf@picmaxx=\dimen118
@@ -681,108 +674,108 @@ File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@zx=\dimen129
 \pgf@zy=\dimen130
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
-ode.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.
+code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
 \pgf@path@lastx=\dimen131
 \pgf@path@lasty=\dimen132
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
-tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code
+.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 \pgf@shorten@end@additional=\dimen133
 \pgf@shorten@start@additional=\dimen134
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
-"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.te
+x
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box28
 \pgf@hbox=\box29
 \pgf@layerbox@main=\box30
 \pgf@picture@serial@count=\count100
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
-de.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.c
+ode.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
 \pgflinewidth=\dimen135
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
-.code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcoretransformation
+s.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
 \pgf@pt@x=\dimen136
 \pgf@pt@y=\dimen137
 \pgf@pt@temp=\dimen138
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
-x"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.t
+ex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
-code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing
+.code.tex
 File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
-"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.te
+x
 File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen139
 \pgf@sys@shading@range@num=\count101
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
-x"
+)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
-ex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.
+tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
 \pgfexternal@startupbox=\box31
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
-"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.te
+x
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
-de.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.c
+ode.tex
 File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
-ex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.
+tex
 File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
 \pgfnodeparttextbox=\box32
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+) (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
-sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65
+.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen140
 \pgf@nodesepend=\dimen141
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
-sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18
+.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+)) (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\pgf\utilities\pgffor.sty
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\pgf\utilities\pgfkeys.sty
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\utilities\pgfkeys.code.tex))
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\utilities\pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen142
 \pgffor@skip=\dimen143
 \pgffor@stack=\toks24
 \pgffor@toks=\toks25
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
-code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\libraries\pgflibraryplothandlers
+.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count102
 \pgfplotmarksize=\dimen144
@@ -800,7 +793,7 @@ File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \tikznumberofcurrentchild=\count105
 \tikz@fig@count=\count106
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 \pgfmatrixcurrentrow=\count107
 \pgfmatrixcurrentcolumn=\count108
@@ -808,11 +801,12 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 )
 \tikz@expandcount=\count110
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-librarytopaths.code.tex"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tik
+zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-))) ("C:\Program Files\MiKTeX 2.9\tex\latex\lcg\lcg.sty"
-Package: lcg 2013/08/09 v1.3 generating random numbers
+)))
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\lcg\lcg.sty
+Package: lcg 2008/09/10 v1.2 generating random numbers
 \f@rst=\count111
 \l@st=\count112
 \cr@nd=\count113
@@ -821,17 +815,17 @@ Package: lcg 2013/08/09 v1.3 generating random numbers
 Smallest possible random number: 1
 Largest possible random number: 2147483647
 The pseudo random numbers will be stored in the LaTeX counter `rand'
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+) (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\base\t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\newcent.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\psnfss\newcent.sty
 Package: newcent 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\psnfss\helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
 Random number generator initialized to 0
@@ -859,7 +853,7 @@ The pseudo random numbers will be stored in the LaTeX counter `rand'
 \keywdparheight=\skip52
 \absheadlen=\skip53
 \auxwidth=\skip54
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+) (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count123
 \float@exts=\toks26
@@ -867,75 +861,79 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks27
 \@floatcapt=\box36
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2011/02/07 v6.82b Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\etexcmds.sty
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\pdfescape.sty
+Package: pdfescape 2010/03/01 v1.9 Provides hex, PDF name and string conversion
+s (HO)
 )
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\hycolor.sty
+Package: hycolor 2009/12/12 v1.6 Color options of hyperref/bookmark (HO)
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\xcolor-patch.sty
+Package: xcolor-patch 2009/12/12 xcolor patch
+))
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\letltxmacro.sty
+Package: letltxmacro 2008/06/24 v1.3 Let assignment for LaTeX macros (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
 )
 \@linkdim=\dimen151
 \Hy@linkcounter=\count124
 \Hy@pagecounter=\count125
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2011/02/07 v6.82b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
 \Hy@SavedSpaceFactor=\count126
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 
@@ -947,35 +945,45 @@ Package hyperref Warning: Values of option `pdfpagemode':
 (hyperref)                * `UseOC' (PDF 1.5)
 (hyperref)                * `UseAttachments' (PDF 1.6)
 (hyperref)                * An empty value disables the option.
-(hyperref)                Unknown value `None' on input line 4319.
+(hyperref)                Unknown value `None' on input line 3921.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Option `colorlinks' set `true' on input line 3921.
+Package hyperref Info: Hyper figures OFF on input line 4025.
+Package hyperref Info: Link nesting OFF on input line 4030.
+Package hyperref Info: Hyper index ON on input line 4033.
+Package hyperref Info: Plain pages OFF on input line 4040.
+Package hyperref Info: Backreferencing OFF on input line 4045.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
+Package hyperref Info: Bookmarks ON on input line 4263.
 \c@Hy@tempcnt=\count127
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\ltxmisc\url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen152
+LaTeX Info: Redefining \url on input line 4616.
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+))
 \Fld@menulength=\count128
-\Field@Width=\dimen153
-\Fld@charsize=\dimen154
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring ON on input line 6313.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
+Package hyperref Info: Hyper figures OFF on input line 5700.
+Package hyperref Info: Link nesting OFF on input line 5705.
+Package hyperref Info: Hyper index ON on input line 5708.
+Package hyperref Info: backreferencing OFF on input line 5715.
+Package hyperref Info: Link coloring ON on input line 5718.
+Package hyperref Info: Link coloring with OCG OFF on input line 5725.
+Package hyperref Info: PDF/A mode OFF on input line 5730.
+LaTeX Info: Redefining \ref on input line 5770.
+LaTeX Info: Redefining \pageref on input line 5774.
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\atbegshi.sty
+Package: atbegshi 2010/03/25 v1.12 At begin shipout hook (HO)
+)
 \Hy@abspage=\count129
 \c@Item=\count130
 \c@Hfootnote=\count131
@@ -983,43 +991,53 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver: hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2011/02/07 v6.82b Hyperref driver for pdfTeX
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\atveryend.sty
+Package: atveryend 2010/03/24 v1.5 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+)
 \Fld@listcount=\count132
 \c@bookmark@seq@number=\count133
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\rerunfilecheck.sty
+Package: rerunfilecheck 2010/03/16 v1.6 Rerun checks for auxiliary files (HO)
+
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\uniquecounter.sty
+Package: uniquecounter 2009/12/18 v1.1 Provides unlimited unique counter (HO)
+)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+71.
 )
 \Hy@SectionHShift=\skip55
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks28
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\ams\math\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\ams\math\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks29
-\ex@=\dimen155
+\ex@=\dimen154
 )
-\pmbraise@=\dimen156
+\pmbraise@=\dimen155
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
-("C:\Users\Juho Salmi\Documents\GitHub\kandi\kandi.aux")
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\setspace\setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
 LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
@@ -1035,51 +1053,53 @@ LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
 LaTeX Font Info:    ... okay on input line 115.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count134
-\scratchdimen=\dimen157
+\scratchdimen=\dimen156
 \scratchbox=\box37
 \nofMPsegments=\count135
 \nofMParguments=\count136
 \everyMPshowfont=\toks30
 \MPscratchCnt=\count137
-\MPscratchDim=\dimen158
+\MPscratchDim=\dimen157
 \MPnumerator=\count138
-\makeMPintoPDFobject=\count139
 \everyMPtoPDFconversion=\toks31
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box38
 Package hyperref Info: Link coloring ON on input line 115.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\hyperref\nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\oberdiek\refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count140
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\generic\oberdiek\gettitlestring.sty
+Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
+)
+\c@section@level=\count139
 )
 LaTeX Info: Redefining \ref on input line 115.
 LaTeX Info: Redefining \pageref on input line 115.
 LaTeX Info: Redefining \nameref on input line 115.
 
-("C:\Users\Juho Salmi\Documents\GitHub\kandi\kandi.out")
-("C:\Users\Juho Salmi\Documents\GitHub\kandi\kandi.out")
+(\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.out)
+(\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.out)
 \@outlinefile=\write4
 LaTeX Font Info:    Try loading font information for U+msa on input line 213.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 213.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for T1+phv on input line 213.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\psnfss\t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
@@ -1118,174 +1138,131 @@ Overfull \hbox (2.00002pt too wide) in paragraph at lines 239--241
 
 ] [4
 
-] ("C:\Users\Juho Salmi\Documents\GitHub\kandi\kandi.toc")
+] (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.toc)
 \tf@toc=\write5
- [5] [1
 
-]
-[2
+[5] [1
+
+] [2
 
 ] <tapahtuma.png, id=160, 327.47343pt x 82.05656pt>
 File: tapahtuma.png Graphic file (type png)
- <use tapahtuma.png>
-Package pdftex.def Info: tapahtuma.png used on input line 404.
-(pdftex.def)             Requested size: 327.47264pt x 82.05635pt.
 
+<use tapahtuma.png>
 <takaisinkytkentasuuntautunut.png, id=165, 225.09094pt x 128.73094pt>
 File: takaisinkytkentasuuntautunut.png Graphic file (type png)
 
-<use takaisinkytkentasuuntautunut.png>
-Package pdftex.def Info: takaisinkytkentasuuntautunut.png used on input line 41
-1.
-(pdftex.def)             Requested size: 225.09038pt x 128.7306pt.
- [3 <C:/Users/Juho Salmi/Documents/GitHub/kandi/tapahtuma.png>]
+<use takaisinkytkentasuuntautunut.png> [3 <//home.org.aalto.fi/jtsalmi/data/Des
+ktop/GitHub/kandi/tapahtuma.png>]
 <laajennettutakaisinkytkentasuuntautunut.png, id=178, 358.33875pt x 234.1247pt>
 File: laajennettutakaisinkytkentasuuntautunut.png Graphic file (type png)
-<use laajennettutakaisinkytkentasuuntautunut.png>
-Package pdftex.def Info: laajennettutakaisinkytkentasuuntautunut.png used on in
-put line 418.
-(pdftex.def)             Requested size: 358.33788pt x 234.12411pt.
- [4 <C:/Users/Juho Salmi/Documents/GitHub/kandi/takaisinkytkentasuuntautunut.pn
-g> <C:/Users/Juho Salmi/Documents/GitHub/kandi/laajennettutakaisinkytkentasuunt
-autunut.png>]
-<positiivinen.png, id=195, 184.43906pt x 109.91063pt>
+<use laajennettutakaisinkytkentasuuntautunut.png> [4 <//home.org.aalto.fi/jtsal
+mi/data/Desktop/GitHub/kandi/takaisinkytkentasuuntautunut.png> <//home.org.aalt
+o.fi/jtsalmi/data/Desktop/GitHub/kandi/laajennettutakaisinkytkentasuuntautunut.
+png>] <positiivinen.png, id=196, 184.43906pt x 109.91063pt>
 File: positiivinen.png Graphic file (type png)
- <use positiivinen.png>
-Package pdftex.def Info: positiivinen.png used on input line 434.
-(pdftex.def)             Requested size: 184.4386pt x 109.91034pt.
 
-[5 <C:/Users/Juho Salmi/Documents/GitHub/kandi/positiivinen.png>]
-<negatiivinen.png, id=207, 189.70876pt x 108.405pt>
+<use positiivinen.png> [5] <negatiivinen.png, id=206, 189.70876pt x 108.405pt>
 File: negatiivinen.png Graphic file (type png)
- <use negatiivinen.png>
-Package pdftex.def Info: negatiivinen.png used on input line 441.
-(pdftex.def)             Requested size: 189.70828pt x 108.40472pt.
 
-<viive.png, id=214, 183.68625pt x 64.74188pt>
+<use negatiivinen.png> <viive.png, id=213, 183.68625pt x 64.74188pt>
 File: viive.png Graphic file (type png)
- <use viive.png>
-Package pdftex.def Info: viive.png used on input line 452.
-(pdftex.def)             Requested size: 183.68578pt x 64.74171pt.
- [6 <C:/Users/Juho Salmi/Documents/GitHub/kandi/negatiivinen.png> <C:/Users/Juh
-o Salmi/Documents/GitHub/kandi/viive.png>] <varastovirtaus.png, id=226, 271.012
-5pt x 65.49469pt>
+
+<use viive.png> [6 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/posit
+iivinen.png> <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/negatiivine
+n.png>] <varastovirtaus.png, id=225, 271.0125pt x 65.49469pt>
 File: varastovirtaus.png Graphic file (type png)
 
 <use varastovirtaus.png>
-Package pdftex.def Info: varastovirtaus.png used on input line 459.
-(pdftex.def)             Requested size: 271.01183pt x 65.4945pt.
-
-<varastovirtauskana.png, id=232, 184.43906pt x 131.74219pt>
+<varastovirtauskana.png, id=231, 184.43906pt x 131.74219pt>
 File: varastovirtauskana.png Graphic file (type png)
 
-<use varastovirtauskana.png>
-Package pdftex.def Info: varastovirtauskana.png used on input line 472.
-(pdftex.def)             Requested size: 184.4386pt x 131.74185pt.
- [7 <C:/Users/Juho Salmi/Documents/GitHub/kandi/varastovirtaus.png> <C:/Users/J
-uho Salmi/Documents/GitHub/kandi/varastovirtauskana.png>] [8
+<use varastovirtauskana.png> [7 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHu
+b/kandi/viive.png> <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/varas
+tovirtaus.png>] [8 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/varas
+tovirtauskana.png>] [9
 
 ]
-Overfull \hbox (10.72281pt too wide) in paragraph at lines 497--498
+Overfull \hbox (10.72281pt too wide) in paragraph at lines 499--500
 \T1/cmr/m/n/12 diok-si-di ($\OML/cmm/m/it/12 N[]O$\T1/cmr/m/n/12 ), perfluo-ro-
 hii-liyh-dis-teet ($\OML/cmm/m/it/12 PFC$\T1/cmr/m/n/12 ), rik-ki-hek-safluo-ri
 -di ($\OML/cmm/m/it/12 SF[]$\T1/cmr/m/n/12 ) se-kä hydrofluo-
  []
 
-<c-roads-co2.png, id=264, 422.32782pt x 430.60875pt>
+<c-roads-co2.png, id=268, 422.32782pt x 430.60875pt>
 File: c-roads-co2.png Graphic file (type png)
  <use c-roads-co2.png>
-Package pdftex.def Info: c-roads-co2.png used on input line 504.
-(pdftex.def)             Requested size: 422.32678pt x 430.60768pt.
-
-[9] [10 <C:/Users/Juho Salmi/Documents/GitHub/kandi/c-roads-co2.png>]
-Overfull \hbox (2.10507pt too wide) in paragraph at lines 510--511
+[10] [11 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-co2.png
+>]
+Overfull \hbox (2.10507pt too wide) in paragraph at lines 512--513
 []\T1/cmr/m/n/12 Seuraava ku-va [][]10[][] on C-ROADS-ilmastomallin läm-pö-ener
 -gian kier-to-ku-lun kausaa-
  []
 
-<c-roads-heat.png, id=276, 513.41812pt x 429.85594pt>
+<c-roads-heat.png, id=281, 513.41812pt x 429.85594pt>
 File: c-roads-heat.png Graphic file (type png)
  <use c-roads-heat.png>
-Package pdftex.def Info: c-roads-heat.png used on input line 513.
-(pdftex.def)             Requested size: 426.79134pt x 357.3313pt.
-
-[11
-
- <C:/Users/Juho Salmi/Documents/GitHub/kandi/c-roads-heat.png>]
-<c-roads-slr.png, id=284, 587.19376pt x 254.45062pt>
-File: c-roads-slr.png Graphic file (type png)
- <use c-roads-slr.png>
-Package pdftex.def Info: c-roads-slr.png used on input line 522.
-(pdftex.def)             Requested size: 426.79134pt x 184.94371pt.
-
 [12
 
- <C:/Users/Juho Salmi/Documents/GitHub/kandi/c-roads-slr.png>]
-<c-roads-af.png, id=292, 624.08156pt x 367.3725pt>
-File: c-roads-af.png Graphic file (type png)
- <use c-roads-af.png>
-Package pdftex.def Info: c-roads-af.png used on input line 531.
-(pdftex.def)             Requested size: 426.79134pt x 251.23941pt.
-
-<c-roads-df.png, id=293, 501.37312pt x 319.1925pt>
-File: c-roads-df.png Graphic file (type png)
- <use c-roads-df.png>
-Package pdftex.def Info: c-roads-df.png used on input line 536.
-(pdftex.def)             Requested size: 426.79134pt x 271.72401pt.
-
+ <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-heat.png>]
+<c-roads-slr.png, id=289, 587.19376pt x 254.45062pt>
+File: c-roads-slr.png Graphic file (type png)
+ <use c-roads-slr.png>
 [13
 
- <C:/Users/Juho Salmi/Documents/GitHub/kandi/c-roads-af.png> <C:/Users/Juho Sal
-mi/Documents/GitHub/kandi/c-roads-df.png>] [14] [15
+ <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-slr.png>]
+<c-roads-af.png, id=297, 624.08156pt x 367.3725pt>
+File: c-roads-af.png Graphic file (type png)
+ <use c-roads-af.png>
+<c-roads-df.png, id=298, 501.37312pt x 319.1925pt>
+File: c-roads-df.png Graphic file (type png)
+ <use c-roads-df.png>
+[14
+
+ <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-af.png> <//home
+.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-df.png>] [15]
+[16
+
+] (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 568.
+ [17
 
 ]
-("C:\Users\Juho Salmi\Documents\GitHub\kandi\kandi.bbl")
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
- [16
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 568.
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
-
-("C:\Users\Juho Salmi\Documents\GitHub\kandi\kandi.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 566.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 566.
+(\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 568.
 Package rerunfilecheck Info: File `kandi.out' has not changed.
 (rerunfilecheck)             Checksum: A147FEE4232D4879EF6F72E8DDDAC83C;1103.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 566.
  ) 
 Here is how much of TeX's memory you used:
- 16117 strings out of 493921
- 283608 string characters out of 3147267
- 773416 words of memory out of 3000000
- 19008 multiletter control sequences out of 15000+200000
+ 15890 strings out of 494053
+ 281970 string characters out of 3147734
+ 770319 words of memory out of 3000000
+ 18734 multiletter control sequences out of 15000+200000
  25371 words of font info for 49 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 70i,10n,59p,978b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Juho Salmi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
-i600\ecti1200.pk> <C:\Users\Juho Salmi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Juho Salmi\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Juho Salmi\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Juho S
-almi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <
-C:\Users\Juho Salmi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx1095.pk> <C:\Users\Juho Salmi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
-appen\ec\dpi600\ecrm1095.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontna
-me/8r.enc} <C:\Users\Juho Salmi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
-en\ec\dpi600\ecbx1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/urw/helvetic/uhvb8a.pfb>
-Output written on kandi.pdf (21 pages, 329300 bytes).
+ 715 hyphenation exceptions out of 8191
+ 70i,10n,59p,1032b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/P
+ROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/fontname/8r.enc}<C:/PROGRAMS/MiKTeX/M
+iKTeX_2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_
+2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfbx1095.p
+fb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/
+PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/PROGRAM
+S/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/PROGRAMS/MiKTe
+X/MiKTeX_2.9/fonts/type1/public/cm-super/sfcc1200.pfb><C:/PROGRAMS/MiKTeX/MiKTe
+X_2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/f
+onts/type1/public/cm-super/sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/ty
+pe1/public/cm-super/sfti1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw
+/helvetic/uhvb8a.pfb>
+Output written on kandi.pdf (22 pages, 393429 bytes).
 PDF statistics:
- 664 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
+ 390 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
  214 words of extra memory for PDF output out of 10000 (max. 10000000)
 

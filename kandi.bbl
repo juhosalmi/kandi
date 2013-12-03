@@ -1,11 +1,8 @@
 \begin{thebibliography}{1}
 
-\bibitem{WhatIsSystemDynamics}
-{What is system dynamics?}
-
 \bibitem{croads}
 {Climate Interactive}.
-\newblock {C-ROADS Web Page}.
+\newblock {C-ROADS}.
 
 \bibitem{Fiddaman1997}
 Thomas~S Fiddaman.
@@ -34,8 +31,13 @@ Jay~W Forrester.
 
 \bibitem{Sterman2000}
 John~D. Sterman.
-\newblock {\em {Business Dynamics}}.
-\newblock Jeffrey J. Shelstad, 2000.
+\newblock {\em {Business Dynamics: Systems Thinking and Modeling for a Complex
+  World}}.
+\newblock McGraw-Hill, Boston, 2000.
+
+\bibitem{WhatIsSystemDynamics}
+{System Dynamics Society}.
+\newblock {What is system dynamics?}
 
 \bibitem{Zadeh1973}
 Lotfi~a. Zadeh.

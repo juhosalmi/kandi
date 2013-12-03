@@ -361,20 +361,18 @@ Ilmastonmuutos on tilastollisesti merkittävää ja pitkäkestoista muutosta glo
 
 Ilmastonmuutosta mallinnetaan, jotta kykenisimme arvioimaan, millaisia vaikutuksia toiminnallamme on, ja millaisin päätöksin voisimme saada ilmaston kehittymään haluttuun suuntaan. Ilmastoa ja sen muutosta mallinnetaan tieteellisiin tarkoituksiin pääasiassa tarkoilla fysikaalisilla malleilla. Tarkat mallit ovat laskennallisesti raskaita, eivätkä ne ole maallikon tai poliittisen päättäjän ymmärrettävissä. Systeemidynamiikalla voidaan ilmastomalli esittää ymmärrettävässä muodossa siten, että päättäjä kykeneei hahmottamaan, mistä mallissa on kyse. Tämän lisäksi systeemidynaaminen simulaatio on ajettavissa hetkessä, joten esimerkiksi ympäristöpoliittisten päätösten seuraukset on nopeasti havainnollistettavissa. 
 
-Tämän kandidaatintyön tavoite on tutkia systeemidynamiikkaa ja sen soveltamista ilmastonmuutoksen mallintamiseen ja simulointiin. Luvussa \ref{sysdyn} otetaan katsaus systeemidynamiikan perusperiaatteisiin. Luvussa \ref{ilmasto} tutustutaan ilmastonmuutokseen ja sen mallintamiseen. Ilmastonmuutoksen systeemidynaaminen mallintaminen havainnollistetaan kahta esimerkkiä käyttäen. Lopuksi luvussa \ref{yhteenveto} tehdään yhteenveto tämän kandidaatintyön löydöksistä ja havainnoista. 
+%\subsection*{Tutkimuksen tavoitteet}
+Tämän kandidaatintyön tavoite on tutustua systeemidynamiikkaan ja sekä tutkia sen soveltamista ilmastonmuutoksen mallintamiseen ja simulointiin. 
+
+%\subsection*{Menetelmät}
 
 
-%% Opinnäytteessä jokainen osa alkaa uudelta sivulta, joten \clearpage
-%%
-%% In a thesis, every section starts a new page, hence \clearpage
+%\subsection*{Työn rakenne}
+Luvussa \ref{sysdyn} otetaan katsaus systeemidynamiikan perusperiaatteisiin. Luvussa \ref{ilmasto} tutustutaan ilmastonmuutokseen ja sen mallintamiseen. Ilmastonmuutoksen systeemidynaaminen mallintaminen havainnollistetaan kahta esimerkkiä käyttäen. Lopuksi luvussa \ref{yhteenveto} tehdään yhteenveto tämän kandidaatintyön löydöksistä ja havainnoista. 
+
 \clearpage
 
-% \section{Teoreettinen tausta}
-% \section{Background}
-
-
 \section{Systeemidynamiikka \label{sysdyn}}
-
 
 Systeemi eli järjestelmä tarkoittaa toistensa kanssa vuorovaikutuksessa olevien osien muodostamaa kokonaisuutta \cite{Flood1988}. Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja mutkikkaiden systeemien mallintamiseen \cite{WhatIsSystemDynamics}. Mutkikkaalle systeemille ei ole yksikäsitteistä määritelmää \cite{Zadeh1973}, mutta systeemidynamiikalla kyetään mallintamaan erityisesti systeemien takaisinkytkentöjä ja epälineaarisuuksia \cite{WhatIsSystemDynamics}, jotka ovat systeemin mutkikkuutta lisääviä ominaisuuksia \cite{Zadeh1973}. % Perustele termin valinta?
 
@@ -426,7 +424,9 @@ Systeemeillä on tuloja ja lähtöjä. Tulot (myös sisääntulo, eng. input) ov
 
 Stermanin \cite[s. 12]{Sterman2000} mukaan takaisinkytkennät vaikuttavat systeemin mutkikkuuteen enemmän kuin järjestelmän osien mutkikkuus itse. Tämän vuoksi takaisinkytkentöjen löytäminen on keskeisin osa systeemidynaamista mallinnusta. 
 
-Systeemidynaamisia malleja esitetään kausaalidiagrammein, joihin merkitään systeemin osat eli muuttujanimet sekä niiden väliset vuorovaikutussuhteet kausaaliyhteysnuolten avulla. Nuolet piirretään lähtemään muuttujasta, joka vaikuttaa nuolen päätepisteen muuttujaan. Nuoliin merkitään plus- tai miinus merkki sen mukaan, kasvattaako vaiko vähentääkö lähtömuuttujan arvon kasvu tulomuuttujan arvoa. Nuolet piirretään kaareviksi, jotta systeemin dynamiikkaa, etenkin silmukat, olisi helpompi hahmottaa. \cite{Sterman2000}
+Systeemidynaamisia malleja esitetään kausaalidiagrammein, joihin merkitään systeemin osat eli muuttujanimet sekä niiden väliset vuorovaikutussuhteet kausaaliyhteysnuolten avulla. Nuolet piirretään lähtemään muuttujasta, joka vaikuttaa nuolen päätepisteen muuttujaan. Toisin sanoen nuoli kuvaa sitä, että nuolen alkupään muuttujan arvo eli lähtö toimii nuolen loppupään tulona. Nuoliin merkitään plus- tai miinusmerkki sen mukaan, kasvattaako vaiko vähentääkö lähtömuuttujan arvon kasvu tulomuuttujan arvoa. Nuolet piirretään kaareviksi, jotta systeemin dynamiikkaa, etenkin silmukat, olisi helpompi hahmottaa. \cite{Sterman2000}
+
+Systeemeissä on sisäsyntyisiä eli endogeenisiä sekä ulkosyntyisiä eli eksogeenisiä muuttujia. Sisäsyntyisen muuttujan arvo määräytyy systeemin sisäisen dynamiikan seurauksena, kun taas ulkosyntyisen muuttujan arvo annetaan systeemin ulkopuolelta, eikä näin ollen riipu systeemin tilasta. \cite{Sterman2000} % Viiteviilausta! "Kausaalidiagrammin ulkosyntyiseen muuttujaan ei siis mene yhtään nuolta." 
 
 Takaisinkytkettyjä silmukoita on kahdenlaisia: negatiivisia ja positiivisia. Positiiviset silmukat ovat itseään vahvistavia. Seuraavassa kuvassa \ref{sysdyn:positiivinen} on positiivinen takaisinkytketty silmukka, jossa kanojen määrä lisää munien määrää, mikä puolestaan lisää kanojen määrää. Positiiviset silmukat merkitään kausaalidiagrammiin kuvan \ref{sysdyn:positiivinen} mukaisesti R-kirjaimella, mikä tulee englannin kielen sanasta "reinforcing" eli suomeksi "vahvistava". \cite[s. 12--13]{Sterman2000}\cite{WhatIsSystemDynamics}
 
@@ -482,9 +482,11 @@ Ilmastonmuutoksen mallintamiseen tarvitaan aina jonkinlainen fysikaalinen malli.
 
 Systeemidynaamiset fysiikkamallit ovat pääsääntöisesti karkeita ja ottavat huomioon vain yksittäisiä maailmanlaajuisia suureita. Näin ollen mallin simuloiminen on nopeaa. Tässä työssä esiteltävien systeemidynaamisten ilmastomallien simuloiminen vie kotikoneella sekunnin murto-osan. Systeemidynaamiset fysiikkamallit viritetään ja validoidaan historiadatalla sekä tarkkojen fysiikkamallien avulla: kun systeemidynaaminen fysiikkamalli tekee oikeita ennustuksia historiadatan pohjalta sekä vastaavia ennustuksia kuin yleisesti hyväksytyt fysiikkamallit, voidaan malli katsoa oikeaksi. [viite]
 
-Fysiikkamallin voi laajentaa ihmisiin. Ilmastomalleilla voidaan myös tutkia, miten ilmastonmuutos vaikuttaa esimerkiksi väestönkasvuun, talouskasvuun ja hyvinvointiin. Tällaisia eri tieteenaloja yhdisteleviä malleja kutsutaan integroiduiksi malleiksi. [viite]
+Fysiikkamallin voi laajentaa ihmisiin. Eri tieteenaloja yhdisteleviä malleja kutsutaan integroiduiksi malleiksi. Integroiduilla ilmastomalleilla voidaan esimerkiksi tutkia, miten ilmastonmuutos, väestönkasvu, talouskasvu ja hyvinvointi vaikuttavat toisiinsa. [viite]
 
-Tämän luvun tavoitteena on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja sitten systeemidynaamisiin malleihin pureutuen. Aluksi alaluvussa \ref{ilmasto:historia} tutustutaan ilmastonmuutoksen ja ilmastomallien historiaan sekä hahmotellaan, miksi myös mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Seuraavat alaluvut \ref{ilmasto:croads} ja \ref{ilmasto:enroads} esittelevät systeemidynaamiset Climate Interactiven C-ROADS- ja En-ROADS-ilmastomallit. Lopuksi alaluvussa \ref{ilmasto:muut} otetaan lyhyt katsaus muutamaan muuhun tunnettuun ilmastomalliin. 
+Tässä työssä ilmastomalleja esiteltäessä ja vertailtaessa keskitytään systeemidynamiikan kannalta olennaisiin asioihin. Tutkitaan, mitä on mallinnettu ja jätetty mallintamatta, millaisia ovat mallin keskeiset takaisinkytkennät ja mitkä muuttujat on mallinnettu ulkosyntyisiksi. 
+
+Tämän luvun tavoitteena on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja sitten systeemidynaamisiin malleihin pureutuen. Aluksi alaluvussa \ref{ilmasto:historia} tutustutaan ilmastonmuutoksen ja ilmastomallien historiaan sekä hahmotellaan, miksi mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Seuraavat alaluvut \ref{ilmasto:croads} ja \ref{ilmasto:enroads} esittelevät systeemidynaamiset Climate Interactiven C-ROADS- ja En-ROADS-ilmastomallit. Lopuksi alaluvussa \ref{ilmasto:muut} otetaan lyhyt katsaus muutamaan muuhun tunnettuun ilmastomalliin. 
 
 \subsection{Ilmastomallien historia \label{ilmasto:historia}}
 
@@ -492,13 +494,15 @@ Tämän luvun tavoitteena on tutustuttaa lukija ilmastonmuutoksen mallintamiseen
 
 \subsection{C-ROADS-ilmastomalli \label{ilmasto:croads}}
 
-C-ROADS-ilmastomalli on fysikaalinen ja perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen ilmastomalliin. C-ROADS-ilmastomalli koostuu useasta alimallista. Kullekin kasvihuonekaasulle on oma alimallinsa, samoin metsien kasvattamiselle ja tuhoamiselle, meren pinnan korkeudelle sekä maapallolle kertyneelle lämpöenergialle. \cite{croads} Seuraavaksi tutustutaan C-ROADS:n keskeisiin alimalleihin. Havainnollistamisessa käytetään apuna mallin kausaalidiagrammeja, joista on selkeyden vuoksi piilotettu osa muuttujista ja vuorovaikutukista. 
+C-ROADS-ilmastomalli on fysikaalinen ja perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen FREE-ilmastomalliin. C-ROADS-ilmastomalli koostuu useasta alimallista. Kullekin kasvihuonekaasulle on oma alimallinsa, samoin metsien kasvamiselle ja tuhoutumiselle, meren pinnan korkeudelle sekä maapallolle kertyneelle lämpöenergialle. \cite{croads} Seuraavaksi tutustutaan C-ROADS:n keskeisiin alimalleihin. Havainnollistamisessa käytetään apuna mallin kausaalidiagrammeja, joista on selkeyden vuoksi piilotettu osa muuttujista ja vuorovaikutukista. 
 
 Kasvihuonekaasuista malliin on otettu hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2O$), perfluorohiiliyhdisteet ($PFC$), rikkiheksafluoridi ($SF_6$) sekä hydrofluorihiiliyhdisteet ($HFC$). Tarkimmin mallissa on esitetty hiilidioksidin kiertokulku, joten kasvihuonekaasuista tässä työssä esitetään vain sen alimalli. 
 
 Seuraava kuva \ref{ilmasto:co2} on yksinkertaistettu hiilidioksidin alimalli, jossa on kuusi varastomuuttujaa, joista kukin kuvaa hiilidioksidivarastoa. Näitä varastoja ovat: ilmakehä (C in Atmosphere), biomassa (C in Biomass), maaperä (C in Humus), metsät (C AF Sequestered) sekä merten pinta- (C in Mixed Layer) ja syvät (C in Deep Ocean) kerrokset. Näistä ainoastaan ilmakehässä oleva hiilidioksidi vaikuttaa ilmaston lämpötilaan. Hiilidioksidia ei poistu systeemistä, mutta sitä tulee systeemiin kahdesta lähteestä. Merkittävin lähde on ihmisen suoraan aiheuttamat päästöt (Global total C emissions), mutta myös ilmakehään vapautunut metaani hapettuu hiilidioksidiksi (C from CH4 oxidation). 
 
-Ilmakehän hiilidioksidia liukenee merten pintakerroksiin (Flux Atm to Ocean), josta se voi joko vapautua takaisin ilmakehään tai vajota meren syvempiin kerroksiin (Diffusion Flux). Ilmakehän hiilidioksidia sitoutuu myös metsiin ja biomassaan. Biomassasta hiilidioksidi voi vapautua takaisin ilmakehään tai vajota maaperään, josta se voi edelleen vapautua takaisin ilmakehään. Myös metsistä hiilidioksidi voi vapautua takaisin ilmakehään. Hiilidioksidin kohdalla ilmastonlämpenemistä ehkäistään siis vähentämällä hiilidioksidi- ja metaanipäästöjä sekä lisäämällä metsien ja biomassan määrää. Varastomuuttujilla on ylä- ja alarajansa: metsiä ei voi kaataa loputtomasti eikä meriin voi liueta loputtomasti hiilidioksidia. 
+Ilmakehän hiilidioksidia liukenee merten pintakerroksiin (Flux Atm to Ocean), josta se voi joko vapautua takaisin ilmakehään tai vajota meren syvempiin kerroksiin (Diffusion Flux). Ilmakehän hiilidioksidia sitoutuu myös metsiin ja biomassaan. Biomassasta hiilidioksidi voi vapautua takaisin ilmakehään tai vajota maaperään, josta se voi edelleen vapautua takaisin ilmakehään. Myös metsistä hiilidioksidi voi vapautua takaisin ilmakehään. Hiilidioksidin kohdalla ilmastonlämpenemistä ehkäistään siis vähentämällä hiilidioksidi- ja metaanipäästöjä sekä lisäämällä metsien ja muun biomassan määrää. 
+
+Varastomuuttujilla on ylä- ja alarajansa: metsiä ei voi kaataa loputtomasti eikä meriin voi liueta loputtomasti hiilidioksidia. 
 
 \begin{figure}[H]
 \centering \includegraphics{c-roads-co2}
@@ -507,7 +511,7 @@ Ilmakehän hiilidioksidia liukenee merten pintakerroksiin (Flux Atm to Ocean), j
 
 \clearpage
 
-Seuraava kuva \ref{ilmasto:heat} on C-ROADS-ilmastomallin lämpöenergian kiertokulun kausaalidiagrammi. Mallissa on kaksi varastomuuttujaa lämpöenergialle: ilmakehä ja pintavedet (Heat in Atmosphere and Upper Ocean) sekä merten syvät kerrokset (Heat in Deep Ocean). Lämpöenergiaa systeemiin tulee auringon säteilystä ilmakehään, josta se voi siirtyä joko merten syvyyksiin tai kadota avaruuteen. Kasvihuonekaasut pienentävät lämmön virtaa avaruuteen (Feedback Cooling) ja ilmakehän lämpötila lisää sitä. 
+Seuraava kuva \ref{ilmasto:heat} on C-ROADS-ilmastomallin lämpöenergian kiertokulun kausaalidiagrammi. Mallissa on kaksi varastomuuttujaa lämpöenergialle: ilmakehä ja pintavedet (Heat in Atmosphere and Upper Ocean) sekä merten syvät kerrokset (Heat in Deep Ocean). Lämpöenergiaa systeemiin tulee auringon säteilystä ilmakehään, josta se voi siirtyä joko merten syvyyksiin tai kadota avaruuteen. Ilmakehän kasvihuonekaasujen lisääntyminen vähentää lämmön virtaa avaruuteen (Feedback Cooling) ja ilmakehän lämpötilan nousu lisää sitä. 
 
 \begin{figure}[H]
 \centering \includegraphics[width=\textwidth]{c-roads-heat}
