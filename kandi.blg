@@ -2,4 +2,8 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: kandi.aux
 The style file: plain.bst
 Database file #1: viitteet.bib
 Warning--empty publisher in Forrester1961
-(There was 1 warning)
+Warning--empty journal in CroadsFlightSimulator2011
+Warning--there's a number but no volume in CroadsFlightSimulator2011
+Warning--empty publisher in KyotoManual
+Warning--empty publisher in U.S.DepartmentofEnergy2009
+(There were 5 warnings)

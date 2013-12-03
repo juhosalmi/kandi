@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{croads}
 {Climate Interactive}.
@@ -8,6 +8,11 @@
 Thomas~S Fiddaman.
 \newblock {\em {Feedback Complexity in Integrated Climate-Economy Models by}}.
 \newblock PhD thesis, Massachusetts Institute of Technology, 1997.
+
+\bibitem{Fiddaman2002}
+Thomas~S Fiddaman.
+\newblock {Exploring policy options with a behavioral climate-economy model}.
+\newblock {\em System Dynamics Review}, 18(2):243--267, 2002.
 
 \bibitem{Flood1988}
 Robert~L. Flood and Ewart~R. Carson.
@@ -35,9 +40,27 @@ John~D. Sterman.
   World}}.
 \newblock McGraw-Hill, Boston, 2000.
 
+\bibitem{CroadsFlightSimulator2011}
+John~D. Sterman, Thomas Fiddaman, Travis Franck, Andrew Jones, Stephanie
+  McCauley, Philip Rice, Elizabeth Sawin, and Lori Siegeld.
+\newblock {Management Flight Simulators to Support Climate Negotiations: The
+  C-ROADS Climate Policy Model John D. Sterman}.
+\newblock (September):1--36, 2011.
+
 \bibitem{WhatIsSystemDynamics}
 {System Dynamics Society}.
 \newblock {What is system dynamics?}
+
+\bibitem{KyotoManual}
+{United Nations Framework Convention on Climate Change}.
+\newblock {\em {Kyoto Protocol Reference Manual}}.
+\newblock Bonn, 2008.
+
+\bibitem{U.S.DepartmentofEnergy2009}
+{U.S. Department of Energy}.
+\newblock {\em {Science Challenges and Future Directions: Climate Change
+  Integrated Assessment Research}}.
+\newblock 2009.
 
 \bibitem{Zadeh1973}
 Lotfi~a. Zadeh.

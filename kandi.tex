@@ -361,6 +361,8 @@ Ilmastonmuutos on tilastollisesti merkittävää ja pitkäkestoista muutosta glo
 
 Ilmastonmuutosta mallinnetaan, jotta kykenisimme arvioimaan, millaisia vaikutuksia toiminnallamme on, ja millaisin päätöksin voisimme saada ilmaston kehittymään haluttuun suuntaan. Ilmastoa ja sen muutosta mallinnetaan tieteellisiin tarkoituksiin pääasiassa tarkoilla fysikaalisilla malleilla. Tarkat mallit ovat laskennallisesti raskaita, eivätkä ne ole maallikon tai poliittisen päättäjän ymmärrettävissä. Systeemidynamiikalla voidaan ilmastomalli esittää ymmärrettävässä muodossa siten, että päättäjä kykeneei hahmottamaan, mistä mallissa on kyse. Tämän lisäksi systeemidynaaminen simulaatio on ajettavissa hetkessä, joten esimerkiksi ympäristöpoliittisten päätösten seuraukset on nopeasti havainnollistettavissa. 
 
+% Pitäisikö jossakin olla maininta siitä, mitä mallinnus ja simulointi ovat? 
+
 %\subsection*{Tutkimuksen tavoitteet}
 Tämän kandidaatintyön tavoite on tutustua systeemidynamiikkaan ja sekä tutkia sen soveltamista ilmastonmuutoksen mallintamiseen ja simulointiin. 
 
@@ -478,13 +480,15 @@ Varastot ja virtaukset ovat intuitiivinen esitystapa, mutta saman dynamiikan voi
 \clearpage
 \section{Ilmastonmuutoksen mallintaminen \label{ilmasto}}
 
-Ilmastonmuutoksen mallintamiseen tarvitaan aina jonkinlainen fysikaalinen malli. Raskaimmissa fysikaalisissa malleissa ilmakehä ja meret saatetaan pilkkoa lukuisiksi osiksi neliökilometrin alueisiin ja useisiin kerroksiin. Näiden osien keskinäistä vuorovaikutusta simuloidaan erilaisin kasvihuonekaasujen parametrein. Raskaimpien fysikaalisten mallien simuloimiseen voi supertietokoneeltakin mennä päiväkausia. [viite]
+% KOKO TÄÄ OSUUS: VIITTEET KUNTOON
 
-Systeemidynaamiset fysiikkamallit ovat pääsääntöisesti karkeita ja ottavat huomioon vain yksittäisiä maailmanlaajuisia suureita. Näin ollen mallin simuloiminen on nopeaa. Tässä työssä esiteltävien systeemidynaamisten ilmastomallien simuloiminen vie kotikoneella sekunnin murto-osan. Systeemidynaamiset fysiikkamallit viritetään ja validoidaan historiadatalla sekä tarkkojen fysiikkamallien avulla: kun systeemidynaaminen fysiikkamalli tekee oikeita ennustuksia historiadatan pohjalta sekä vastaavia ennustuksia kuin yleisesti hyväksytyt fysiikkamallit, voidaan malli katsoa oikeaksi. [viite]
+Ilmastonmuutoksen mallintamiseen tarvitaan aina jonkinlainen fysikaalinen malli. Raskaimmissa fysikaalisissa malleissa ilmakehä ja meret saatetaan pilkkoa lukuisiksi osiksi neliökilometrin alueisiin ja useisiin kerroksiin. Näiden osien keskinäistä vuorovaikutusta simuloidaan erilaisin kasvihuonekaasujen parametrein. Mitä tarkempi malli, sitä kauemmin sen simuloiminen kestää. \cite{CroadsFlightSimulator2011} 
 
-Fysiikkamallin voi laajentaa ihmisiin. Eri tieteenaloja yhdisteleviä malleja kutsutaan integroiduiksi malleiksi. Integroiduilla ilmastomalleilla voidaan esimerkiksi tutkia, miten ilmastonmuutos, väestönkasvu, talouskasvu ja hyvinvointi vaikuttavat toisiinsa. [viite]
+Systeemidynaamiset fysiikkamallit ovat pääsääntöisesti karkeita ja ottavat huomioon vain yksittäisiä maailmanlaajuisia suureita. Näin ollen mallin simuloiminen on nopeaa. Tässä työssä esiteltävien systeemidynaamisten ilmastomallien simuloiminen vie kotikoneella sekunnin murto-osan. Systeemidynaamiset fysiikkamallit viritetään ja validoidaan historiadatalla sekä tarkkojen fysiikkamallien avulla: kun systeemidynaaminen fysiikkamalli tekee oikeita ennustuksia historiadatan pohjalta sekä vastaavia ennustuksia kuin yleisesti hyväksytyt fysiikkamallit, voidaan malli katsoa oikeaksi. \cite{Fiddaman2002, CroadsFlightSimulator2011} 
 
-Tässä työssä ilmastomalleja esiteltäessä ja vertailtaessa keskitytään systeemidynamiikan kannalta olennaisiin asioihin. Tutkitaan, mitä on mallinnettu ja jätetty mallintamatta, millaisia ovat mallin keskeiset takaisinkytkennät ja mitkä muuttujat on mallinnettu ulkosyntyisiksi. 
+Fysiikkamallin voi laajentaa ihmisiin. Eri tieteenaloja yhdisteleviä malleja kutsutaan integroiduiksi malleiksi. Integroiduilla ilmastomalleilla voidaan esimerkiksi tutkia, miten ilmastonmuutos, väestönkasvu, talouskasvu ja hyvinvointi vaikuttavat toisiinsa. \cite{U.S.DepartmentofEnergy2009}
+
+Tässä työssä ilmastomalleja esiteltäessä ja vertailtaessa keskitytään systeemidynamiikan kannalta keskeisiin asioihin. Tutkitaan, mitä on mallinnettu ja jätetty mallintamatta, millaisia ovat mallin keskeiset takaisinkytkennät ja mitkä muuttujat on mallinnettu ulkosyntyisiksi. 
 
 Tämän luvun tavoitteena on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja sitten systeemidynaamisiin malleihin pureutuen. Aluksi alaluvussa \ref{ilmasto:historia} tutustutaan ilmastonmuutoksen ja ilmastomallien historiaan sekä hahmotellaan, miksi mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Seuraavat alaluvut \ref{ilmasto:croads} ja \ref{ilmasto:enroads} esittelevät systeemidynaamiset Climate Interactiven C-ROADS- ja En-ROADS-ilmastomallit. Lopuksi alaluvussa \ref{ilmasto:muut} otetaan lyhyt katsaus muutamaan muuhun tunnettuun ilmastomalliin. 
 
@@ -494,13 +498,15 @@ Tämän luvun tavoitteena on tutustuttaa lukija ilmastonmuutoksen mallintamiseen
 
 \subsection{C-ROADS-ilmastomalli \label{ilmasto:croads}}
 
-C-ROADS-ilmastomalli on fysikaalinen ja perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen FREE-ilmastomalliin. C-ROADS-ilmastomalli koostuu useasta alimallista. Kullekin kasvihuonekaasulle on oma alimallinsa, samoin metsien kasvamiselle ja tuhoutumiselle, meren pinnan korkeudelle sekä maapallolle kertyneelle lämpöenergialle. \cite{croads} Seuraavaksi tutustutaan C-ROADS:n keskeisiin alimalleihin. Havainnollistamisessa käytetään apuna mallin kausaalidiagrammeja, joista on selkeyden vuoksi piilotettu osa muuttujista ja vuorovaikutukista. 
+C-ROADS-ilmastomalli on fysikaalinen ja perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen FREE-ilmastomalliin. C-ROADS-ilmastomalli koostuu useasta alimallista. Kullekin kasvihuonekaasulle on oma alimallinsa, samoin metsien kasvamiselle ja tuhoutumiselle, meren pinnan korkeudelle sekä maapallolle kertyneelle lämpöenergialle. \cite{croads, CroadsFlightSimulator2011} 
 
-Kasvihuonekaasuista malliin on otettu hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2O$), perfluorohiiliyhdisteet ($PFC$), rikkiheksafluoridi ($SF_6$) sekä hydrofluorihiiliyhdisteet ($HFC$). Tarkimmin mallissa on esitetty hiilidioksidin kiertokulku, joten kasvihuonekaasuista tässä työssä esitetään vain sen alimalli. 
+Seuraavaksi tutustutaan C-ROADS:n keskeisiin alimalleihin. Havainnollistamisessa käytetään apuna mallin kausaalidiagrammeja, joista on selkeyden vuoksi piilotettu osa muuttujista ja vuorovaikutukista. Malliin on otettu Kioton ilmastosopimuksen \cite{KyotoManual} mukaiset kasvihuonekaasut: hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2O$), perfluorohiiliyhdisteet ($PFC$), rikkiheksafluoridi ($SF_6$) sekä hydrofluorihiiliyhdisteet ($HFC$) \cite{croads, CroadsFlightSimulator2011}.  Mutkikkaimmin mallissa on esitetty hiilidioksidin kiertokulku, joten kasvihuonekaasuista tässä työssä esitetään vain sen alimalli. 
+
+\subsubsection{C-ROADS-ilmastomallin käyttö \label{ilmasto:croads:kaytto}}
 
 \subsubsection{Hiilidioksidi \label{ilmasto:croads:co2}}
 
-Seuraava kuva \ref{ilmasto:co2} on yksinkertaistettu hiilidioksidin alimalli, jossa on kuusi varastomuuttujaa, joista kukin kuvaa hiilidioksidivarastoa. Näitä varastoja ovat: ilmakehä (C in Atmosphere), biomassa (C in Biomass), maaperä (C in Humus), metsät (C AF Sequestered) sekä merten pinta- (C in Mixed Layer) ja syvät (C in Deep Ocean) kerrokset. Näistä ainoastaan ilmakehässä oleva hiilidioksidi vaikuttaa ilmaston lämpötilaan. Hiilidioksidia ei poistu systeemistä, mutta sitä tulee systeemiin kahdesta lähteestä. Merkittävin lähde on ihmisen suoraan aiheuttamat päästöt (Global total C emissions), mutta myös ilmakehään vapautunut metaani hapettuu hiilidioksidiksi (C from CH4 oxidation). 
+Seuraava kuva \ref{ilmasto:co2} on yksinkertaistettu hiilidioksidin alimalli, jossa on kuusi varastomuuttujaa, joista kukin kuvaa hiilidioksidivarastoa. Näitä varastoja ovat: ilmakehä (C in Atmosphere), biomassa (C in Biomass), maaperä (C in Humus), metsät (C AF Sequestered) sekä merten pinta- (C in Mixed Layer) ja syvät (C in Deep Ocean) kerrokset. Näistä ainoastaan ilmakehässä oleva hiilidioksidi vaikuttaa ilmaston lämpötilaan. Hiilidioksidia ei poistu systeemistä, mutta sitä tulee systeemiin kahdesta lähteestä. Merkittävin lähde on ihmisen suoraan aiheuttamat päästöt (Global total C emissions), joka on systeemiin mallinnettu ulkosyntyisenä muuttujana. Hiilidioksidia syntyy myös ilmakehään vapautuneen metaanin hapettuessa (C from CH4 oxidation). 
 
 Ilmakehän hiilidioksidia liukenee merten pintakerroksiin (Flux Atm to Ocean), josta se voi joko vapautua takaisin ilmakehään tai vajota meren syvempiin kerroksiin (Diffusion Flux). Ilmakehän hiilidioksidia sitoutuu myös metsiin ja biomassaan. Biomassasta hiilidioksidi voi vapautua takaisin ilmakehään tai vajota maaperään, josta se voi edelleen vapautua takaisin ilmakehään. Myös metsistä hiilidioksidi voi vapautua takaisin ilmakehään. Hiilidioksidin kohdalla ilmastonlämpenemistä ehkäistään siis vähentämällä hiilidioksidi- ja metaanipäästöjä sekä lisäämällä metsien ja muun biomassan määrää. 
 
@@ -517,6 +523,8 @@ Varastomuuttujilla on ylä- ja alarajansa: metsiä ei voi kaataa loputtomasti ei
 
 Seuraava kuva \ref{ilmasto:heat} on C-ROADS-ilmastomallin lämpöenergian kiertokulun kausaalidiagrammi. Mallissa on kaksi varastomuuttujaa lämpöenergialle: ilmakehä ja pintavedet (Heat in Atmosphere and Upper Ocean) sekä merten syvät kerrokset (Heat in Deep Ocean). Lämpöenergiaa systeemiin tulee auringon säteilystä ilmakehään, josta se voi siirtyä joko merten syvyyksiin tai kadota avaruuteen. Ilmakehän kasvihuonekaasujen lisääntyminen vähentää lämmön virtaa avaruuteen (Feedback Cooling) ja ilmakehän lämpötilan nousu lisää sitä. 
 
+% KERRO TAKAISINKYTKENNÄSTÄ
+
 \begin{figure}[H]
 \centering \includegraphics[width=\textwidth]{c-roads-heat}
 \caption{C-ROADS-ilmastomallin lämpöenergian kiertokulku. \cite{croads} \label{ilmasto:heat}}
@@ -528,22 +536,22 @@ Seuraava kuva \ref{ilmasto:slr} on C-ROADS-ilmastomallin merenpinnan nousun kaus
 
 \begin{figure}[H]
 \centering \includegraphics[width=\textwidth]{c-roads-slr}
-\caption{C-ROADS-ilmastomallin merenpinnan nousu. \label{ilmasto:slr}}
+\caption{C-ROADS-ilmastomallin merenpinnan nousu. \cite{croads} \label{ilmasto:slr}}
 \end{figure}
 
 \clearpage
 
 Seuraava kuva \ref{ilmasto:af} on C-ROADS-ilmastomallin metsien kasvun kausaalidiagrammi. 
 
-\begin{figure}[H]
+\begin{figure}[H] % Tähän voisi olla hyvä laittaa vielä yksinkertaisempi malli 
 \centering \includegraphics[width=\textwidth]{c-roads-af}
-\caption{C-ROADS-ilmastomallin metsien kasvu. \label{ilmasto:af}}
+\caption{C-ROADS-ilmastomallin metsien kasvu. \cite{croads} \label{ilmasto:af}}
 \end{figure}
 
-\begin{figure}[H]
-\centering \includegraphics[width=\textwidth]{c-roads-df}
-\caption{C-ROADS-ilmastomallin metsien tuho. \label{ilmasto:df}}
-\end{figure}
+%\begin{figure}[H]
+%\centering \includegraphics[width=\textwidth]{c-roads-df}
+%\caption{C-ROADS-ilmastomallin metsien tuho. \cite{croads} \label{ilmasto:df}}
+%\end{figure}
 
 \subsection{En-ROADS-ilmastomalli \label{ilmasto:enroads}}
 
