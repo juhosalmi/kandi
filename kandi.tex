@@ -376,7 +376,7 @@ Luvussa \ref{sysdyn} otetaan katsaus systeemidynamiikan perusperiaatteisiin. Luv
 
 \section{Systeemidynamiikka \label{sysdyn}}
 
-Systeemi eli järjestelmä tarkoittaa toistensa kanssa vuorovaikutuksessa olevien osien muodostamaa kokonaisuutta \cite{Flood1988}. Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja mutkikkaiden systeemien mallintamiseen \cite{WhatIsSystemDynamics}. Mutkikkaalle systeemille ei ole yksikäsitteistä määritelmää \cite{Zadeh1973}, mutta systeemidynamiikalla kyetään mallintamaan erityisesti systeemien takaisinkytkentöjä ja epälineaarisuuksia \cite{WhatIsSystemDynamics}, jotka ovat systeemin mutkikkuutta lisääviä ominaisuuksia \cite{Zadeh1973}. % Perustele termin valinta?
+Systeemi eli järjestelmä (eng. system) tarkoittaa toistensa kanssa vuorovaikutuksessa olevien osien muodostamaa kokonaisuutta \cite{Flood1988}. Systeemidynamiikka (eng. system dynamics) on tietokoneavusteinen lähestymistapa päätöksentekoon ja mutkikkaiden systeemien (eng. complex system) mallintamiseen \cite{WhatIsSystemDynamics}. Mutkikkaalle systeemille ei ole yksikäsitteistä määritelmää \cite{Zadeh1973}, mutta systeemidynamiikalla kyetään mallintamaan erityisesti systeemien takaisinkytkentöjä ja epälineaarisuuksia \cite{WhatIsSystemDynamics}, jotka ovat systeemin mutkikkuutta lisääviä ominaisuuksia \cite{Zadeh1973}. % Perustele termin valinta?
 
 Tämän luvun tavoite on tutustuttaa lukija systeemidynamiikan perusperiaatteisiin, jotka ovat välttämättömiä luvun \ref{ilmasto} systeemidynaamisten ilmastomallien ymmärtämiseksi. Alaluvussa \ref{sysdyn:historia} selvitetään, miksi ja miten systeemidynamiikka syntyi ja kehittyi, alaluvussa \ref{sysdyn:paatos} tutustutaan systeemiajatteluun ja päätöksentekoon, alaluvussa \ref{sysdyn:takaisinkytkenta} systeemien takaisinkytkentöihin sekä alaluvussa \ref{sysdyn:vvv} systeemien viiveisiin, varastoihin ja virtauksiin. 
 
@@ -394,7 +394,7 @@ Samat takaisinkytkettyjen systeemien periaatteet olivat yleistettävissä eri ti
 
 \subsection{Systeemiajattelu ja päätöksenteko \label{sysdyn:paatos}}
 
-Systeemiajattelu on tapa jäsentää maailma mielessään mutkikkaana systeeminä, ja sen työkaluna voi käyttää systeemidynamiikkaa \cite[s. 4--5]{Sterman2000}. Sterman \cite[s. 4--5]{Sterman2000} vertaa systeemidynamista mallintamista lentosimulaattoriin: lentosimulaattori opettaa turvallisesti lentäjän lentämään ja systeemidynamiikka johtajan systeemiajattelemaan eli hahmottamaan johtamansa organisaation systeeminä. 
+Systeemiajattelu (eng. systems thinking) on tapa jäsentää maailma mielessään mutkikkaana systeeminä, ja sen työkaluna voi käyttää systeemidynamiikkaa \cite[s. 4--5]{Sterman2000}. Sterman \cite[s. 4--5]{Sterman2000} vertaa systeemidynamista mallintamista lentosimulaattoriin: lentosimulaattori opettaa turvallisesti lentäjän lentämään ja systeemidynamiikka johtajan systeemiajattelemaan eli hahmottamaan johtamansa organisaation systeeminä. 
 
 Systeemidynamiikan asiantuntijat käyttävät usein sanontaa: "Tie helvettiin on kivetty hyvillä aikomuksilla." Stermanin \cite[s. 5--6]{Sterman2000} mukaan hyvää tarkoittavilla päätöksillä saatetaan tehdä ongelmia pahemmiksi, sillä monilla päätöksillä on seurauksia, joita on vaikea ennalta arvioida. % Miten tällaiseen sitaattiin viittaa? 
 
@@ -422,13 +422,13 @@ Maailmankuvaa voi edelleen laajentaa. Seuraava kuva \ref{sysdyn:laajennettutakai
 
 \subsection{Takaisinkytketyt systeemit \label{sysdyn:takaisinkytkenta}}
 
-Systeemeillä on tuloja ja lähtöjä. Tulot (myös sisääntulo, eng. input) ovat systeemiin tulevia arvoja, jotka vaikuttavat systeemin käyttäytymiseen. Lähdöt (myös ulostulo, eng. output) ovat systeemin käyttäytymisestä seuraavia arvoja. Erilaisilla tuloilla saadaan systeemistä erilaiset lähdöt. Takaisinkytkentä tarkoittaa systeemin lähdön käyttämistä systeemin tulona. Tällöin systeemi kytkeytyy takaisin itseensä, muodostaa kytkennöistä silmukan ja vaikuttaa itse itseensä. Takaisinkytkennästä käytetään erityisesti ihmistieteiden puolella myös termiä "palaute". \cite{Sterman2000, WhatIsSystemDynamics} % Viitteet kuntoon! Perustele termin valinta? 
+Systeemeillä on tuloja ja lähtöjä. Tulot (myös sisääntulo, eng. input) ovat systeemiin tulevia arvoja, jotka vaikuttavat systeemin käyttäytymiseen. Lähdöt (myös ulostulo, eng. output) ovat systeemin käyttäytymisestä seuraavia arvoja. Erilaisilla tuloilla saadaan systeemistä erilaiset lähdöt. Takaisinkytkentä (eng. feedback) tarkoittaa systeemin lähdön käyttämistä systeemin tulona. Tällöin systeemi kytkeytyy takaisin itseensä, muodostaa kytkennöistä silmukan (eng. loop) ja vaikuttaa itse itseensä. Takaisinkytkennästä käytetään erityisesti ihmistieteiden puolella myös termiä "palaute". \cite{Sterman2000, WhatIsSystemDynamics} % Viitteet kuntoon! Perustele termin valinta? 
 
 Stermanin \cite[s. 12]{Sterman2000} mukaan takaisinkytkennät vaikuttavat systeemin mutkikkuuteen enemmän kuin järjestelmän osien mutkikkuus itse. Tämän vuoksi takaisinkytkentöjen löytäminen on keskeisin osa systeemidynaamista mallinnusta. 
 
 Systeemidynaamisia malleja esitetään kausaalidiagrammein, joihin merkitään systeemin osat eli muuttujanimet sekä niiden väliset vuorovaikutussuhteet kausaaliyhteysnuolten avulla. Nuolet piirretään lähtemään muuttujasta, joka vaikuttaa nuolen päätepisteen muuttujaan. Toisin sanoen nuoli kuvaa sitä, että nuolen alkupään muuttujan arvo eli lähtö toimii nuolen loppupään tulona. Nuoliin merkitään plus- tai miinusmerkki sen mukaan, kasvattaako vaiko vähentääkö lähtömuuttujan arvon kasvu tulomuuttujan arvoa. Nuolet piirretään kaareviksi, jotta systeemin dynamiikkaa, etenkin silmukat, olisi helpompi hahmottaa. \cite{Sterman2000}
 
-Systeemeissä on sisäsyntyisiä eli endogeenisiä sekä ulkosyntyisiä eli eksogeenisiä muuttujia. Sisäsyntyisen muuttujan arvo määräytyy systeemin sisäisen dynamiikan seurauksena, kun taas ulkosyntyisen muuttujan arvo annetaan systeemin ulkopuolelta, eikä näin ollen riipu systeemin tilasta. \cite{Sterman2000} % Viiteviilausta! "Kausaalidiagrammin ulkosyntyiseen muuttujaan ei siis mene yhtään nuolta." 
+Systeemeissä on sisäsyntyisiä eli endogeenisiä (eng. endogenous) sekä ulkosyntyisiä eli eksogeenisiä (eng. exogenous) muuttujia. Sisäsyntyisen muuttujan arvo määräytyy systeemin sisäisen dynamiikan seurauksena, kun taas ulkosyntyisen muuttujan arvo annetaan systeemin ulkopuolelta, eikä näin ollen riipu systeemin tilasta. \cite{Sterman2000} % Viiteviilausta! "Kausaalidiagrammin ulkosyntyiseen muuttujaan ei siis mene yhtään nuolta." 
 
 Takaisinkytkettyjä silmukoita on kahdenlaisia: negatiivisia ja positiivisia. Positiiviset silmukat ovat itseään vahvistavia. Seuraavassa kuvassa \ref{sysdyn:positiivinen} on positiivinen takaisinkytketty silmukka, jossa kanojen määrä lisää munien määrää, mikä puolestaan lisää kanojen määrää. Positiiviset silmukat merkitään kausaalidiagrammiin kuvan \ref{sysdyn:positiivinen} mukaisesti R-kirjaimella, mikä tulee englannin kielen sanasta "reinforcing" eli suomeksi "vahvistava". \cite[s. 12--13]{Sterman2000}\cite{WhatIsSystemDynamics}
 
@@ -555,7 +555,11 @@ Seuraava kuva \ref{ilmasto:af} on C-ROADS-ilmastomallin metsien kasvun kausaalid
 
 \subsection{En-ROADS-ilmastomalli \label{ilmasto:enroads}}
 
-\subsection{Muita ilmastomalleja \label{ilmasto:muut}}
+\subsection{FREE-ilmastomalli \label{ilmasto:free}}
+
+\subsection{Erilaiset ilmastomallit \label{ilmasto:muut}}
+
+\subsection{Ilmastonmuutoksen ongelmanratkaisu systeemidynamiikalla \label{ilmasto:ongelmanratkaisu}}
 
 
 \clearpage
