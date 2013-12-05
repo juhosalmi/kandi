@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.5)  5 DEC 2013 23:53
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.5)  6 DEC 2013 00:01
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
 (//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
@@ -1201,19 +1201,19 @@ tovirtauskana.png>] [10
 File: c-roads-co2.png Graphic file (type png)
  <use c-roads-co2.png>
 [12] [13 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-co2.png
->] <c-roads-heat.png, id=332, 513.41812pt x 429.85594pt>
+>] <c-roads-heat.png, id=333, 513.41812pt x 429.85594pt>
 File: c-roads-heat.png Graphic file (type png)
 
 <use c-roads-heat.png> [14
 
  <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-heat.png>] <c-r
-oads-slr.png, id=342, 587.19376pt x 254.45062pt>
+oads-slr.png, id=343, 587.19376pt x 254.45062pt>
 File: c-roads-slr.png Graphic file (type png)
 
 <use c-roads-slr.png> [15
 
  <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-slr.png>] <c-ro
-ads-af.png, id=351, 624.08156pt x 367.3725pt>
+ads-af.png, id=352, 624.08156pt x 367.3725pt>
 File: c-roads-af.png Graphic file (type png)
 
 <use c-roads-af.png> [16
@@ -1236,7 +1236,7 @@ Package rerunfilecheck Info: File `kandi.out' has not changed.
 Here is how much of TeX's memory you used:
  15956 strings out of 494053
  283016 string characters out of 3147734
- 770997 words of memory out of 3000000
+ 770994 words of memory out of 3000000
  18786 multiletter control sequences out of 15000+200000
  25371 words of font info for 49 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1258,9 +1258,9 @@ X_2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/f
 onts/type1/public/cm-super/sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/ty
 pe1/public/cm-super/sfti1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw
 /helvetic/uhvb8a.pfb>
-Output written on kandi.pdf (23 pages, 401452 bytes).
+Output written on kandi.pdf (23 pages, 401887 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
+ 441 PDF objects out of 1000 (max. 8388607)
  76 named destinations out of 1000 (max. 500000)
  249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
