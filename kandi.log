@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.5)  5 DEC 2013 16:01
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.5)  5 DEC 2013 23:53
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
 (//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
@@ -861,6 +861,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks27
 \@floatcapt=\box36
 )
+(C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\was\gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
 (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2011/02/07 v6.82b Hypertext links for LaTeX
 
@@ -1038,20 +1041,20 @@ Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
 Package: `setspace' 6.7 <2000/12/01>
 ) (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
 
 (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1066,9 +1069,20 @@ LaTeX Font Info:    ... okay on input line 115.
 \MPnumerator=\count138
 \everyMPtoPDFconversion=\toks31
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box38
-Package hyperref Info: Link coloring ON on input line 115.
+LaTeX Info: Redefining \celsius on input line 116.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 116
+.
 
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 116.
+Package gensymb Info: Using \Omega for \ohm on input line 116.
+
+Package gensymb Warning: Not defining \micro.
+
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring ON on input line 116.
 (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -1080,57 +1094,57 @@ Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
 )
 \c@section@level=\count139
 )
-LaTeX Info: Redefining \ref on input line 115.
-LaTeX Info: Redefining \pageref on input line 115.
-LaTeX Info: Redefining \nameref on input line 115.
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
 
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.out)
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.out)
 \@outlinefile=\write4
-LaTeX Font Info:    Try loading font information for U+msa on input line 213.
+LaTeX Font Info:    Try loading font information for U+msa on input line 214.
 
 (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 213.
+LaTeX Font Info:    Try loading font information for U+msb on input line 214.
 
 (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T1+phv on input line 213.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 214.
 
 (C:\PROGRAMS\MiKTeX\MiKTeX_2.9\tex\latex\psnfss\t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 213.
+(Font)              scaled to size 11.39996pt on input line 214.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 14.24995pt on input line 213.
+(Font)              scaled to size 14.24995pt on input line 214.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 213.
+(Font)              scaled to size 10.40245pt on input line 214.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.54997pt on input line 213.
+(Font)              scaled to size 8.54997pt on input line 214.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (2.0pt too wide) in paragraph at lines 223--223
+Overfull \hbox (2.0pt too wide) in paragraph at lines 224--224
 [] 
  []
 
 
-Overfull \hbox (2.00002pt too wide) in paragraph at lines 223--225
+Overfull \hbox (2.00002pt too wide) in paragraph at lines 224--226
 [] 
  []
 
 [2
 
 ]
-Overfull \hbox (2.0pt too wide) in paragraph at lines 239--239
+Overfull \hbox (2.0pt too wide) in paragraph at lines 240--240
 [] 
  []
 
 
-Overfull \hbox (2.00002pt too wide) in paragraph at lines 239--241
+Overfull \hbox (2.00002pt too wide) in paragraph at lines 240--242
 [] 
  []
 
@@ -1143,86 +1157,87 @@ Overfull \hbox (2.00002pt too wide) in paragraph at lines 239--241
 
 [5] [1
 
-] [2
+] [2] [3
 
-] <tapahtuma.png, id=185, 327.47343pt x 82.05656pt>
+] <tapahtuma.png, id=189, 327.47343pt x 82.05656pt>
 File: tapahtuma.png Graphic file (type png)
 
-<use tapahtuma.png> [3 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/t
+<use tapahtuma.png> [4 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/t
 apahtuma.png>]
-<takaisinkytkentasuuntautunut.png, id=198, 225.09094pt x 128.73094pt>
+<takaisinkytkentasuuntautunut.png, id=201, 225.09094pt x 128.73094pt>
 File: takaisinkytkentasuuntautunut.png Graphic file (type png)
 
 <use takaisinkytkentasuuntautunut.png>
-<laajennettutakaisinkytkentasuuntautunut.png, id=203, 358.33875pt x 234.1247pt>
+<laajennettutakaisinkytkentasuuntautunut.png, id=206, 358.33875pt x 234.1247pt>
 File: laajennettutakaisinkytkentasuuntautunut.png Graphic file (type png)
-<use laajennettutakaisinkytkentasuuntautunut.png> [4 <//home.org.aalto.fi/jtsal
+<use laajennettutakaisinkytkentasuuntautunut.png> [5 <//home.org.aalto.fi/jtsal
 mi/data/Desktop/GitHub/kandi/takaisinkytkentasuuntautunut.png> <//home.org.aalt
 o.fi/jtsalmi/data/Desktop/GitHub/kandi/laajennettutakaisinkytkentasuuntautunut.
-png>] <positiivinen.png, id=221, 184.43906pt x 109.91063pt>
+png>] <positiivinen.png, id=225, 184.43906pt x 109.91063pt>
 File: positiivinen.png Graphic file (type png)
 
-<use positiivinen.png> [5] <negatiivinen.png, id=231, 189.70876pt x 108.405pt>
+<use positiivinen.png> [6] <negatiivinen.png, id=235, 189.70876pt x 108.405pt>
 File: negatiivinen.png Graphic file (type png)
 
-<use negatiivinen.png> <viive.png, id=238, 183.68625pt x 64.74188pt>
+<use negatiivinen.png> <viive.png, id=242, 183.68625pt x 64.74188pt>
 File: viive.png Graphic file (type png)
 
-<use viive.png> [6 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/posit
+<use viive.png> [7 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/posit
 iivinen.png> <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/negatiivine
-n.png>] <varastovirtaus.png, id=250, 271.0125pt x 65.49469pt>
+n.png>] <varastovirtaus.png, id=254, 271.0125pt x 65.49469pt>
 File: varastovirtaus.png Graphic file (type png)
 
 <use varastovirtaus.png>
-<varastovirtauskana.png, id=256, 184.43906pt x 131.74219pt>
+<varastovirtauskana.png, id=260, 184.43906pt x 131.74219pt>
 File: varastovirtauskana.png Graphic file (type png)
 
-<use varastovirtauskana.png> [7 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHu
+<use varastovirtauskana.png> [8 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHu
 b/kandi/viive.png> <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/varas
-tovirtaus.png>] [8 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/varas
-tovirtauskana.png>] [9
+tovirtaus.png>] [9 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/varas
+tovirtauskana.png>] [10
 
-] <c-roads-co2.png, id=304, 422.32782pt x 430.60875pt>
+] [11]
+<c-roads-co2.png, id=320, 422.32782pt x 430.60875pt>
 File: c-roads-co2.png Graphic file (type png)
-
-<use c-roads-co2.png> [10] [11 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub
-/kandi/c-roads-co2.png>] <c-roads-heat.png, id=319, 513.41812pt x 429.85594pt>
+ <use c-roads-co2.png>
+[12] [13 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-co2.png
+>] <c-roads-heat.png, id=332, 513.41812pt x 429.85594pt>
 File: c-roads-heat.png Graphic file (type png)
 
-<use c-roads-heat.png> [12
+<use c-roads-heat.png> [14
 
  <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-heat.png>] <c-r
-oads-slr.png, id=328, 587.19376pt x 254.45062pt>
+oads-slr.png, id=342, 587.19376pt x 254.45062pt>
 File: c-roads-slr.png Graphic file (type png)
 
-<use c-roads-slr.png> [13
+<use c-roads-slr.png> [15
 
  <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-slr.png>] <c-ro
-ads-af.png, id=337, 624.08156pt x 367.3725pt>
+ads-af.png, id=351, 624.08156pt x 367.3725pt>
 File: c-roads-af.png Graphic file (type png)
 
-<use c-roads-af.png> [14
+<use c-roads-af.png> [16
 
- <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-af.png>] [15
+ <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-af.png>] [17
 
 ]
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 586.
- [16
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 594.
+ [18
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 586.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 594.
 
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 586.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 594.
 Package rerunfilecheck Info: File `kandi.out' has not changed.
 (rerunfilecheck)             Checksum: 2BB410DD2325D4F74B6E1573A63A3260;1559.
  ) 
 Here is how much of TeX's memory you used:
- 15905 strings out of 494053
- 282314 string characters out of 3147734
- 770816 words of memory out of 3000000
- 18743 multiletter control sequences out of 15000+200000
+ 15956 strings out of 494053
+ 283016 string characters out of 3147734
+ 770997 words of memory out of 3000000
+ 18786 multiletter control sequences out of 15000+200000
  25371 words of font info for 49 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  70i,10n,59p,1032b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1243,9 +1258,9 @@ X_2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/f
 onts/type1/public/cm-super/sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/ty
 pe1/public/cm-super/sfti1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw
 /helvetic/uhvb8a.pfb>
-Output written on kandi.pdf (21 pages, 397326 bytes).
+Output written on kandi.pdf (23 pages, 401452 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
+ 440 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
  249 words of extra memory for PDF output out of 10000 (max. 10000000)
 

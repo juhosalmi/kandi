@@ -69,6 +69,7 @@
 %%
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{gensymb}
 
 %% Jos et jostain syystä pidä, miten alla oleva hyperref-paketti käyttää
 %% fontteja, värejä yms., käytä tämän paketin makroja muuttamaan
@@ -361,6 +362,8 @@ Ilmastonmuutos on tilastollisesti merkittävää ja pitkäkestoista muutosta glo
 
 Ilmastonmuutosta mallinnetaan, jotta kykenisimme arvioimaan, millaisia vaikutuksia toiminnallamme on, ja millaisin päätöksin voisimme saada ilmaston kehittymään haluttuun suuntaan. Ilmastoa ja sen muutosta mallinnetaan tieteellisiin tarkoituksiin pääasiassa tarkoilla fysikaalisilla malleilla. Tarkat mallit ovat laskennallisesti raskaita, eivätkä ne ole maallikon tai poliittisen päättäjän ymmärrettävissä. Systeemidynamiikalla voidaan ilmastomalli esittää ymmärrettävässä muodossa siten, että päättäjä kykeneei hahmottamaan, mistä mallissa on kyse. Tämän lisäksi systeemidynaaminen simulaatio on ajettavissa hetkessä, joten esimerkiksi ympäristöpoliittisten päätösten seuraukset on nopeasti havainnollistettavissa. 
 
+Systeemidynamiikan yksi keskeisistä sanomista on ymmärryksen luominen. Systeemidynamiikan yksi tunnustetuimmista asiantuntijoista, prof. John Sterman, kirjoittaa kirjassaan Business Dynamics, että kirjan lukijalla ei ole syytä huoleen, oli tämä matemaattisesti suuntautunut tai ei, sillä kirjasta löytyy ymmärrettävää ja mielenkiintoista sisältöä jokaiselle. Systeemidynamiikka on keino johdattaa kuka tahansa ymmärtämään toimintaympäristöään. Tämä ajatusmalli on pidetty mielessä tätä työtä kirjoitettaessa, ja pyrkimys on ollut, että työn sisältö olisi kenen tahansa omaksuttavissa. 
+
 % Pitäisikö jossakin olla maininta siitä, mitä mallinnus ja simulointi ovat? 
 
 %\subsection*{Tutkimuksen tavoitteet}
@@ -486,7 +489,7 @@ Ilmastonmuutoksen mallintamiseen tarvitaan aina jonkinlainen fysikaalinen malli.
 
 Systeemidynaamiset fysiikkamallit ovat pääsääntöisesti karkeita ja ottavat huomioon vain yksittäisiä maailmanlaajuisia suureita. Näin ollen mallin simuloiminen on nopeaa. Tässä työssä esiteltävien systeemidynaamisten ilmastomallien simuloiminen vie kotikoneella sekunnin murto-osan. Systeemidynaamiset fysiikkamallit viritetään ja validoidaan historiadatalla sekä tarkkojen fysiikkamallien avulla: kun systeemidynaaminen fysiikkamalli tekee oikeita ennustuksia historiadatan pohjalta sekä vastaavia ennustuksia kuin yleisesti hyväksytyt fysiikkamallit, voidaan malli katsoa oikeaksi. \cite{Fiddaman2002, CroadsFlightSimulator2011} 
 
-Fysiikkamallin voi laajentaa ihmisiin. Eri tieteenaloja yhdisteleviä malleja kutsutaan integroiduiksi malleiksi. Integroiduilla ilmastomalleilla voidaan esimerkiksi tutkia, miten ilmastonmuutos, väestönkasvu, talouskasvu ja hyvinvointi vaikuttavat toisiinsa. \cite{U.S.DepartmentofEnergy2009}
+Fysiikkamallin voi laajentaa ihmisiin. Eri tieteenaloja yhdistelevistä malleista käytetään tässä työssä nimitystä yhdistetty malli (eng. intergrated assessment model). Yhdistetyillä ilmastomalleilla voidaan esimerkiksi tutkia, miten ilmastonmuutos, väestönkasvu, talouskasvu ja hyvinvointi vaikuttavat toisiinsa. \cite{U.S.DepartmentofEnergy2009} 
 
 Tässä työssä ilmastomalleja esiteltäessä ja vertailtaessa keskitytään systeemidynamiikan kannalta keskeisiin asioihin. Tutkitaan, mitä on mallinnettu ja jätetty mallintamatta, millaisia ovat mallin keskeiset takaisinkytkennät ja mitkä muuttujat on mallinnettu ulkosyntyisiksi. 
 
@@ -494,13 +497,21 @@ Tämän luvun tavoitteena on tutustuttaa lukija ilmastonmuutoksen mallintamiseen
 
 \subsection{Ilmastomallien historia \label{ilmasto:historia}}
 
+1930-luvulla tehtiin ensimmäisiä havaintoja ilmaston lämpenemisestä. Keskustelu ilmaston lämpenemisestä jäi spekulaation tasolle ja sitä pidettiin vain jonkinlaisena ilmastosyklinä. Lämpenemisen ei uskottu olevan ihmisen aiheuttamaa osittain siksi, että ihmistä pidettiin heikkona luonnon voimien rinnalla. 1950-luvulla tehtiin ensimmäiset tieteelliset havainnot hiilidioksidin kertymisestä ilmakehään ja tästä seuraavasta ilmaston lämpenemisestä, mikä käynnisti ilmastonmuutoksen tutkimuksen. \cite{AmericanInstituteofPhysics}
+
+1960-luvulla luotiin ensimmäiset matemaattiset ilmastomallit ja tehtiin ensimmäiset löydökset takaisinkytkennöistä, jotka saattaisivat tehdä ilmastosta yllättävänkin epävakaan. Samaan aikaan sään ennustamiseksi kehitetyt ilmakehän tietokonemallit tukivat löydöksiä. Ilmastonlämpenemistä ei kuitenkaan osattu nähdä vielä uhkana. Ilmastotutkimus kehittyi hitaasti, mutta sai kunnon sykäyksen 1980-luvun loppulle tultaessa ilmastonmuutokseen jälleen havahduttaessa. \cite{AmericanInstituteofPhysics} Tällöin perustettiin Hallitustenvälinen ilmastonmuutospaneeli IPCC (Intergovernmental Panel on Climate Change) \cite{IPCChistory}. 
+
+1990-luvulla ilmastomallit olivat päässeet lyhyen aikavälin ennusteissa jo varsin hyvään tarkkuuteen, mutta pitkän aikajakson ennusteet olivat eri malleilla eriävät. 
+
+
+
 % http://en.wikipedia.org/wiki/History_of_climate_change_science
 
 \subsection{C-ROADS-ilmastomalli \label{ilmasto:croads}}
 
-C-ROADS-ilmastomalli on fysikaalinen ja perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen FREE-ilmastomalliin. C-ROADS-ilmastomalli koostuu useasta alimallista. Kullekin kasvihuonekaasulle on oma alimallinsa, samoin metsien kasvamiselle ja tuhoutumiselle, meren pinnan korkeudelle sekä maapallolle kertyneelle lämpöenergialle. \cite{croads, CroadsFlightSimulator2011} 
+C-ROADS-ilmastomalli on fysikaalinen ja perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen FREE-ilmastomalliin. C-ROADS-ilmastomalli koostuu useasta alimallista. Kullekin kasvihuonekaasulle on oma alimallinsa, samoin metsien kasvamiselle ja tuhoutumiselle, meren pinnan korkeudelle sekä maapallolle kertyneelle lämpöenergialle. \cite{Croads, CroadsFlightSimulator2011} 
 
-Seuraavaksi tutustutaan C-ROADS:n keskeisiin alimalleihin. Havainnollistamisessa käytetään apuna mallin kausaalidiagrammeja, joista on selkeyden vuoksi piilotettu osa muuttujista ja vuorovaikutukista. Malliin on otettu Kioton ilmastosopimuksen \cite{KyotoManual} mukaiset kasvihuonekaasut: hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2O$), perfluorohiiliyhdisteet ($PFC$), rikkiheksafluoridi ($SF_6$) sekä hydrofluorihiiliyhdisteet ($HFC$) \cite{croads, CroadsFlightSimulator2011}.  Mutkikkaimmin mallissa on esitetty hiilidioksidin kiertokulku, joten kasvihuonekaasuista tässä työssä esitetään vain sen alimalli. % Muitakin kasvihuonekaasuja on
+Seuraavaksi tutustutaan C-ROADS:n keskeisiin alimalleihin. Havainnollistamisessa käytetään apuna mallin kausaalidiagrammeja, joista on selkeyden vuoksi piilotettu osa muuttujista ja vuorovaikutukista. Malliin on otettu Kioton ilmastosopimuksen \cite{KyotoManual} mukaiset kasvihuonekaasut: hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2O$), perfluorohiiliyhdisteet ($PFC$), rikkiheksafluoridi ($SF_6$) sekä hydrofluorihiiliyhdisteet ($HFC$) \cite{Croads, CroadsFlightSimulator2011}.  Mutkikkaimmin mallissa on esitetty hiilidioksidin kiertokulku, joten kasvihuonekaasuista tässä työssä esitetään vain sen alimalli. % Muitakin kasvihuonekaasuja on
 
 \subsubsection{C-ROADS-ilmastomallin käyttö \label{ilmasto:croads:kaytto}}
 
@@ -514,7 +525,7 @@ Varastomuuttujilla on ylä- ja alarajansa: metsiä ei voi kaataa loputtomasti ei
 
 \begin{figure}[H]
 \centering \includegraphics{c-roads-co2}
-\caption{C-ROADS-ilmastomallin hiilidioksidin kiertokulku. \cite{croads} \label{ilmasto:co2}}
+\caption{C-ROADS-ilmastomallin hiilidioksidin kiertokulku. \cite{Croads} \label{ilmasto:co2}}
 \end{figure}
 
 \clearpage
@@ -527,7 +538,7 @@ Seuraava kuva \ref{ilmasto:heat} on C-ROADS-ilmastomallin lämpöenergian kierto
 
 \begin{figure}[H]
 \centering \includegraphics[width=\textwidth]{c-roads-heat}
-\caption{C-ROADS-ilmastomallin lämpöenergian kiertokulku. \cite{croads} \label{ilmasto:heat}}
+\caption{C-ROADS-ilmastomallin lämpöenergian kiertokulku. \cite{Croads} \label{ilmasto:heat}}
 \end{figure}
 
 \clearpage
@@ -536,22 +547,17 @@ Seuraava kuva \ref{ilmasto:slr} on C-ROADS-ilmastomallin merenpinnan nousun kaus
 
 \begin{figure}[H]
 \centering \includegraphics[width=\textwidth]{c-roads-slr}
-\caption{C-ROADS-ilmastomallin merenpinnan nousu. \cite{croads} \label{ilmasto:slr}}
+\caption{C-ROADS-ilmastomallin merenpinnan nousu. \cite{Croads} \label{ilmasto:slr}}
 \end{figure}
 
 \clearpage
 
 Seuraava kuva \ref{ilmasto:af} on C-ROADS-ilmastomallin metsien kasvun kausaalidiagrammi. 
 
-\begin{figure}[H] % Tähän voisi olla hyvä laittaa vielä yksinkertaisempi malli 
+\begin{figure}[H] % Tähän voisi olla hyvä laittaa vielä yksinkertaisempi malli tai jättää kokonaan huomiotta 
 \centering \includegraphics[width=\textwidth]{c-roads-af}
-\caption{C-ROADS-ilmastomallin metsien kasvu. \cite{croads} \label{ilmasto:af}}
+\caption{C-ROADS-ilmastomallin metsien kasvu. \cite{Croads} \label{ilmasto:af}}
 \end{figure}
-
-%\begin{figure}[H]
-%\centering \includegraphics[width=\textwidth]{c-roads-df}
-%\caption{C-ROADS-ilmastomallin metsien tuho. \cite{croads} \label{ilmasto:df}}
-%\end{figure}
 
 \subsection{En-ROADS-ilmastomalli \label{ilmasto:enroads}}
 
@@ -572,6 +578,8 @@ Seuraava kuva \ref{ilmasto:af} on C-ROADS-ilmastomallin metsien kasvun kausaalid
 
 \section{Yhteenveto \label{yhteenveto}}
 %\section{Summary} 
+
+Keskitytään hyvin paljon Stermanin ja Fiddamanin tutkimukseen, eikä esitetä kritiikkiä. 
 
 \clearpage
 

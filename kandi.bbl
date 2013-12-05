@@ -1,8 +1,12 @@
 \begin{thebibliography}{10}
 
-\bibitem{croads}
+\bibitem{AmericanInstituteofPhysics}
+{American Institute of Physics}.
+\newblock {The Discovery of Global Warming}.
+
+\bibitem{Croads}
 {Climate Interactive}.
-\newblock {C-ROADS}.
+\newblock {C-ROADS-ilmastomalli}.
 
 \bibitem{Fiddaman1997}
 Thomas~S Fiddaman.
@@ -34,6 +38,10 @@ Jay~W. Forrester.
 Jay~W Forrester.
 \newblock {The Beginning of System Dynamics}, 1989.
 
+\bibitem{IPCChistory}
+{Intergovernmental Panel on Climate Change}.
+\newblock {IPCC:n historiasivu}.
+
 \bibitem{Sterman2000}
 John~D. Sterman.
 \newblock {\em {Business Dynamics: Systems Thinking and Modeling for a Complex
@@ -58,9 +66,8 @@ John~D. Sterman, Thomas Fiddaman, Travis Franck, Andrew Jones, Stephanie
 
 \bibitem{U.S.DepartmentofEnergy2009}
 {U.S. Department of Energy}.
-\newblock {\em {Science Challenges and Future Directions: Climate Change
-  Integrated Assessment Research}}.
-\newblock 2009.
+\newblock {Climate Change Intergated Assessment Research}.
+\newblock Technical report, U.S. Department of Energy, 2009.
 
 \bibitem{Zadeh1973}
 Lotfi~a. Zadeh.
