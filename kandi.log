@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.5)  6 DEC 2013 21:38
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.5)  6 DEC 2013 22:27
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
 (//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
@@ -1196,24 +1196,29 @@ b/kandi/viive.png> <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/varas
 tovirtaus.png>] [9 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/varas
 tovirtauskana.png>] [10
 
-] [11] [12]
-<c-roads-co2.png, id=343, 422.32782pt x 430.60875pt>
+] [11]
+Overfull \hbox (31.17297pt too wide) in paragraph at lines 518--519
+\T1/cmr/m/n/12 mal-li ja pe-rus-tuu Fid-da-ma-nin [[]] ke-hit-t‰-m‰‰n sys-tee-m
+i-dy-naa-mi-seen FREE-ilmastomalliin.
+ []
+
+[12] <c-roads-co2.png, id=347, 422.32782pt x 430.60875pt>
 File: c-roads-co2.png Graphic file (type png)
- <use c-roads-co2.png>
-[13] [14 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-co2.png
->] <c-roads-heat.png, id=358, 513.41812pt x 429.85594pt>
+
+<use c-roads-co2.png> [13] [14 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub
+/kandi/c-roads-co2.png>] <c-roads-heat.png, id=362, 513.41812pt x 429.85594pt>
 File: c-roads-heat.png Graphic file (type png)
 
 <use c-roads-heat.png> [15
 
  <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-heat.png>] <c-r
-oads-slr.png, id=367, 587.19376pt x 254.45062pt>
+oads-slr.png, id=371, 587.19376pt x 254.45062pt>
 File: c-roads-slr.png Graphic file (type png)
 
 <use c-roads-slr.png> [16
 
  <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-slr.png>] <c-ro
-ads-af.png, id=376, 624.08156pt x 367.3725pt>
+ads-af.png, id=380, 624.08156pt x 367.3725pt>
 File: c-roads-af.png Graphic file (type png)
 
 <use c-roads-af.png> [17
@@ -1224,20 +1229,20 @@ File: c-roads-af.png Graphic file (type png)
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.bbl [19
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 600.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 603.
  [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 600.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 603.
 
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 600.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 603.
 Package rerunfilecheck Info: File `kandi.out' has not changed.
 (rerunfilecheck)             Checksum: 3413455DF5B1AF61913DC18C498A093B;1668.
  ) 
 Here is how much of TeX's memory you used:
- 15967 strings out of 494053
- 283231 string characters out of 3147734
- 771222 words of memory out of 3000000
- 18791 multiletter control sequences out of 15000+200000
+ 15969 strings out of 494053
+ 283256 string characters out of 3147734
+ 771254 words of memory out of 3000000
+ 18792 multiletter control sequences out of 15000+200000
  25371 words of font info for 49 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  70i,10n,59p,1032b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1259,9 +1264,9 @@ onts/type1/public/cm-super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/ty
 pe1/public/cm-super/sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/pub
 lic/cm-super/sfti1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw/helvet
 ic/uhvb8a.pfb>
-Output written on kandi.pdf (25 pages, 417513 bytes).
+Output written on kandi.pdf (25 pages, 418391 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
+ 478 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
  257 words of extra memory for PDF output out of 10000 (max. 10000000)
 
