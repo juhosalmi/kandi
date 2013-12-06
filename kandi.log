@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.5)  6 DEC 2013 18:16
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.5)  6 DEC 2013 21:38
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
 (//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
@@ -1159,36 +1159,36 @@ Overfull \hbox (2.00002pt too wide) in paragraph at lines 240--242
 
 ] [2] [3
 
-] <tapahtuma.png, id=189, 327.47343pt x 82.05656pt>
+] <tapahtuma.png, id=194, 327.47343pt x 82.05656pt>
 File: tapahtuma.png Graphic file (type png)
 
 <use tapahtuma.png> [4 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/t
 apahtuma.png>]
-<takaisinkytkentasuuntautunut.png, id=201, 225.09094pt x 128.73094pt>
+<takaisinkytkentasuuntautunut.png, id=206, 225.09094pt x 128.73094pt>
 File: takaisinkytkentasuuntautunut.png Graphic file (type png)
 
 <use takaisinkytkentasuuntautunut.png>
-<laajennettutakaisinkytkentasuuntautunut.png, id=206, 358.33875pt x 234.1247pt>
+<laajennettutakaisinkytkentasuuntautunut.png, id=211, 358.33875pt x 234.1247pt>
 File: laajennettutakaisinkytkentasuuntautunut.png Graphic file (type png)
 <use laajennettutakaisinkytkentasuuntautunut.png> [5 <//home.org.aalto.fi/jtsal
 mi/data/Desktop/GitHub/kandi/takaisinkytkentasuuntautunut.png> <//home.org.aalt
 o.fi/jtsalmi/data/Desktop/GitHub/kandi/laajennettutakaisinkytkentasuuntautunut.
-png>] <positiivinen.png, id=225, 184.43906pt x 109.91063pt>
+png>] <positiivinen.png, id=230, 184.43906pt x 109.91063pt>
 File: positiivinen.png Graphic file (type png)
 
-<use positiivinen.png> [6] <negatiivinen.png, id=235, 189.70876pt x 108.405pt>
+<use positiivinen.png> [6] <negatiivinen.png, id=240, 189.70876pt x 108.405pt>
 File: negatiivinen.png Graphic file (type png)
 
-<use negatiivinen.png> <viive.png, id=242, 183.68625pt x 64.74188pt>
+<use negatiivinen.png> <viive.png, id=247, 183.68625pt x 64.74188pt>
 File: viive.png Graphic file (type png)
 
 <use viive.png> [7 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/posit
 iivinen.png> <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/negatiivine
-n.png>] <varastovirtaus.png, id=254, 271.0125pt x 65.49469pt>
+n.png>] <varastovirtaus.png, id=259, 271.0125pt x 65.49469pt>
 File: varastovirtaus.png Graphic file (type png)
 
 <use varastovirtaus.png>
-<varastovirtauskana.png, id=260, 184.43906pt x 131.74219pt>
+<varastovirtauskana.png, id=265, 184.43906pt x 131.74219pt>
 File: varastovirtauskana.png Graphic file (type png)
 
 <use varastovirtauskana.png> [8 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHu
@@ -1197,23 +1197,23 @@ tovirtaus.png>] [9 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/varas
 tovirtauskana.png>] [10
 
 ] [11] [12]
-<c-roads-co2.png, id=334, 422.32782pt x 430.60875pt>
+<c-roads-co2.png, id=343, 422.32782pt x 430.60875pt>
 File: c-roads-co2.png Graphic file (type png)
  <use c-roads-co2.png>
 [13] [14 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-co2.png
->] <c-roads-heat.png, id=348, 513.41812pt x 429.85594pt>
+>] <c-roads-heat.png, id=358, 513.41812pt x 429.85594pt>
 File: c-roads-heat.png Graphic file (type png)
 
 <use c-roads-heat.png> [15
 
  <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-heat.png>] <c-r
-oads-slr.png, id=357, 587.19376pt x 254.45062pt>
+oads-slr.png, id=367, 587.19376pt x 254.45062pt>
 File: c-roads-slr.png Graphic file (type png)
 
 <use c-roads-slr.png> [16
 
  <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-slr.png>] <c-ro
-ads-af.png, id=366, 624.08156pt x 367.3725pt>
+ads-af.png, id=376, 624.08156pt x 367.3725pt>
 File: c-roads-af.png Graphic file (type png)
 
 <use c-roads-af.png> [17
@@ -1224,23 +1224,23 @@ File: c-roads-af.png Graphic file (type png)
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.bbl [19
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 603.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 600.
  [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 603.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 600.
 
 (\\home.org.aalto.fi\jtsalmi\data\Desktop\GitHub\kandi\kandi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 603.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 600.
 Package rerunfilecheck Info: File `kandi.out' has not changed.
-(rerunfilecheck)             Checksum: E11ED4DBEF30673632EAC90488CDAA1F;1584.
+(rerunfilecheck)             Checksum: 3413455DF5B1AF61913DC18C498A093B;1668.
  ) 
 Here is how much of TeX's memory you used:
- 15962 strings out of 494053
- 283166 string characters out of 3147734
- 771129 words of memory out of 3000000
- 18788 multiletter control sequences out of 15000+200000
+ 15967 strings out of 494053
+ 283231 string characters out of 3147734
+ 771222 words of memory out of 3000000
+ 18791 multiletter control sequences out of 15000+200000
  25371 words of font info for 49 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 70i,10n,59p,1032b,553s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,10n,59p,1032b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/P
 ROGRAMS/MiKTeX/MiKTeX_2.9/fonts/enc/dvips/fontname/8r.enc}<C:/PROGRAMS/MiKTeX/M
 iKTeX_2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_
@@ -1259,9 +1259,9 @@ onts/type1/public/cm-super/sfrm1095.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/ty
 pe1/public/cm-super/sfrm1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/pub
 lic/cm-super/sfti1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw/helvet
 ic/uhvb8a.pfb>
-Output written on kandi.pdf (25 pages, 415550 bytes).
+Output written on kandi.pdf (25 pages, 417513 bytes).
 PDF statistics:
- 464 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 474 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 257 words of extra memory for PDF output out of 10000 (max. 10000000)
 

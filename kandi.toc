@@ -11,13 +11,14 @@
 \contentsline {subsection}{\numberline {2.4}Viiveet, varastot ja virtaukset }{7}{subsection.2.4}
 \contentsline {section}{\numberline {3}Ilmastonmuutoksen mallintaminen }{10}{section.3}
 \contentsline {subsection}{\numberline {3.1}Ilmastotieteen, -mallien ja -politiikan historia }{10}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}C-ROADS-ilmastomalli }{12}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}C-ROADS-ilmastomallin k\IeC {\"a}ytt\IeC {\"o} }{13}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Hiilidioksidi }{13}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Maapallolle varastoitunut l\IeC {\"a}mp\IeC {\"o}energia }{15}{subsubsection.3.2.3}
-\contentsline {subsection}{\numberline {3.3}En-ROADS-ilmastomalli }{17}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}FREE-ilmastomalli }{17}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Erilaiset ilmastomallit }{17}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Ilmastonmuutoksen ongelmanratkaisu systeemidynamiikalla }{17}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.2}Systeemidynaamiset ilmastomallit }{12}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}C-ROADS-ilmastomalli }{12}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}C-ROADS-ilmastomallin k\IeC {\"a}ytt\IeC {\"o} }{13}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Hiilidioksidi }{13}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Maapallolle varastoitunut l\IeC {\"a}mp\IeC {\"o}energia }{15}{subsubsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}En-ROADS-ilmastomalli }{17}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}FREE-ilmastomalli }{17}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Erilaiset ilmastomallit }{17}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Ilmastonmuutoksen ongelmanratkaisu systeemidynamiikalla }{17}{subsection.3.7}
 \contentsline {section}{\numberline {4}Yhteenveto }{18}{section.4}
 \contentsline {section}{Viitteet}{19}{section*.6}
