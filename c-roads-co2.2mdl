@@ -1,0 +1,141 @@
+{UTF-8}
+Biomassaan sitoutuminen  = A FUNCTION OF( )
+	~	
+	~		|
+
+Biomassasta vapautuminen  = A FUNCTION OF( )
+	~	
+	~		|
+
+CO2 biomassassa  = A FUNCTION OF( Biomassaan sitoutuminen,-Biomassasta vapautuminen,-Kuoleva biomassa\
+		)
+	~	
+	~		|
+
+CO2 ilmakehässä  = A FUNCTION OF( -Biomassaan sitoutuminen,Biomassasta vapautuminen\
+		,-Liukeneminen meriin,Maaperästä vapautuminen,Vapautuminen meristä)
+	~	
+	~		|
+
+CO2 maaperässä  = A FUNCTION OF( Kuoleva biomassa,-Maaperästä vapautuminen)
+	~	
+	~		|
+
+CO2 merten pintakerroksissa  = A FUNCTION OF( Liukeneminen meriin,-Liukeneminen syvempiin kerroksiin\
+		,-Vapautuminen meristä,Vapautuminen syvemmistä kerroksista)
+	~	
+	~		|
+
+CO2 syvässä meressä  = A FUNCTION OF( Liukeneminen syvempiin kerroksiin,-Vapautuminen syvemmistä kerroksista\
+		)
+	~	
+	~		|
+
+Kuoleva biomassa=A FUNCTION OF(Kuoleva biomassa) ~~|
+Kuoleva biomassa=
+	~	
+	~		|
+
+Liukeneminen meriin  = A FUNCTION OF( )
+	~	
+	~		|
+
+Liukeneminen syvempiin kerroksiin  = A FUNCTION OF( )
+	~	
+	~		|
+
+Maaperästä vapautuminen  = A FUNCTION OF( )
+	~	
+	~		|
+
+Vapautuminen meristä  = A FUNCTION OF( )
+	~	
+	~		|
+
+Vapautuminen syvemmistä kerroksista  = A FUNCTION OF( )
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,CO2 ilmakehässä,447,340,40,20,3,3,0,0,0,0,0,0
+10,2,CO2 biomassassa,634,263,40,20,3,3,0,0,0,0,0,0
+10,3,CO2 maaperässä,446,122,40,20,3,3,0,0,0,0,0,0
+10,4,CO2 merten pintakerroksissa,447,517,55,26,3,131,0,0,0,0,0,0
+10,5,CO2 syvässä meressä,445,661,46,23,3,131,0,0,0,0,0,0
+1,6,7,1,100,0,0,22,0,0,0,-1--1--1,,1|(527,342)|
+11,7,0,573,342,6,8,34,3,0,0,1,0,0,0
+10,8,Biomassaan sitoutuminen,573,369,40,19,40,3,0,0,-1,0,0,0
+1,9,7,2,4,0,0,22,0,0,0,-1--1--1,,1|(634,342)|
+1,10,11,2,100,0,0,22,0,0,0,-1--1--1,,1|(562,263)|
+11,11,0,524,263,6,8,34,3,0,0,1,0,0,0
+10,12,Biomassasta vapautuminen,524,290,44,19,40,3,0,0,-1,0,0,0
+1,13,11,1,4,0,0,22,0,0,0,-1--1--1,,1|(447,263)|
+1,14,16,3,4,0,0,22,0,0,0,-1--1--1,,1|(605,122)|
+1,15,16,2,100,0,0,22,0,0,0,-1--1--1,,1|(605,224)|
+11,16,0,605,199,8,6,33,3,0,0,4,0,0,0
+10,17,Kuoleva biomassa,671,199,58,11,40,3,0,0,-1,0,0,0
+1,18,20,1,4,0,0,22,0,0,0,-1--1--1,,1|(428,263)|
+1,19,20,3,100,0,0,22,0,0,0,-1--1--1,,1|(428,168)|
+11,20,0,428,200,8,6,33,3,0,0,4,0,0,0
+10,21,Maaperästä vapautuminen,480,200,44,19,40,3,0,0,-1,0,0,0
+11,22,0,524,263,6,8,2,3,0,0,1,0,0,0
+1,23,22,11,4,0,0,22,0,0,0,-1--1--1,,1|(524,263)|
+1,24,22,11,100,0,0,22,0,0,0,-1--1--1,,1|(524,263)|
+1,25,27,4,4,0,0,22,0,0,0,-1--1--1,,1|(466,465)|
+1,26,27,1,100,0,0,22,0,0,0,-1--1--1,,1|(466,394)|
+11,27,0,466,434,8,6,33,3,0,0,4,0,0,0
+10,28,Liukeneminen meriin,518,434,44,19,40,3,0,0,-1,0,0,0
+1,29,31,1,4,0,0,22,0,0,0,-1--1--1,,1|(427,394)|
+1,30,31,4,100,0,0,22,0,0,0,-1--1--1,,1|(427,465)|
+11,31,0,427,434,8,6,33,3,0,0,2,0,0,0
+10,32,Vapautuminen meristä,373,434,46,19,40,3,0,0,-1,0,0,0
+1,33,35,5,4,0,0,22,0,0,0,-1--1--1,,1|(467,617)|
+1,34,35,4,100,0,0,22,0,0,0,-1--1--1,,1|(467,564)|
+11,35,0,467,591,8,6,33,3,0,0,4,0,0,0
+10,36,Liukeneminen syvempiin kerroksiin,540,591,65,19,40,3,0,0,-1,0,0,0
+1,37,39,4,4,0,0,22,0,0,0,-1--1--1,,1|(427,563)|
+1,38,39,5,100,0,0,22,0,0,0,-1--1--1,,1|(427,617)|
+11,39,0,427,590,8,6,33,3,0,0,2,0,0,0
+10,40,Vapautuminen syvemmistä kerroksista,345,590,74,19,40,3,0,0,-1,0,0,0
+///---\\\
+:L<%^E!@
+9:Current
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+5:Vapautuminen meristä
+24:0
+25:0
+26:0
