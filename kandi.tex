@@ -451,14 +451,14 @@ Silmukka on positiivinen, kun siinä on parillinen määrä negatiivisia kytkent
 
 \subsection{Viiveet, varastot ja virtaukset \label{sysdyn:vvv}}
 
-Viiveet aiheuttavat systeemiin hitautta, aiheuttavat värähtelyitä sekä johtavat siihen, että päätösten seuraukset johtavat pitkällä aikajänteellä erilaisiin tilanteisiin kuin lyhyellä aikajänteellä. Seuraavassa kuvassa \ref{sysdyn:viive} on esitetty systeemi, jossa hinnan nousu lisää viiveellä tuotantoa. Kausaalidiagrammeihin viiveet merkitään nuolen päälle joko kahdella poikkiviivalla tai laatikolla, jossa lukee "viive". \cite[s. 150--152]{Sterman2000} 
+Viiveet (eng. delay) aiheuttavat systeemiin hitautta, aiheuttavat värähtelyitä sekä johtavat siihen, että päätösten seuraukset johtavat pitkällä aikajänteellä erilaisiin tilanteisiin kuin lyhyellä aikajänteellä. Seuraavassa kuvassa \ref{sysdyn:viive} on esitetty systeemi, jossa hinnan nousu lisää viiveellä tuotantoa. Kausaalidiagrammeihin viiveet merkitään nuolen päälle joko kahdella poikkiviivalla tai laatikolla, jossa lukee "viive". \cite[s. 150--152]{Sterman2000} 
 
 \begin{figure}[H]
 \centering \includegraphics{viive}
 \caption{Viiveellinen systeemi \cite[s. 150]{Sterman2000} \label{sysdyn:viive}}
 \end{figure}
 
-Varastot ovat systeemin osia, joiden arvo kertyy. Ne tuottavat systeemiin muistia sekä hitautta ja niillä voi kuvata viiveitä. Varastot myös kertovat päättäjille, mikä on systeemin tila. Varastoon voi tulla sisäänvirtauksia ja sieltä voi lähteä ulosvirtauksia. Sisäänvirtaukset kerryttävät ja ulosvirtaukset kuluttavat varaston arvoa. Seuraava kuva \ref{sysdyn:varastovirtaus} on yksinkertainen kausaalidiagrammiesitys varastosta ja virtauksista. Varastot merkitään kausaalidiagrammiin suorakulmioilla, virtauskytkennät virtausnuolilla, virtausmuuttujat venttiilisymboleilla sekä systeemin ulkopuoliset lähteet ja nielut pilvillä. \cite[s. 191--197]{Sterman2000} 
+Varastot (eng. stock) ovat systeemin osia, joiden arvo kertyy. Ne tuottavat systeemiin muistia sekä hitautta ja niillä voi kuvata viiveitä. Varastot myös kertovat päättäjille, mikä on systeemin tila. Varastoon voi kohdistua virtauksia (eng. flow), jotka muuttavat varaston arvoa. Sisäänvirtaukset kerryttävät ja ulosvirtaukset kuluttavat varaston arvoa. Seuraava kuva \ref{sysdyn:varastovirtaus} on yksinkertainen kausaalidiagrammiesitys varastosta ja virtauksista. Varastot merkitään kausaalidiagrammiin suorakulmioilla, virtauskytkennät virtausnuolilla, virtausmuuttujat venttiilisymboleilla sekä systeemin ulkopuoliset lähteet ja nielut pilvillä. \cite[s. 191--197]{Sterman2000} 
 
 \begin{figure}[H]
 \centering \includegraphics{varastovirtaus}
@@ -495,7 +495,7 @@ Vuonna 1989 tiedemies Svante Arrhenius teki ensimmäiset laskelmat siitä, että
 
 Mallit ja laskentateho jatkoivat kehittymistä. Malleihin lisättiin erottelukykyä, ilmakehän kerroksia sekä maan pinnanmuotoja ja ne laajennettiin kattamaan koko maapallo. 1960-luvun puoliväliin tultaessa oli kehitetty ensimmäinen kaksikerroksinen koko maapallon kattava yleinen virtausmalli (eng. general circulation model), joka otti huomioon vuorten, merien ja jäätiköiden vaikutukset. \cite{AmericanInstituteofPhysicsGCM} Samaan aikaan tehtiin ensimmäiset löydökset ilmaston takaisinkytkennöistä, jotka saattaisivat tehdä ilmastosta yllättävänkin epävakaan. Ilmastonlämpenemistä ei kuitenkaan osattu nähdä vielä uhkana. \cite{AmericanInstituteofPhysics} 
 
-Tarkkojen ilmastomallien lisäksi kehitettiin yksinkertaisia ilmastomalleja, joilla saatettiin esimerkiksi pureutua yksittäisiin ilmastokysymyksiin. Yksinkertaisissa malleissa maapallo voidaan esimerkiksi mallintaa yhtenä kokonaisuutena sen sijaan, että mallinnettaisiin ilmakehä lukuisiin palasiin jaettuna kolmiulotteisena hilana. \cite{AmericanInstituteofPhysicsSimple} Seuraavissa aliluvuissa esiteltävät systeemidynaamiset mallit ovat yksinkertaisia ilmastomalleja, joista ensimmäisen julkaisi Tom Fiddaman väitöskirjassaan vuonna 1997 \cite{Fiddaman1997}. 
+Tarkkojen ilmastomallien lisäksi on kehitetty yksinkertaisia ilmastomalleja, joilla saatetaan esimerkiksi pureutua yksittäisiin ilmastokysymyksiin. Yksinkertaisissa malleissa maapallo voidaan esimerkiksi mallintaa yhtenä kokonaisuutena sen sijaan, että mallinnettaisiin ilmakehä lukuisiin palasiin jaettuna kolmiulotteisena hilana. Tällä tavalla ei tarvita niin paljoa laskentatehoa, mutta kysymyksen kannalta päästään riittävään tarkkuuteen. \cite{AmericanInstituteofPhysicsSimple} Seuraavissa aliluvuissa esiteltävät systeemidynaamiset mallit ovat yksinkertaisia ilmastomalleja, joista ensimmäisen julkaisi Tom Fiddaman väitöskirjassaan vuonna 1997 \cite{Fiddaman1997}. 
 
 Ilmastotutkimus kehittyi hitaasti, mutta sai kunnon sykäyksen 1980-luvun loppulle tultaessa ilmastonmuutokseen jälleen havahduttaessa. \cite{AmericanInstituteofPhysics} Tällöin perustettiin Hallitustenvälinen ilmastonmuutospaneeli IPCC (Intergovernmental Panel on Climate Change) kokoamaan ja arvioimaan ihmisen aiheuttaman ilmaston lämpenemistä ja sen vaikutuksia koskevaa tieteellistä tutkimusta. \cite{IPCChistory}. 
 
@@ -515,12 +515,25 @@ Tässä työssä ilmastomalleja esiteltäessä ja vertailtaessa keskitytään sy
 
 \subsection{C-ROADS-ilmastomalli \label{ilmasto:croads}}
 
-C-ROADS (Climate-Rapid Overview And Decision Support) on fysikaalinen ilmastomalli ja perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen FREE-ilmastomalliin. C-ROADS:n tarkoitus on auttaa ihmisiä ymmärtämään ilmastopoliittisten päätösten pitkäaikaiset seuraukset. \cite{CroadsWWW, CroadsFlightSimulator2011}
+C-ROADS (Climate-Rapid Overview And Decision Support) on fysikaalinen ilmastomalli, joka perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen FREE-ilmastomalliin. C-ROADS:n tarkoitus on auttaa ihmisiä ymmärtämään, miten ilmasto toimii ja millaiset pitkän aikajänteen seuraukset erilaisilla ilmastopoliittisilla päätöksillä on. \cite{CroadsWWW, CroadsFlightSimulator2011}
 
+Sterman \cite{CroadsFlightSimulator2011} vertaa C-ROADS-ilmastomallia 
+
+C-ROADS-simulaation ajaa sekunnin murto-osassa. \cite{CroadsWWW, Croads, CroadsFlightSimulator2011}
+
+C-ROADS:ssa on graafinen käyttöliittymä, jolla kuka tahansa voi kokeilla, millainen lopputulos erilaisilla päästöillä on ilmastoon. \cite{Croads, CroadsWWW, CroadsFlightSimulator2011}
+
+C-ROADS:ssa maapallon voi yhteen tai useampaan alueeseen, jotka tekevät ilmastopoliittiset päätökset itsenäisesti. Näin käyttäjä voi ajaa esimerkiksi simulaation tilanteessa, jossa Kiina vähentää päästöjään 50 \% alle vuoden 2000 tason ja muu maailma 40 \% alle vuoden 1990 tason. \cite{Croads, CroadsWWW, CroadsFlightSimulator2011}
+
+C-ROADS on viritetty siten, että se noudattaa eri simulaatioparametrein parhaiden ilmastomallien käyttäytymistä. \cite{CroadsWWW, CroadsFlightSimulator2011}
+
+C-ROADS:sta on tehty myös roolipeli, World Climate, jossa kukin pelaaja edustaa eri maailman valtiota YK:n ilmastoneuvotteluissa. \cite{CroadsWWW, CroadsFlightSimulator2011}
+
+C-ROADS:n arviointiryhmä antoi vuonna 2009 lausunnon, että malli ajaa asiansa: sen käyttäyttäytyminen noudattaa parhaiden ilmastomallien käyttäytymistä ja se toimii tehokkaana työkaluna kohdeyleisölle. Arviointiryhmä huomautti, että mallin pitäisi selkeämmin viestiä sen todellisia kykyjä mallintaa ilmastoa sekä kertoa epävarmuustekijöistä, jotka malliin liittyvät. Arviointiryhmä ehdotti myös, että malliin lisättäisiin osa pois jätetyistä takaisinkytkennöistä. \cite{Watson2009}
 
 C-ROADS-ilmastomalli koostuu useasta alimallista. Kullekin kasvihuonekaasulle on oma alimallinsa, samoin metsien kasvamiselle ja tuhoutumiselle, meren pinnan korkeudelle sekä maapallolle kertyneelle lämpöenergialle. \cite{Croads, CroadsFlightSimulator2011} % Sikäli, kun FREE-mallia käsittelen myöhemmässä luvussa, niin tähän lukuun viittaus siitä
 
-Seuraavaksi tutustutaan C-ROADS:n keskeisiin alimalleihin. Havainnollistamisessa käytetään apuna mallin kausaalidiagrammeja, joista on selkeyden vuoksi piilotettu osa muuttujista ja vuorovaikutukista. Malliin on otettu Kioton ilmastosopimuksen \cite{KyotoManual} mukaiset kasvihuonekaasut: hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2O$), perfluorohiiliyhdisteet ($PFC$), rikkiheksafluoridi ($SF_6$) sekä hydrofluorihiiliyhdisteet ($HFC$) \cite{Croads, CroadsFlightSimulator2011}.  Mutkikkaimmin mallissa on esitetty hiilidioksidin kiertokulku, joten kasvihuonekaasuista tässä työssä esitetään vain sen alimalli. % Muitakin kasvihuonekaasuja on
+Seuraavaksi tutustutaan C-ROADS:n keskeisiin alimalleihin. Havainnollistamisessa käytetään apuna mallin kausaalidiagrammeja, joista on selkeyden vuoksi piilotettu osa muuttujista ja vuorovaikutukista. Malliin on otettu Kioton ilmastosopimuksen \cite{KyotoManual} mukaiset kasvihuonekaasut: hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2O$), rikkiheksafluoridi ($SF_6$) sekä $PFC$- ja $HFC$-yhdisteet. \cite{Croads, CroadsFlightSimulator2011}.  Mutkikkaimmin mallissa on esitetty hiilidioksidin kiertokulku, joten kasvihuonekaasuista tässä työssä esitetään vain sen alimalli. % Muitakin kasvihuonekaasuja on
 
 \subsubsection{C-ROADS-ilmastomallin käyttö \label{ilmasto:croads:kaytto}}
 
