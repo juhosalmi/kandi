@@ -1,9 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: kandi.aux
-The style file: plain.bst
-Database file #1: viitteet.bib
-Warning--empty publisher in Forrester1961
-Warning--empty journal in CroadsFlightSimulator2011
-Warning--there's a number but no volume in CroadsFlightSimulator2011
-Warning--empty publisher in KyotoManual
-Warning--empty institution in Watson2009
-(There were 5 warnings)
+The style file: biblatex.bst
+Database file #1: kandi-blx.bib
+Database file #2: viitteet.bib
+Biblatex version: 1.2

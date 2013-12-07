@@ -1,102 +1,566 @@
-\begin{thebibliography}{10}
+% $ biblatex auxiliary file $
+% $ biblatex version 1.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{AmericanInstituteofPhysics}
-{American Institute of Physics}.
-\newblock {The Discovery of Global Warming}.
+\entry{Flood1988}{book}{}
+  \name{author}{2}{%
+    {{Flood}{F.}%
+     {Robert~L.}{R.~L.}%
+     {}{}%
+     {}{}}%
+    {{Carson}{C.}%
+     {Ewart~R.}{E.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Plenum Publishing Corporation}%
+  }
+  \keyw{Information systems,Systems theory,Systems work}
+  \strng{namehash}{FRLCER1}
+  \strng{fullhash}{FRLCER1}
+  \field{edition}{2nd}
+  \field{isbn}{0-306-42715-X}
+  \field{pages}{289}
+  \field{title}{{Dealing with Complexity: An Introduction to the Theory and
+  Application of Systems Science}}
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{year}{1988}
+\endentry
 
-\bibitem{AmericanInstituteofPhysicsGCM}
-{American Institute of Physics}.
-\newblock {The Discovery of Global Warming: General Circulation Models of
-  Climate}.
+\entry{WhatIsSystemDynamics}{misc}{}
+  \name{author}{1}{%
+    {{{System Dynamics Society}}{S.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{S1}
+  \strng{fullhash}{S1}
+  \field{title}{{What is system dynamics?}}
+  \verb{url}
+  \verb http://www.systemdynamics.org/what\_is\_system\_dynamics.html
+  \endverb
+  \field{urlday}{24}
+  \field{urlmonth}{11}
+  \field{urlyear}{2013}
+\endentry
 
-\bibitem{AmericanInstituteofPhysicsSimple}
-{American Institute of Physics}.
-\newblock {The Discovery of Global Warming: Simple Models of Climate Change}.
+\entry{Zadeh1973}{article}{}
+  \name{author}{1}{%
+    {{Zadeh}{Z.}%
+     {Lotfi~a.}{L.~a.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZLa1}
+  \strng{fullhash}{ZLa1}
+  \verb{doi}
+  \verb 10.1109/TSMC.1973.5408575
+  \endverb
+  \field{issn}{0018-9472}
+  \field{number}{1}
+  \field{pages}{28\bibrangedash 44}
+  \field{title}{{Outline of a New Approach to the Analysis of Complex Systems
+  and Decision Processes}}
+  \verb{url}
+  \verb http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5408575
+  \endverb
+  \field{volume}{SMC-3}
+  \verb{file}
+  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
+  \verb y Desktop/Downloaded/Zadeh - 1973 - Outline of a New Approach to the An
+  \verb alysis of Complex Systems and Decision Processes.pdf:pdf
+  \endverb
+  \field{journaltitle}{IEEE Transactions on Systems, Man, and Cybernetics}
+  \field{year}{1973}
+\endentry
 
-\bibitem{Croads}
-{Climate Interactive}.
-\newblock {C-ROADS-ilmastomalli}.
+\entry{Forrester1961}{book}{}
+  \name{author}{1}{%
+    {{Forrester}{F.}%
+     {Jay~W}{J.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FJW1}
+  \strng{fullhash}{FJW1}
+  \field{title}{{Industrial Dynamics}}
+  \field{year}{1961}
+\endentry
 
-\bibitem{CroadsWWW}
-{Climate Interactive}.
-\newblock {C-ROADS-ilmastomallin kotisivu}.
+\entry{Forrester1989}{misc}{}
+  \name{author}{1}{%
+    {{Forrester}{F.}%
+     {Jay~W}{J.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FJW1}
+  \strng{fullhash}{FJW1}
+  \field{pages}{1\bibrangedash 16}
+  \field{title}{{The Beginning of System Dynamics}}
+  \verb{url}
+  \verb http://leml.asu.edu/jingle/Web\_Pages/EcoMod\_Website/Readings/SD+STELL
+  \verb A/Forrester-Begin'g-SD\_1989.pdf
+  \endverb
+  \verb{file}
+  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
+  \verb y Desktop/Downloaded/Forrester - 1989 - The Beginning of System Dynamic
+  \verb s.pdf:pdf
+  \endverb
+  \field{year}{1989}
+\endentry
 
-\bibitem{Fiddaman1997}
-Thomas~S Fiddaman.
-\newblock {\em {Feedback Complexity in Integrated Climate-Economy Models by}}.
-\newblock PhD thesis, Massachusetts Institute of Technology, 1997.
+\entry{Forrester1968}{article}{}
+  \name{author}{1}{%
+    {{Forrester}{F.}%
+     {Jay~W.}{J.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FJW2}
+  \strng{fullhash}{FJW2}
+  \field{number}{7}
+  \field{pages}{398\bibrangedash 415}
+  \field{title}{{Industial Dynamics — After the First Decade}}
+  \field{volume}{14}
+  \verb{file}
+  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
+  \verb y Desktop/Downloaded/Forrester - 1968 - Industial Dynamics — After th
+  \verb e First Decade.pdf:pdf
+  \endverb
+  \field{journaltitle}{Management Science}
+  \field{year}{1968}
+\endentry
 
-\bibitem{Fiddaman2002}
-Thomas~S Fiddaman.
-\newblock {Exploring policy options with a behavioral climate-economy model}.
-\newblock {\em System Dynamics Review}, 18(2):243--267, 2002.
+\entry{Sterman2000}{book}{}
+  \name{author}{1}{%
+    {{Sterman}{S.}%
+     {John~D.}{J.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {McGraw-Hill}%
+  }
+  \keyw{Information systems,MIS,Mathematics,system dynamics}
+  \strng{namehash}{SJD1}
+  \strng{fullhash}{SJD1}
+  \field{isbn}{0-07-231135-5}
+  \field{pages}{982}
+  \field{title}{{Business Dynamics: Systems Thinking and Modeling for a Complex
+  World}}
+  \list{location}{1}{%
+    {Boston}%
+  }
+  \field{year}{2000}
+\endentry
 
-\bibitem{Flood1988}
-Robert~L. Flood and Ewart~R. Carson.
-\newblock {\em {Dealing with Complexity: An Introduction to the Theory and
-  Application of Systems Science}}.
-\newblock Plenum Publishing Corporation, New York, 2nd edition, 1988.
+\entry{AmericanInstituteofPhysics}{misc}{}
+  \name{author}{1}{%
+    {{{American Institute of Physics}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{title}{{The Discovery of Global Warming}}
+  \verb{url}
+  \verb http://www.aip.org/history/climate/ http://www.aip.org/history/climate/
+  \verb summary.htm
+  \endverb
+\endentry
 
-\bibitem{Forrester1961}
-Jay~W Forrester.
-\newblock {\em {Industrial Dynamics}}.
-\newblock 1961.
+\entry{AmericanInstituteofPhysicsSimple}{misc}{}
+  \name{author}{1}{%
+    {{{American Institute of Physics}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{title}{{The Discovery of Global Warming: Simple Models of Climate
+  Change}}
+  \verb{url}
+  \verb http://www.aip.org/history/climate/simple.htm
+  \endverb
+  \field{urlday}{06}
+  \field{urlmonth}{12}
+  \field{urlyear}{2013}
+\endentry
 
-\bibitem{Forrester1968}
-Jay~W. Forrester.
-\newblock {Industial Dynamics — After the First Decade}.
-\newblock {\em Management Science}, 14(7):398--415, 1968.
+\entry{AmericanInstituteofPhysicsGCM}{misc}{}
+  \name{author}{1}{%
+    {{{American Institute of Physics}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{title}{{The Discovery of Global Warming: General Circulation Models of
+  Climate}}
+  \verb{url}
+  \verb http://www.aip.org/history/climate/GCM.htm
+  \endverb
+  \field{urlday}{06}
+  \field{urlmonth}{12}
+  \field{urlyear}{2013}
+\endentry
 
-\bibitem{Forrester1989}
-Jay~W Forrester.
-\newblock {The Beginning of System Dynamics}, 1989.
+\entry{Fiddaman1997}{thesis}{}
+  \name{author}{1}{%
+    {{Fiddaman}{F.}%
+     {Thomas~S}{T.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FTS1}
+  \strng{fullhash}{FTS1}
+  \field{abstract}{%
+  Assessing the economic and ecological impacts of climate change induced by
+  human activity has become a major activity with a substantial modeling
+  community. More than 20 climate-economy models have been developed to address
+  different policy questions. While these integrated models are quite varied,
+  most share some common assumptions and features. They typically employ a
+  nested structure of neoclassical production functions to represent the
+  energy-economy system. Technological potential is represented by elasticities
+  of substitution, exogenous rates of technological improvement, and backstop
+  energy prices. Factor allocation is myopically or intertemporally optimal.
+  The impact of a carbon tax on the energy system at a given time can often be
+  reduced to a simple tradeoff between abatement costs and emissions (though
+  capital stock rigidities complicate the short- run picture in some models).
+  The major endogenous dynamics of these models involve capital accumulation,
+  atmospheric concentrations of greenhouse gases, and the temperature of the
+  atmosphere and ocean system. These models draw heavily on the energy-economy
+  models of the 70s and 80s, which were motivated by energy security issues and
+  explored the potential impacts of increasing energy prices on economic
+  growth. System dynamics models of that period shared the same motivation, but
+  sought alternatives to the assumptions of optimization and equilibrium. They
+  focused instead on disequilibrium dynamics and feedback complexity, with
+  behavioral decision rules and explicit stocks and flows of capital, labor,
+  and money. This research builds on earlier system dynamics models of energy
+  economy interactions, creating a model that tests the implications of a
+  number of feedback processes that have not been explored in the climate
+  change context. Among these are endogenous technological change and boundedly
+  rational decision making, with perception delays and biases. Energy
+  requirements are embodied in capital, and energy production capacity depends
+  on explicit capital stocks. The search for optimal The principal purpose of
+  the model is to identify the structural features that have the greatest
+  implications for policy, and thus are worthy of further pursuit. Experiments
+  with the model indicate that depletion of oil and gas resources has critical
+  interactions with climate policy. The inclusion of learning-by-doing and
+  other path-dependent mechanisms suggests that abatement efforts will be more
+  effective and should be more stringent than models with exogenous technology
+  forecasts indicate. Inclusion of delays and biases from structural and
+  behavioral features of the energy system creates higher long-run emissions
+  reduction potential but imposes substantial constraints that prevent rapid
+  reductions. Fair discounting and consideration of intangible damages
+  substantially raise the indicated abatement effort. In both deterministic and
+  uncertain cases, near-term inaction is a poor policy.%
+  }
+  \field{pages}{360}
+  \field{title}{{Feedback Complexity in Integrated Climate-Economy Models by}}
+  \list{institution}{1}{%
+    {Massachusetts Institute of Technology}%
+  }
+  \verb{file}
+  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
+  \verb y Desktop/Downloaded/Fiddaman - 1997 - Feedback Complexity in Integrate
+  \verb d Climate-Economy Models by.pdf:pdf
+  \endverb
+  \field{type}{phdthesis}
+  \field{year}{1997}
+\endentry
 
-\bibitem{IPCChistory}
-{Intergovernmental Panel on Climate Change}.
-\newblock {IPCC:n historiasivu}.
+\entry{IPCChistory}{misc}{}
+  \name{author}{1}{%
+    {{{Intergovernmental Panel on Climate Change}}{I.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{I1}
+  \strng{fullhash}{I1}
+  \field{title}{{IPCC:n historiasivu}}
+  \verb{url}
+  \verb http://www.ipcc.ch/organization/organization\_history.shtml
+  \endverb
+  \field{urlday}{05}
+  \field{urlmonth}{12}
+  \field{urlyear}{2013}
+\endentry
 
-\bibitem{Sterman2000}
-John~D. Sterman.
-\newblock {\em {Business Dynamics: Systems Thinking and Modeling for a Complex
-  World}}.
-\newblock McGraw-Hill, Boston, 2000.
+\entry{CroadsFlightSimulator2011}{article}{}
+  \name{author}{8}{%
+    {{Sterman}{S.}%
+     {John~D.}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{Fiddaman}{F.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{Franck}{F.}%
+     {Travis}{T.}%
+     {}{}%
+     {}{}}%
+    {{Jones}{J.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+    {{McCauley}{M.}%
+     {Stephanie}{S.}%
+     {}{}%
+     {}{}}%
+    {{Rice}{R.}%
+     {Philip}{P.}%
+     {}{}%
+     {}{}}%
+    {{Sawin}{S.}%
+     {Elizabeth}{E.}%
+     {}{}%
+     {}{}}%
+    {{Siegeld}{S.}%
+     {Lori}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{climate change,climate policy,decision support,interactive,system
+  dynamics}
+  \strng{namehash}{SJD+1}
+  \strng{fullhash}{SJDFTFTJAMSRPSESL1}
+  \field{number}{September}
+  \field{pages}{1\bibrangedash 36}
+  \field{title}{{Management Flight Simulators to Support Climate Negotiations:
+  The C-ROADS Climate Policy Model John D. Sterman}}
+  \verb{file}
+  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
+  \verb y Desktop/Downloaded/Sterman et al. - 2011 - Management Flight Simulato
+  \verb rs to Support Climate Negotiations The C-ROADS Climate Policy Model Joh
+  \verb n D. Sterman.pdf:pdf
+  \endverb
+  \field{year}{2011}
+\endentry
 
-\bibitem{CroadsFlightSimulator2011}
-John~D. Sterman, Thomas Fiddaman, Travis Franck, Andrew Jones, Stephanie
-  McCauley, Philip Rice, Elizabeth Sawin, and Lori Siegeld.
-\newblock {Management Flight Simulators to Support Climate Negotiations: The
-  C-ROADS Climate Policy Model John D. Sterman}.
-\newblock (September):1--36, 2011.
+\entry{UNFCCC}{misc}{}
+  \name{author}{1}{%
+    {{UNFCCC}{U.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{U1}
+  \strng{fullhash}{U1}
+  \field{title}{{UNFCC:n kotisivu}}
+  \verb{url}
+  \verb http://unfccc.int/
+  \endverb
+  \field{urlday}{06}
+  \field{urlmonth}{12}
+  \field{urlyear}{2013}
+\endentry
 
-\bibitem{WhatIsSystemDynamics}
-{System Dynamics Society}.
-\newblock {What is system dynamics?}
+\entry{Fiddaman2002}{article}{}
+  \name{author}{1}{%
+    {{Fiddaman}{F.}%
+     {Thomas~S}{T.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FTS1}
+  \strng{fullhash}{FTS1}
+  \field{abstract}{%
+  Many integrated energy–economy–climate models have been developed to
+  address climate change policy. While these models are quite varied in scope,
+  most share a common core of economic optimization and equilibrium
+  assumptions. By contrast, system dynamics models of energy–economy
+  interactions focus on disequilibrium dynamics, with behavioral decision rules
+  and explicit stocks and flows of capital, labor, resources and money. This
+  article tests climate policies using a system dynamics model that includes
+  many features missing from economic models. Among these are endogenous
+  technological change and boundedly rational decision making. Energy
+  requirements are embodied in capital, and energy production capacity depends
+  on explicit capital stocks. The search for optimal policies is decoupled from
+  other decisions, and uses criteria that are fair across generations. Earlier
+  experiments with the model, briefly reported here, indicate that these
+  features greatly alter policy outcomes. The model is used to test a family of
+  emissions permit and tax policies like the Kyoto Protocol under a range of
+  assumptions. Uncertainty is included in the analysis through Monte Carlo
+  simulation. Results suggest that nearly all policy options are a net benefit,
+  and that the landscape for policy choice is more forgiving than generally
+  supposed. However, implementation remains a critical issue, and the viability
+  of tradeable permits is questionable. Carbon tax policies are found to
+  outperform fixed emissions permits in nearly all circumstances. The model
+  used in this article is available at http://www.sd3.info%
+  }
+  \verb{doi}
+  \verb 10.1002/sdr.241
+  \endverb
+  \field{issn}{0883-7066}
+  \field{number}{2}
+  \field{pages}{243\bibrangedash 267}
+  \field{title}{{Exploring policy options with a behavioral climate-economy
+  model}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1002/sdr.241
+  \endverb
+  \field{volume}{18}
+  \verb{file}
+  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
+  \verb y Desktop/Downloaded/Fiddaman - 2002 - Exploring policy options with a
+  \verb behavioral climate-economy model.pdf:pdf
+  \endverb
+  \field{journaltitle}{System Dynamics Review}
+  \field{year}{2002}
+\endentry
 
-\bibitem{UNFCCC}
-UNFCCC.
-\newblock {UNFCC:n kotisivu}.
+\entry{U.S.DepartmentofEnergy2009}{report}{}
+  \name{author}{1}{%
+    {{{U.S. Department of Energy}}{U.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{U3}
+  \strng{fullhash}{U3}
+  \field{pages}{100}
+  \field{title}{{Climate Change Intergated Assessment Research}}
+  \verb{url}
+  \verb http://science.energy.gov/~/media/ber/pdf/ia\_workshop\_low\_res\_06\_2
+  \verb 5\_09.pdf
+  \endverb
+  \list{institution}{1}{%
+    {U.S. Department of Energy}%
+  }
+  \verb{file}
+  \verb :/home.org.aalto.fi/jtsalmi/data/Desktop/kandiviitteet/climate\_change\
+  \verb _assessment.pdf:pdf
+  \endverb
+  \field{type}{techreport}
+  \field{year}{2009}
+\endentry
 
-\bibitem{KyotoManual}
-{United Nations Framework Convention on Climate Change}.
-\newblock {\em {Kyoto Protocol Reference Manual}}.
-\newblock Bonn, 2008.
+\entry{Croads}{misc}{}
+  \name{author}{1}{%
+    {{{Climate Interactive}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{title}{{C-ROADS-ilmastomalli}}
+\endentry
 
-\bibitem{U.S.DepartmentofEnergy2009}
-{U.S. Department of Energy}.
-\newblock {Climate Change Intergated Assessment Research}.
-\newblock Technical report, U.S. Department of Energy, 2009.
+\entry{CroadsWWW}{misc}{}
+  \name{author}{1}{%
+    {{{Climate Interactive}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{title}{{C-ROADS-ilmastomallin kotisivu}}
+  \verb{url}
+  \verb http://www.climateinteractive.org/simulations/C-ROADS/overview
+  \endverb
+  \field{urlday}{27}
+  \field{urlmonth}{11}
+  \field{urlyear}{2013}
+\endentry
 
-\bibitem{Watson2009}
-Robert Watson, Eric Beinhocker, Bert de~Vries, Klaus Hasselmann, David Lane,
-  Jorgen Randers, and Stephen Schneider.
-\newblock {Summary Statement from the C-ROADS Scientific Review Panel}.
-\newblock Technical report, 2009.
+\entry{Watson2009}{report}{}
+  \name{author}{7}{%
+    {{Watson}{W.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+    {{Beinhocker}{B.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+    {{Vries}{V.}%
+     {Bert}{B.}%
+     {de}{d.}%
+     {}{}}%
+    {{Hasselmann}{H.}%
+     {Klaus}{K.}%
+     {}{}%
+     {}{}}%
+    {{Lane}{L.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{Randers}{R.}%
+     {Jorgen}{J.}%
+     {}{}%
+     {}{}}%
+    {{Schneider}{S.}%
+     {Stephen}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WR+1}
+  \strng{fullhash}{WRBEVBdHKLDRJSS1}
+  \field{pages}{1}
+  \field{title}{{Summary Statement from the C-ROADS Scientific Review Panel}}
+  \verb{url}
+  \verb http://www.climateinteractive.org/simulations/C-ROADS/technical/scienti
+  \verb fic-review/C-ROADS Scientific Review Summary-1.pdf
+  \endverb
+  \verb{file}
+  \verb :/home.org.aalto.fi/jtsalmi/data/Desktop/kandiviitteet/C-ROADS Scientif
+  \verb ic Review Summary.pdf:pdf
+  \endverb
+  \field{type}{techreport}
+  \field{year}{2009}
+\endentry
 
-\bibitem{Zadeh1973}
-Lotfi~a. Zadeh.
-\newblock {Outline of a New Approach to the Analysis of Complex Systems and
-  Decision Processes}.
-\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics},
-  SMC-3(1):28--44, 1973.
+\entry{KyotoManual}{book}{}
+  \name{author}{1}{%
+    {{{United Nations Framework Convention on Climate Change}}{U.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{U2}
+  \strng{fullhash}{U2}
+  \field{isbn}{92-9219-055-5}
+  \field{pages}{130}
+  \field{title}{{Kyoto Protocol Reference Manual}}
+  \list{location}{1}{%
+    {Bonn}%
+  }
+  \verb{file}
+  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
+  \verb y Desktop/Downloaded/United Nations Framework Convention on Climate Cha
+  \verb nge - 2008 - Kyoto Protocol Reference Manual.pdf:pdf
+  \endverb
+  \field{year}{2008}
+\endentry
 
-\end{thebibliography}
+\lossort
+\endlossort
+
+\endinput

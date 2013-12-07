@@ -70,6 +70,21 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{gensymb}
+\usepackage[%
+  backend=biber      % biber or bibtex
+% ,style=authoryear    % Alphabeticalsch
+ ,style=numeric-comp  % numerical-compressed
+ ,sorting=none        % no sorting
+ ,sortcites=true      % some other example options ...
+ ,block=none
+ ,indexing=false
+ ,citereset=none
+ ,isbn=true
+ ,url=true
+ ,doi=true            % prints doi
+ ,natbib=false         % if you need natbib functions
+]{biblatex}
+\addbibresource{viitteet.bib}  % better than \bibliography
 
 %% Jos et jostain syystä pidä, miten alla oleva hyperref-paketti käyttää
 %% fontteja, värejä yms., käytä tämän paketin makroja muuttamaan
@@ -511,6 +526,8 @@ Systeemidynaamiset fysiikkamallit ovat pääsääntöisesti karkeita ja ottavat 
 
 Fysiikkamallin voi laajentaa ihmisiin. Eri tieteenaloja yhdistelevistä malleista käytetään tässä työssä nimitystä yhdistetty malli (eng. intergrated assessment model). Yhdistetyillä ilmastomalleilla voidaan esimerkiksi tutkia, miten ilmastonmuutos, väestönkasvu, talouskasvu ja hyvinvointi vaikuttavat toisiinsa. \cite{U.S.DepartmentofEnergy2009} 
 
+Stermanin \cite{CroadsFlightSimulator2011} mukaan ilmastoneuvotteluissa on kaksi keskeistä haastetta liittyen ilmastomalleihin. Ensinnäkin päättäjien ja neuvottelijoiden on vaikea ymmärtää ilmastomalleja ja toisekseen tarkkojen ilmastomallien simuloimiseen erilaisilla skenaarioilla neuvotteluiden aikana ei ole aikaa. Neuvotteluissa eri maat asettavat eri lähtöoletukset esimerkiksi väestönkasvulle, joten on tärkeää, että simulaatiot kyetään ajamaan nopeasti paikan päällä näistä eri lähtökohdista. Tämä sulkee pois tarkat ilmastomallit, ja Stermanin \cite{CroadsFlightSimulator2011} mukaan harvat yksinkertaisista ilmastomalleistakaan ovat riittävän nopeita. Malleja vaivaa myös se, että ne eivät ole välttämättä julkisesti kaikkien saatavilla, ja niiden toimintaperiaatteita on vaikea ymmärtää. Neuvottelijat ja päättäjät saattavat siis joutua turvautumaan omaan intuitioonsa. Aliluvussa \ref{ilmasto:croads} tutustutaan siihen, miten C-ROADS-ilmastomalli ratkoo näitä haasteita. 
+
 Tässä työssä ilmastomalleja esiteltäessä ja vertailtaessa keskitytään systeemidynamiikan kannalta keskeisiin asioihin: Tutkitaan, mitä on mallinnettu ja jätetty mallintamatta, millaisia ovat mallin keskeiset takaisinkytkennät ja mitkä muuttujat on mallinnettu ulkosyntyisiksi. 
 
 \subsection{C-ROADS-ilmastomalli \label{ilmasto:croads}}
@@ -519,7 +536,7 @@ C-ROADS (Climate-Rapid Overview And Decision Support) on yksinkertainen fysikaal
 
 Mallista on pyritty kehittämään mahdollisimman nopea, läpinäkyvä ja helppokäyttöinen. C-ROADS-simulaation ajaa sekunnin murto-osassa, se on kattavasti dokumentoitu ja siinä on graafinen käyttöliittymä, jolla kuka tahansa voi kokeilla, millainen vaikutus erilaisilla päätöksillä on ilmastonmuutokseen. Graafisen käyttöliittymän avulla pääsee myös tarkastelemaan kausaalidiagrammeja, joista malli on rakennettu. C-ROADS-mallissa maapallon voi jakaa yhteen tai useampaan alueeseen, joista kukin tekee ilmastopoliittiset päätökset itsenäisesti. Näin käyttäjä voi ajaa esimerkiksi simulaation tilanteessa, jossa Kiina vähentää päästöjään 50 \% alle vuoden 2000 tason ja muu maailma 40 \% alle vuoden 1990 tason. C-ROADS:sta on tehty myös roolipeli, World Climate, jossa kukin pelaaja edustaa eri maailman valtiota YK:n ilmastoneuvotteluissa. \cite{Croads, CroadsWWW, CroadsFlightSimulator2011} 
 
-Sterman \cite{CroadsFlightSimulator2011} vertaa C-ROADS-ilmastomallia 
+Näistä syistä C-ROADS-mallia onkin alkanut käyttää monet ympäristöministeriöt ja muut päättäjät. 
 
 
 C-ROADS:n arviointiryhmä antoi vuonna 2009 lausunnon, että malli ajaa asiansa: sen käyttäyttäytyminen noudattaa parhaiden ilmastomallien käyttäytymistä ja se toimii tehokkaana työkaluna kohdeyleisölle. Arviointiryhmä huomautti, että mallin pitäisi selkeämmin viestiä sen todellisia kykyjä mallintaa ilmastoa sekä kertoa epävarmuustekijöistä, jotka malliin liittyvät. Arviointiryhmä ehdotti myös, että malliin lisättäisiin osa pois jätetyistä takaisinkytkennöistä. \cite{Watson2009}
@@ -528,7 +545,7 @@ C-ROADS-ilmastomalli koostuu useasta alimallista. Kullekin kasvihuonekaasulle on
 
 Seuraavaksi tutustutaan C-ROADS:n keskeisiin alimalleihin. Havainnollistamisessa käytetään apuna mallin kausaalidiagrammeja, joista on selkeyden vuoksi piilotettu osa muuttujista ja vuorovaikutukista. Malliin on otettu Kioton ilmastosopimuksen \cite{KyotoManual} mukaiset kasvihuonekaasut: hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2O$), rikkiheksafluoridi ($SF_6$) sekä $PFC$- ja $HFC$-yhdisteet. \cite{Croads, CroadsFlightSimulator2011}.  Mutkikkaimmin mallissa on esitetty hiilidioksidin kiertokulku, joten kasvihuonekaasuista tässä työssä esitetään vain sen alimalli. % Muitakin kasvihuonekaasuja on
 
-\subsubsection{C-ROADS-ilmastomallin käyttö \label{ilmasto:croads:kaytto}}
+
 
 \subsubsection{Hiilidioksidi \label{ilmasto:croads:co2}}
 
@@ -597,11 +614,12 @@ Seuraava kuva \ref{ilmasto:af} on C-ROADS-ilmastomallin metsien kasvun kausaalid
 Keskitytään hyvin paljon Stermanin ja Fiddamanin tutkimukseen, eikä esitetä kritiikkiä. 
 
 \clearpage
-
-\phantomsection
+%\phantomsection
 \addcontentsline{toc}{section}{Viitteet}
-\bibliographystyle{plain}
-\bibliography{viitteet}
+%\bibliographystyle{plain}
+%\bibliography{viitteet}
+\printbibliography
+%\pagestyle{plain}
 
 \end{onehalfspacing} % KYPSYYSNÄYTETTÄ VARTEN
 
