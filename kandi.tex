@@ -546,35 +546,37 @@ C-ROADS-ilmastomalli koostuu useasta osamallista. Kullekin kasvihuonekaasulle on
 
 Malliin on otettu Kioton ilmastosopimuksen \cite{KyotoManual} mukaiset kasvihuonekaasut: hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2O$), rikkiheksafluoridi ($SF_6$) sekä $PFC$- ja $HFC$-yhdisteet. \cite{Croads, CroadsFlightSimulator2011}. Tässä työssä käytettyyn C-ROADS:n 3.012.034 versioon on lisätty muitakin kasvihuonekaasuja \cite{Croads}. Tässä työssä paneudutaan kasvihuonekaasuista hiilidioksidin kiertokulkuun, sillä se on keskeisin osa mallia. 
 
-\subsubsection*{Hiilidioksidi \label{ilmasto:croads:co2}}
+\subsubsection*{Hiilidioksidin kiertokulku \label{ilmasto:croads:co2}}
 
-Seuraava kuva \ref{ilmasto:co2} on yksinkertaistettu hiilidioksidin alimalli. Varastomuuttujat kuvaavat hiilidioksidia ilmakehässä ja biomassassa sekä merten pinta- ja syvissä kerroksissa. Hiilidioksidia tulee systeemiin ihmisen toiminnan seurauksena eli pääasiassa fossiilisten polttoaineiden käytöstä. Ihmisen toiminnan tuottama hiilidioksidi vapautuu ilmakehään. Ilmakehä vaihtaa hiilidioksidia biomassan ja merten pintakerrosten kanssa. Biomassan kasvaessa vähenee ilmakehässä olevan hiilidioksidin määrä. Biomassaa voidaan lisätä metsiä kasvattamalla sekä ehkäisemällä niiden tuhoutumista. \cite{Croads, CroadsFlightSimulator2011}
+Seuraava kuva \ref{ilmasto:co2} on yksinkertaistettu hiilidioksidin osamalli, tarkoittaen sitä, että suurin osa vähemmän merkityksellisistä muuttujista ja kausaaliyhteyksistä on jätetty esittämättä. Varastomuuttujat kuvaavat hiilidioksidia ilmakehässä ja biomassassa sekä merten pinta- ja syvissä kerroksissa. Hiilidioksidia tulee systeemiin ihmisen toiminnan seurauksena eli pääasiassa fossiilisten polttoaineiden käytöstä. Ihmisen toiminnan tuottama hiilidioksidi vapautuu ilmakehään. Ilmakehä vaihtaa hiilidioksidia biomassan ja merten pintakerrosten kanssa. Biomassan kasvaessa vähenee ilmakehässä olevan hiilidioksidin määrä. Biomassaa voidaan lisätä metsiä kasvattamalla sekä ehkäisemällä niiden tuhoutumista. \cite{Croads, CroadsFlightSimulator2011}
 
-Ilmakehän hiilidioksidia liukenee merten pintakerroksiin, josta se voi liueta syvempiin kerroksiin. Virta ei ole kuitenkaan yksisuuntainen, vaan hiilidioksidi voi liueta syvemmistä kerroksista kohti pintaa ja vapautua pintakerroksista ilmakehään. Kuvaan \ref{ilmasto:co2} ei ole kausaaliyhteyttä sekavuuden välttämiseksi piirretty, mutta mitä enemmän ilmakehässä on hiilidioksidia ja mitä vähemmän sitä on merissä, sitä voimakkaammin sitä liukenee ilmakehästä meriin. Myös lämpötila vaikuttaa hiilidioksidin liukenemiseen mereen. Hiilidioksidi liukenee mereen sitä huonommin, mitä enemmän ilmasto lämpenee. \cite{Croads, CroadsFlightSimulator2011}
-
-Systeemiin tulee hiilidioksidia, mutta sitä ei poistu lainkaan. Systeemi muistuttaa siis tulpattua kylpyammetta, johon tulee koko ajan lisää vettä. Karkeasti ottaen ammeen koko riippuu siitä, kuinka paljon meriin voi liueta hiilidioksidia ja kuinka paljon biomassaa kyetään kasvattamaan. Jos hiilidioksidia ei enää pysty virtaamaan riittävästi meriin ja biomassaan, voi ilmakehän hiilidioksidipitoisuus ja siten ilmaston lämpeneminen lähteä räjähtävään kasvuun eli amme alkaisi tulvia yli. Tämä on yksi keskeinen asia, jota päättäjien on vaikea hahmottaa. \cite{CroadsFlightSimulator2011} % Hiilidioksidi metaaniksi
-
-Todellisuudessa systeemistä poistuu jonkin verran hiilidioksidia tai tarkalleen ottaen hiiltä, kun biomassasta vapautuu metaania. Tämän merkitys hiilidioksiditasapainon kannalta on kuitenkin pieni. \cite{Croads}
-
-\begin{figure}[H]
+\begin{figure}[hb]
 \centering \includegraphics{c-roads-co2}
 \caption{C-ROADS-ilmastomallin hiilidioksidin kiertokulku yksinkertaistettuna. \cite{Croads} \label{ilmasto:co2}}
 \end{figure}
 
+Ilmakehän hiilidioksidia liukenee merten pintakerroksiin, josta se voi liueta syvempiin kerroksiin. Virta ei ole kuitenkaan yksisuuntainen, vaan hiilidioksidi voi liueta syvemmistä kerroksista kohti pintaa ja vapautua pintakerroksista ilmakehään. Kuvaan \ref{ilmasto:co2} ei ole kausaaliyhteyttä sekavuuden välttämiseksi piirretty, mutta mitä enemmän ilmakehässä on hiilidioksidia ja mitä vähemmän sitä on merissä, sitä voimakkaammin sitä liukenee ilmakehästä meriin. Myös lämpötila vaikuttaa hiilidioksidin liukenemiseen mereen. Hiilidioksidi liukenee mereen sitä huonommin, mitä enemmän ilmasto lämpenee. \cite{Croads, CroadsFlightSimulator2011}
+
+Systeemiin tulee hiilidioksidia, mutta sitä ei poistu lainkaan. Systeemi muistuttaa siis tulpattua kylpyammetta, johon tulee koko ajan lisää vettä. Karkeasti ottaen ammeen koko riippuu siitä, kuinka paljon meriin voi liueta hiilidioksidia ja kuinka paljon biomassaa kyetään kasvattamaan. Jos hiilidioksidia ei enää pysty virtaamaan riittävästi meriin ja biomassaan, voi ilmakehän hiilidioksidipitoisuus ja siten ilmaston lämpeneminen lähteä räjähtävään kasvuun eli amme alkaisi tulvia yli. Tämä on yksi keskeinen asia, jota päättäjien on vaikea hahmottaa. \cite{CroadsFlightSimulator2011} 
+
+Todellisuudessa systeemistä poistuu jonkin verran hiilidioksidia tai tarkalleen ottaen hiiltä, kun biomassasta vapautuu metaania. Tämä on C-ROADS:ssa myös mallinnettu, mutta sen merkitys hiilidioksidin kiertokulun kannalta on pieni. \cite{Croads}
+
 \clearpage
 
-\subsubsection*{Maapallon lämpöenergiavarastot \label{ilmasto:croads:lampo}}
+\subsubsection*{Lämpöenergian kiertokulku \label{ilmasto:croads:lampo}}
 
-Seuraava kuva \ref{ilmasto:lampo} on C-ROADS-ilmastomallin lämpöenergian kiertokulun kausaalidiagrammi. Mallissa on kaksi varastomuuttujaa lämpöenergialle: ilmakehä ja pintavedet sekä merten syvät kerrokset. Lämpöenergiaa systeemiin tulee auringon säteilystä ilmakehään ja pintavesiin, josta se voi siirtyä joko merten syvyyksiin tai säteillä avaruuteen. \cite{Croads, CroadsFlightSimulator2011}
+Seuraava kuva \ref{ilmasto:lampo} on C-ROADS-ilmastomallin lämpöenergian kiertokulun kausaalidiagrammi. Mallissa on kaksi varastomuuttujaa lämpöenergialle: ilmakehä ja pintavedet sekä merten syvät kerrokset. Lämpöenergiaa systeemiin tulee vakionopeudella auringon säteilystä ilmakehään ja pintavesiin, josta se voi siirtyä joko merten syvyyksiin tai säteillä avaruuteen. \cite{Croads, CroadsFlightSimulator2011} 
 
-Ilmakehän kasvihuonekaasujen lisääntyminen vähentää maapallon lämpösäteilyä ja maapallon keskilämpötilan nousu lisää sitä. 
-
-% KERRO TAKAISINKYTKENNÄSTÄ
-
-\begin{figure}[H]
+\begin{figure}[hb]
 \centering \includegraphics[width=\textwidth]{c-roads-lampo}
 \caption{C-ROADS-ilmastomallin lämpöenergian kiertokulku yksinkertaistettuna. \cite{Croads} \label{ilmasto:lampo}}
 \end{figure}
+
+Malliin on merkitty kolme tasapainottavaa silmukkaa. Alimmassa silmukassa merten syvien kerrosten lämpeneminen vähentää lämmön siirtymistä pintakerroksista syvempiin kerroksiin, mikä hidastaa syvien kerrosten lämpenemistä. Toisaalta keskimmäisessä silmukassa ilmaston lämpeneminen lisää lämmön siirtymistä syvempiin kerroksiin, mikä nopeuttaa syvien kerrosten lämpenemistä. Ylimmässä silmukassa ilmaston lämpeneminen lisää maapallon lämpösäteilyä avaruuteen, mikä vähentää ilmakehän ja pintavesien lämpöenergiaa. Hiilidioksidi ja muut kasvihuonekaasut puolestaan vähentävät maapallon lämpösäteilyä avaruuteen. \cite{Croads, CroadsFlightSimulator2011} 
+
+% KERRO TAKAISINKYTKENNÄSTÄ
+
+
 
 \subsubsection*{Mallin arviointi \label{ilmasto:croads:arviointi}}
 
