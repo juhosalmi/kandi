@@ -497,7 +497,7 @@ Varastot ja virtaukset ovat intuitiivinen esitystapa, mutta saman dynamiikan voi
 \caption{Kuvan \ref{sysdyn:negatiivinen} negatiivisesti takaisinkytketyn silmukan esitys varastojen ja virtausten avulla. \label{sysdyn:varastovirtauskana}}
 \end{figure}
 
-Systeemidynamiikkaa käsittelevässä kirjallisuudessa käytetään usein kylpyammevertausta. Kylpyamme on varasto, jossa veden sisäänvirtaus tulee hanasta ja ulosvirtaus tapahtuu viemärin kautta. Jos sisäänvirtaus on suurempi kuin ulosvirtaus, kylpyammeen pinnankorkeus nousee ja päinvastoin, jos ulosvirtaus on suurempi, pinnankorkeus laskee. Vaikka konsepti on yksinkertainen, on ihmisillä vaikeuksia hahmottaa tällaista dynamiikkaa. Ihmiset kiinnittävät usein huomiota pelkästään sisään- tai ulosvirtaukseen sen sijaan, että kiinnittäisivät huomiota pinnankorkeuteen. Lopulta joudutaan tilanteeseen, jossa amme joko tulvii tai tyhjenee. \cite{Sweeney2000}
+Systeemidynamiikkaa käsittelevässä kirjallisuudessa käytetään usein kylpyammevertausta. Kylpyamme on varasto, jossa veden sisäänvirtaus tulee hanasta ja ulosvirtaus tapahtuu viemärin kautta. Jos sisäänvirtaus on suurempi kuin ulosvirtaus, kylpyammeen pinnankorkeus nousee ja päinvastoin, jos ulosvirtaus on suurempi, pinnankorkeus laskee. Kun virtaukset ovat yhtä suuret, systeemi on tasapainotilassa (eng. equilibrium). Vaikka konsepti on yksinkertainen, on ihmisillä vaikeuksia hahmottaa tällaista dynamiikkaa. Ihmiset kiinnittävät usein huomiota pelkästään sisään- tai ulosvirtaukseen sen sijaan, että kiinnittäisivät huomiota pinnankorkeuteen. Lopulta joudutaan tilanteeseen, jossa amme joko tulvii tai tyhjenee. \cite{Sweeney2000}
 
 \clearpage
 \section{Ilmastonmuutoksen mallintaminen \label{ilmasto}}
@@ -538,7 +538,7 @@ C-ROADS (Climate-Rapid Overview And Decision Support) on yksinkertainen fysikaal
 
 Mallin tarkoitus on auttaa ihmisiä ymmärtämään, miten ilmasto toimii ja millaiset pitkän aikajänteen seuraukset erilaisilla ilmastopoliittisilla päätöksillä kasvihuonekaasupäästöjen leikkaamiseksi on. Mallista on pyritty kehittämään mahdollisimman nopea, läpinäkyvä ja helppokäyttöinen. C-ROADS-simulaation ajaa sekunnin murto-osassa, se on kattavasti dokumentoitu ja siinä on graafinen käyttöliittymä, jolla kuka tahansa voi kokeilla, millainen vaikutus erilaisilla päätöksillä ja kasvuodotusparametreilla on ilmastonmuutokseen. Graafisen käyttöliittymän avulla pääsee myös tarkastelemaan kausaalidiagrammeja, joista malli on rakennettu. C-ROADS-mallissa maapallon voi jakaa yhteen tai useampaan alueeseen, joista kukin tekee ilmastopoliittiset päätökset itsenäisesti. Näin käyttäjä voi ajaa esimerkiksi simulaation tilanteessa, jossa Kiina vähentää päästöjään 50 \% alle vuoden 2000 tason ja muu maailma 40 \% alle vuoden 1990 tason. C-ROADS-mallin pohjalle on tehty myös roolipeli, World Climate, jossa kukin pelaaja edustaa eri maailman valtiota YK:n ilmastoneuvotteluissa. \cite{Croads, CroadsWWW, CroadsFlightSimulator2011} 
 
-C-ROADS onkin osoittautunut tehokkaaksi työkaluksi ja saanut laajaa suosiota. Lukuisat tutkijat, ympäristöministeriöt ja päättäjät ovat alkaneet käyttää mallia. \cite{CroadsWWW, CroadsFlightSimulator2011} 
+C-ROADS onkin osoittautunut tehokkaaksi työkaluksi ja saanut laajaa suosiota. Lukuisat tutkijat, ympäristöministeriöt ja päättäjät ovat ottaneet mallin käyttöön. \cite{CroadsWWW, CroadsFlightSimulator2011} 
 
 C-ROADS:n arviointiryhmä antoi vuonna 2009 lausunnon, että malli ajaa asiansa: sen käyttäyttäytyminen noudattaa parhaiden ilmastomallien käyttäytymistä ja se toimii tehokkaana työkaluna kohdeyleisölle. Arviointiryhmä huomautti, että mallin pitäisi selkeämmin viestiä sen todellisia kykyjä mallintaa ilmastoa sekä kertoa epävarmuustekijöistä, jotka malliin liittyvät. Arviointiryhmä ehdotti myös, että malliin lisättäisiin osa pois jätetyistä takaisinkytkennöistä. \cite{Watson2009}
 
@@ -550,9 +550,11 @@ Malliin on otettu Kioton ilmastosopimuksen \cite{KyotoManual} mukaiset kasvihuon
 
 Seuraava kuva \ref{ilmasto:co2} on yksinkertaistettu hiilidioksidin alimalli. Varastomuuttujat kuvaavat hiilidioksidia ilmakehässä ja biomassassa sekä merten pinta- ja syvissä kerroksissa. Hiilidioksidia tulee systeemiin ihmisen toiminnan seurauksena eli pääasiassa fossiilisten polttoaineiden käytöstä. Ihmisen toiminnan tuottama hiilidioksidi vapautuu ilmakehään. Ilmakehä vaihtaa hiilidioksidia biomassan ja merten pintakerrosten kanssa. Biomassan kasvaessa vähenee ilmakehässä olevan hiilidioksidin määrä. Biomassaa voidaan lisätä metsiä kasvattamalla sekä ehkäisemällä niiden tuhoutumista. \cite{Croads, CroadsFlightSimulator2011}
 
-Ilmakehän hiilidioksidia liukenee merten pintakerroksiin, josta se voi liueta syvempiin kerroksiin. Virta ei ole kuitenkaan yksisuuntainen, vaan hiilidioksidi voi liueta syvemmistä kerroksista kohti pintaa ja vapautua pintakerroksista ilmakehään. Kuvaan \ref{ilmasto:co2} ei ole kausaaliyhteyttä piirretty, mutta mitä enemmän ilmakehässä on hiilidioksidia ja mitä vähemmän sitä on merissä, sitä voimakkaammin sitä liukenee ilmakehästä meriin. Myös lämpötila vaikuttaa hiilidioksidin liukenemiseen mereen. Hiilidioksidi liukenee mereen sitä huonommin, mitä enemmän ilmasto lämpenee.  \cite{Croads, CroadsFlightSimulator2011}
+Ilmakehän hiilidioksidia liukenee merten pintakerroksiin, josta se voi liueta syvempiin kerroksiin. Virta ei ole kuitenkaan yksisuuntainen, vaan hiilidioksidi voi liueta syvemmistä kerroksista kohti pintaa ja vapautua pintakerroksista ilmakehään. Kuvaan \ref{ilmasto:co2} ei ole kausaaliyhteyttä sekavuuden välttämiseksi piirretty, mutta mitä enemmän ilmakehässä on hiilidioksidia ja mitä vähemmän sitä on merissä, sitä voimakkaammin sitä liukenee ilmakehästä meriin. Myös lämpötila vaikuttaa hiilidioksidin liukenemiseen mereen. Hiilidioksidi liukenee mereen sitä huonommin, mitä enemmän ilmasto lämpenee. \cite{Croads, CroadsFlightSimulator2011}
 
-Systeemiin tulee hiilidioksidia, mutta sitä ei poistu lainkaan. Systeemi muistuttaa siis tulpattua kylpyammetta, johon tulee koko ajan lisää vettä. Karkeasti ottaen ammeen koko riippuu siitä, kuinka paljon meriin voi liueta hiilidioksidia ja kuinka paljon biomassaa kyetään kasvattamaan. Jos hiilidioksidia ei enää pysty virtaamaan riittävästi meriin ja biomassaan, voi ilmakehän hiilidioksidipitoisuus ja siten ilmaston lämpeneminen lähteä räjähtävään kasvuun. Tämä on yksi keskeinen asia, jota päättäjien on vaikea hahmottaa. \cite{CroadsFlightSimulator2011} % Hiilidioksidi metaaniksi
+Systeemiin tulee hiilidioksidia, mutta sitä ei poistu lainkaan. Systeemi muistuttaa siis tulpattua kylpyammetta, johon tulee koko ajan lisää vettä. Karkeasti ottaen ammeen koko riippuu siitä, kuinka paljon meriin voi liueta hiilidioksidia ja kuinka paljon biomassaa kyetään kasvattamaan. Jos hiilidioksidia ei enää pysty virtaamaan riittävästi meriin ja biomassaan, voi ilmakehän hiilidioksidipitoisuus ja siten ilmaston lämpeneminen lähteä räjähtävään kasvuun eli amme alkaisi tulvia yli. Tämä on yksi keskeinen asia, jota päättäjien on vaikea hahmottaa. \cite{CroadsFlightSimulator2011} % Hiilidioksidi metaaniksi
+
+Todellisuudessa systeemistä poistuu jonkin verran hiilidioksidia tai tarkalleen ottaen hiiltä, kun biomassasta vapautuu metaania. Tämän merkitys hiilidioksiditasapainon kannalta on kuitenkin pieni. \cite{Croads}
 
 \begin{figure}[H]
 \centering \includegraphics{c-roads-co2}
@@ -561,15 +563,17 @@ Systeemiin tulee hiilidioksidia, mutta sitä ei poistu lainkaan. Systeemi muistu
 
 \clearpage
 
-\subsubsection*{Maapallolle varastoitunut lämpöenergia \label{ilmasto:croads:lampo}}
+\subsubsection*{Maapallon lämpöenergiavarastot \label{ilmasto:croads:lampo}}
 
-Seuraava kuva \ref{ilmasto:heat} on C-ROADS-ilmastomallin lämpöenergian kiertokulun kausaalidiagrammi. Mallissa on kaksi varastomuuttujaa lämpöenergialle: ilmakehä ja pintavedet (Heat in Atmosphere and Upper Ocean) sekä merten syvät kerrokset (Heat in Deep Ocean). Lämpöenergiaa systeemiin tulee auringon säteilystä ilmakehään, josta se voi siirtyä joko merten syvyyksiin tai kadota avaruuteen. Ilmakehän kasvihuonekaasujen lisääntyminen vähentää lämmön virtaa avaruuteen (Feedback Cooling) ja ilmakehän lämpötilan nousu lisää sitä. 
+Seuraava kuva \ref{ilmasto:lampo} on C-ROADS-ilmastomallin lämpöenergian kiertokulun kausaalidiagrammi. Mallissa on kaksi varastomuuttujaa lämpöenergialle: ilmakehä ja pintavedet sekä merten syvät kerrokset. Lämpöenergiaa systeemiin tulee auringon säteilystä ilmakehään ja pintavesiin, josta se voi siirtyä joko merten syvyyksiin tai säteillä avaruuteen. \cite{Croads, CroadsFlightSimulator2011}
+
+Ilmakehän kasvihuonekaasujen lisääntyminen vähentää maapallon lämpösäteilyä ja maapallon keskilämpötilan nousu lisää sitä. 
 
 % KERRO TAKAISINKYTKENNÄSTÄ
 
 \begin{figure}[H]
-\centering \includegraphics[width=\textwidth]{c-roads-heat}
-\caption{C-ROADS-ilmastomallin lämpöenergian kiertokulku. \cite{Croads} \label{ilmasto:heat}}
+\centering \includegraphics[width=\textwidth]{c-roads-lampo}
+\caption{C-ROADS-ilmastomallin lämpöenergian kiertokulku yksinkertaistettuna. \cite{Croads} \label{ilmasto:lampo}}
 \end{figure}
 
 \subsubsection*{Mallin arviointi \label{ilmasto:croads:arviointi}}

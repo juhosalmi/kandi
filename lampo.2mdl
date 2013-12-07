@@ -1,0 +1,130 @@
+{UTF-8}
+Auringon lämpösäteily  = A FUNCTION OF( )
+	~	
+	~		|
+
+CO2 ja muut kasvihuonekaasut ilmakehässä=A FUNCTION OF(CO2 ja muut kasvihuonekaasut ilmakehässä\
+		) ~~|
+CO2 ja muut kasvihuonekaasut ilmakehässä= INTEG (
+	,
+		)
+	~	
+	~		|
+
+Keskilämpötilan nousu esiteolliseen aikaan verrattuna  = A FUNCTION OF( Lämpöenergia ilmakehässä ja pintavesissä\
+		)
+	~	
+	~		|
+
+Lämmön siirtyminen syvempiin kerroksiin=A FUNCTION OF(Lämmön siirtyminen syvempiin kerroksiin\
+		,Keskilämpötilan nousu esiteolliseen aikaan verrattuna,Lämpöenergia syvällä merissä\
+		) ~~|
+Lämmön siirtyminen syvempiin kerroksiin=
+	~	
+	~		|
+
+Lämpöenergia ilmakehässä ja pintavesissä  = A FUNCTION OF( Auringon lämpösäteily\
+		,-Lämmön siirtyminen syvempiin kerroksiin,-Maapallon lämpösäteily)
+	~	
+	~		|
+
+Lämpöenergia syvällä merissä=A FUNCTION OF(Lämpöenergia syvällä merissä,Lämmön siirtyminen syvempiin kerroksiin\
+		) ~~|
+Lämpöenergia syvällä merissä= INTEG (
+	Lämmön siirtyminen syvempiin kerroksiin,
+		)
+	~	
+	~		|
+
+Maapallon lämpösäteily  = A FUNCTION OF( CO2 ja muut kasvihuonekaasut ilmakehässä\
+		,Keskilämpötilan nousu esiteolliseen aikaan verrattuna)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,Lämpöenergia ilmakehässä ja pintavesissä,454,329,53,25,3,131,0,0,0,0,0,0
+10,2,Lämpöenergia syvällä merissä,458,562,48,25,3,131,0,0,0,0,0,0
+12,3,48,662,329,10,8,0,3,0,0,-1,0,0,0
+1,4,6,1,4,0,0,22,0,0,0,-1--1--1,,1|(546,330)|
+1,5,6,3,100,0,0,22,0,0,0,-1--1--1,,1|(624,330)|
+11,6,0,591,330,6,8,34,3,0,0,1,0,0,0
+10,7,Auringon lämpösäteily,591,357,40,19,40,3,0,0,-1,0,0,0
+1,8,10,2,4,0,0,22,0,0,0,-1--1--1,,1|(456,489)|
+1,9,10,1,100,0,0,22,0,0,0,-1--1--1,,1|(456,392)|
+11,10,0,456,436,8,6,33,3,0,0,4,0,0,0
+10,11,Lämmön siirtyminen syvempiin kerroksiin,528,436,65,19,40,3,0,0,-1,0,0,0
+12,12,48,455,145,10,8,0,3,0,0,-1,0,0,0
+1,13,15,12,4,0,0,22,0,0,0,-1--1--1,,1|(455,187)|
+1,14,15,1,100,0,0,22,0,0,0,-1--1--1,,1|(455,269)|
+11,15,0,455,228,8,6,33,3,0,0,4,0,0,0
+10,16,Maapallon lämpösäteily,503,228,40,19,40,3,0,0,-1,0,0,0
+1,17,2,10,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(374,511)|
+10,18,Keskilämpötilan nousu esiteolliseen aikaan verrattuna,251,329,72,28,8,3,0,0,0,0,0,0
+1,19,1,18,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(369,329)|
+1,20,18,15,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(356,246)|
+10,21,CO2 ja muut kasvihuonekaasut ilmakehässä,638,278,61,26,3,131,0,0,0,0,0,0
+1,22,21,15,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(508,303)|
+1,23,18,10,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(362,415)|
+12,24,0,384,281,20,20,4,7,0,0,-1,0,0,0
+B
+12,25,0,384,377,20,20,5,7,0,0,-1,0,0,0
+B
+12,26,0,420,497,20,20,4,7,0,0,-1,0,0,0
+B
+///---\\\
+:L<%^E!@
+9:Current
+22:$,Dollar,Dollars,$s
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+22:Day,Days
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+5:Auringon lämpösäteily
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+24:0
+25:0
+26:0
