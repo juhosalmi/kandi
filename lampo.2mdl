@@ -17,7 +17,7 @@ Keskilämpötilan nousu esiteolliseen aikaan verrattuna  = A FUNCTION OF( Lämp�
 	~		|
 
 Lämmön siirtyminen syvempiin kerroksiin=A FUNCTION OF(Lämmön siirtyminen syvempiin kerroksiin\
-		,Keskilämpötilan nousu esiteolliseen aikaan verrattuna,Lämpöenergia syvällä merissä\
+		,Keskilämpötilan nousu esiteolliseen aikaan verrattuna,Lämpöenergia merten syvissä kerroksissa\
 		) ~~|
 Lämmön siirtyminen syvempiin kerroksiin=
 	~	
@@ -28,9 +28,9 @@ Lämpöenergia ilmakehässä ja pintavesissä  = A FUNCTION OF( Auringon lämpö
 	~	
 	~		|
 
-Lämpöenergia syvällä merissä=A FUNCTION OF(Lämpöenergia syvällä merissä,Lämmön siirtyminen syvempiin kerroksiin\
-		) ~~|
-Lämpöenergia syvällä merissä= INTEG (
+Lämpöenergia merten syvissä kerroksissa=A FUNCTION OF(Lämpöenergia merten syvissä kerroksissa\
+		,Lämmön siirtyminen syvempiin kerroksiin) ~~|
+Lämpöenergia merten syvissä kerroksissa= INTEG (
 	Lämmön siirtyminen syvempiin kerroksiin,
 		)
 	~	
@@ -73,7 +73,7 @@ V300  Do not put anything below this section - it will be ignored
 *View 1
 $192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
 10,1,Lämpöenergia ilmakehässä ja pintavesissä,454,329,53,25,3,131,0,0,0,0,0,0
-10,2,Lämpöenergia syvällä merissä,458,562,48,25,3,131,0,0,0,0,0,0
+10,2,Lämpöenergia merten syvissä kerroksissa,458,562,48,25,3,131,0,0,0,0,0,0
 12,3,48,662,329,10,8,0,3,0,0,-1,0,0,0
 1,4,6,1,4,0,0,22,0,0,0,-1--1--1,,1|(546,330)|
 1,5,6,3,100,0,0,22,0,0,0,-1--1--1,,1|(624,330)|
@@ -117,7 +117,7 @@ B
 19:100,0
 27:2,
 34:0,
-5:Auringon lämpösäteily
+5:Lämpöenergia syvällä merissä
 35:Date
 36:YYYY-MM-DD
 37:2000
