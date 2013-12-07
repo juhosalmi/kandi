@@ -440,13 +440,15 @@ Maailmankuvaa voi edelleen laajentaa. Seuraava kuva \ref{sysdyn:laajennettutakai
 
 \subsection{Takaisinkytketyt systeemit \label{sysdyn:takaisinkytkenta}}
 
+Systeemeissä on sisäsyntyisiä eli endogeenisiä (eng. endogenous) sekä ulkosyntyisiä eli eksogeenisiä (eng. exogenous) muuttujia. Sisäsyntyisen muuttujan arvo määräytyy systeemin sisäisen dynamiikan seurauksena, kun taas ulkosyntyisen muuttujan arvo annetaan systeemin ulkopuolelta, eikä näin ollen riipu systeemin tilasta. Ulkosyntyisisten muuttujien arvoista voidaan käyttää termiä "parametri". Parametrien arvot virittävät systeemin käyttäytymään tietyllä tavalla. \cite{Sterman2000} % Viiteviilausta
+
 Systeemeillä on tuloja ja lähtöjä. Tulot (myös sisääntulo, eng. input) ovat systeemiin tulevia arvoja, jotka vaikuttavat systeemin käyttäytymiseen. Lähdöt (myös ulostulo, eng. output) ovat systeemin käyttäytymisestä seuraavia arvoja. Erilaisilla tuloilla saadaan systeemistä erilaiset lähdöt. Takaisinkytkentä (eng. feedback) tarkoittaa systeemin lähdön käyttämistä systeemin tulona. Tällöin systeemi kytkeytyy takaisin itseensä, muodostaa kytkennöistä silmukan (eng. loop) ja vaikuttaa itse itseensä. Takaisinkytkennästä käytetään erityisesti ihmistieteiden puolella myös termiä "palaute". \cite{Sterman2000, WhatIsSystemDynamics} % Viitteet kuntoon! Perustele termin valinta? 
 
 Stermanin \cite[s. 12]{Sterman2000} mukaan takaisinkytkennät vaikuttavat systeemin mutkikkuuteen enemmän kuin järjestelmän osien mutkikkuus itse. Tämän vuoksi takaisinkytkentöjen löytäminen on keskeisin osa systeemidynaamista mallinnusta. 
 
 Systeemidynaamisia malleja esitetään kausaalidiagrammein, joihin merkitään systeemin osat eli muuttujanimet sekä niiden väliset vuorovaikutussuhteet kausaaliyhteysnuolten avulla. Nuolet piirretään lähtemään muuttujasta, joka vaikuttaa nuolen päätepisteen muuttujaan. Toisin sanoen nuoli kuvaa sitä, että nuolen alkupään muuttujan arvo eli lähtö toimii nuolen loppupään tulona. Nuoliin merkitään plus- tai miinusmerkki sen mukaan, kasvattaako vaiko vähentääkö lähtömuuttujan arvon kasvu tulomuuttujan arvoa. Nuolet piirretään kaareviksi, jotta systeemin dynamiikkaa, etenkin silmukat, olisi helpompi hahmottaa. \cite{Sterman2000}
 
-Systeemeissä on sisäsyntyisiä eli endogeenisiä (eng. endogenous) sekä ulkosyntyisiä eli eksogeenisiä (eng. exogenous) muuttujia. Sisäsyntyisen muuttujan arvo määräytyy systeemin sisäisen dynamiikan seurauksena, kun taas ulkosyntyisen muuttujan arvo annetaan systeemin ulkopuolelta, eikä näin ollen riipu systeemin tilasta. \cite{Sterman2000} % Viiteviilausta! "Kausaalidiagrammin ulkosyntyiseen muuttujaan ei siis mene yhtään nuolta." 
+\clearpage
 
 Takaisinkytkettyjä silmukoita on kahdenlaisia: negatiivisia ja positiivisia. Positiiviset silmukat ovat itseään vahvistavia. Seuraavassa kuvassa \ref{sysdyn:positiivinen} on positiivinen takaisinkytketty silmukka, jossa kanojen määrä lisää munien määrää, mikä puolestaan lisää kanojen määrää. Positiiviset silmukat merkitään kausaalidiagrammiin kuvan \ref{sysdyn:positiivinen} mukaisesti R-kirjaimella, mikä tulee englannin kielen sanasta "reinforcing" eli suomeksi "vahvistava". \cite[s. 12--13]{Sterman2000}\cite{WhatIsSystemDynamics}
 
@@ -464,6 +466,7 @@ Negatiiviset silmukat ovat itseään tasapainottavia. Seuraavassa kuvassa \ref{s
 
 Silmukka on positiivinen, kun siinä on parillinen määrä negatiivisia kytkentöjä. Kuvan \ref{sysdyn:positiivinen} positiivisessa silmukassa on nolla negatiivista kytkentää. Silmukka on negatiivinen, kun siinä on pariton määrä negatiivisia kytkentöjä. Kuvan \ref{sysdyn:negatiivinen} negatiivisessa silmukassa on yksi negatiivinen kytkentä. \cite[s. 12--14]{Sterman2000}
 
+\clearpage
 \subsection{Viiveet, varastot ja virtaukset \label{sysdyn:vvv}}
 
 Viiveet (eng. delay) aiheuttavat systeemiin hitautta, aiheuttavat värähtelyitä sekä johtavat siihen, että päätösten seuraukset johtavat pitkällä aikajänteellä erilaisiin tilanteisiin kuin lyhyellä aikajänteellä. Seuraavassa kuvassa \ref{sysdyn:viive} on esitetty systeemi, jossa hinnan nousu lisää viiveellä tuotantoa. Kausaalidiagrammeihin viiveet merkitään nuolen päälle joko kahdella poikkiviivalla tai laatikolla, jossa lukee "viive". \cite[s. 150--152]{Sterman2000} 
@@ -493,7 +496,7 @@ Varastot ja virtaukset ovat intuitiivinen esitystapa, mutta saman dynamiikan voi
 \caption{Kuvan \ref{sysdyn:negatiivinen} negatiivisesti takaisinkytketyn silmukan esitys varastojen ja virtausten avulla. \label{sysdyn:varastovirtauskana}}
 \end{figure}
 
-% Tänne vielä mahdollisesti kylpyammedynamiikasta juttua sekä muuta systeemidynamiikkasaivartelua, mikä auttaa lukijaa ymmärtämään seuraavat käsitteet
+Systeemidynamiikkaa käsittelevässä kirjallisuudessa käytetään usein kylpyammevertausta. Kylpyamme on varasto, johon tulee hanasta virtaus ja poistuu virtaus viemärin kautta. Jos sisäänvirtaus on suurempi kuin ulosvirtaus, kylpyammeen pinnankorkeus nousee ja päinvastoin, jos ulosvirtaus on suurempi, pinnankorkeus laskee. \cite{Sweeney2000}
 
 \clearpage
 \section{Ilmastonmuutoksen mallintaminen \label{ilmasto}}
