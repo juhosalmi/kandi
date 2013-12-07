@@ -55,7 +55,7 @@
   \strng{fullhash}{S1}
   \field{title}{{What is system dynamics?}}
   \verb{url}
-  \verb http://www.systemdynamics.org/what\_is\_system\_dynamics.html
+  \verb http://www.systemdynamics.org/what_is_system_dynamics.html
   \endverb
   \field{urlday}{24}
   \field{urlmonth}{11}
@@ -65,12 +65,12 @@
 \entry{Zadeh1973}{article}{}
   \name{author}{1}{%
     {{Zadeh}{Z.}%
-     {Lotfi~a.}{L.~a.}%
+     {Lotfi~A.}{L.~A.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{ZLa1}
-  \strng{fullhash}{ZLa1}
+  \strng{namehash}{ZLA1}
+  \strng{fullhash}{ZLA1}
   \verb{doi}
   \verb 10.1109/TSMC.1973.5408575
   \endverb
@@ -84,9 +84,9 @@
   \endverb
   \field{volume}{SMC-3}
   \verb{file}
-  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
-  \verb y Desktop/Downloaded/Zadeh - 1973 - Outline of a New Approach to the An
-  \verb alysis of Complex Systems and Decision Processes.pdf:pdf
+  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendeley Desktop/D
+  \verb ownloaded/Zadeh - 1973 - Outline of a New Approach to the Analysis of C
+  \verb omplex Systems and Decision Processes.pdf:pdf
   \endverb
   \field{journaltitle}{IEEE Transactions on Systems, Man, and Cybernetics}
   \field{year}{1973}
@@ -101,6 +101,8 @@
   }
   \strng{namehash}{FJW1}
   \strng{fullhash}{FJW1}
+  \field{isbn}{0-262-06003-5}
+  \field{pages}{464}
   \field{title}{{Industrial Dynamics}}
   \field{year}{1961}
 \endentry
@@ -117,13 +119,12 @@
   \field{pages}{1\bibrangedash 16}
   \field{title}{{The Beginning of System Dynamics}}
   \verb{url}
-  \verb http://leml.asu.edu/jingle/Web\_Pages/EcoMod\_Website/Readings/SD+STELL
-  \verb A/Forrester-Begin'g-SD\_1989.pdf
+  \verb http://leml.asu.edu/jingle/Web_Pages/EcoMod_Website/Readings/SD+STELLA/
+  \verb Forrester-Begin'g-SD_1989.pdf
   \endverb
   \verb{file}
-  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
-  \verb y Desktop/Downloaded/Forrester - 1989 - The Beginning of System Dynamic
-  \verb s.pdf:pdf
+  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendeley Desktop/D
+  \verb ownloaded/Forrester - 1989 - The Beginning of System Dynamics.pdf:pdf
   \endverb
   \field{year}{1989}
 \endentry
@@ -142,9 +143,9 @@
   \field{title}{{Industial Dynamics — After the First Decade}}
   \field{volume}{14}
   \verb{file}
-  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
-  \verb y Desktop/Downloaded/Forrester - 1968 - Industial Dynamics — After th
-  \verb e First Decade.pdf:pdf
+  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendeley Desktop/D
+  \verb ownloaded/Forrester - 1968 - Industial Dynamics — After the First Dec
+  \verb ade.pdf:pdf
   \endverb
   \field{journaltitle}{Management Science}
   \field{year}{1968}
@@ -173,6 +174,33 @@
   \field{year}{2000}
 \endentry
 
+\entry{Sweeney2000}{article}{}
+  \name{author}{2}{%
+    {{Sweeney}{S.}%
+     {Linda~Booth}{L.~B.}%
+     {}{}%
+     {}{}}%
+    {{Sterman}{S.}%
+     {John~D.}{J.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SLBSJD1}
+  \strng{fullhash}{SLBSJD1}
+  \field{number}{September}
+  \field{pages}{30}
+  \field{title}{{Bathtub Dynamics : Initial Results of a Systems Thinking
+  Inventory Bathtub Dynamics : Initial Results of a Systems Thinking
+  Inventory}}
+  \verb{url}
+  \verb http://web.mit.edu/jsterman/www/Bathtub.pdf
+  \endverb
+  \verb{file}
+  \verb :/home.org.aalto.fi/jtsalmi/data/Desktop/kandiviitteet/Bathtub.pdf:pdf
+  \endverb
+  \field{year}{2000}
+\endentry
+
 \entry{AmericanInstituteofPhysics}{misc}{}
   \name{author}{1}{%
     {{{American Institute of Physics}}{A.}%
@@ -184,9 +212,143 @@
   \strng{fullhash}{A1}
   \field{title}{{The Discovery of Global Warming}}
   \verb{url}
-  \verb http://www.aip.org/history/climate/ http://www.aip.org/history/climate/
-  \verb summary.htm
+  \verb http://www.aip.org/history/climate/
   \endverb
+  \field{urlday}{07}
+  \field{urlmonth}{12}
+  \field{urlyear}{2013}
+\endentry
+
+\entry{CroadsFlightSimulator2011}{article}{}
+  \name{author}{8}{%
+    {{Sterman}{S.}%
+     {John~D.}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{Fiddaman}{F.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{Franck}{F.}%
+     {Travis}{T.}%
+     {}{}%
+     {}{}}%
+    {{Jones}{J.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+    {{McCauley}{M.}%
+     {Stephanie}{S.}%
+     {}{}%
+     {}{}}%
+    {{Rice}{R.}%
+     {Philip}{P.}%
+     {}{}%
+     {}{}}%
+    {{Sawin}{S.}%
+     {Elizabeth}{E.}%
+     {}{}%
+     {}{}}%
+    {{Siegeld}{S.}%
+     {Lori}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{climate change,climate policy,decision support,interactive,system
+  dynamics}
+  \strng{namehash}{SJD+1}
+  \strng{fullhash}{SJDFTFTJAMSRPSESL1}
+  \field{number}{September}
+  \field{pages}{1\bibrangedash 36}
+  \field{title}{{Management Flight Simulators to Support Climate Negotiations:
+  The C-ROADS Climate Policy Model John D. Sterman}}
+  \verb{file}
+  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendeley Desktop/D
+  \verb ownloaded/Sterman et al. - 2011 - Management Flight Simulators to Suppo
+  \verb rt Climate Negotiations The C-ROADS Climate Policy Model John D. Sterma
+  \verb n.pdf:pdf
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{Fiddaman2002}{article}{}
+  \name{author}{1}{%
+    {{Fiddaman}{F.}%
+     {Thomas~S}{T.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FTS1}
+  \strng{fullhash}{FTS1}
+  \field{abstract}{%
+  Many integrated energy–economy–climate models have been developed to
+  address climate change policy. While these models are quite varied in scope,
+  most share a common core of economic optimization and equilibrium
+  assumptions. By contrast, system dynamics models of energy–economy
+  interactions focus on disequilibrium dynamics, with behavioral decision rules
+  and explicit stocks and flows of capital, labor, resources and money. This
+  article tests climate policies using a system dynamics model that includes
+  many features missing from economic models. Among these are endogenous
+  technological change and boundedly rational decision making. Energy
+  requirements are embodied in capital, and energy production capacity depends
+  on explicit capital stocks. The search for optimal policies is decoupled from
+  other decisions, and uses criteria that are fair across generations. Earlier
+  experiments with the model, briefly reported here, indicate that these
+  features greatly alter policy outcomes. The model is used to test a family of
+  emissions permit and tax policies like the Kyoto Protocol under a range of
+  assumptions. Uncertainty is included in the analysis through Monte Carlo
+  simulation. Results suggest that nearly all policy options are a net benefit,
+  and that the landscape for policy choice is more forgiving than generally
+  supposed. However, implementation remains a critical issue, and the viability
+  of tradeable permits is questionable. Carbon tax policies are found to
+  outperform fixed emissions permits in nearly all circumstances. The model
+  used in this article is available at http://www.sd3.info%
+  }
+  \verb{doi}
+  \verb 10.1002/sdr.241
+  \endverb
+  \field{issn}{0883-7066}
+  \field{number}{2}
+  \field{pages}{243\bibrangedash 267}
+  \field{title}{{Exploring policy options with a behavioral climate-economy
+  model}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1002/sdr.241
+  \endverb
+  \field{volume}{18}
+  \verb{file}
+  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendeley Desktop/D
+  \verb ownloaded/Fiddaman - 2002 - Exploring policy options with a behavioral
+  \verb climate-economy model.pdf:pdf
+  \endverb
+  \field{journaltitle}{System Dynamics Review}
+  \field{year}{2002}
+\endentry
+
+\entry{U.S.DepartmentofEnergy2009}{report}{}
+  \name{author}{1}{%
+    {{{U.S. Department of Energy}}{U.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{U3}
+  \strng{fullhash}{U3}
+  \field{pages}{100}
+  \field{title}{{Climate Change Intergated Assessment Research}}
+  \verb{url}
+  \verb http://science.energy.gov/$\sim$/media/ber/pdf/ia_workshop_low_res_06_2
+  \verb 5_09.pdf
+  \endverb
+  \list{institution}{1}{%
+    {U.S. Department of Energy}%
+  }
+  \verb{file}
+  \verb :/home.org.aalto.fi/jtsalmi/data/Desktop/kandiviitteet/climate_change_a
+  \verb ssessment.pdf:pdf
+  \endverb
+  \field{type}{techreport}
+  \field{year}{2009}
 \endentry
 
 \entry{AmericanInstituteofPhysicsSimple}{misc}{}
@@ -284,9 +446,9 @@
     {Massachusetts Institute of Technology}%
   }
   \verb{file}
-  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
-  \verb y Desktop/Downloaded/Fiddaman - 1997 - Feedback Complexity in Integrate
-  \verb d Climate-Economy Models by.pdf:pdf
+  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendeley Desktop/D
+  \verb ownloaded/Fiddaman - 1997 - Feedback Complexity in Integrated Climate-E
+  \verb conomy Models by.pdf:pdf
   \endverb
   \field{type}{phdthesis}
   \field{year}{1997}
@@ -303,63 +465,11 @@
   \strng{fullhash}{I1}
   \field{title}{{IPCC:n historiasivu}}
   \verb{url}
-  \verb http://www.ipcc.ch/organization/organization\_history.shtml
+  \verb http://www.ipcc.ch/organization/organization_history.shtml
   \endverb
   \field{urlday}{05}
   \field{urlmonth}{12}
   \field{urlyear}{2013}
-\endentry
-
-\entry{CroadsFlightSimulator2011}{article}{}
-  \name{author}{8}{%
-    {{Sterman}{S.}%
-     {John~D.}{J.~D.}%
-     {}{}%
-     {}{}}%
-    {{Fiddaman}{F.}%
-     {Thomas}{T.}%
-     {}{}%
-     {}{}}%
-    {{Franck}{F.}%
-     {Travis}{T.}%
-     {}{}%
-     {}{}}%
-    {{Jones}{J.}%
-     {Andrew}{A.}%
-     {}{}%
-     {}{}}%
-    {{McCauley}{M.}%
-     {Stephanie}{S.}%
-     {}{}%
-     {}{}}%
-    {{Rice}{R.}%
-     {Philip}{P.}%
-     {}{}%
-     {}{}}%
-    {{Sawin}{S.}%
-     {Elizabeth}{E.}%
-     {}{}%
-     {}{}}%
-    {{Siegeld}{S.}%
-     {Lori}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{climate change,climate policy,decision support,interactive,system
-  dynamics}
-  \strng{namehash}{SJD+1}
-  \strng{fullhash}{SJDFTFTJAMSRPSESL1}
-  \field{number}{September}
-  \field{pages}{1\bibrangedash 36}
-  \field{title}{{Management Flight Simulators to Support Climate Negotiations:
-  The C-ROADS Climate Policy Model John D. Sterman}}
-  \verb{file}
-  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
-  \verb y Desktop/Downloaded/Sterman et al. - 2011 - Management Flight Simulato
-  \verb rs to Support Climate Negotiations The C-ROADS Climate Policy Model Joh
-  \verb n D. Sterman.pdf:pdf
-  \endverb
-  \field{year}{2011}
 \endentry
 
 \entry{UNFCCC}{misc}{}
@@ -380,98 +490,6 @@
   \field{urlyear}{2013}
 \endentry
 
-\entry{Fiddaman2002}{article}{}
-  \name{author}{1}{%
-    {{Fiddaman}{F.}%
-     {Thomas~S}{T.~S.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{FTS1}
-  \strng{fullhash}{FTS1}
-  \field{abstract}{%
-  Many integrated energy–economy–climate models have been developed to
-  address climate change policy. While these models are quite varied in scope,
-  most share a common core of economic optimization and equilibrium
-  assumptions. By contrast, system dynamics models of energy–economy
-  interactions focus on disequilibrium dynamics, with behavioral decision rules
-  and explicit stocks and flows of capital, labor, resources and money. This
-  article tests climate policies using a system dynamics model that includes
-  many features missing from economic models. Among these are endogenous
-  technological change and boundedly rational decision making. Energy
-  requirements are embodied in capital, and energy production capacity depends
-  on explicit capital stocks. The search for optimal policies is decoupled from
-  other decisions, and uses criteria that are fair across generations. Earlier
-  experiments with the model, briefly reported here, indicate that these
-  features greatly alter policy outcomes. The model is used to test a family of
-  emissions permit and tax policies like the Kyoto Protocol under a range of
-  assumptions. Uncertainty is included in the analysis through Monte Carlo
-  simulation. Results suggest that nearly all policy options are a net benefit,
-  and that the landscape for policy choice is more forgiving than generally
-  supposed. However, implementation remains a critical issue, and the viability
-  of tradeable permits is questionable. Carbon tax policies are found to
-  outperform fixed emissions permits in nearly all circumstances. The model
-  used in this article is available at http://www.sd3.info%
-  }
-  \verb{doi}
-  \verb 10.1002/sdr.241
-  \endverb
-  \field{issn}{0883-7066}
-  \field{number}{2}
-  \field{pages}{243\bibrangedash 267}
-  \field{title}{{Exploring policy options with a behavioral climate-economy
-  model}}
-  \verb{url}
-  \verb http://doi.wiley.com/10.1002/sdr.241
-  \endverb
-  \field{volume}{18}
-  \verb{file}
-  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
-  \verb y Desktop/Downloaded/Fiddaman - 2002 - Exploring policy options with a
-  \verb behavioral climate-economy model.pdf:pdf
-  \endverb
-  \field{journaltitle}{System Dynamics Review}
-  \field{year}{2002}
-\endentry
-
-\entry{U.S.DepartmentofEnergy2009}{report}{}
-  \name{author}{1}{%
-    {{{U.S. Department of Energy}}{U.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{U3}
-  \strng{fullhash}{U3}
-  \field{pages}{100}
-  \field{title}{{Climate Change Intergated Assessment Research}}
-  \verb{url}
-  \verb http://science.energy.gov/~/media/ber/pdf/ia\_workshop\_low\_res\_06\_2
-  \verb 5\_09.pdf
-  \endverb
-  \list{institution}{1}{%
-    {U.S. Department of Energy}%
-  }
-  \verb{file}
-  \verb :/home.org.aalto.fi/jtsalmi/data/Desktop/kandiviitteet/climate\_change\
-  \verb _assessment.pdf:pdf
-  \endverb
-  \field{type}{techreport}
-  \field{year}{2009}
-\endentry
-
-\entry{Croads}{misc}{}
-  \name{author}{1}{%
-    {{{Climate Interactive}}{C.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{C1}
-  \strng{fullhash}{C1}
-  \field{title}{{C-ROADS-ilmastomalli}}
-\endentry
-
 \entry{CroadsWWW}{misc}{}
   \name{author}{1}{%
     {{{Climate Interactive}}{C.}%
@@ -488,6 +506,18 @@
   \field{urlday}{27}
   \field{urlmonth}{11}
   \field{urlyear}{2013}
+\endentry
+
+\entry{Croads}{misc}{}
+  \name{author}{1}{%
+    {{{Climate Interactive}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{title}{{C-ROADS-ilmastomalli}}
 \endentry
 
 \entry{Watson2009}{report}{}
@@ -553,9 +583,9 @@
     {Bonn}%
   }
   \verb{file}
-  \verb :C$\backslash$:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendele
-  \verb y Desktop/Downloaded/United Nations Framework Convention on Climate Cha
-  \verb nge - 2008 - Kyoto Protocol Reference Manual.pdf:pdf
+  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendeley Desktop/D
+  \verb ownloaded/United Nations Framework Convention on Climate Change - 2008
+  \verb - Kyoto Protocol Reference Manual.pdf:pdf
   \endverb
   \field{year}{2008}
 \endentry

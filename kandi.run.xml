@@ -41,10 +41,11 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>kandi.bcf</file>
+      <file>kandi.aux</file>
+      <file>kandi-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>kandi.bbl</file>
@@ -60,14 +61,15 @@
       <file>finnish.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
-    <generic>biber</generic>
+  <external package="biblatex" priority="5" active="0">
+    <generic>bibtex</generic>
     <cmdline>
-      <binary>biber</binary>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
       <infile>kandi</infile>
     </cmdline>
     <input>
-      <file>kandi.bcf</file>
+      <file>kandi.aux</file>
     </input>
     <output>
       <file>kandi.bbl</file>
@@ -76,10 +78,14 @@
       <file>kandi.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>kandi.bcf</file>
+      <file>kandi.aux</file>
+      <file>kandi-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>viitteet.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
     </requires>
   </external>
 </requests>
