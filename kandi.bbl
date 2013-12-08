@@ -520,6 +520,85 @@
   \field{title}{{C-ROADS-ilmastomalli}}
 \endentry
 
+\entry{Fiddaman2012}{book}{}
+  \name{author}{5}{%
+    {{Fiddaman}{F.}%
+     {Tom}{T.}%
+     {}{}%
+     {}{}}%
+    {{Siegel}{S.}%
+     {Lori~S}{L.~S.}%
+     {}{}%
+     {}{}}%
+    {{Sawin}{S.}%
+     {Elizabeth}{E.}%
+     {}{}%
+     {}{}}%
+    {{Jones}{J.}%
+     {Andrew~P}{A.~P.}%
+     {}{}%
+     {}{}}%
+    {{Sterman}{S.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FT+1}
+  \strng{fullhash}{FTSLSSEJAPSJ1}
+  \field{number}{September}
+  \field{pages}{210}
+  \field{title}{{C-ROADS Simulator Reference Guide}}
+  \verb{url}
+  \verb http://www.climateinteractive.org/simulations/C-ROADS/technical/technic
+  \verb al-reference/c-roads-reference-guide
+  \endverb
+  \verb{file}
+  \verb :/home.org.aalto.fi/jtsalmi/data/Desktop/kandiviitteet/C-ROADS_Referenc
+  \verb e_Guide_v63.pdf:pdf
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{Jones2013}{misc}{}
+  \name{author}{1}{%
+    {{Jones}{J.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JA1}
+  \strng{fullhash}{JA1}
+  \field{title}{{The Dynamics of Climate Change: Understanding and Influencing
+  the Planet}}
+  \verb{url}
+  \verb http://youtu.be/EDI7bZbGxNI
+  \endverb
+  \field{year}{2013}
+\endentry
+
+\entry{KyotoManual}{book}{}
+  \name{author}{1}{%
+    {{{United Nations Framework Convention on Climate Change}}{U.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{U2}
+  \strng{fullhash}{U2}
+  \field{isbn}{92-9219-055-5}
+  \field{pages}{130}
+  \field{title}{{Kyoto Protocol Reference Manual}}
+  \list{location}{1}{%
+    {Bonn}%
+  }
+  \verb{file}
+  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendeley Desktop/D
+  \verb ownloaded/United Nations Framework Convention on Climate Change - 2008
+  \verb - Kyoto Protocol Reference Manual.pdf:pdf
+  \endverb
+  \field{year}{2008}
+\endentry
+
 \entry{Watson2009}{report}{}
   \name{author}{7}{%
     {{Watson}{W.}%
@@ -565,68 +644,6 @@
   \endverb
   \field{type}{techreport}
   \field{year}{2009}
-\endentry
-
-\entry{Fiddaman2012}{book}{}
-  \name{author}{5}{%
-    {{Fiddaman}{F.}%
-     {Tom}{T.}%
-     {}{}%
-     {}{}}%
-    {{Siegel}{S.}%
-     {Lori~S}{L.~S.}%
-     {}{}%
-     {}{}}%
-    {{Sawin}{S.}%
-     {Elizabeth}{E.}%
-     {}{}%
-     {}{}}%
-    {{Jones}{J.}%
-     {Andrew~P}{A.~P.}%
-     {}{}%
-     {}{}}%
-    {{Sterman}{S.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{FT+1}
-  \strng{fullhash}{FTSLSSEJAPSJ1}
-  \field{number}{September}
-  \field{pages}{210}
-  \field{title}{{C-ROADS Simulator Reference Guide}}
-  \verb{url}
-  \verb http://www.climateinteractive.org/simulations/C-ROADS/technical/technic
-  \verb al-reference/c-roads-reference-guide
-  \endverb
-  \verb{file}
-  \verb :/home.org.aalto.fi/jtsalmi/data/Desktop/kandiviitteet/C-ROADS_Referenc
-  \verb e_Guide_v63.pdf:pdf
-  \endverb
-  \field{year}{2012}
-\endentry
-
-\entry{KyotoManual}{book}{}
-  \name{author}{1}{%
-    {{{United Nations Framework Convention on Climate Change}}{U.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{U2}
-  \strng{fullhash}{U2}
-  \field{isbn}{92-9219-055-5}
-  \field{pages}{130}
-  \field{title}{{Kyoto Protocol Reference Manual}}
-  \list{location}{1}{%
-    {Bonn}%
-  }
-  \verb{file}
-  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendeley Desktop/D
-  \verb ownloaded/United Nations Framework Convention on Climate Change - 2008
-  \verb - Kyoto Protocol Reference Manual.pdf:pdf
-  \endverb
-  \field{year}{2008}
 \endentry
 
 \lossort

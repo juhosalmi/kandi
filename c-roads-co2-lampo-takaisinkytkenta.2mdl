@@ -11,9 +11,9 @@ Maapallon lämpösäteily  = A FUNCTION OF( CO2 ilmakehässä)
 	~	
 	~		|
 
-Keskilämpötilan nousu esiteolliseen aikaan verrattuna  = A FUNCTION OF( Lämpöenergia ilmakehässä ja pintavesissä\
+Ilmaston lämpeneminen esiteolliseen aikaan verrattuna  = A FUNCTION OF( Lämpöenergia ilmakehässä ja pintavesissä\
 		) ~~|
-Keskilämpötilan nousu esiteolliseen aikaan verrattuna=
+Ilmaston lämpeneminen esiteolliseen aikaan verrattuna=
 	~	
 	~		|
 
@@ -27,12 +27,12 @@ CO2 merten pintakerroksissa  = A FUNCTION OF( Liukeneminen meriin,-Vapautuminen 
 	~	
 	~		|
 
-Liukeneminen meriin  = A FUNCTION OF( Keskilämpötilan nousu esiteolliseen aikaan verrattuna\
+Liukeneminen meriin  = A FUNCTION OF( Ilmaston lämpeneminen esiteolliseen aikaan verrattuna\
 		)
 	~	
 	~		|
 
-Vapautuminen meristä  = A FUNCTION OF( Keskilämpötilan nousu esiteolliseen aikaan verrattuna\
+Vapautuminen meristä  = A FUNCTION OF( Ilmaston lämpeneminen esiteolliseen aikaan verrattuna\
 		)
 	~	
 	~		|
@@ -78,7 +78,7 @@ $192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,1
 1,8,9,2,100,0,0,22,0,0,0,-1--1--1,,1|(332,423)|
 11,9,172,332,392,8,6,33,3,0,0,2,0,0,0
 10,10,Vapautuminen meristä,278,392,46,19,40,3,0,0,-1,0,0,0
-10,11,Keskilämpötilan nousu esiteolliseen aikaan verrattuna,563,421,72,28,8,3,0,0,0,0,0,0
+10,11,Ilmaston lämpeneminen esiteolliseen aikaan verrattuna,563,421,74,28,8,3,0,0,0,0,0,0
 1,12,11,9,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(475,483)|
 1,13,11,5,1,0,45,0,2,64,0,-1--1--1,|12||0-0-0,1|(469,465)|
 10,14,Lämpöenergia ilmakehässä ja pintavesissä,616,284,53,25,3,131,0,0,0,0,0,0
@@ -89,15 +89,13 @@ $192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,1
 10,19,Maapallon lämpösäteily,664,197,40,19,40,3,0,0,-1,0,0,0
 1,20,14,11,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(644,353)|
 1,21,1,18,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(465,199)|
-12,22,0,488,279,20,20,4,7,0,0,-1,0,0,0
+12,22,0,488,310,20,20,4,7,0,0,-1,0,0,0
 R
-12,23,0,488,331,69,28,8,7,0,0,-1,0,0,0
-Ilmaston lämmetessä hiilidioksidia vapautuu meristä
-12,24,48,749,283,10,8,0,3,0,0,-1,0,0,0
-1,25,27,14,4,0,0,22,0,0,0,-1--1--1,,1|(687,284)|
-1,26,27,24,100,0,0,22,0,0,0,-1--1--1,,1|(728,284)|
-11,27,0,712,284,6,8,34,3,0,0,1,0,0,0
-10,28,Auringon lämpösäteily,712,311,40,19,40,3,0,0,-1,0,0,0
+12,23,48,749,283,10,8,0,3,0,0,-1,0,0,0
+1,24,26,14,4,0,0,22,0,0,0,-1--1--1,,1|(687,284)|
+1,25,26,23,100,0,0,22,0,0,0,-1--1--1,,1|(728,284)|
+11,26,0,712,284,6,8,34,3,0,0,1,0,0,0
+10,27,Auringon lämpösäteily,712,311,40,19,40,3,0,0,-1,0,0,0
 ///---\\\
 :L<%^E!@
 9:Current
