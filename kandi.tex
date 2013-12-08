@@ -534,13 +534,11 @@ Ilmastonmuutoksen torjumiseksi perustettiin vuonna 1992 YK:n ilmastonmuutos konv
 
 Stermanin \cite{CroadsFlightSimulator2011} mukaan ilmastoneuvotteluissa on kaksi keskeistä haastetta liittyen ilmastomalleihin. Ensinnäkin päättäjien ja neuvottelijoiden on vaikea ymmärtää ilmastomalleja ja toisekseen tarkkojen ilmastomallien simuloimiseen erilaisilla skenaarioilla neuvotteluiden aikana ei ole aikaa. Neuvotteluissa eri maat asettavat eri oletusarvot esimerkiksi väestönkasvulle, joten on tärkeää, että simulaatiot kyetään ajamaan nopeasti paikan päällä eri kasvuodotusparametrein. Tämä sulkee pois tarkat ilmastomallit, ja Stermanin \cite{CroadsFlightSimulator2011} mukaan harva yksinkertaisista ilmastomalleistakaan on riittävän nopea. Malleja vaivaa myös se, että ne eivät ole välttämättä julkisesti kaikkien saatavilla, ja niiden toimintaperiaatteita on vaikea ymmärtää. Ilman sopivia työkaluja neuvottelijat ja päättäjät joutuvat siis turvautumaan omaan intuitioonsa. Tässä aliluvussa tutustutaan ensin C-ROADS-ilmastomalliin yleisesti sekä tutkitaan, miten mallilla on ratkaistu edellä mainittuja ongelmia ja miten malli on tarkalleen rakennettu.
 
-C-ROADS (Climate-Rapid Overview And Decision Support) on yksinkertainen fysikaalinen ilmastomalli, joka perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen FREE-ilmastomalliin. C-ROADS on viritetty ja osoitettu toimivaksi historiadatan ja sekä tarkkojen fysiikkamallien avulla. Malli kykenee siis toistamaan historiadatan käyttäytymistä sekä antaa eri kasvuodotusparametrein samoja ennusteita kuin parhaat tarkimmista ilmastomalleista. \cite{CroadsWWW, CroadsFlightSimulator2011} % Ehkä jotain juttua kasvuodotuksista
+C-ROADS (Climate-Rapid Overview And Decision Support) on yksinkertainen fysikaalinen ilmastomalli, joka perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen FREE-ilmastomalliin. C-ROADS on viritetty ja osoitettu toimivaksi historiadatan ja sekä tarkkojen fysiikkamallien avulla. Malli kykenee siis toistamaan historiadatan käyttäytymistä sekä antaa eri kasvuodotusparametrein samoja ennusteita kuin parhaat tarkimmista ilmastomalleista. \cite{CroadsWWW, CroadsFlightSimulator2011} 
 
 Mallin tarkoitus on auttaa ihmisiä ymmärtämään, miten ilmasto toimii ja millaiset pitkän aikajänteen seuraukset erilaisilla ilmastopoliittisilla päätöksillä kasvihuonekaasupäästöjen leikkaamiseksi on. Mallista on pyritty kehittämään mahdollisimman nopea, läpinäkyvä ja helppokäyttöinen. C-ROADS-simulaation ajaa sekunnin murto-osassa, se on kattavasti dokumentoitu ja siinä on graafinen käyttöliittymä, jolla kuka tahansa voi kokeilla, millainen vaikutus erilaisilla päätöksillä ja kasvuodotusparametreilla on ilmastonmuutokseen. Graafisen käyttöliittymän avulla pääsee myös tarkastelemaan kausaalidiagrammeja, joista malli on rakennettu. C-ROADS-mallissa maapallon voi jakaa yhteen tai useampaan alueeseen, joista kukin tekee ilmastopoliittiset päätökset itsenäisesti. \cite{Croads, CroadsWWW, CroadsFlightSimulator2011} Kullekin valtiolle tai alueelle on määritetty omat bruttokansantuotteen ja väestönkasvun lukemat, jotka vaikuttavat syntyviin päästöihin \cite{Fiddaman2012}. Näin käyttäjä voi ajaa esimerkiksi simulaation tilanteessa, jossa Kiina vähentää päästöjään 50 \% alle vuoden 2000 tason ja muu maailma 40 \% alle vuoden 1990 tason. C-ROADS-mallin pohjalle on tehty myös roolipeli, World Climate, jossa kukin pelaaja edustaa eri maailman valtiota YK:n ilmastoneuvotteluissa. \cite{CroadsWWW} 
 
-C-ROADS onkin osoittautunut tehokkaaksi työkaluksi ja saanut laajaa suosiota. Lukuisat tutkijat, ympäristöministeriöt ja päättäjät ovat ottaneet mallin käyttöön. \cite{CroadsWWW, CroadsFlightSimulator2011} 
-
-C-ROADS:n arviointiryhmä antoi vuonna 2009 lausunnon, että malli ajaa asiansa: sen käyttäyttäytyminen noudattaa parhaiden ilmastomallien käyttäytymistä ja se toimii tehokkaana työkaluna kohdeyleisölle. Arviointiryhmä huomautti, että mallin pitäisi selkeämmin viestiä sen todellisia kykyjä mallintaa ilmastoa sekä kertoa epävarmuustekijöistä, jotka malliin liittyvät. Arviointiryhmä ehdotti myös, että malliin lisättäisiin osa pois jätetyistä takaisinkytkennöistä. \cite{Watson2009} C-ROADS-ilmastomallia on kehitetty tämän jälkeen. \cite{Fiddaman2012, Croads}
+C-ROADS onkin osoittautunut tehokkaaksi työkaluksi ja saanut laajaa suosiota. Lukuisat tutkijat, ympäristöministeriöt ja päättäjät ympäri maailman ovat ottaneet mallin käyttöön. \cite{CroadsWWW, CroadsFlightSimulator2011} 
 
 C-ROADS-ilmastomalli koostuu useasta osamallista. Kullekin kasvihuonekaasulle on oma osamallinsa, samoin metsien kasvamiselle ja tuhoutumiselle, meren pinnan korkeudelle ja pH:lle sekä maapallolle kertyneelle lämpöenergialle. \cite{Croads, CroadsFlightSimulator2011, Fiddaman2012} Seuraavaksi tutustutaan C-ROADS:n keskeisiin osamalleihin. Havainnollistamisessa käytetään apuna mallin kausaalidiagrammeja, joista on selkeyden vuoksi piilotettu osa muuttujista ja vuorovaikutukista sekä nostettu esille keskeiset yksityiskohdat.
 
@@ -561,51 +559,39 @@ Systeemiin tulee hiilidioksidia, mutta sitä ei poistu lainkaan. Systeemi muistu
 
 Todellisuudessa systeemistä poistuu jonkin verran hiilidioksidia tai tarkalleen ottaen hiiltä, kun biomassasta vapautuu metaania. Tämä on C-ROADS:ssa myös mallinnettu, mutta sen merkitys hiilidioksidin kiertokulun kannalta on pieni. \cite{Croads}
 
-\clearpage
-
 \subsubsection*{Lämpöenergian kiertokulku \label{ilmasto:croads:lampo}}
 
 Seuraava kuva \ref{ilmasto:lampo} on C-ROADS-ilmastomallin lämpöenergian kiertokulun kausaalidiagrammi. Mallissa on kaksi varastomuuttujaa lämpöenergialle: ilmakehä ja pintavedet sekä merten syvät kerrokset. Lämpöenergiaa systeemiin tulee vakionopeudella auringon säteilystä ilmakehään ja pintavesiin, josta se voi siirtyä joko merten syvyyksiin tai säteillä avaruuteen. \cite{Croads, CroadsFlightSimulator2011} 
 
-\begin{figure}[hb]
+\begin{figure}[H]
 \centering \includegraphics[width=\textwidth]{c-roads-lampo}
 \caption{C-ROADS-ilmastomallin lämpöenergian kiertokulku yksinkertaistettuna. \cite{Croads} \label{ilmasto:lampo}}
 \end{figure}
 
 Malliin on merkitty kolme tasapainottavaa silmukkaa. Alimmassa silmukassa merten syvien kerrosten lämpeneminen vähentää lämmön siirtymistä pintakerroksista syvempiin kerroksiin, mikä hidastaa syvien kerrosten lämpenemistä. Toisaalta keskimmäisessä silmukassa ilmaston lämpeneminen lisää lämmön siirtymistä syvempiin kerroksiin, mikä nopeuttaa syvien kerrosten lämpenemistä. Ylimmässä silmukassa ilmaston lämpeneminen lisää maapallon lämpösäteilyä avaruuteen, mikä vähentää ilmakehän ja pintavesien lämpöenergiaa. Hiilidioksidi ja muut kasvihuonekaasut puolestaan vähentävät maapallon lämpösäteilyä avaruuteen. \cite{Croads, CroadsFlightSimulator2011} 
 
-% KERRO TAKAISINKYTKENNÄSTÄ
+\subsubsection*{Takaisinkytkennät ja tulokset \label{ilmasto:croads:takaisinkytkennät}}
 
-
-
-\subsubsection*{Mallin arviointi \label{ilmasto:croads:arviointi}}
-
-\clearpage
-
-Seuraava kuva \ref{ilmasto:slr} on C-ROADS-ilmastomallin merenpinnan nousun kausaalidiagrammi. 
+Kuva \ref{ilmasto:co2-lampo} on esimerkki mallin takaisinkytkennästä, joka seuraa suoraan hiilidioksidin ja lämpöenergian kiertokulusta. Ilmakehässä olevan hiilidioksidin lisääntyessä heikentyy maapallon lämpösäteily avaruuteen, mikä hidastaa lämpöenergian poistumista ilmakehästä ja pintavesistä. Tämä johtaa keskilämpötilan nousuun, mikä heikentää hiilidioksidin liukoisuutta meriin, mikä puolestaan lisää hiilidioksidin määrää ilmakehässä. \cite{Croads, CroadsFlightSimulator2011}
 
 \begin{figure}[H]
-\centering \includegraphics[width=\textwidth]{c-roads-slr}
-\caption{C-ROADS-ilmastomallin merenpinnan nousu. \cite{Croads} \label{ilmasto:slr}}
+\centering \includegraphics[width=\textwidth]{c-roads-co2-lampo}
+\caption{C-ROADS-ilmastomallin mereen liuenneen hiilidioksidin ja ilmaston lämpenemisen vahvistava silmukka yksinkertaistettuna. \cite{Croads} \label{ilmasto:co2-lampo}}
 \end{figure}
 
-\clearpage
+Mallissa on enemmänkin vastaavanlaisia takaisinkytkentöjä. Esimerkiksi biomassan kasvu tehostuu ilmakehän hiilidioksidin lisääntyessä ja toisaalta heikkenee ilmaston lämmetessä. Lisäksi ilmaston lämpeneminen sulattaa ikiroutaa vapauttaen metaania ja saa biomassan tuottamaan enemmän metaania. \cite{CroadsFlightSimulator2011}
 
-Seuraava kuva \ref{ilmasto:af} on C-ROADS-ilmastomallin metsien kasvun kausaalidiagrammi. 
+Takaisinkytkentöjen voimakkuutta säädetään herkkyysparametrein. Osaan näistä takaisinkytkennöistä on laitettu varovaiset herkkyysparametrit tai ne on kytketty kokonaan pois päältä, sillä ilmastotiede ei ole vielä kyennyt osoittamaan takaisinkytkentöjen todellista voimakkuutta. \cite{CroadsFlightSimulator2011}
 
-\begin{figure}[H] % Tähän voisi olla hyvä laittaa vielä yksinkertaisempi malli tai jättää kokonaan huomiotta 
-\centering \includegraphics[width=\textwidth]{c-roads-af}
-\caption{C-ROADS-ilmastomallin metsien kasvu. \cite{Croads} \label{ilmasto:af}}
-\end{figure}
+C-ROADS-ilmastomallilla on ennustettu, että ilmastonlämpenemisen rajoittamiseksi 2 \degree C:een olisi hiilidioksidipäästöjä leikattava globaalisti 80 \% ja metsien tuhoutumisesta syntyviä päästöjä 90 \%  vuoden 1990 tasosta. \cite{CroadsFlightSimulator2011} % Ennuste johonkin hyvään paikkaan ja viite siihen tulospaperiin
+
+C-ROADS:n arviointiryhmä antoi vuonna 2009 lausunnon, että malli ajaa asiansa: sen käyttäyttäytyminen noudattaa parhaiden ilmastomallien käyttäytymistä ja se toimii tehokkaana työkaluna kohdeyleisölle. Arviointiryhmä huomautti, että mallin pitäisi selkeämmin viestiä sen todellisia kykyjä mallintaa ilmastoa sekä kertoa epävarmuustekijöistä, jotka malliin liittyvät. Arviointiryhmä ehdotti myös, että malliin lisättäisiin osa pois jätetyistä takaisinkytkennöistä. \cite{Watson2009} C-ROADS-ilmastomallia on kehitetty tämän jälkeen. \cite{Fiddaman2012, Croads} % Arviointiryhmän lausunto jonnekin fiksuun paikkaan 
 
 \subsection{En-ROADS-ilmastomalli \label{ilmasto:enroads}}
 
 \subsection{FREE-ilmastomalli \label{ilmasto:free}}
 
-\subsection{Erilaiset ilmastomallit \label{ilmasto:muut}}
-
-\subsection{Ilmastonmuutoksen ongelmanratkaisu systeemidynamiikalla \label{ilmasto:ongelmanratkaisu}}
-
+\subsection{Ilmastonmuutoksen seurausten arviointi systeemidynamiikalla \label{ilmasto:seuraukset}}
 
 \clearpage
 

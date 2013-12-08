@@ -1,21 +1,29 @@
 {UTF-8}
-CO2 ilmakehässä  = A FUNCTION OF( Ihmisen toiminta,-Liukeneminen meriin,Vapautuminen meristä\
-		)
+Auringon lämpösäteily  = A FUNCTION OF( )
+	~	
+	~		|
+
+CO2 ilmakehässä  = A FUNCTION OF( -Liukeneminen meriin,Vapautuminen meristä)
+	~	
+	~		|
+
+Maapallon lämpösäteily  = A FUNCTION OF( CO2 ilmakehässä)
+	~	
+	~		|
+
+Keskilämpötilan nousu esiteolliseen aikaan verrattuna  = A FUNCTION OF( Lämpöenergia ilmakehässä ja pintavesissä\
+		) ~~|
+Keskilämpötilan nousu esiteolliseen aikaan verrattuna=
+	~	
+	~		|
+
+Lämpöenergia ilmakehässä ja pintavesissä  = A FUNCTION OF( Auringon lämpösäteily\
+		,-Maapallon lämpösäteily)
 	~	
 	~		|
 
 CO2 merten pintakerroksissa  = A FUNCTION OF( Liukeneminen meriin,-Vapautuminen meristä\
 		)
-	~	
-	~		|
-
-Ihmisen toiminta  = A FUNCTION OF( ) ~~|
-Ihmisen toiminta=
-	~	
-	~		|
-
-Keskilämpötilan nousu esiteolliseen aikaan verrattuna  = A FUNCTION OF( ) ~~|
-Keskilämpötilan nousu esiteolliseen aikaan verrattuna=
 	~	
 	~		|
 
@@ -64,20 +72,32 @@ $192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,1
 10,2,CO2 merten pintakerroksissa,352,475,55,26,3,131,0,0,0,0,0,0
 1,3,5,2,4,0,0,22,0,0,0,-1--1--1,,1|(371,423)|
 1,4,5,1,100,0,0,22,0,0,0,-1--1--1,,1|(371,352)|
-11,5,156,371,392,8,6,33,3,0,0,4,0,0,0
+11,5,204,371,392,8,6,33,3,0,0,4,0,0,0
 10,6,Liukeneminen meriin,423,392,44,19,40,3,0,0,-1,0,0,0
 1,7,9,1,4,0,0,22,0,0,0,-1--1--1,,1|(332,352)|
 1,8,9,2,100,0,0,22,0,0,0,-1--1--1,,1|(332,423)|
-11,9,220,332,392,8,6,33,3,0,0,2,0,0,0
+11,9,172,332,392,8,6,33,3,0,0,2,0,0,0
 10,10,Vapautuminen meristä,278,392,46,19,40,3,0,0,-1,0,0,0
-10,11,Keskilämpötilan nousu esiteolliseen aikaan verrattuna,566,398,72,28,8,3,0,0,0,0,0,0
-1,12,11,9,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(430,337)|
-1,13,11,5,1,0,45,0,2,64,0,-1--1--1,|12||0-0-0,1|(478,453)|
-12,14,48,136,297,10,8,0,3,0,0,-1,0,0,0
-1,15,17,1,4,0,0,22,0,0,0,-1--1--1,,1|(267,297)|
-1,16,17,14,100,0,0,22,0,0,0,-1--1--1,,1|(178,297)|
-11,17,48,217,297,6,8,34,3,0,0,1,0,0,0
-10,18,Ihmisen toiminta,217,324,51,11,40,3,0,0,-1,0,0,0
+10,11,Keskilämpötilan nousu esiteolliseen aikaan verrattuna,563,421,72,28,8,3,0,0,0,0,0,0
+1,12,11,9,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(475,483)|
+1,13,11,5,1,0,45,0,2,64,0,-1--1--1,|12||0-0-0,1|(469,465)|
+10,14,Lämpöenergia ilmakehässä ja pintavesissä,616,284,53,25,3,131,0,0,0,0,0,0
+12,15,48,617,126,10,8,0,3,0,0,-1,0,0,0
+1,16,18,15,4,0,0,22,0,0,0,-1--1--1,,1|(616,162)|
+1,17,18,14,100,0,0,22,0,0,0,-1--1--1,,1|(616,231)|
+11,18,48,616,197,8,6,33,3,0,0,4,0,0,0
+10,19,Maapallon lämpösäteily,664,197,40,19,40,3,0,0,-1,0,0,0
+1,20,14,11,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(644,353)|
+1,21,1,18,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(465,199)|
+12,22,0,488,279,20,20,4,7,0,0,-1,0,0,0
+R
+12,23,0,488,331,69,28,8,7,0,0,-1,0,0,0
+Ilmaston lämmetessä hiilidioksidia vapautuu meristä
+12,24,48,749,283,10,8,0,3,0,0,-1,0,0,0
+1,25,27,14,4,0,0,22,0,0,0,-1--1--1,,1|(687,284)|
+1,26,27,24,100,0,0,22,0,0,0,-1--1--1,,1|(728,284)|
+11,27,0,712,284,6,8,34,3,0,0,1,0,0,0
+10,28,Auringon lämpösäteily,712,311,40,19,40,3,0,0,-1,0,0,0
 ///---\\\
 :L<%^E!@
 9:Current
@@ -94,7 +114,7 @@ $192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,1
 19:100,0
 27:2,
 34:0,
-5:CO2 ilmakehässä
+5:Lämpöenergia ilmakehässä ja pintavesissä
 35:Date
 36:YYYY-MM-DD
 37:2000
