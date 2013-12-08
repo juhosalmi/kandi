@@ -186,7 +186,7 @@ linkcolor=blue,citecolor=black,pdfstartview=FitH]{hyperref}
 %% Kandidaatintyön päivämäärä on sen esityspäivämäärä! 
 %% 
 %% For B.Sc. thesis use the date when you present your thesis. 
-\date{5.10.2013}
+\date{9.12.2013}
 
 %% Kandidaattiseminaarin vastuuopettaja tai diplomityön valvoja.
 %% Huomaa tittelissä "\" -merkki pisteen jälkeen, 
@@ -238,6 +238,8 @@ linkcolor=blue,citecolor=black,pdfstartview=FitH]{hyperref}
 \keywords{Systeemidynamiikka, ilmastonmuutos}
 %% Tiivistelmän tekstiosa
 \begin{abstractpage}[finnish]
+Kandi vielä pikkasen kesken. Valmistuu ennen seminaaria.
+
 Placeholderina alkuperäinen tehtävänanto: Systeemidynamiikkaa on käytetty paljon ympäristöongelmien sekä ilmastonmuutoksen mallintamisessa. Kandityön tarkoituksena on tehdä kirjallisuustarkastelu ilmastonmuutoksen mallintamisessa käytetyistä systeemidynaamisista malleista, eri lähestymistavoista, eri resoluution malleista ja sovellusalueista. Pyritäänkö malleilla ymmärtämään ilmastonmuutosta paremmin vai kommunikoimaan jo tiedossa olevia ongelmia. Käyttävätkö vain päättäjät malleja vai onko kehitetty suurelle yleisölle tarkoitettuja malleja/pelejä. Mitä uutta systeemidynaaminen mallintaminen on tuonut ilmastonmuutoksen mallintamiseen.
 \end{abstractpage}
 
@@ -263,23 +265,23 @@ Placeholderina alkuperäinen tehtävänanto: Systeemidynamiikkaa on käytetty pa
 %% Esipuhe 
 %%
 %% Preface
-\mysection{Esipuhe}
+%\mysection{Esipuhe}
 %\mysection{Preface}
 
 
 
 
-\vspace{5cm}
-Otaniemi, 24.9.2013
+%\vspace{5cm}
+%Otaniemi, 24.9.2013
 
-\vspace{5mm}
-{\hfill Juho T.\ Salmi \hspace{1cm}}
+%\vspace{5mm}
+%{\hfill Juho T.\ Salmi \hspace{1cm}}
 
 %% Pakotetaan varmuuden vuoksi esipuheen jälkeinen osa
 %% alkamaan uudelta sivulta
 %%
 %% Force new page after preface
-\newpage
+%\newpage
 
 
 %% Sisällysluettelo
@@ -512,7 +514,7 @@ Fysikaalisen mallin voi laajentaa ottamalla huomioon ihmiskunnan ja ilmaston kes
 
 Tässä työssä ilmastomalleja esiteltäessä ja vertailtaessa keskitytään systeemidynamiikan kannalta keskeisiin asioihin: Tutkitaan, mitä on mallinnettu ja jätetty mallintamatta, millaisia ovat mallin keskeiset takaisinkytkennät ja mitkä muuttujat on mallinnettu ulkosyntyisiksi. 
 
-Tämän luvun tavoite on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja sitten systeemidynaamisiin malleihin pureutuen. Aluksi aliluvussa \ref{ilmasto:historia} otetaan katsaus ilmastotieteen, -mallien ja -politiikan historiaan. Historiaosuuden tavoite on auttaa ymmärtämään taustaa, miksi mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Tässä työssä esitellään kolme systeemidynaamista ilmastomallia, joista fysikaaliseen C-ROADS-ilmastomalliin paneudutaan aliluvussa \ref{ilmasto:croads} kunnolla, minkä jälkee aliluvuissa \ref{ilmasto:enroads} ja \ref{ilmasto:free} otetaan nopea katsaus yhdistettyihin En-ROADS- ja FREE-ilmastomalleihin. Lopuksi aliluvussa \ref{ilmasto:seuraukset} tutustutaan vielä ilmastonmuutoksen seurausten tutkimiseen systeemidynamiikan avulla.  
+Tämän luvun tavoite on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja sitten systeemidynaamisiin malleihin pureutuen. Aluksi aliluvussa \ref{ilmasto:historia} otetaan katsaus ilmastotieteen, -mallien ja -politiikan historiaan. Historiaosuuden tavoite on auttaa ymmärtämään taustaa, miksi mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Tässä työssä paneudutaan fysikaaliseen C-ROADS-ilmastomalliin aliluvussa \ref{ilmasto:croads} kunnolla, minkä jälkeen aliluvussa \ref{ilmasto:muut} otetaan nopea katsaus yhdistettyihin En-ROADS- ja FREE-ilmastomalleihin sekä ilmastonmuutoksen seurausten systeemidynaamiseen mallinnukseen. 
 
 \subsection{Ilmastotieteen, -mallien ja -politiikan historia \label{ilmasto:historia}}
 
@@ -548,9 +550,7 @@ C-ROADS:n arviointiryhmä antoi vuonna 2009 lausunnon, että malli ajaa asiansa:
 
 C-ROADS-ilmastomalli koostuu useasta osamallista. Kullekin kasvihuonekaasulle on oma osamallinsa, samoin metsien kasvamiselle ja tuhoutumiselle, meren pinnan korkeudelle ja pH:lle sekä maapallolle kertyneelle lämpöenergialle. \cite{Croads, CroadsFlightSimulator2011, Fiddaman2012} Seuraavaksi tutustutaan C-ROADS:n keskeisiin osamalleihin. Havainnollistamisessa käytetään apuna mallin yksinkertaistettuja kausaalidiagrammeja. Diagrammeista on selkeyden vuoksi piilotettu vähemmän merkitykselliset muuttujat ja vuorovaikutukset sekä nostettu esille keskeiset yksityiskohdat. 
 
-Malliin on otettu Kioton ilmastosopimuksen \cite{KyotoManual} mukaiset kasvihuonekaasut: hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2O$), rikkiheksafluoridi ($SF_6$) sekä $PFC$- ja $HFC$-yhdisteet. \cite{Croads, CroadsFlightSimulator2011, Fiddaman2012}. Tässä työssä käytettyyn C-ROADS:n 3.012.034 versioon on lisätty muitakin kasvihuonekaasuja \cite{Croads}. 
-
-Seuraavaksi tutustutaan mallin kannalta keskeisten hiilidioksidin ja lämpöenergian kiertokulkuun sekä takaisinkytkentöihin ja lopulta mallin tuloksiin ja arvioihin.
+Malliin on otettu Kioton ilmastosopimuksen \cite{KyotoManual} mukaiset kasvihuonekaasut: hiilidioksidi ($CO_2$), metaani ($CH_4$), typpidioksidi ($N_2O$), rikkiheksafluoridi ($SF_6$) sekä $PFC$- ja $HFC$-yhdisteet. \cite{Croads, CroadsFlightSimulator2011, Fiddaman2012}. Tässä työssä käytettyyn C-ROADS:n 3.012.034 versioon on lisätty muitakin kasvihuonekaasuja \cite{Croads}. Seuraavaksi tutustutaan mallin kannalta keskeisten hiilidioksidin ja lämpöenergian kiertokulkuun sekä takaisinkytkentöihin.
 
 \subsubsection*{Hiilidioksidin kiertokulku \label{ilmasto:croads:co2}}
 
@@ -582,20 +582,22 @@ Malliin on merkitty kolme tasapainottavaa silmukkaa. Alimmassa silmukassa merten
 
 Seuraava kuva \ref{ilmasto:co2-lampo} on esimerkki mallin takaisinkytkennästä, joka seuraa suoraan hiilidioksidin ja lämpöenergian kiertokulusta. Ilmakehässä olevan hiilidioksidin lisääntyessä heikentyy maapallon lämpösäteily avaruuteen, mikä hidastaa lämpöenergian poistumista ilmakehästä ja pintavesistä. Tämä johtaa keskilämpötilan nousuun, mikä heikentää hiilidioksidin liukoisuutta meriin, mikä puolestaan lisää hiilidioksidin määrää ilmakehässä. \cite{Croads, CroadsFlightSimulator2011}
 
+Mallissa on enemmänkin vastaavanlaisia takaisinkytkentöjä. Esimerkiksi biomassan kasvu tehostuu ilmakehän hiilidioksidin lisääntyessä ja toisaalta heikkenee ilmaston lämmetessä. Lisäksi ilmaston lämpeneminen sulattaa ikiroutaa vapauttaen metaania ja saa biomassan tuottamaan enemmän metaania. \cite{CroadsFlightSimulator2011}
+
+Takaisinkytkentöjen voimakkuutta säädetään herkkyysparametrein. Osaan näistä takaisinkytkennöistä on laitettu varovaiset herkkyysparametrit tai ne on kytketty kokonaan pois päältä, sillä ilmastotiede ei ole vielä kyennyt osoittamaan takaisinkytkentöjen todellista voimakkuutta. \cite{CroadsFlightSimulator2011}
+
 \begin{figure}[H]
 \centering \includegraphics[width=\textwidth]{c-roads-co2-lampo}
 \caption{C-ROADS-ilmastomallin mereen liuenneen hiilidioksidin ja ilmaston lämpenemisen vahvistava silmukka yksinkertaistettuna. \cite{Croads} \label{ilmasto:co2-lampo}}
 \end{figure}
 
-Mallissa on enemmänkin vastaavanlaisia takaisinkytkentöjä. Esimerkiksi biomassan kasvu tehostuu ilmakehän hiilidioksidin lisääntyessä ja toisaalta heikkenee ilmaston lämmetessä. Lisäksi ilmaston lämpeneminen sulattaa ikiroutaa vapauttaen metaania ja saa biomassan tuottamaan enemmän metaania. \cite{CroadsFlightSimulator2011}
+\subsection{Muita systeemidynaamisia ilmastomalleja \label{ilmasto:muut}}
 
-Takaisinkytkentöjen voimakkuutta säädetään herkkyysparametrein. Osaan näistä takaisinkytkennöistä on laitettu varovaiset herkkyysparametrit tai ne on kytketty kokonaan pois päältä, sillä ilmastotiede ei ole vielä kyennyt osoittamaan takaisinkytkentöjen todellista voimakkuutta. \cite{CroadsFlightSimulator2011}
+En-ROADS (Energy Rapid Overview and Decision Support) on FREE-ilmastomalliin pohjautuva, C-ROADS-ilmastomallista laajennettu, yhdistetty ilmastomalli. Siinä missä C-ROADS-malli keskittyi pääasiassa tutkimaan kasvihuonekaasupäästöjen leikkausten vaikutuksia ilmastoo, tutkii En-ROADS, miten muun muassa teknologisen kehityksen, bruttokansantuotteen kasvun ja päästökaupan vaikutukset päästöihin ja siten ilmastoon. \cite{EnroadsWWW, Harvey2013}
 
-\subsection{En-ROADS-ilmastomalli \label{ilmasto:enroads}}
+C-ROADS:n tavoin En-ROADS-simulaation ajaa sekunnin murto-osassa. \cite{EnroadsWWW}
 
-\subsection{FREE-ilmastomalli \label{ilmasto:free}}
-
-\subsection{Ilmastonmuutoksen seurausten arviointi systeemidynamiikalla \label{ilmasto:seuraukset}}
+En-ROADS:ssa ei C-ROADS:sta poiketen voi maailmaa pilkkoa eri alueisiin. \cite{EnroadsWWW}
 
 \clearpage
 
@@ -611,7 +613,7 @@ Takaisinkytkentöjen voimakkuutta säädetään herkkyysparametrein. Osaan näis
 Keskitytään hyvin paljon Stermanin ja Fiddamanin tutkimukseen, eikä esitetä kritiikkiä. 
 
 \clearpage
-%\phantomsection
+\phantomsection
 \addcontentsline{toc}{section}{Viitteet}
 %\bibliography{viitteet}
 %\bibliographystyle{plain}

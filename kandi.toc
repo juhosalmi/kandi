@@ -6,9 +6,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Tiivistelm\"a{} (englanniksi)}{iii}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Esipuhe}{iv}{section*.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Sis\"allysluettelo}{v}{section*.4}
+\contentsline {section}{Sis\"allysluettelo}{iv}{section*.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Johdanto}{1}{section.1}
 \defcounter {refsection}{0}\relax 
@@ -28,12 +26,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}C-ROADS-ilmastomalli }{12}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}En-ROADS-ilmastomalli }{18}{subsection.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}FREE-ilmastomalli }{18}{subsection.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5}Ilmastonmuutoksen seurausten arviointi systeemidynamiikalla }{18}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.3}Muita systeemidynaamisia ilmastomalleja }{18}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Yhteenveto }{19}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Viitteet}{20}{section.4}
+\contentsline {section}{Viitteet}{20}{section*.8}

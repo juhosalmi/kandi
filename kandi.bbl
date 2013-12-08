@@ -576,29 +576,6 @@
   \field{year}{2013}
 \endentry
 
-\entry{KyotoManual}{book}{}
-  \name{author}{1}{%
-    {{{United Nations Framework Convention on Climate Change}}{U.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{U2}
-  \strng{fullhash}{U2}
-  \field{isbn}{92-9219-055-5}
-  \field{pages}{130}
-  \field{title}{{Kyoto Protocol Reference Manual}}
-  \list{location}{1}{%
-    {Bonn}%
-  }
-  \verb{file}
-  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendeley Desktop/D
-  \verb ownloaded/United Nations Framework Convention on Climate Change - 2008
-  \verb - Kyoto Protocol Reference Manual.pdf:pdf
-  \endverb
-  \field{year}{2008}
-\endentry
-
 \entry{Sawin2009}{article}{}
   \name{author}{12}{%
     {{Sawin}{S.}%
@@ -750,6 +727,83 @@
   \endverb
   \field{type}{techreport}
   \field{year}{2009}
+\endentry
+
+\entry{KyotoManual}{book}{}
+  \name{author}{1}{%
+    {{{United Nations Framework Convention on Climate Change}}{U.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{U2}
+  \strng{fullhash}{U2}
+  \field{isbn}{92-9219-055-5}
+  \field{pages}{130}
+  \field{title}{{Kyoto Protocol Reference Manual}}
+  \list{location}{1}{%
+    {Bonn}%
+  }
+  \verb{file}
+  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendeley Desktop/D
+  \verb ownloaded/United Nations Framework Convention on Climate Change - 2008
+  \verb - Kyoto Protocol Reference Manual.pdf:pdf
+  \endverb
+  \field{year}{2008}
+\endentry
+
+\entry{EnroadsWWW}{misc}{}
+  \name{author}{1}{%
+    {{{Climate Interactive}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{title}{{En-ROADS-ilmastomallin kotisivu}}
+  \verb{url}
+  \verb http://climateinteractive.org/simulations/en-roads
+  \endverb
+  \field{urlday}{05}
+  \field{urlmonth}{12}
+  \field{urlyear}{2013}
+\endentry
+
+\entry{Harvey2013}{article}{}
+  \name{author}{3}{%
+    {{Harvey}{H.}%
+     {Hal}{H.}%
+     {}{}%
+     {}{}}%
+    {{Orr}{O.}%
+     {Franklin~M.}{F.~M.}%
+     {}{}%
+     {}{}}%
+    {{Vondrich}{V.}%
+     {Clara}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HHOFMVC1}
+  \strng{fullhash}{HHOFMVC1}
+  \verb{doi}
+  \verb 10.1162/DAED_a_00182
+  \endverb
+  \field{issn}{0011-5266}
+  \field{number}{1}
+  \field{pages}{8\bibrangedash 25}
+  \field{title}{{A Trillion Tons}}
+  \verb{url}
+  \verb http://www.mitpressjournals.org/doi/abs/10.1162/DAED_a_00182
+  \endverb
+  \field{volume}{142}
+  \verb{file}
+  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Temp/DaedalusOrr.pdf:pdf
+  \endverb
+  \field{journaltitle}{Daedalus}
+  \field{month}{01}
+  \field{year}{2013}
 \endentry
 
 \lossort
