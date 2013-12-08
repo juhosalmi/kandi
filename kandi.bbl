@@ -599,6 +599,112 @@
   \field{year}{2008}
 \endentry
 
+\entry{Sawin2009}{article}{}
+  \name{author}{12}{%
+    {{Sawin}{S.}%
+     {Elizabeth~R.}{E.~R.}%
+     {}{}%
+     {}{}}%
+    {{Jones}{J.}%
+     {Andrew~P.}{A.~P.}%
+     {}{}%
+     {}{}}%
+    {{Fiddaman}{F.}%
+     {Tom}{T.}%
+     {}{}%
+     {}{}}%
+    {{Siegel}{S.}%
+     {Lori~S.}{L.~S.}%
+     {}{}%
+     {}{}}%
+    {{Wright}{W.}%
+     {Diana}{D.}%
+     {}{}%
+     {}{}}%
+    {{Franck}{F.}%
+     {Travis}{T.}%
+     {}{}%
+     {}{}}%
+    {{Barkman}{B.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+    {{Cummings}{C.}%
+     {Tom}{T.}%
+     {}{}%
+     {}{}}%
+    {{Peter}{P.}%
+     {Felicitas}{F.}%
+     {von}{v.}%
+     {}{}}%
+    {{McGlade}{M.}%
+     {Jacqueline}{J.}%
+     {}{}%
+     {}{}}%
+    {{Corell}{C.}%
+     {Robert~W.}{R.~W.}%
+     {}{}%
+     {}{}}%
+    {{Sterman}{S.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SER+1}
+  \strng{fullhash}{SERJAPFTSLSWDFTBACTPFvMJCRWSJ1}
+  \field{abstract}{%
+  We report the creation and initial use of the Climate-Rapid Overview And
+  Decision Support Simulator (C- ROADS) (1), a simple, fast, user-friendly
+  simulation of climate change that conforms with accepted climate science
+  while allowing decision makers to discover through interactive exploration
+  the range of greenhouse gas emissions trajectories sufficient to achieve
+  widely accepted goals for climate stabilization – such as stabilizing CO2
+  levels at or below 350–450 parts per million (ppm) or limiting temperature
+  increase to no more than 2° Centigrade over pre-industrial temperatures. As
+  an example of the utility of this computer simulation model for informing
+  policy makers, other leaders, and the public about progress within the UNFCCC
+  negotiations leading up to COP-15 (Copenhagen, Denmark, December 2009) we use
+  C-ROADS to analyze the expected long-term impacts on the climate of proposals
+  currently being put forth by national and regional governments. Our results
+  show that these proposals – even if fully implemented – would be far from
+  sufficient to meet the goals of stabilizing atmospheric CO2 levels at or
+  below 450 ppm (reaching $\sim$ 730 ppm by 2100) or limiting warming to 2°C
+  over pre-industrial temperatures (reaching $\sim$4°C by 2100 (at the central
+  estimate of climate sensitivity of the IPCC (2)).%
+  }
+  \field{number}{March}
+  \field{pages}{1\bibrangedash 12}
+  \field{title}{{Current Emissions Reductions Proposals in the Lead-Up COP-15
+  Are Likely to be Insufficient to Stabilize Atmospheric CO2 Levels: Using
+  C-ROADS – A Simple Computer Simulation of Climate Change – To Support
+  Long-Term Climate Policy Development}}
+  \verb{file}
+  \verb :C\:/Users/jtsalmi.AALTO/AppData/Local/Mendeley Ltd./Mendeley Desktop/D
+  \verb ownloaded/Elizabeth R. Sawin, Andrew P. Jones, Tom Fiddaman, Lori S. Si
+  \verb egel, Diana Wright, Travis Franck, Andreas Barkman, Tom Cummings, Felic
+  \verb itas.pdf:pdf
+  \endverb
+  \field{year}{2009}
+\endentry
+
+\entry{UNFCCCCopenhagen}{misc}{}
+  \name{author}{1}{%
+    {{UNFCCC}{U.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{U1}
+  \strng{fullhash}{U1}
+  \field{title}{{K\"{o}\"{o}penhaminan ilmastokokouksen kotisivu}}
+  \verb{url}
+  \verb http://unfccc.int/meetings/copenhagen_dec_2009/meeting/6295.php
+  \endverb
+  \field{urlday}{08}
+  \field{urlmonth}{12}
+  \field{urlyear}{2013}
+\endentry
+
 \entry{Watson2009}{report}{}
   \name{author}{7}{%
     {{Watson}{W.}%
