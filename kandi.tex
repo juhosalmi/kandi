@@ -235,7 +235,7 @@ linkcolor=blue,citecolor=black,pdfstartview=FitH]{hyperref}
 %% Finnish abstract
 %%
 %% Tiivistelmän avainsanat
-\keywords{Systeemidynamiikka, ilmastonmuutos}
+\keywords{Systeemidynamiikka, ilmastonmuutos, ilmastomalli, ilmaston lämpeneminen, C-ROADS, En-ROADS, FREE}
 %% Tiivistelmän tekstiosa
 \begin{abstractpage}[finnish]
 Kandi vielä pikkasen kesken. Valmistuu ennen seminaaria.
@@ -253,7 +253,7 @@ Placeholderina alkuperäinen tehtävänanto: Systeemidynamiikkaa on käytetty pa
 %% English abstract, uncomment if you need one. 
 %% 
 %% Abstract keywords
-\keywords{System dynamics, climate change}
+\keywords{System dynamics, climate change, climate model, global warming, C-ROADS, En-ROADS, FREE}
 %% Abstract text
 \begin{abstractpage}[english]
  Abstract in English. 
@@ -534,7 +534,7 @@ Ilmastonmuutoksen torjumiseksi perustettiin vuonna 1992 YK:n ilmastonmuutoskonve
 
 Stermanin \cite{CroadsFlightSimulator2011} mukaan ilmastoneuvotteluissa on kaksi keskeistä haastetta liittyen ilmastomalleihin. Ensinnäkin päättäjien ja neuvottelijoiden on vaikea ymmärtää ilmastomalleja ja toisekseen tarkkojen ilmastomallien simuloimiseen erilaisilla skenaarioilla neuvotteluiden aikana ei ole aikaa. Neuvotteluissa eri maat asettavat eri oletusarvot esimerkiksi väestönkasvulle, joten on tärkeää, että simulaatiot kyetään ajamaan nopeasti paikan päällä eri kasvuodotusparametrein. Tämä sulkee pois tarkat ilmastomallit, ja Stermanin \cite{CroadsFlightSimulator2011} mukaan harva yksinkertaisista ilmastomalleistakaan on riittävän nopea. Malleja vaivaa myös se, että ne eivät ole välttämättä julkisesti kaikkien saatavilla, ja niiden toimintaperiaatteita on vaikea ymmärtää. Ilman sopivia työkaluja neuvottelijat ja päättäjät joutuvat siis turvautumaan omaan intuitioonsa. Tässä aliluvussa tutustutaan Climate Interactiven kehittämään C-ROADS-ilmastomalliin ensin yleisesti sekä tutkitaan, miten mallilla on ratkaistu edellä mainittuja ongelmia. Tämän jälkeen tutustutaan mallin teknisen toteutuksen keskeisiin yksityiskohtiin. 
 
-C-ROADS (Climate-Rapid Overview And Decision Support) on yksinkertainen fysikaalinen ilmastomalli, joka perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen FREE-ilmastomalliin. C-ROADS:n keskeinen ulkosyntyinen muuttuja on kasvihuonekaasupäästöjen kehitys. Malliin voi asettaa myös haluamansa arvot esimerkiksi väestönkasvulle ja herkkyysparametrille hiilidioksidin ilmastoa lämmittävälle vaikutukselle. \cite{CroadsFlightSimulator2011, Croads} C-ROADS on viritetty ja osoitettu toimivaksi historiadatan ja sekä tarkkojen fysikaalisten mallien avulla. Malli kykenee siis toistamaan historiadatan käyttäytymistä sekä antaa eri parametrein samoja ennusteita kuin parhaat tarkimmista ilmastomalleista  \cite{CroadsWWW, CroadsFlightSimulator2011}.
+C-ROADS (Climate-Rapid Overview And Decision Support) on yksinkertainen fysikaalinen ilmastomalli, joka perustuu Fiddamanin \cite{Fiddaman1997} kehittämään systeemidynaamiseen FREE-ilmastomalliin. C-ROADS:n keskeinen ulkosyntyinen muuttuja on kasvihuonekaasupäästöjen kehitys. Malliin voi asettaa myös haluamansa arvot esimerkiksi väestön ja bruttokansantuotteen kasvulle sekä herkkyysparametrille hiilidioksidin ilmastoa lämmittävälle vaikutukselle. \cite{CroadsFlightSimulator2011, Croads} C-ROADS on viritetty ja osoitettu toimivaksi historiadatan ja sekä tarkkojen fysikaalisten mallien avulla. Malli kykenee siis toistamaan historiadatan käyttäytymistä sekä antaa eri parametrein samoja ennusteita kuin parhaat tarkimmista ilmastomalleista  \cite{CroadsWWW, CroadsFlightSimulator2011}.
 
 Mallin tarkoitus on auttaa ihmisiä ymmärtämään, miten ilmasto toimii ja millaiset pitkän aikajänteen seuraukset erilaisilla ilmastopoliittisilla päätöksillä kasvihuonekaasupäästöjen leikkaamiseksi on. Mallista on pyritty kehittämään mahdollisimman nopea, läpinäkyvä ja helppokäyttöinen. C-ROADS-simulaation ajaa sekunnin murto-osassa, se on kattavasti dokumentoitu ja siinä on graafinen käyttöliittymä, jolla kuka tahansa voi kokeilla, millainen vaikutus erilaisilla kasvihuonekaasujen leikkauksilla ja kasvuodotusparametreilla on ilmastonmuutokseen. Graafisen käyttöliittymän avulla pääsee myös tarkastelemaan kausaalidiagrammeja, joista malli on rakennettu. C-ROADS-mallissa maapallon voi jakaa yhteen tai useampaan alueeseen, joista kukin tekee ilmastopoliittiset päätökset itsenäisesti. \cite{Croads, CroadsWWW, CroadsFlightSimulator2011} Kullekin valtiolle tai alueelle on määritetty omat bruttokansantuotteen ja väestönkasvun lukemat, jotka vaikuttavat syntyviin päästöihin \cite{Fiddaman2012}. Näin käyttäjä voi ajaa esimerkiksi simulaation tilanteessa, jossa Kiina vähentää päästöjään 50 \% alle vuoden 2000 tason ja muu maailma 40 \% alle vuoden 1990 tason. C-ROADS-mallin pohjalle on kehitetty myös roolipeli, World Climate, jossa kukin pelaaja edustaa eri maailman valtiota YK:n ilmastoneuvotteluissa. \cite{CroadsWWW} 
 
@@ -591,17 +591,15 @@ Takaisinkytkentöjen voimakkuutta säädetään herkkyysparametrein. Osaan näis
 
 Tässä aliluvussa tutustutaan yhdistettyihin En-ROADS- ja FREE-ilmastomalleihin ja niitä vertaillaan toisiinsa sekä C-ROADS-ilmastomalliin. Lopuksi otetaan kevyt katsaus muutamaan ilmastonmuutoksen vaikutuksia tutkivaan systeemidynaamiseen malliin. 
 
-\subsubsection*{En-ROADS \label{ilmasto:muut:enroads}}
+\subsubsection*{En-ROADS-ilmastomalli \label{ilmasto:muut:enroads}}
 
-En-ROADS (Energy-Rapid Overview And Decision Support) on FREE-ilmastomalliin pohjautuva, yhdistetty ilmastomalli. En-ROADS on laajennettu C-ROADS-ilmastomallista yhdistämällä malliin ihmiskunnan energiatuotanto ja talous. Siinä missä C-ROADS-malli keskittyi pääasiassa tutkimaan kasvihuonekaasupäästöjen leikkausten vaikutuksia ilmastoon, tutkii En-ROADS kokonaisvaltaisemmin energiatuotannon, talouden ja ilmaston keskinäisiä vaikutuksia. En-ROADS tutkii puhtaasti maailmanlaajuista kehitystä, eikä mallissa voi C-ROADS:n tavoin jakaa maailmaa itsenäisiin alueisiin. C-ROADS:n tavoin En-ROADS-simulaation ajaa sekunnin murto-osassa, vaikka se onkin paljon laajempi malli. \cite{EnroadsWWW, Harvey2013, Croads} 
+En-ROADS (Energy-Rapid Overview And Decision Support) on FREE-ilmastomalliin pohjautuva, yhdistetty ilmastomalli. En-ROADS on laajennettu C-ROADS-ilmastomallista yhdistämällä malliin ihmiskunnan energiatuotanto ja talous. Siinä missä C-ROADS-malli keskittyi pääasiassa tutkimaan kasvihuonekaasupäästöjen leikkausten vaikutuksia ilmastoon, tutkii En-ROADS kokonaisvaltaisemmin energiatuotannon, talouden ja ilmaston keskinäisiä vaikutuksia. En-ROADS tutkii puhtaasti maailmanlaajuista kehitystä, eikä mallissa voi C-ROADS:n tavoin jakaa maailmaa itsenäisiin alueisiin. C-ROADS:n tavoin En-ROADS-simulaation ajaa sekunnin murto-osassa, vaikka se onkin paljon laajempi malli. \cite{EnroadsWWW, Harvey2013, Enroads} 
 
-En-ROADS:n ulkosyntyiset muuttujat on jaettu oletuksiin ja olosuhteisiin sekä toimenpiteisiin ja päätöksiin. Ne on jaettu edelleen energiatuotannollisiin ja taloudellisiin muuttujiin. \cite{Enroads}
+En-ROADS:n ulkosyntyiset muuttujat on jaettu oletuksiin ja olosuhteisiin sekä toimenpiteisiin ja päätöksiin. Ne on jaettu edelleen energiatuotannollisiin ja taloudellisiin muuttujiin. Oletusten ja olosuhteiden avulla käyttäjä voi syöttää malliin haluamansa uskomukset maailman kehityksestä ja kokeilla, millaisia tuloksia saadaan erilaisin toimenpitein ja päätöksin. \cite{Enroads} Energiatuotanto on jaettu kahdeksaan eri muotoon: fossiilisiin kivihiileen, öljyyn ja maakaasuun, uusiutuviin bioenergiaan, vesivoimaan ja muihin uusiutuviin sekä ydinvoimaan ja uusiin energiatuotantomuotoihin. Eri tavat tuottaa energiaa vapauttavat ilmakehään eri määrän kasvihuonekaasuja. \cite{Enroads, Harvey2013}
 
-En-ROADS jakaa energiatuotannon kahdeksaan eri tuotantomuotoon: fossiilisiin kivihiileen, öljyyn ja maakaasuun, uusiutuviin bioenergiaan, vesivoimaan ja muihin uusiutuviin sekä ydinvoimaan ja uusiin energiatuotantomuotoihin. Eri tavat tuottaa energiaa vapauttavat ilmakehään eri määrän kasvihuonekaasuja. \cite{Enroads, Harvey2013}
+Mallissa voi tehdä useita erilaisia toimenpiteitä ja poliittisia päätöksiä energiatuotannon ja talouden ohjaamiseksi. Energiamuotoja voidaan verottaa tai tukea ja niiden houkuttelevuutta voidaan säätää, päästöille voidaan asettaa hinta, energiatehokkuutta voidaan parantaa ja uusien energiateknologioiden kehitykseen voidaan panostaa. Nämä toimenpiteet ja päätökset vaikuttavat energiatuotantoon ja talouteen sekä sen myötä päästöihin ja ilmaston lämpenemiseen. \cite{Harvey2013, Enroads} Harvey \cite{Harvey2013} esittää En-ROADS-ilmastomallilla tehtyjen tutkimusten perusteella, että lämpenemisen pysäyttäminen alle 2\degree C:een ei tarvitse tulla lyhyelläkään tähtäimellä erityisen kalliiksi, jos yhdistellään eri keinoja energiatehokkuudesta päästöveroihin. 
 
-Energiatuotantoon vaikutetaan polittisilla päätöksillä. Mallissa voidaan lisätä 
-
-miten muun muassa teknologisen kehityksen, bruttokansantuotteen kasvun ja päästökaupan vaikutukset päästöihin ja siten ilmastoon. \cite{EnroadsWWW, Harvey2013}
+\subsubsection*{FREE-ilmastomalli \label{ilmasto:muut:free}}
 
 \clearpage
 

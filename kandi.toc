@@ -30,4 +30,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Yhteenveto }{20}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Viitteet}{21}{section*.9}
+\contentsline {section}{Viitteet}{21}{section*.10}
