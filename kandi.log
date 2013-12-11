@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.11)  11 DEC 2013 12:55
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.11)  11 DEC 2013 13:42
 entering extended mode
 **//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
 (//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/kandi.tex
@@ -1406,7 +1406,7 @@ b/kandi/varastovirtauskana.png>] [10
 File: c-roads-co2.png Graphic file (type png)
  <use c-roads-co2.png>
 [14] [15 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitHub/kandi/c-roads-co2.png
->] <c-roads-lampo.png, id=359, 377.15906pt x 378.66469pt>
+>] <c-roads-lampo.png, id=361, 377.15906pt x 378.66469pt>
 File: c-roads-lampo.png Graphic file (type png)
 
 <use c-roads-lampo.png> [16] [17 <//home.org.aalto.fi/jtsalmi/data/Desktop/GitH
@@ -1519,7 +1519,7 @@ lic/cm-super/sfsl1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-
 super/sfti1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/public/cm-super/s
 ftt1200.pfb><C:/PROGRAMS/MiKTeX/MiKTeX_2.9/fonts/type1/urw/helvetic/uhvb8a.pfb>
 
-Output written on kandi.pdf (27 pages, 471120 bytes).
+Output written on kandi.pdf (27 pages, 471130 bytes).
 PDF statistics:
  549 PDF objects out of 1000 (max. 8388607)
  88 named destinations out of 1000 (max. 500000)
