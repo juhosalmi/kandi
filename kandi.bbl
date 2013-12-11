@@ -494,6 +494,18 @@
   \field{urlyear}{2013}
 \endentry
 
+\entry{Croads}{misc}{}
+  \name{author}{1}{%
+    {{{Climate Interactive}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{title}{{C-ROADS-ilmastomalli, v.3.012.034}}
+\endentry
+
 \entry{CroadsWWW}{misc}{}
   \name{author}{1}{%
     {{{Climate Interactive}}{C.}%
@@ -510,18 +522,6 @@
   \field{urlday}{27}
   \field{urlmonth}{11}
   \field{urlyear}{2013}
-\endentry
-
-\entry{Croads}{misc}{}
-  \name{author}{1}{%
-    {{{Climate Interactive}}{C.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{C1}
-  \strng{fullhash}{C1}
-  \field{title}{{C-ROADS-ilmastomalli, v.3.012.034}}
 \endentry
 
 \entry{Fiddaman2012}{book}{}
@@ -840,6 +840,18 @@
   \field{journaltitle}{Daedalus}
   \field{month}{01}
   \field{year}{2013}
+\endentry
+
+\entry{Enroads}{misc}{}
+  \name{author}{1}{%
+    {{{Climate Interactive}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{title}{{En-ROADS-ilmastomalli v.0.9}}
 \endentry
 
 \lossort
