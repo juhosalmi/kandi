@@ -512,7 +512,7 @@ Fysikaalisen mallin voi laajentaa ottamalla huomioon ihmiskunnan ja ilmaston kes
 
 Tässä työssä ilmastomalleja esiteltäessä ja vertailtaessa keskitytään systeemidynamiikan kannalta keskeisiin asioihin: Tutkitaan, mitä on mallinnettu ja jätetty mallintamatta, millaisia ovat mallin keskeiset takaisinkytkennät ja mitkä muuttujat on mallinnettu ulkosyntyisiksi. 
 
-Tämän luvun tavoite on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja sitten systeemidynaamisiin malleihin pureutuen. Aluksi aliluvussa \ref{ilmasto:historia} otetaan katsaus ilmastotieteen, -mallien ja -politiikan historiaan. Historiaosuuden tavoite on auttaa ymmärtämään taustaa, miksi mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Tässä työssä paneudutaan fysikaaliseen C-ROADS-ilmastomalliin aliluvussa \ref{ilmasto:croads} kunnolla, minkä jälkeen aliluvussa \ref{ilmasto:muut} otetaan nopea katsaus yhdistettyihin En-ROADS- ja FREE-ilmastomalleihin sekä ilmastonmuutoksen seurausten systeemidynaamiseen mallinnukseen. 
+Tämän luvun tavoite on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja sitten systeemidynaamisiin malleihin pureutuen. Aluksi aliluvussa \ref{ilmasto:historia} otetaan katsaus ilmastotieteen, -mallien ja -politiikan historiaan. Historiaosuuden tavoite on auttaa ymmärtämään taustaa, miksi mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Tässä työssä paneudutaan fysikaaliseen C-ROADS-ilmastomalliin aliluvussa \ref{ilmasto:croads} kunnolla, minkä jälkeen aliluvuissa \ref{ilmasto:enroads} ja \ref{ilmasto:free} otetaan nopea katsaus yhdistettyihin En-ROADS- ja FREE-ilmastomalleihin. 
 
 \subsection{Ilmastotieteen, -mallien ja -politiikan historia \label{ilmasto:historia}}
 
@@ -589,11 +589,7 @@ Takaisinkytkentöjen voimakkuutta säädetään herkkyysparametrein. Osaan näis
 
 \clearpage
 
-\subsection{Muita systeemidynaamisia ilmastomalleja \label{ilmasto:muut}}
-
-Tässä aliluvussa tutustutaan yhdistettyihin En-ROADS- ja FREE-ilmastomalleihin ja niitä vertaillaan toisiinsa sekä C-ROADS-ilmastomalliin. Lopuksi otetaan kevyt katsaus muutamaan ilmastonmuutoksen vaikutuksia tutkivaan systeemidynaamiseen malliin. 
-
-\subsubsection*{En-ROADS-ilmastomalli \label{ilmasto:muut:enroads}}
+\subsection{En-ROADS-ilmastomalli \label{ilmasto:enroads}}
 
 En-ROADS (Energy-Rapid Overview And Decision Support) on FREE-ilmastomalliin pohjautuva, systeemidynaaminen, yhdistetty ilmastomalli. En-ROADS on laajennettu C-ROADS-ilmastomallista yhdistämällä malliin ihmiskunnan energiatuotanto ja talous. Siinä missä C-ROADS-malli keskittyi pääasiassa tutkimaan kasvihuonekaasupäästöjen leikkausten vaikutuksia ilmastoon, tutkii En-ROADS kokonaisvaltaisemmin energiatuotannon, talouden ja ilmaston keskinäisiä vaikutuksia. En-ROADS tutkii puhtaasti maailmanlaajuista kehitystä, eikä mallissa voi C-ROADS:n tavoin jakaa maailmaa itsenäisiin alueisiin. C-ROADS:n tavoin En-ROADS-simulaation ajaa sekunnin murto-osassa, vaikka se onkin paljon laajempi malli. \cite{EnroadsWWW, Harvey2013, Enroads} 
 
@@ -603,7 +599,7 @@ Mallissa voi tehdä useita erilaisia toimenpiteitä ja poliittisia päätöksiä
 
 \clearpage
 
-\subsubsection*{FREE-ilmastomalli \label{ilmasto:muut:free}}
+\subsection{FREE-ilmastomalli \label{ilmasto:free}}
 
 FREE (Feedback-Rich Energy-Economy) on Tom Fiddamanin kehittämä systeemidynaaminen, yhdistetty ilmastomalli, jonka hän julkaisi väitöskirjassaan vuonna 1997. Malli on rakennettu Nordhausin DICE-ilmastomallin \cite{Nordhaus1992} pohjalta. \cite{Fiddaman1997} En-ROADS on hyvin pitkälti FREE:n pohjalta rakennettu malli, joten mallit ovat yleisellä tasolla hyvin samanlaiset. 
 
@@ -615,10 +611,6 @@ Seuraava kuva \ref{ilmasto:muut:free} on FREE-ilmastomallin rakenteen yleiskuva 
 \end{figure}
 
 Ilmaston lämpenemisen aiheuttamat vahingot lasketaan suoraviivaisesti ilmaston lämpenemisestä. Hyvinvoinnille on puolestaan kertymähyötyfunktio. Hyödyksi katsotaan ihmisten mahdollisuus kuluttaa, mikä syntyy kansantuotteesta. Kertymähyötyfunktio laskee tarkasteluajanjakson hyötykertymän. Kertymää voidaan painottaa sukupolvien välistä oikeudenmukaisuutta kuvaavalla parametrilla, jolla voidaan esimerkiksi asettaa nykyhetken hyödylle suurempi painoarvo kuin vuoden 2050 hyödylle. \cite{Fiddaman1997, Fiddaman2002} Fiddaman \cite{Fiddaman2002} on etsinyt mallin avulla optimaalista tapaa vähentää kasvihuonekaasupäästöjä ja osoittanut, että päästölupien sijaan päästöverot on parhaan hyvinvoinnin tuottava tapa vähentää kasvihuonekaasupäästöjä. 
-
-\subsubsection{Ilmastonmuutoksen seurausten arviointi systeemidynamiikalla \label{ilmasto:muut:seuraukset}}
-
-
 
 \clearpage
 
