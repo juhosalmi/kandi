@@ -587,19 +587,34 @@ Takaisinkytkentöjen voimakkuutta säädetään herkkyysparametrein. Osaan näis
 \caption{C-ROADS-ilmastomallin mereen liuenneen hiilidioksidin ja ilmaston lämpenemisen vahvistava silmukka yksinkertaistettuna. \cite{Croads} \label{ilmasto:co2-lampo}}
 \end{figure}
 
+\clearpage
+
 \subsection{Muita systeemidynaamisia ilmastomalleja \label{ilmasto:muut}}
 
 Tässä aliluvussa tutustutaan yhdistettyihin En-ROADS- ja FREE-ilmastomalleihin ja niitä vertaillaan toisiinsa sekä C-ROADS-ilmastomalliin. Lopuksi otetaan kevyt katsaus muutamaan ilmastonmuutoksen vaikutuksia tutkivaan systeemidynaamiseen malliin. 
 
 \subsubsection*{En-ROADS-ilmastomalli \label{ilmasto:muut:enroads}}
 
-En-ROADS (Energy-Rapid Overview And Decision Support) on FREE-ilmastomalliin pohjautuva, yhdistetty ilmastomalli. En-ROADS on laajennettu C-ROADS-ilmastomallista yhdistämällä malliin ihmiskunnan energiatuotanto ja talous. Siinä missä C-ROADS-malli keskittyi pääasiassa tutkimaan kasvihuonekaasupäästöjen leikkausten vaikutuksia ilmastoon, tutkii En-ROADS kokonaisvaltaisemmin energiatuotannon, talouden ja ilmaston keskinäisiä vaikutuksia. En-ROADS tutkii puhtaasti maailmanlaajuista kehitystä, eikä mallissa voi C-ROADS:n tavoin jakaa maailmaa itsenäisiin alueisiin. C-ROADS:n tavoin En-ROADS-simulaation ajaa sekunnin murto-osassa, vaikka se onkin paljon laajempi malli. \cite{EnroadsWWW, Harvey2013, Enroads} 
+En-ROADS (Energy-Rapid Overview And Decision Support) on FREE-ilmastomalliin pohjautuva, systeemidynaaminen, yhdistetty ilmastomalli. En-ROADS on laajennettu C-ROADS-ilmastomallista yhdistämällä malliin ihmiskunnan energiatuotanto ja talous. Siinä missä C-ROADS-malli keskittyi pääasiassa tutkimaan kasvihuonekaasupäästöjen leikkausten vaikutuksia ilmastoon, tutkii En-ROADS kokonaisvaltaisemmin energiatuotannon, talouden ja ilmaston keskinäisiä vaikutuksia. En-ROADS tutkii puhtaasti maailmanlaajuista kehitystä, eikä mallissa voi C-ROADS:n tavoin jakaa maailmaa itsenäisiin alueisiin. C-ROADS:n tavoin En-ROADS-simulaation ajaa sekunnin murto-osassa, vaikka se onkin paljon laajempi malli. \cite{EnroadsWWW, Harvey2013, Enroads} 
 
-En-ROADS:n ulkosyntyiset muuttujat on jaettu oletuksiin ja olosuhteisiin sekä toimenpiteisiin ja päätöksiin. Ne on jaettu edelleen energiatuotannollisiin ja taloudellisiin muuttujiin. Oletusten ja olosuhteiden avulla käyttäjä voi syöttää malliin haluamansa uskomukset maailman kehityksestä ja kokeilla, millaisia tuloksia saadaan erilaisin toimenpitein ja päätöksin. \cite{Enroads} Energiatuotanto on jaettu kahdeksaan eri muotoon: fossiilisiin kivihiileen, öljyyn ja maakaasuun, uusiutuviin bioenergiaan, vesivoimaan ja muihin uusiutuviin sekä ydinvoimaan ja uusiin energiatuotantomuotoihin. Eri tavat tuottaa energiaa vapauttavat ilmakehään eri määrän kasvihuonekaasuja. \cite{Enroads, Harvey2013}
+En-ROADS:n ulkosyntyiset muuttujat on jaettu oletuksiin ja olosuhteisiin sekä toimenpiteisiin ja päätöksiin. Ne on jaettu edelleen energiatuotannollisiin ja taloudellisiin muuttujiin. Oletusten ja olosuhteiden avulla käyttäjä voi syöttää malliin haluamansa uskomukset maailman kehityksestä ja kokeilla, millaisia tuloksia saadaan erilaisin toimenpitein ja päätöksin. Energiatuotanto on jaettu kahdeksaan eri muotoon: fossiilisiin kivihiileen, öljyyn ja maakaasuun, uusiutuviin bioenergiaan, vesivoimaan ja muihin uusiutuviin sekä ydinvoimaan ja uusiin energiatuotantomuotoihin. Eri tavat tuottaa energiaa vapauttavat ilmakehään eri määrän kasvihuonekaasuja. \cite{Enroads}
 
 Mallissa voi tehdä useita erilaisia toimenpiteitä ja poliittisia päätöksiä energiatuotannon ja talouden ohjaamiseksi. Energiamuotoja voidaan verottaa tai tukea ja niiden houkuttelevuutta voidaan säätää, päästöille voidaan asettaa hinta, energiatehokkuutta voidaan parantaa ja uusien energiateknologioiden kehitykseen voidaan panostaa. Nämä toimenpiteet ja päätökset vaikuttavat energiatuotantoon ja talouteen sekä sen myötä päästöihin ja ilmaston lämpenemiseen. \cite{Harvey2013, Enroads} Harvey \cite{Harvey2013} esittää En-ROADS-ilmastomallilla tehtyjen tutkimusten perusteella, että lämpenemisen pysäyttäminen alle 2\degree C:een ei tarvitse tulla lyhyelläkään tähtäimellä erityisen kalliiksi, jos yhdistellään eri keinoja energiatehokkuudesta päästöveroihin. 
 
+\clearpage
+
 \subsubsection*{FREE-ilmastomalli \label{ilmasto:muut:free}}
+
+FREE (Feedback-Rich Energy-Economy) on Tom Fiddamanin kehittämä systeemidynaaminen, yhdistetty ilmastomalli, jonka hän julkaisi väitöskirjassaan vuonna 1997. Malli on rakennettu Nordhausin DICE-ilmastomallin \cite{Nordhaus1992} pohjalta. \cite{Fiddaman1997} En-ROADS on hyvin pitkälti FREE:n pohjalta rakennettu malli, joten mallit ovat yleisellä tasolla hyvin samanlaiset. 
+
+Seuraava kuva \ref{ilmasto:muut:free} on FREE-ilmastomallin rakenteen yleiskuva ylätason kausaalidiagrammilla kuvattuna. Malli koostuu yhdeksästä osamallista, joista kaksi on jätetty En-ROADS:ssa mallintamatta. Nämä osamallit ovat ihmiskunnan hyvinvointi sekä ilmastonmuutoksen aiheuttamat vahingot niin talouteen kuin ihmiskunnan hyvinvointiin. Ilmaston lämpeneminen heikentää kansantuotetta ja ihmisten hyvinvointia. Kansantuotteen kasvu puolestaan parantaa ihmisten hyvinvointia. \cite{Fiddaman1997, Fiddaman2002}
+
+\begin{figure}[H]
+\centering \includegraphics[width=\textwidth]{free}
+\caption{FREE-ilmastomallin rakenne. \cite{Fiddaman2002} \label{ilmasto:muut:free}}
+\end{figure}
+
+Ilmaston lämpenemisen aiheuttamat vahingot lasketaan suoraviivaisesti ilmaston lämpenemisestä. Hyvinvoinnille on puolestaan kertymähyötyfunktio. Hyödyksi katsotaan ihmisten mahdollisuus kuluttaa, mikä syntyy kansantuotteesta. Kertymähyötyfunktio laskee tarkasteluajanjakson hyötykertymän. Kertymää voidaan painottaa sukupolvien välistä oikeudenmukaisuutta kuvaavalla parametrilla, jolla voidaan esimerkiksi asettaa nykyhetken hyödylle suurempi painoarvo kuin vuoden 2050 hyödylle. \cite{Fiddaman1997, Fiddaman2002} Fiddaman \cite{Fiddaman2002} on etsinyt mallin avulla optimaalista tapaa vähentää kasvihuonekaasupäästöjä ja osoittanut, että päästölupien sijaan päästöverot on parhaan hyvinvoinnin tuottava tapa vähentää kasvihuonekaasupäästöjä. 
 
 \clearpage
 
