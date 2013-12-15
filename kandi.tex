@@ -508,11 +508,11 @@ Ilmastoa mallinnetaan ja simuloidaan, jotta ilmaston käyttäytymistä -- etenki
 
 Ilmastonmuutoksen mallintamiseen tarvitaan aina jonkinlainen fysikaalinen malli. Tarkimmissa fysikaalisissa malleissa ilmakehä ja meret saatetaan pilkkoa lukuisiin alueisiin ja useisiin kerroksiin. Näiden osien keskinäistä vuorovaikutusta simuloidaan erilaisin kasvihuonekaasujen määrin. Mitä tarkempi malli, sitä kauemmin sen simuloiminen kestää. \cite{CroadsFlightSimulator2011} 
 
-Fysikaalisen mallin voi laajentaa ottamalla huomioon ihmiskunnan ja ilmaston keskinäisen vuorovaikutuksen. Eri tieteenaloja yhdistelevistä malleista käytetään tässä työssä nimitystä yhdistetty malli (eng. integrated assessment model). Yhdistetyillä ilmastomalleilla voidaan esimerkiksi tutkia, miten ilmastonmuutos, väestönkasvu, talouskasvu ja hyvinvointi vaikuttavat toisiinsa. \cite{U.S.DepartmentofEnergy2009} 
+Fysikaalista mallia voidaan laajentaa ottamalla huomioon ihmiskunnan ja ilmaston keskinäisen vuorovaikutuksen. Eri tieteenaloja yhdistelevistä malleista käytetään tässä työssä nimitystä yhdistetty malli (eng. integrated assessment model). Yhdistetyillä ilmastomalleilla voidaan esimerkiksi tutkia, miten ilmastonmuutos, väestönkasvu, talouskasvu ja hyvinvointi vaikuttavat toisiinsa. \cite{U.S.DepartmentofEnergy2009} 
 
 Tässä työssä ilmastomalleja esiteltäessä ja vertailtaessa keskitytään systeemidynamiikan kannalta keskeisiin asioihin: Tutkitaan, mitä on mallinnettu ja jätetty mallintamatta, millaisia ovat mallin keskeiset takaisinkytkennät ja mitkä muuttujat on mallinnettu ulkosyntyisiksi. 
 
-Tämän luvun tavoite on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja sitten systeemidynaamisiin malleihin pureutuen. Aluksi aliluvussa \ref{ilmasto:historia} otetaan katsaus ilmastotieteen, -mallien ja -politiikan historiaan. Historiaosuuden tavoite on auttaa ymmärtämään taustaa, miksi mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Tässä työssä paneudutaan fysikaaliseen C-ROADS-ilmastomalliin aliluvussa \ref{ilmasto:croads} kunnolla, minkä jälkeen aliluvuissa \ref{ilmasto:enroads} ja \ref{ilmasto:free} otetaan nopea katsaus yhdistettyihin En-ROADS- ja FREE-ilmastomalleihin. 
+Tämän luvun tavoite on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja sitten systeemidynaamisiin malleihin pureutuen. Aluksi aliluvussa \ref{ilmasto:historia} otetaan katsaus ilmastotieteen, -mallien ja -politiikan historiaan. Historiaosuuden tavoite on auttaa ymmärtämään taustaa, miksi mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Tässä työssä paneudutaan fysikaaliseen C-ROADS-ilmastomalliin aliluvussa \ref{ilmasto:croads}, minkä jälkeen aliluvuissa \ref{ilmasto:enroads} ja \ref{ilmasto:free} otetaan nopea katsaus yhdistettyihin En-ROADS- ja FREE-ilmastomalleihin. 
 
 \subsection{Ilmastotieteen, -mallien ja -politiikan historia \label{ilmasto:historia}}
 
@@ -548,7 +548,7 @@ C-ROADS:n arviointiryhmä antoi vuonna 2009 lausunnon, että malli ajaa asiansa:
 
 C-ROADS-ilmastomalli koostuu useasta osamallista. Kullekin kasvihuonekaasulle on oma osamallinsa, samoin metsien kasvamiselle ja tuhoutumiselle, meren pinnan korkeudelle ja pH:lle sekä maapallolle kertyneelle lämpöenergialle. \cite{Croads, CroadsFlightSimulator2011, Fiddaman2012} Seuraavaksi tutustutaan C-ROADS:n teknisen toteutuksen kannalta keskeisiin lämpöenergian ja hiilidioksidin kiertokulkulkujen osamalleihin sekä mallin takaisinkytkentöihin. Havainnollistamisessa käytetään apuna mallin yksinkertaistettuja kausaalidiagrammeja. Diagrammeista on selkeyden vuoksi piilotettu vähemmän merkitykselliset muuttujat ja vuorovaikutukset sekä nostettu esille keskeiset yksityiskohdat. 
 
-\subsubsection*{Lämpöenergian kiertokulku \label{ilmasto:croads:lampo}}
+\subsubsection{Lämpöenergian kiertokulku \label{ilmasto:croads:lampo}}
 
 Seuraava kuva \ref{ilmasto:lampo} on C-ROADS-ilmastomallin lämpöenergian kiertokulun kausaalidiagrammi. Mallissa on kaksi varastomuuttujaa lämpöenergialle: ilmakehä ja pintavedet sekä merten syvät kerrokset. Lämpöenergiaa systeemiin tulee vakionopeudella auringon säteilystä ilmakehään ja pintavesiin, josta se voi siirtyä joko merten syvyyksiin tai säteillä avaruuteen. \cite{Croads, CroadsFlightSimulator2011} 
 
@@ -559,7 +559,7 @@ Seuraava kuva \ref{ilmasto:lampo} on C-ROADS-ilmastomallin lämpöenergian kiert
 
 Malliin on merkitty kolme tasapainottavaa silmukkaa. Alimmassa silmukassa merten syvien kerrosten lämpeneminen vähentää lämmön siirtymistä pintakerroksista syvempiin kerroksiin, mikä hidastaa syvien kerrosten lämpenemistä. Toisaalta keskimmäisessä silmukassa ilmaston lämpeneminen lisää lämmön siirtymistä syvempiin kerroksiin, mikä nopeuttaa syvien kerrosten lämpenemistä. Ylimmässä silmukassa ilmaston lämpeneminen lisää maapallon lämpösäteilyä avaruuteen, mikä vähentää ilmakehän ja pintavesien lämpöenergiaa. Hiilidioksidi ja muut kasvihuonekaasut puolestaan vähentävät maapallon lämpösäteilyä avaruuteen. Tällöin häiriintyy tasapaino, jossa ilmakehään tulee yhtä paljon lämpöenergiaa kuin sieltä lähtee. Kasvihuonekaasujen lisääntyessä ilmasto siis lämpenee, kunnes lämpöenergia alkaa jälleen virrata pois ilmakehästä yhtä nopeasti kuin sitä tulee auringon lämpösäteilystä. \cite{Croads, CroadsFlightSimulator2011} 
 
-\subsubsection*{Hiilidioksidin kiertokulku \label{ilmasto:croads:co2}}
+\subsubsection{Hiilidioksidin kiertokulku \label{ilmasto:croads:co2}}
 
 Seuraava kuva \ref{ilmasto:co2} on yksinkertaistettu hiilidioksidin osamalli. Varastomuuttujat kuvaavat hiilidioksidia ilmakehässä ja biomassassa sekä merten pinta- ja syvissä kerroksissa. Hiilidioksidia tulee systeemiin ihmisen toiminnan seurauksena eli pääasiassa fossiilisten polttoaineiden käytöstä. Ihmisen toiminnan tuottama hiilidioksidi vapautuu ilmakehään. Ilmakehä vaihtaa hiilidioksidia biomassan ja merten pintakerrosten kanssa. \cite{Croads, CroadsFlightSimulator2011}
 
@@ -576,7 +576,7 @@ Systeemiin tulee hiilidioksidia, mutta sitä ei poistu lainkaan. Systeemi muistu
 
 Todellisuudessa systeemistä poistuu jonkin verran hiilidioksidia -- tai tarkalleen ottaen hiiltä -- biomassan vapauttaessa metaania. Tämä on C-ROADS:ssa myös mallinnettu, mutta sen merkitys hiilidioksidin kiertokulun kannalta on pieni. \cite{Croads}
 
-\subsubsection*{Takaisinkytkennät \label{ilmasto:croads:takaisinkytkennät}}
+\subsubsection{Takaisinkytkennät \label{ilmasto:croads:takaisinkytkennät}}
 
 Seuraava kuva \ref{ilmasto:co2-lampo} on esimerkki mallin takaisinkytkennästä, joka seuraa suoraan hiilidioksidin ja lämpöenergian kiertokulusta. Ilmakehässä olevan hiilidioksidin lisääntyessä heikentyy maapallon lämpösäteily avaruuteen, mikä hidastaa lämpöenergian poistumista ilmakehästä ja pintavesistä. Tämä johtaa ilmaston lämpenemiseen, mikä heikentää hiilidioksidin liukoisuutta meriin, mikä puolestaan lisää hiilidioksidin määrää ilmakehässä. \cite{Croads, CroadsFlightSimulator2011}
 
@@ -599,7 +599,7 @@ Mallissa voi tehdä useita erilaisia toimenpiteitä ja poliittisia päätöksiä
 
 \subsection{FREE-ilmastomalli \label{ilmasto:free}}
 
-FREE (Feedback-Rich Energy-Economy) on Tom Fiddamanin kehittämä systeemidynaaminen, yhdistetty ilmastomalli, jonka hän julkaisi väitöskirjassaan vuonna 1997. Malli on rakennettu Nordhausin DICE-ilmastomallin \cite{Nordhaus1992} pohjalta. \cite{Fiddaman1997} En-ROADS on hyvin pitkälti FREE:n pohjalta rakennettu malli, joten mallit ovat yleisellä tasolla hyvin samanlaiset. 
+FREE (Feedback-Rich Energy-Economy) on Tom Fiddamanin kehittämä systeemidynaaminen, yhdistetty ilmastomalli, jonka hän julkaisi väitöskirjassaan vuonna 1997. Malli on rakennettu Nordhausin DICE-ilmastomallin \cite{Nordhaus1992} pohjalta. \cite{Fiddaman1997} En-ROADS on hyvin pitkälti FREE:n pohjalta rakennettu malli, joten mallit ovat yleisellä tasolla hyvin samanlaiset. Fiddaman kritisoi \cite{Fiddaman2002}, että tyypillisesti sen aikaisissa yhdistetyissä malleissa on runsaasti ulkosyntyisiä muuttujia, äärettömiä ja lineaarisia hiilidioksidinieluja, sekä puutteelliset viiveet, takaisinkytkennät ja vuorovaikutukset. Lisäksi ne antavat enemmän painoarvoa rikkaiden maiden ja nykyisten sukupolvien hyvinvoinnille ja olettavat toimintaa täydellisen tiedon valossa. Näitä ongelmia Fiddeman on korjannut FREE-malliin. 
 
 Seuraava kuva \ref{ilmasto:muut:free} on FREE-ilmastomallin rakenteen yleiskuva ylätason kausaalidiagrammilla kuvattuna. Malli koostuu yhdeksästä osamallista, joista kaksi on jätetty En-ROADS:ssa mallintamatta. Nämä osamallit ovat ihmiskunnan hyvinvointi sekä ilmastonmuutoksen aiheuttamat vahingot niin talouteen kuin ihmiskunnan hyvinvointiin. Ilmaston lämpeneminen heikentää kansantuotetta ja ihmisten hyvinvointia. Kansantuotteen kasvu puolestaan parantaa ihmisten hyvinvointia. \cite{Fiddaman1997, Fiddaman2002}
 
@@ -608,7 +608,7 @@ Seuraava kuva \ref{ilmasto:muut:free} on FREE-ilmastomallin rakenteen yleiskuva 
 \caption{FREE-ilmastomallin rakenne. \cite{Fiddaman2002} \label{ilmasto:muut:free}}
 \end{figure}
 
-Ilmaston lämpenemisen aiheuttamat vahingot lasketaan suoraviivaisesti ilmaston lämpenemisestä. Hyvinvoinnille on puolestaan kertymähyötyfunktio. Hyödyksi katsotaan ihmisten mahdollisuus kuluttaa, mikä syntyy kansantuotteesta. Kertymähyötyfunktio laskee tarkasteluajanjakson hyötykertymän. Kertymää voidaan painottaa sukupolvien välistä oikeudenmukaisuutta kuvaavalla parametrilla, jolla voidaan esimerkiksi asettaa nykyhetken hyödylle suurempi painoarvo kuin vuoden 2050 hyödylle. \cite{Fiddaman1997, Fiddaman2002} Fiddaman \cite{Fiddaman2002} on etsinyt mallin avulla optimaalista tapaa vähentää kasvihuonekaasupäästöjä ja osoittanut, että päästölupien sijaan päästöverot on parhaan hyvinvoinnin tuottava tapa vähentää kasvihuonekaasupäästöjä. 
+Ilmaston lämpenemisen aiheuttamat vahingot lasketaan suoraviivaisesti ilmaston lämpenemisestä. Hyvinvoinnille on puolestaan kertymähyötyfunktio. Hyödyksi katsotaan ihmisten mahdollisuus kuluttaa, mikä syntyy kansantuotteesta. Kertymähyötyfunktio laskee tarkasteluajanjakson hyötykertymän. Kertymää voidaan painottaa hyvintasoeroja kuvaavalla parametrilla sekä sukupolvien välistä oikeudenmukaisuutta kuvaavalla parametrilla, jolla voidaan esimerkiksi asettaa nykyhetken hyödylle suurempi painoarvo kuin vuoden 2050 hyödylle. \cite{Fiddaman1997, Fiddaman2002} Fiddaman \cite{Fiddaman2002} on etsinyt mallin avulla optimaalista tapaa vähentää kasvihuonekaasupäästöjä ja osoittanut, että päästölupien sijaan päästöverot on parhaan hyvinvoinnin tuottava tapa vähentää kasvihuonekaasupäästöjä. 
 
 \clearpage
 
