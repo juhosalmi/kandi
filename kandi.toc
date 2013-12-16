@@ -4,9 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Tiivistelm\"a{}}{ii}{section*.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Tiivistelm\"a{} (englanniksi)}{iii}{section*.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Sis\"allysluettelo}{iv}{section*.3}
+\contentsline {section}{Sis\"allysluettelo}{iii}{section*.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Johdanto}{1}{section.1}
 \defcounter {refsection}{0}\relax 
@@ -38,4 +36,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Yhteenveto ja pohdinta }{21}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Viitteet}{23}{section*.5}
+\contentsline {section}{Viitteet}{23}{section*.4}

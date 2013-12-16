@@ -186,7 +186,7 @@ linkcolor=blue,citecolor=black,pdfstartview=FitH]{hyperref}
 %% Kandidaatintyön päivämäärä on sen esityspäivämäärä! 
 %% 
 %% For B.Sc. thesis use the date when you present your thesis. 
-\date{9.12.2013}
+\date{16.12.2013}
 
 %% Kandidaattiseminaarin vastuuopettaja tai diplomityön valvoja.
 %% Huomaa tittelissä "\" -merkki pisteen jälkeen, 
@@ -238,9 +238,13 @@ linkcolor=blue,citecolor=black,pdfstartview=FitH]{hyperref}
 \keywords{Systeemidynamiikka, ilmastonmuutos, ilmastomalli, ilmaston lämpeneminen, C-ROADS, En-ROADS, FREE}
 %% Tiivistelmän tekstiosa
 \begin{abstractpage}[finnish]
-Kandi vielä pikkasen kesken. 
 
-Placeholderina alkuperäinen tehtävänanto: Systeemidynamiikkaa on käytetty paljon ympäristöongelmien sekä ilmastonmuutoksen mallintamisessa. Kandityön tarkoituksena on tehdä kirjallisuustarkastelu ilmastonmuutoksen mallintamisessa käytetyistä systeemidynaamisista malleista, eri lähestymistavoista, eri resoluution malleista ja sovellusalueista. Pyritäänkö malleilla ymmärtämään ilmastonmuutosta paremmin vai kommunikoimaan jo tiedossa olevia ongelmia. Käyttävätkö vain päättäjät malleja vai onko kehitetty suurelle yleisölle tarkoitettuja malleja/pelejä. Mitä uutta systeemidynaaminen mallintaminen on tuonut ilmastonmuutoksen mallintamiseen.
+Tämän kandidaatintyön tavoite on tutkia systeemidynamiikan soveltamista ilmastonmuutoksen mallinnuksessa ja simuloinnissa. Työssä keskitytään tutkimaan systeemidynaamisen mallinnuksen etuja sekä erilaisten ilmastomallien eroja. Työssä tutustutaan systeemidynamiikan ja ilmastomallien perusperiaatteisiin sekä paneudutaan ilmastonmuutoksen systeemidynaamiseen mallinnukseen kolmen systeemidynaamisen ilmastomallin avulla. Malleja vertaillaan keskenään ja muihin ilmastomalleihin. 
+
+Työssä havaitaan, että ilmastomalleja on erilaisiin tarkoituksiin. C-ROADS-ilmastomallilla tutkitaan kasvihuonekaasupäästöjen leikkausten vaikutuksia ja En-ROADS-ilmastomallilla tutkitaan poliittisten päätösten vaikutusta ilmaston lämpenemiseen. FREE-ilmastomallilla voidaan edellisten lisäksi tutkia poliittisten päätösten vaikutuksia ilmaston lämpenemisen myötä ihmisten hyvinvointiin. 
+
+Työssä esitetään, että systeemidynamiikka soveltuu erinomaisesti yksinkertaisten fysikaalisten ja yhdistettyjen ilmastomallien kehittämiseen. Systeemidynamiikan suurin etu ilmastonmuutoksen mallinnuksessa on sen ilmaisuvoimassa. Systeemidynaamisten mallien kausaalidiagrammeilla voidaan johdattaa ihmiset ymmärtämään systeemin dynamiikkaa paremmin kuin matemaattisilla yhtälöillä. 
+
 \end{abstractpage}
 
 %% Pakotetaan uusi sivu varmuuden vuoksi, jotta 
@@ -248,16 +252,16 @@ Placeholderina alkuperäinen tehtävänanto: Systeemidynamiikkaa on käytetty pa
 %% eivät tule vahingossakaan samalle sivulle
 %%
 %% Force new page so that English abstract starts from a new page
-\newpage
-%
-%% English abstract, uncomment if you need one. 
-%% 
-%% Abstract keywords
-\keywords{System dynamics, climate change, climate model, global warming, C-ROADS, En-ROADS, FREE}
-%% Abstract text
-\begin{abstractpage}[english]
- Abstract in English. 
-\end{abstractpage}
+%\newpage
+%%
+%%% English abstract, uncomment if you need one. 
+%%% 
+%%% Abstract keywords
+%\keywords{System dynamics, climate change, climate model, global warming, C-ROADS, En-ROADS, FREE}
+%%% Abstract text
+%\begin{abstractpage}[english]
+%Placeholderina alkuperäinen tehtävänanto: Systeemidynamiikkaa on käytetty paljon ympäristöongelmien sekä ilmastonmuutoksen mallintamisessa. Kandityön tarkoituksena on tehdä kirjallisuustarkastelu ilmastonmuutoksen mallintamisessa käytetyistä systeemidynaamisista malleista, eri lähestymistavoista, eri resoluution malleista ja sovellusalueista. Pyritäänkö malleilla ymmärtämään ilmastonmuutosta paremmin vai kommunikoimaan jo tiedossa olevia ongelmia. Käyttävätkö vain päättäjät malleja vai onko kehitetty suurelle yleisölle tarkoitettuja malleja/pelejä. Mitä uutta systeemidynaaminen mallintaminen on tuonut ilmastonmuutoksen mallintamiseen.
+%\end{abstractpage}
 %% Note that 
 %% if you are writting your master's thesis in English place the English
 %% abstract first followed by the possible Finnish abstract
@@ -370,28 +374,13 @@ Placeholderina alkuperäinen tehtävänanto: Systeemidynamiikkaa on käytetty pa
 %% Leave first page empty
 \thispagestyle{empty}
 
-Ihmiselle on luontaista ajatella, että asioille on selkeät ja suoraviivaiset syy-seuraus-suhteet: yksi asia vaikuttaa toiseen. Maailma ei kuitenkaan olen niin yksinkertainen ja lineaarinen, vaan asiat ovat mitä moninaisimmin tavoin vuorovaikutuksessa toistensa kanssa. Systeemidynamiikka on tapa ymmärtää, mallintaa ja simuloida tätä vuorovaikutusta sekä niiden muodostamaa monimutkaista systeemiä. 
+Systeemidynamiikka on tietokoneavusteinen lähestymistapa päätöksentekoon ja mutkikkaiden systeemien mallintamiseen. Systeemidynaaminen malli rakentuu varastojen, virtausten sekä takaisinkytkettyjen silmukoiden varaan. Systeemidynamiikan tapa lähestyä asioita tarjoaa erinomaiset työkalut päätöksenteolle ja ajattelulle yleisesti. Yksi keskeinen systeemidynamiikan etu on sen ilmaisuvoima. Systeemidynaamisessa mallinnuksessa käytettävät kausaalidiagrammit kiteyttävät hyvin, mistä systeemidynaamisessa mallissa on kyse. Systeemidynamiikalla on myös helppo lähteä tutkimaan asioiden välisiä vuorovaikutuksia, etenkin jos ne on ennalta tunnettuja. Systeemidynaamiset mallit ovat myös laskennallisesti kevyitä, joten mallien parametrien muuttamisen vaikutusten tutkiminen käy hetkessä. 
 
-% Tähän voisi olla mielenkiintoista laittaa vertailu lineaarisesta tavasta ajatella sekä systeemidynaamisesta tavasta ajatella. Etenkin jos löytyisi naseva vertaus ilmastonmuutoksen puolelta. 
+Ilmastonmuutos on tilastollisesti merkittävää ja pitkäkestoista muutosta globaalissa tai paikallisessa ilmastossa. Ilmastonmuutosta mallinnetaan, jotta kyettäisiin arvioimaan, millaisia vaikutuksia ihmisen toiminnalla on ilmastoon. Malleilla kyetään lisäksi tutkimaan, mitkä ovat optimaaliset päätökset, joilla ilmasto saadaan haluttuun tilaan. Ilmastoa ja sen muutosta voidaan mallintaa laskennallisesti raskailla yleisillä virtausmalleilla tai laskennallisesti kevyillä yksinkertaisilla ilmastomalleilla. Systeemidynamiikalla voidaan ilmastomalli esittää ymmärrettävässä muodossa siten, että päättäjä kykenee hahmottamaan, mistä mallissa on kyse. Tämän lisäksi systeemidynaaminen simulaatio on ajettavissa hetkessä, joten esimerkiksi ympäristöpoliittisten päätösten seuraukset on nopeasti havainnollistettavissa. 
 
-Systeemidynaaminen malli rakentuu varantojen, virtausten sekä takaisinkytkettyjen silmukoiden varaan. Systeemidynamiikan tapa lähestyä asioita tarjoaa erinomaiset työkalut päätöksenteolle ja ajattelulle yleisesti. Yksi keskeinen systeemidynamiikan etu on sen ilmaisuvoima. Kausaalidiagrammit kiteyttävät hyvin, mistä systeemidynaamisessa mallissa on kyse. Lisäksi systeemidynaamisia malleja on verrattaen luonteva lähteä rakentamaan tunnettujen ja tutkittujen kausaliteettien varaan. Systeemidynaamiset mallit ovat myös laskennallisesti kevyitä, joten mallin parametrien muuttamisen vaikutusten demonstroiminen käy hetkessä.  
+Systeemidynamiikan yksi keskeisistä sanomista on ymmärryksen luominen. Systeemidynamiikan yksi tunnustetuimmista asiantuntijoista, professori John Sterman, kirjoittaa kirjassaan Business Dynamics \cite{Sterman2000}, että kirjan lukijalla ei ole syytä huoleen, oli tämä matemaattisesti suuntautunut tai ei, sillä kirjasta löytyy ymmärrettävää ja mielenkiintoista sisältöä jokaiselle. Systeemidynamiikka on keino johdattaa kuka tahansa ymmärtämään toimintaympäristöään. Tämä ajatusmalli on pidetty mielessä tätä työtä kirjoitettaessa, ja pyrkimys on ollut, että työn sisältö olisi kenen tahansa omaksuttavissa. Työssä keskitytäänkin yksityiskohtaisten matemaattisten kaavojen sijaan kokonaisuuksien hahmottamiseen. 
 
-Ilmastonmuutos on tilastollisesti merkittävää ja pitkäkestoista muutosta globaalissa tai paikallisessa ilmastossa. Tässä kandidaatintyössä keskitytään ihmisen toiminnasta johtuvaan globaaliin ilmastonmuutokseen, erityisesti ilmaston lämpenemiseen. 
-
-Ilmastonmuutosta mallinnetaan, jotta kykenisimme arvioimaan, millaisia vaikutuksia toiminnallamme on, ja millaisin päätöksin voisimme saada ilmaston kehittymään haluttuun suuntaan. Ilmastoa ja sen muutosta mallinnetaan tieteellisiin tarkoituksiin pääasiassa tarkoilla fysikaalisilla malleilla. Tarkat mallit ovat laskennallisesti raskaita, eivätkä ne ole maallikon tai poliittisen päättäjän ymmärrettävissä. Systeemidynamiikalla voidaan ilmastomalli esittää ymmärrettävässä muodossa siten, että päättäjä kykeneei hahmottamaan, mistä mallissa on kyse. Tämän lisäksi systeemidynaaminen simulaatio on ajettavissa hetkessä, joten esimerkiksi ympäristöpoliittisten päätösten seuraukset on nopeasti havainnollistettavissa. 
-
-Systeemidynamiikan yksi keskeisistä sanomista on ymmärryksen luominen. Systeemidynamiikan yksi tunnustetuimmista asiantuntijoista, prof. John Sterman, kirjoittaa kirjassaan Business Dynamics \cite{Sterman2000}, että kirjan lukijalla ei ole syytä huoleen, oli tämä matemaattisesti suuntautunut tai ei, sillä kirjasta löytyy ymmärrettävää ja mielenkiintoista sisältöä jokaiselle. Systeemidynamiikka on keino johdattaa kuka tahansa ymmärtämään toimintaympäristöään. Tämä ajatusmalli on pidetty mielessä tätä työtä kirjoitettaessa, ja pyrkimys on ollut, että työn sisältö olisi kenen tahansa omaksuttavissa. Työssä keskitytäänkin yksityiskohtaisten matemaattisten kaavojen sijaan kokonaisuuksien ymmärtämiseen ja systeemiajatteluun. 
-
-% Pitäisikö jossakin olla maininta siitä, mitä mallinnus ja simulointi ovat? 
-
-%\subsection*{Tutkimuksen tavoitteet}
-Tämän kandidaatintyön tavoite on tutustua systeemidynamiikkaan ja sekä tutkia sen soveltamista ilmastonmuutoksen mallintamiseen ja simulointiin. 
-
-%\subsection*{Menetelmät}
-
-
-%\subsection*{Työn rakenne}
-Luvussa \ref{sysdyn} otetaan katsaus systeemidynamiikan perusperiaatteisiin. Luvussa \ref{ilmasto} tutustutaan ilmastonmuutokseen ja sen mallintamiseen. Ilmastonmuutoksen systeemidynaaminen mallintaminen havainnollistetaan kahta esimerkkiä käyttäen. Lopuksi luvussa \ref{yhteenveto} tehdään yhteenveto tämän kandidaatintyön löydöksistä ja havainnoista. 
+Tämän kandidaatintyön tavoite on tutkia systeemidynamiikan soveltamista ilmastonmuutoksen mallinnuksessa ja simuloinnissa. Erityisesti tavoitteena on tutkia, mitä lisäarvoa systeemidynamiikka tuo ilmastonmuutoksen mallintamiseen, ja mitä eroja erilaisilla ilmastomalleilla on. Tavoitteen saavuttamiseksi työ on jaettu johdannon lisäksi kolmeen lukuun. Aluksi luvussa \ref{sysdyn} tutustutaan työn kannalta välttämättömiin systeemidynamiikan perusperiaatteisiin. Luvussa \ref{ilmasto} otetaan katsaus ilmastotieteeseen ja ilmastonmuutoksen mallintamiseen sekä yleisesti että systeemidynamisiin malleihin syventyen. Lopuksi luvussa \ref{yhteenveto} tehdään yhteenveto tämän kandidaatintyön löydöksistä. 
 
 \clearpage
 
@@ -613,7 +602,7 @@ Ilmaston lämpenemisen aiheuttamat vahingot lasketaan suoraviivaisesti ilmaston 
 
 \section{Yhteenveto ja pohdinta \label{yhteenveto}}
 
-Tämän kandidaatintyön tavoitteeksi asetettiin tutkia systeemidynamiikan soveltamista ilmastonmuutoksen mallinnukseen ja simulointiin. Erityisesti oltiin kiinnostuneita tietämään, mitä lisäarvoa systeemidynamiikka tuo ilmastonmuutoksen mallintamiseen. Luvussa \ref{sysdyn} tutustuttiin työn kannalta välttämättömiin systeemidynamiikan perusperiaatteisiin: systeemiajatteluun, päätöksentekoon, takaisinkytkentöihin, viiveisiin, varastoihin ja virtauksiin. Luvussa \ref{ilmasto} otettiin katsaus ilmastotieteeseen ja ilmastonmuutoksen mallintamiseen sekä yleisesti että systeemidynamisiin malleihin syventyen. Aliluvussa \ref{ilmasto:croads} tutkittiin C-ROADS-ilmastomallia. Ensin tutustuttiin mallin ratkaisemiin ilmastoneuvotteluihin liittyviin ilmastomallien ongelmiin ja sitten mallin tekniseen toteutuksen keskeisiin osiin: lämpöenergian ja hiilidioksidin kiertokulkuihin sekä takaisinkytkentöihin. Tästä saavutettua ymmärrystä systeemidynaamisista ilmastomalleista laajennettiin aliluvuissa \ref{ilmasto:enroads} ja \ref{ilmasto:free} tutustumalla yhdistettyihin systeemidynaamisiin En-ROADS- ja FREE-ilmastomalleihin. Tässä luvussa käsitellään työssä tehtyjä löydöksiä. 
+Tämän kandidaatintyön tavoitteeksi asetettiin tutkia systeemidynamiikan soveltamista ilmastonmuutoksen mallinnukseen ja simulointiin. Erityisesti oltiin kiinnostuneita tietämään, mitä lisäarvoa systeemidynamiikka tuo ilmastonmuutoksen mallintamiseen, ja mitä eroja erilaisilla ilmastomalleilla on. Luvussa \ref{sysdyn} tutustuttiin työn kannalta välttämättömiin systeemidynamiikan perusperiaatteisiin: systeemiajatteluun, päätöksentekoon, takaisinkytkentöihin, viiveisiin, varastoihin ja virtauksiin. Luvussa \ref{ilmasto} otettiin katsaus ilmastotieteeseen ja ilmastonmuutoksen mallintamiseen sekä yleisesti että systeemidynamisiin malleihin syventyen. Aliluvussa \ref{ilmasto:croads} tutkittiin C-ROADS-ilmastomallia. Ensin tutustuttiin mallin ratkaisemiin ilmastoneuvotteluihin liittyviin ilmastomallien ongelmiin ja sitten mallin tekniseen toteutuksen keskeisiin osiin: lämpöenergian ja hiilidioksidin kiertokulkuihin sekä takaisinkytkentöihin. Tästä saavutettua ymmärrystä systeemidynaamisista ilmastomalleista laajennettiin aliluvuissa \ref{ilmasto:enroads} ja \ref{ilmasto:free} tutustumalla yhdistettyihin systeemidynaamisiin En-ROADS- ja FREE-ilmastomalleihin. Tässä luvussa käsitellään työssä tehtyjä löydöksiä. 
 
 Systeemidynamiikassa keskitytään kausaalidiagrammien avulla tutkimaan takaisinkytkentöjä, epälineaarisuuksia, viiveitä, varastoja ja virtauksia. Tämä vaikuttaisi tehokkaalta lähestymistavalta yksinkertaisten ilmastomallien kehittämiseen, sillä systeemidynaamisten mallien ennusteet noudattavat historiadataa sekä parhaiden tarkkojen ilmastomallien ennusteita. Systeemidynaamisiin malleihin voidaan myös mallintaa spekulatiivisia osia, kuten takaisinkytkentöjä, joiden käyttäytymistä ei täysin tunneta. Niiden herkkyysparametreja säätämällä voidaan spekuloida systeemin todellista käyttäytymistä. Lisäksi systeemidynaamisen ilmastosimulaation ajaa sekunnin murto-osassa. Nämä ovat kuitenkin vain perusedellytykset hyvälle yksinkertaiselle ilmastomallille. 
 
@@ -625,7 +614,7 @@ Työssä keskityttiin jokseenkin yksipuolisesti Climate Interactiven sekä siin�
 
 Tälle työlle jatkotutkimuksena voisi systeemidynaamisten ja muiden mallien ilmaisuvoimaa vertailla keskenään. Lisäksi, Fiddamanin tavoin, voisi muita yksinkertaisia ilmastomalleja tutkia systeemidynamiikan perspektiivistä. 
 
-Näkisin, että systeemidynamiikka soveltuu erinomaisesti yksinkertaisten fysikaalisten ja yhdistettyjen ilmastomallien kehittämiseen. Systeemidynamiikka ja -ajattelu parhaimmillaan helpottavat todellisuutta vastaavan mallin luomista. Niiden suurin etu syntyy kuitenkin systeemidynaamisista kausaalidiagrammeista, joiden ilmaisuvoimalla voi johdattaa ihmiset ymmärtämään systeemin dynamiikkaa. 
+Näkisin, että systeemidynamiikka soveltuu erinomaisesti yksinkertaisten fysikaalisten ja yhdistettyjen ilmastomallien kehittämiseen. Systeemidynamiikka ja -ajattelu parhaimmillaan helpottavat todellisuutta vastaavan mallin luomista. Niiden suurin etu syntyy kuitenkin systeemidynaamisista kausaalidiagrammeista, joiden ilmaisuvoimalla voidaan ihmiset johdattaa ymmärtämään systeemin dynamiikkaa. Ilmaston takaisinkytkentöjen selittäminen ja hiilidioksidin kertyminen ilmakehään on merkittävästi helpompi esittää systeemidynaamisilla kausaalidiagrammeilla kuin matemaattisilla yhtälöillä. 
 
 %Julkista kritiikkiä tässä työssä esitettyjä malleja kohtaan ei C-ROADS-mallin arviointiryhmän raportin \cite{Watson2009} lisäksi löytynyt. Kritiikin puute voi selittyä useasta asiasta. C-ROADS ja En-ROADS ovat varsin uusia ja jatkuvan kehityksen alaisia malleja, eikä niistä ole juurikaan tehty julkaisuja. Tämä ei ole omiaan kerryttämään kritiikkiä niitä kohtaan. Systeemidynamiikassa on tyypillistä keskittyä osoittamaan malli vääräksi \cite{Sterman2000}, joten mallit ovat olleet jatkuvassa kriittisessä tarkastelussa, ja pahimmat ongelmat ovat mitä todennäköisemmin hioutuneet pois jo kehitysvaiheessa. Asiaa voi selittää myös systeemidynaamisen mallinnuksen omalaatuisuus, jota voi olla vaikea lähteä kritisoimaan, ellei ole systeemidynamiikan asiantuntija. Toisaalta ne systeemidynamiikan asiantuntijat, jotka ovat enemmän tekemisissä ilmastonmuutoksen kanssa, ovat luultavimmin mukana Climate Interactivessa. % Onko tämä nyt järkevää settiä? 
 
