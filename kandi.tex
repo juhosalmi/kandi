@@ -509,7 +509,7 @@ Fysikaalista mallia voidaan laajentaa ottamalla huomioon ihmiskunnan ja ilmaston
 
 Tässä työssä ilmastomalleja esiteltäessä ja vertailtaessa keskitytään systeemidynamiikan kannalta keskeisiin asioihin: Tutkitaan, mitä on mallinnettu ja jätetty mallintamatta, millaisia ovat mallin keskeiset takaisinkytkennät ja mitkä muuttujat on mallinnettu ulkosyntyisiksi. 
 
-Tämän luvun tavoite on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja sitten systeemidynaamisiin malleihin pureutuen. Aluksi aliluvussa \ref{ilmasto:historia} otetaan katsaus ilmastotieteen, -mallien ja -politiikan historiaan. Historiaosuuden tavoite on auttaa ymmärtämään taustaa, miksi mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Tässä työssä paneudutaan fysikaaliseen C-ROADS-ilmastomalliin aliluvussa \ref{ilmasto:croads}, minkä jälkeen aliluvuissa \ref{ilmasto:enroads} ja \ref{ilmasto:free} otetaan nopea katsaus yhdistettyihin En-ROADS- ja FREE-ilmastomalleihin. 
+Tämän luvun tavoite on tutustuttaa lukija ilmastonmuutoksen mallintamiseen ensin yleisesti ja sitten systeemidynaamisiin malleihin pureutuen. Aluksi aliluvussa \ref{ilmasto:historia} otetaan katsaus ilmastotieteen, -mallien ja -politiikan historiaan. Historiaosuuden tavoite on auttaa ymmärtämään taustaa, miksi mallintamiseen on alettu käyttää myös systeemidynaamisia menetelmiä. Seuraavien alilukujen tavoite on esimerkkien kautta ymmärtää systeemidynaamisen ilmastomallinnuksen periaatteet. Aliluvussa \ref{ilmasto:croads} paneudutaan fysikaaliseen C-ROADS-ilmastomalliin. Tästä saavutettua ymmärrystä systeemidynaamisista ilmastomalleista laajennetaan aliluvuissa \ref{ilmasto:enroads} ja \ref{ilmasto:free} nopealla katsauksella yhdistettyihin systeemidynaamisiin En-ROADS- ja FREE-ilmastomalleihin.
 
 \subsection{Ilmastotieteen, -mallien ja -politiikan historia \label{ilmasto:historia}}
 
@@ -611,14 +611,38 @@ Ilmaston lämpenemisen aiheuttamat vahingot lasketaan suoraviivaisesti ilmaston 
 
 \clearpage
 
-%\section{Tulokset}
-%\section{Results}
+\section{Yhteenveto ja pohdinta \label{yhteenveto}}
 
+Tämän kandidaatintyön tavoitteeksi asetettiin tutkia systeemidynamiikan soveltamista ilmastonmuutoksen mallinnukseen ja simulointiin. Lisäksi pää- ja aliluvuille asetettiin osatavoitteet. Luvun \ref{sysdyn} tavoite oli työn kannalta välttämättömiin systeemidynamiikan perusperiaatteisiin tutustuminen. Luvun \ref{ilmasto} tavoite oli tutustua ilmastotieteeseen ja ilmastonmuutoksen mallintamiseen yleisesti ja systeemidynamisiin malleihin syventyen. Aliluvussa \ref{ilmasto:croads} tutkittiin C-ROADS-ilmastomallia. Ensin tutustuttiin sen ratkaisemiin ilmastoneuvotteluihin liittyviin ilmastomallien ongelmiin ja sitten mallin tekniseen toteutukseen. Tästä saavutettua ymmärrystä systeemidynaamisista ilmastomalleista laajennettiin aliluvuissa \ref{ilmasto:enroads} ja \ref{ilmasto:free} tutustumalla yhdistettyihin systeemidynaamisiin ilmastomalleihin. 
 
-%\clearpage
+Systeemidynamiikka vaikuttaa erittäin tehokkaalta tavalta toteuttaa yksinkertaisia ilmastomalleja. Systeemidynamiikan tarjoamat edut voidaan jakaa mallintajan ja mallin käyttäjän etuihin. Mallintajalle on edullista, että systeemidynamiikassa keskitytään tutkimaan takaisinkytkentöjä, epälineaarisuuksia, viiveitä, varastoja ja virtauksia. Tämä vaikuttaisi ilmeisen tehokkaalta lähestymistavalta, sillä systeemidynaamisten mallien ennusteet noudattavat historiadataa sekä parhaiden tarkkojen ilmastomallien ennusteita. Lisäksi systeemidynaamisen ilmastosimulaation ajaa sekunnin murto-osassa. Nämä ovat kuitenkin vain perusedellytykset hyvälle yksinkertaiselle ilmastomallille. Suuremmat hyödyt systeemidynamiikasta on mallin käyttäjälle. Kausaalidiagrammien ilmaisuvoimaisuuden ansiosta systeemin vuorovaikutukset on kenen tahansa hahmotettavissa ainakin pääpiirteittäin. Kausaalidiagrammein voidaan ohjata jopa tapahtumaorientoituneesti ajatteleva käyttäjä hahmottamaan ilmaston takaisinkytkentöjä, epälineaarisuuksia, viiveita, varastoja ja virtauksia. Sama ei onnistu matemaattisten yhtälöiden avulla. Myös simulaatio sekunnin murto-osassa helpottaa käyttäjää, joka voi hetkessä kokeilla, miten ilmasto muuttuu eri parametrien arvoilla. 
 
-\section{Yhteenveto \label{yhteenveto}}
-%\section{Summary} 
+Erityisesti C-ROADS:n ja En-ROADS:n etu on niille rakennetuissa 
+
+Simulaatio sekunnin murto-osassa helpottaa myös käyttäjää, joka voi hetkessä kokeilla, miten ilmasto muuttuu milläkin parametreilla. 
+
+Mallin käyttäjälle on edullista
+Lisäksi systeemidynaamisen ilmastosimulaation ajaa sekunnin murto-osassa. 
+
+Systeemidynaamisten mallien ennusteet noudattavat historiadataa sekä parhaiden tarkkojen ilmastomallien ennusteita. Lisäksi systeemidynaamisen ilmastosimulaation ajaa sekunnin murto-osassa. Nämä ovat kuitenkin vain perusedellytykset hyvälle yksinkertaiselle ilmastomallille. Systeemidynamiikan edut ilmastonmuutoksen mallintamisessa kumpuavat systeemidynamiikan perusperiaatteista. Systeemidynamiikalle on ominaista tutkia takaisinkytkentöjä, epälineaarisuuksia, viiveitä, varastoja ja virtauksia. Tällä periaatteella näytetään saavan hyviä malleja aikaiseksi. Vielä tärkeämpää on kuitenkin systeemidynaamisten kausaalidiagrammien ilmaisuvoimaisuus. Kausaalidiagrammista systeemin vuorovaikutukset on helposti kenen tahansa hahmotettavissa ainakin pääpiirteittäin. 
+
+Malli selkeän ongelman ratkaisemiseksi
+
+ Systeemidynamiikalle ominainen takaisinkytkentöjen, epälineaarisuuksien, viiveiden, varastojen ja virtausten tutkiminen sekä niiden esittäminen ilmaisuvoimaisilla kausaalidiagrammeilla vaikuttaisivat olevan omiaan 
+
+ Systeemidynamiikan edut eivät varsinaisesti kumpua matemaattisten yhtälöiden erinomaisuudesta ja mallin kyvystä tuottaa ennusteita. 
+
+spekulaatio systeemidynamiikan avulla 
+
+Työssä keskityttiin jokseenkin yksipuolisesti Climate Interactiven sekä siinä mukana olevien Stermanin ja Fiddemanin tutkimuksiin ja systeemidynaamisiin ilmastomalleihin. Tämä johtuu siitä, että muita systeemidynaamisia malleja löytyi vain yksi \cite{Evan2007}, ja sekin pohjautuu FREE-ilmastomalliin. Systeemidynamiikka on kuitenkin vain eräänlainen esitystapa ja ajatusmalli. Fiddaman oli ilmastonmuutoksen systeemidynaamista mallinnusta tutkiessaan ja FREE-ilmastomallia kehittäessään tehnyt DICE-ilmastomallista systeemidynaamisen esityksen. Saman voi tehdä myös monille muille yksinkertaisille ilmastomalleille. Kuten mainittua, systeemidynaamisten mallien etu ei varsinaisesti kumpua matemaattisista yhtälöistä. Etu tulee 
+
+Kuten mainittua, systeemidynaamisten mallien etu kumpuaa niiden ilmaisuvoimasta sekä systeemidynamiikan tarjoamista ajatusmalleista, joissa painotetaan  
+
+Julkista kritiikkiä tässä työssä esitettyjä malleja kohtaan ei C-ROADS-mallin arviointiryhmän raportin \cite{Watson2009} lisäksi löytynyt. Kritiikin puute voi selittyä useasta asiasta. C-ROADS ja En-ROADS ovat varsin uusia ja jatkuvan kehityksen alaisia malleja, eikä niistä ole juurikaan tehty julkaisuja. Tämä ei ole omiaan kerryttämään kritiikkiä niitä kohtaan. Systeemidynamiikassa on tyypillistä keskittyä osoittamaan malli vääräksi \cite{Sterman2000}, joten mallit ovat olleet jatkuvassa kriittisessä tarkastelussa, ja pahimmat ongelmat ovat mitä todennäköisemmin hioutuneet pois jo kehitysvaiheessa. 
+
+Tutkimusta voisi jatkaa 
+
+Työssä keskityttiin pitkälti Stermanin ja Fiddamanin samansuuntaisiin tutkimuksiin ja Climate Interactiven malleihin, eikä niille esitetty kritiikkiä. Kritiikkiä malleja kohtaan ei löytynyt. 
 
 Keskitytään hyvin paljon Stermanin ja Fiddamanin tutkimukseen, eikä esitetä kritiikkiä. 
 

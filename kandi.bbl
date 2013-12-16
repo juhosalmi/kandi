@@ -895,6 +895,29 @@
   \field{year}{1992}
 \endentry
 
+\entry{Evan2007}{thesis}{}
+  \name{author}{1}{%
+    {{Evan}{E.}%
+     {G~R~Davies}{G.~R.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EGRD1}
+  \strng{fullhash}{EGRD1}
+  \field{pages}{347}
+  \field{title}{{Modelling feedback in the society-biosphere-climate system}}
+  \list{institution}{1}{%
+    {The University of Western Ontario}%
+  }
+  \verb{file}
+  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
+  \verb ded/Evan - 2007 - Modelling feedback in the society-biosphere-climate s
+  \verb ystem.pdf:pdf
+  \endverb
+  \field{type}{phdthesis}
+  \field{year}{2007}
+\endentry
+
 \lossort
 \endlossort
 
