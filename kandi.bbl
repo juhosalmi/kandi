@@ -918,6 +918,178 @@
   \field{year}{2007}
 \endentry
 
+\entry{Kunsch2003}{article}{}
+  \name{author}{3}{%
+    {{Kunsch}{K.}%
+     {P.L.}{P.}%
+     {}{}%
+     {}{}}%
+    {{Springael}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{Brans}{B.}%
+     {J.-P.}{J.-P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{climate change,green certificates,system dynamics,taxes,trading
+  permits,zero-emission certificates}
+  \strng{namehash}{KPSJBJP1}
+  \strng{fullhash}{KPSJBJP1}
+  \field{abstract}{%
+  Today several instruments exist to decrease air pollution. The paper
+  discusses pollution taxes,emission trading permits and green certificates
+  applied to reduce the CO2-emissions in the electricity sector. It then
+  investigates how the different mechanisms behind these three instruments can
+  possibly be combined. The proposed approach is to introduce the concept of
+  zero-emission certificates (ZEC). ZEC are confirming actual emission
+  reductions achieved by electricity producers as compared to a well-defined
+  baseline. Producers can trade ZEC on a market to achieve least-cost
+  efficiency in their reduction efforts. Distributors can themselves produce an
+  additional contribution to emission-reductions by decreasing the final
+  demand,i.e., by producing zero-emission MWh. In this way the electricity
+  market is approached from both the supply and the demand sides. The paper
+  uses system dynamics to validate the approach. It shows why it is in the
+  interest of all operators to make the largest possible reduction efforts as
+  long as they are compatible with economic efficienc%
+  }
+  \verb{doi}
+  \verb 10.1016/S0377-2217(03)00160-7
+  \endverb
+  \field{issn}{03772217}
+  \field{number}{2}
+  \field{pages}{386\bibrangedash 399}
+  \field{title}{{The zero-emission certificates: A novel CO2-pollution
+  reduction instrument applied to the electricity market}}
+  \verb{url}
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221703001607
+  \endverb
+  \field{volume}{153}
+  \verb{file}
+  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
+  \verb ded/Kunsch, Springael, Brans - 2003 - The zero-emission certificates A
+  \verb novel CO2-pollution reduction instrument applied to the electricity m.p
+  \verb df:pdf
+  \endverb
+  \field{journaltitle}{European Journal of Operational Research}
+  \field{month}{03}
+  \field{year}{2003}
+\endentry
+
+\entry{Shrestha2012}{article}{}
+  \name{author}{4}{%
+    {{Shrestha}{S.}%
+     {Eleeja}{E.}%
+     {}{}%
+     {}{}}%
+    {{Ahmad}{A.}%
+     {Sajjad}{S.}%
+     {}{}%
+     {}{}}%
+    {{Johnson}{J.}%
+     {Walter}{W.}%
+     {}{}%
+     {}{}}%
+    {{Batista}{B.}%
+     {Jacimaria~R.}{J.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \keyw{Carbon footprint,System dynamics,Water conveyance}
+  \strng{namehash}{SE+1}
+  \strng{fullhash}{SEASJWBJR1}
+  \verb{doi}
+  \verb 10.1016/j.enpol.2011.11.074
+  \endverb
+  \field{issn}{03014215}
+  \field{pages}{201\bibrangedash 212}
+  \field{title}{{The carbon footprint of water management policy options}}
+  \verb{url}
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0301421511009724
+  \endverb
+  \field{volume}{42}
+  \verb{file}
+  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
+  \verb ded/Shrestha et al. - 2012 - The carbon footprint of water management p
+  \verb olicy options.pdf:pdf
+  \endverb
+  \field{journaltitle}{Energy Policy}
+  \field{month}{03}
+  \field{year}{2012}
+\endentry
+
+\entry{Mediavilla2013}{article}{}
+  \name{author}{6}{%
+    {{Mediavilla}{M.}%
+     {Margarita}{M.}%
+     {}{}%
+     {}{}}%
+    {{Castro}{C.}%
+     {Carlos}{C.}%
+     {de}{d.}%
+     {}{}}%
+    {{Capell\'{a}n}{C.}%
+     {I\~{n}igo}{I.~n.}%
+     {}{}%
+     {}{}}%
+    {{{Javier Miguel}}{J.}%
+     {Luis}{L.}%
+     {}{}%
+     {}{}}%
+    {{Arto}{A.}%
+     {I\~{n}aki}{I.~n.}%
+     {}{}%
+     {}{}}%
+    {{Frechoso}{F.}%
+     {Fernando}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MM+1}
+  \strng{fullhash}{MMCCdCInJLAInFF1}
+  \field{abstract}{%
+  Abstract: The perspectives of the depletion of fossil energy resources,
+  together with the consequences of climate change, have provoked the
+  development of numerous national and pluri-national energy policies. However,
+  there have been few overall studies on the evolution of these resources. This
+  paper uses a dynamic model to study the exhaustion patterns of world fossil
+  and nuclear fuels and their possible replacement by renewable energy sources.
+  The results show that peak oil will be the first restriction and it will not
+  be easily overcome. Electric vehicles can produce some interesting savings,
+  but they are insufficient to avoid the decline in oil. Biofuels are even more
+  limited, due to the enormous extensions of fertile land they require and
+  their low productivity. This shows that overcoming the decline in oil will
+  need much more ambitious policies than the mere substitution of technology.
+  If the “oil–economy” relationship does not change substantially, world
+  economic growth may be seriously limited or even negative. In contrast, the
+  production of electrical energy is not such a worrying problem in the short
+  and middle-term. [Copyright &y& Elsevier]%
+  }
+  \verb{doi}
+  \verb 10.1016/j.enpol.2012.09.033
+  \endverb
+  \field{issn}{03014215}
+  \field{pages}{297\bibrangedash 311}
+  \field{title}{{The transition towards renewable energies: Physical limits and
+  temporal conditions}}
+  \verb{url}
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0301421512008087
+  \endverb
+  \field{volume}{52}
+  \verb{file}
+  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
+  \verb ded/Mediavilla et al. - 2013 - The transition towards renewable energie
+  \verb s Physical limits and temporal conditions.pdf:pdf
+  \endverb
+  \field{journaltitle}{Energy Policy}
+  \field{month}{01}
+  \field{year}{2013}
+\endentry
+
 \lossort
 \endlossort
 
