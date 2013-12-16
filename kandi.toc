@@ -38,4 +38,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Yhteenveto ja pohdinta }{21}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Viitteet}{24}{section*.5}
+\contentsline {section}{Viitteet}{23}{section*.5}
