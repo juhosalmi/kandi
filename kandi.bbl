@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 1.2 $
+% $ biblatex version 2.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -17,8 +17,9 @@
 \endgroup
 
 \entry{Sterman2000}{book}{}
-  \name{author}{1}{%
-    {{Sterman}{S.}%
+  \name{author}{1}{}{%
+    {{}%
+     {Sterman}{S.}%
      {John~D.}{J.~D.}%
      {}{}%
      {}{}}%
@@ -40,12 +41,14 @@
 \endentry
 
 \entry{Flood1988}{book}{}
-  \name{author}{2}{%
-    {{Flood}{F.}%
+  \name{author}{2}{}{%
+    {{}%
+     {Flood}{F.}%
      {Robert~L.}{R.~L.}%
      {}{}%
      {}{}}%
-    {{Carson}{C.}%
+    {{}%
+     {Carson}{C.}%
      {Ewart~R.}{E.~R.}%
      {}{}%
      {}{}}%
@@ -68,8 +71,9 @@
 \endentry
 
 \entry{WhatIsSystemDynamics}{misc}{}
-  \name{author}{1}{%
-    {{{System Dynamics Society}}{S.}%
+  \name{author}{1}{}{%
+    {{}%
+     {{System Dynamics Society}}{S.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -86,8 +90,9 @@
 \endentry
 
 \entry{Zadeh1973}{article}{}
-  \name{author}{1}{%
-    {{Zadeh}{Z.}%
+  \name{author}{1}{}{%
+    {{}%
+     {Zadeh}{Z.}%
      {Lotfi~A.}{L.~A.}%
      {}{}%
      {}{}}%
@@ -102,22 +107,20 @@
   \field{pages}{28\bibrangedash 44}
   \field{title}{{Outline of a New Approach to the Analysis of Complex Systems
   and Decision Processes}}
-  \verb{url}
-  \verb http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5408575
-  \endverb
   \field{volume}{SMC-3}
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Zadeh - 1973 - Outline of a New Approach to the Analysis of Complex
-  \verb  Systems and Decision Processes.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Zadeh - 1973 - Outline of a New Approach to the Analysis of Comp
+  \verb lex Systems and Decision Processes.pdf:pdf
   \endverb
   \field{journaltitle}{IEEE Transactions on Systems, Man, and Cybernetics}
   \field{year}{1973}
 \endentry
 
 \entry{Forrester1961}{book}{}
-  \name{author}{1}{%
-    {{Forrester}{F.}%
+  \name{author}{1}{}{%
+    {{}%
+     {Forrester}{F.}%
      {Jay~W}{J.~W.}%
      {}{}%
      {}{}}%
@@ -130,53 +133,56 @@
   \field{year}{1961}
 \endentry
 
-\entry{Forrester1989}{misc}{}
-  \name{author}{1}{%
-    {{Forrester}{F.}%
+\entry{Forrester1989}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Forrester}{F.}%
      {Jay~W}{J.~W.}%
      {}{}%
      {}{}}%
   }
   \strng{namehash}{FJW1}
   \strng{fullhash}{FJW1}
-  \field{pages}{1\bibrangedash 16}
+  \field{issn}{0047-5394}
+  \field{number}{4}
+  \field{pages}{4\bibrangedash 16}
   \field{title}{{The Beginning of System Dynamics}}
-  \verb{url}
-  \verb http://leml.asu.edu/jingle/Web_Pages/EcoMod_Website/Readings/SD+STELLA/
-  \verb Forrester-Begin'g-SD_1989.pdf
-  \endverb
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Forrester - 1989 - The Beginning of System Dynamics.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/Google Drive/Opinnot/Kandi/Viitteet/Forrester-Beg
+  \verb in'g-SD_1989.pdf:pdf
   \endverb
-  \field{year}{1989}
+  \field{journaltitle}{The McKinsey Quarterly}
+  \field{year}{1995}
 \endentry
 
 \entry{Forrester1968}{article}{}
-  \name{author}{1}{%
-    {{Forrester}{F.}%
+  \name{author}{1}{}{%
+    {{}%
+     {Forrester}{F.}%
      {Jay~W.}{J.~W.}%
      {}{}%
      {}{}}%
   }
   \strng{namehash}{FJW2}
   \strng{fullhash}{FJW2}
+  \field{issn}{0025-1909}
   \field{number}{7}
   \field{pages}{398\bibrangedash 415}
-  \field{title}{{Industial Dynamics — After the First Decade}}
+  \field{title}{{Industrial Dynamics — After the First Decade}}
   \field{volume}{14}
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Forrester - 1968 - Industial Dynamics — After the First Decade.pd
-  \verb f:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Forrester - 1968 - Industial Dynamics — After the First Decade
+  \verb .pdf:pdf
   \endverb
   \field{journaltitle}{Management Science}
   \field{year}{1968}
 \endentry
 
 \entry{Sterman2011}{article}{}
-  \name{author}{1}{%
-    {{Sterman}{S.}%
+  \name{author}{1}{}{%
+    {{}%
+     {Sterman}{S.}%
      {John~D.}{J.~D.}%
      {}{}%
      {}{}}%
@@ -190,27 +196,26 @@
   \field{number}{4}
   \field{pages}{811\bibrangedash 826}
   \field{title}{{Communicating climate change risks in a skeptical world}}
-  \verb{url}
-  \verb http://link.springer.com/10.1007/s10584-011-0189-3
-  \endverb
   \field{volume}{108}
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Sterman - 2011 - Communicating climate change risks in a skeptical
-  \verb world.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Sterman - 2011 - Communicating climate change risks in a skeptic
+  \verb al world.pdf:pdf
   \endverb
   \field{journaltitle}{Climatic Change}
   \field{month}{08}
   \field{year}{2011}
 \endentry
 
-\entry{Sweeney2000}{article}{}
-  \name{author}{2}{%
-    {{Sweeney}{S.}%
+\entry{Sweeney2000}{misc}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sweeney}{S.}%
      {Linda~Booth}{L.~B.}%
      {}{}%
      {}{}}%
-    {{Sterman}{S.}%
+    {{}%
+     {Sterman}{S.}%
      {John~D.}{J.~D.}%
      {}{}%
      {}{}}%
@@ -219,24 +224,27 @@
   \strng{fullhash}{SLBSJD1}
   \field{number}{September}
   \field{pages}{30}
-  \field{title}{{Bathtub Dynamics : Initial Results of a Systems Thinking
-  Inventory Bathtub Dynamics : Initial Results of a Systems Thinking
-  Inventory}}
+  \field{title}{{Bathtub Dynamics: Initial Results of a Systems Thinking
+  Inventory Bathtub}}
   \verb{url}
   \verb http://web.mit.edu/jsterman/www/Bathtub.pdf
   \endverb
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Sweeney, Sterman - 2000 - Bathtub Dynamics Initial Results of a Sys
-  \verb tems Thinking Inventory Bathtub Dynamics Initial Results of a Syste.pdf
-  \verb :pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Sweeney, Sterman - 2000 - Bathtub Dynamics Initial Results of a
+  \verb Systems Thinking Inventory Bathtub Dynamics Initial Results of a Syste.
+  \verb pdf:pdf
   \endverb
   \field{year}{2000}
+  \field{urlday}{07}
+  \field{urlmonth}{12}
+  \field{urlyear}{2013}
 \endentry
 
 \entry{AmericanInstituteofPhysics}{misc}{}
-  \name{author}{1}{%
-    {{{American Institute of Physics}}{A.}%
+  \name{author}{1}{}{%
+    {{}%
+     {{American Institute of Physics}}{A.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -253,36 +261,44 @@
 \endentry
 
 \entry{CroadsFlightSimulator2011}{article}{}
-  \name{author}{8}{%
-    {{Sterman}{S.}%
+  \name{author}{8}{}{%
+    {{}%
+     {Sterman}{S.}%
      {John~D.}{J.~D.}%
      {}{}%
      {}{}}%
-    {{Fiddaman}{F.}%
+    {{}%
+     {Fiddaman}{F.}%
      {Thomas}{T.}%
      {}{}%
      {}{}}%
-    {{Franck}{F.}%
+    {{}%
+     {Franck}{F.}%
      {Travis}{T.}%
      {}{}%
      {}{}}%
-    {{Jones}{J.}%
+    {{}%
+     {Jones}{J.}%
      {Andrew}{A.}%
      {}{}%
      {}{}}%
-    {{McCauley}{M.}%
+    {{}%
+     {McCauley}{M.}%
      {Stephanie}{S.}%
      {}{}%
      {}{}}%
-    {{Rice}{R.}%
+    {{}%
+     {Rice}{R.}%
      {Philip}{P.}%
      {}{}%
      {}{}}%
-    {{Sawin}{S.}%
+    {{}%
+     {Sawin}{S.}%
      {Elizabeth}{E.}%
      {}{}%
      {}{}}%
-    {{Siegeld}{S.}%
+    {{}%
+     {Siegeld}{S.}%
      {Lori}{L.}%
      {}{}%
      {}{}}%
@@ -291,22 +307,23 @@
   dynamics}
   \strng{namehash}{SJD+1}
   \strng{fullhash}{SJDFTFTJAMSRPSESL1}
+  \field{issn}{0034-6535}
   \field{number}{September}
   \field{pages}{1\bibrangedash 36}
   \field{title}{{Management Flight Simulators to Support Climate Negotiations:
   The C-ROADS Climate Policy Model John D. Sterman}}
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Sterman et al. - 2011 - Management Flight Simulators to Support Cli
-  \verb mate Negotiations The C-ROADS Climate Policy Model John D. Sterman.pdf:
-  \verb pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Unknown - 2011 - Management Flight Simulators to Support Climate
+  \verb  Negotiations The C-ROADS Climate Policy Model John D. Sterman.pdf:pdf
   \endverb
   \field{year}{2011}
 \endentry
 
 \entry{Fiddaman2002}{article}{}
-  \name{author}{1}{%
-    {{Fiddaman}{F.}%
+  \name{author}{1}{}{%
+    {{}%
+     {Fiddaman}{F.}%
      {Thomas~S}{T.~S.}%
      {}{}%
      {}{}}%
@@ -345,22 +362,20 @@
   \field{pages}{243\bibrangedash 267}
   \field{title}{{Exploring policy options with a behavioral climate-economy
   model}}
-  \verb{url}
-  \verb http://doi.wiley.com/10.1002/sdr.241
-  \endverb
   \field{volume}{18}
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Fiddaman - 2002 - Exploring policy options with a behavioral climat
-  \verb e-economy model.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Fiddaman - 2002 - Exploring policy options with a behavioral cli
+  \verb mate-economy model.pdf:pdf
   \endverb
   \field{journaltitle}{System Dynamics Review}
   \field{year}{2002}
 \endentry
 
 \entry{U.S.DepartmentofEnergy2009}{report}{}
-  \name{author}{1}{%
-    {{{U.S. Department of Energy}}{U.}%
+  \name{author}{1}{}{%
+    {{}%
+     {{U.S. Department of Energy}}{U.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -377,17 +392,18 @@
     {U.S. Department of Energy}%
   }
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/U.S. Department of Energy - 2009 - Climate Change Intergated Assess
-  \verb ment Research.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/U.S. Department of Energy - 2009 - Climate Change Intergated Ass
+  \verb essment Research.pdf:pdf
   \endverb
   \field{type}{techreport}
   \field{year}{2009}
 \endentry
 
 \entry{AmericanInstituteofPhysicsSimple}{misc}{}
-  \name{author}{1}{%
-    {{{American Institute of Physics}}{A.}%
+  \name{author}{1}{}{%
+    {{}%
+     {{American Institute of Physics}}{A.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -405,8 +421,9 @@
 \endentry
 
 \entry{AmericanInstituteofPhysicsGCM}{misc}{}
-  \name{author}{1}{%
-    {{{American Institute of Physics}}{A.}%
+  \name{author}{1}{}{%
+    {{}%
+     {{American Institute of Physics}}{A.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -424,8 +441,9 @@
 \endentry
 
 \entry{Fiddaman1997}{thesis}{}
-  \name{author}{1}{%
-    {{Fiddaman}{F.}%
+  \name{author}{1}{}{%
+    {{}%
+     {Fiddaman}{F.}%
      {Thomas~S}{T.~S.}%
      {}{}%
      {}{}}%
@@ -475,22 +493,23 @@
   uncertain cases, near-term inaction is a poor policy.%
   }
   \field{pages}{360}
-  \field{title}{{Feedback Complexity in Integrated Climate-Economy Models by}}
+  \field{title}{{Feedback Complexity in Integrated Climate-Economy Models}}
   \list{institution}{1}{%
     {Massachusetts Institute of Technology}%
   }
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Fiddaman - 1997 - Feedback Complexity in Integrated Climate-Economy
-  \verb  Models by.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Fiddaman et al. - 1997 - Feedback Complexity in Integrated Clima
+  \verb te-Economy Models by.pdf:pdf
   \endverb
   \field{type}{phdthesis}
   \field{year}{1997}
 \endentry
 
 \entry{IPCChistory}{misc}{}
-  \name{author}{1}{%
-    {{{Intergovernmental Panel on Climate Change}}{I.}%
+  \name{author}{1}{}{%
+    {{}%
+     {{Intergovernmental Panel on Climate Change}}{I.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -507,8 +526,9 @@
 \endentry
 
 \entry{UNFCCC}{misc}{}
-  \name{author}{1}{%
-    {{UNFCCC}{U.}%
+  \name{author}{1}{}{%
+    {{}%
+     {UNFCCC}{U.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -525,8 +545,9 @@
 \endentry
 
 \entry{Croads}{misc}{}
-  \name{author}{1}{%
-    {{{Climate Interactive}}{C.}%
+  \name{author}{1}{}{%
+    {{}%
+     {{Climate Interactive}}{C.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -537,8 +558,9 @@
 \endentry
 
 \entry{CroadsWWW}{misc}{}
-  \name{author}{1}{%
-    {{{Climate Interactive}}{C.}%
+  \name{author}{1}{}{%
+    {{}%
+     {{Climate Interactive}}{C.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -555,24 +577,29 @@
 \endentry
 
 \entry{Fiddaman2012}{book}{}
-  \name{author}{5}{%
-    {{Fiddaman}{F.}%
+  \name{author}{5}{}{%
+    {{}%
+     {Fiddaman}{F.}%
      {Tom}{T.}%
      {}{}%
      {}{}}%
-    {{Siegel}{S.}%
+    {{}%
+     {Siegel}{S.}%
      {Lori~S}{L.~S.}%
      {}{}%
      {}{}}%
-    {{Sawin}{S.}%
+    {{}%
+     {Sawin}{S.}%
      {Elizabeth}{E.}%
      {}{}%
      {}{}}%
-    {{Jones}{J.}%
+    {{}%
+     {Jones}{J.}%
      {Andrew~P}{A.~P.}%
      {}{}%
      {}{}}%
-    {{Sterman}{S.}%
+    {{}%
+     {Sterman}{S.}%
      {John}{J.}%
      {}{}%
      {}{}}%
@@ -587,15 +614,17 @@
   \verb al-reference/c-roads-reference-guide
   \endverb
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Fiddaman et al. - 2012 - C-ROADS Simulator Reference Guide.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Fiddaman et al. - 2012 - C-ROADS Simulator Reference Guide.pdf:p
+  \verb df
   \endverb
   \field{year}{2012}
 \endentry
 
 \entry{Jones2013}{misc}{}
-  \name{author}{1}{%
-    {{Jones}{J.}%
+  \name{author}{1}{}{%
+    {{}%
+     {Jones}{J.}%
      {Andrew}{A.}%
      {}{}%
      {}{}}%
@@ -608,55 +637,70 @@
   \verb http://youtu.be/EDI7bZbGxNI
   \endverb
   \field{year}{2013}
+  \field{urlday}{06}
+  \field{urlmonth}{12}
+  \field{urlyear}{2013}
 \endentry
 
 \entry{Sawin2009}{article}{}
-  \name{author}{12}{%
-    {{Sawin}{S.}%
+  \name{author}{12}{}{%
+    {{}%
+     {Sawin}{S.}%
      {Elizabeth~R.}{E.~R.}%
      {}{}%
      {}{}}%
-    {{Jones}{J.}%
+    {{}%
+     {Jones}{J.}%
      {Andrew~P.}{A.~P.}%
      {}{}%
      {}{}}%
-    {{Fiddaman}{F.}%
+    {{}%
+     {Fiddaman}{F.}%
      {Tom}{T.}%
      {}{}%
      {}{}}%
-    {{Siegel}{S.}%
+    {{}%
+     {Siegel}{S.}%
      {Lori~S.}{L.~S.}%
      {}{}%
      {}{}}%
-    {{Wright}{W.}%
+    {{}%
+     {Wright}{W.}%
      {Diana}{D.}%
      {}{}%
      {}{}}%
-    {{Franck}{F.}%
+    {{}%
+     {Franck}{F.}%
      {Travis}{T.}%
      {}{}%
      {}{}}%
-    {{Barkman}{B.}%
+    {{}%
+     {Barkman}{B.}%
      {Andreas}{A.}%
      {}{}%
      {}{}}%
-    {{Cummings}{C.}%
+    {{}%
+     {Cummings}{C.}%
      {Tom}{T.}%
      {}{}%
      {}{}}%
-    {{Peter}{P.}%
+    {{}%
+     {Peter}{P.}%
      {Felicitas}{F.}%
      {von}{v.}%
      {}{}}%
-    {{McGlade}{M.}%
+    {{}%
+     {McGlade}{M.}%
      {Jacqueline}{J.}%
      {}{}%
      {}{}}%
-    {{Corell}{C.}%
+    {{}%
+     {Corell}{C.}%
      {Robert~W.}{R.~W.}%
      {}{}%
      {}{}}%
-    {{Sterman}{S.}%
+    {{}%
+     {Sterman}{S.}%
      {John}{J.}%
      {}{}%
      {}{}}%
@@ -689,18 +733,21 @@
   Are Likely to be Insufficient to Stabilize Atmospheric CO2 Levels: Using
   C-ROADS – A Simple Computer Simulation of Climate Change – To Support
   Long-Term Climate Policy Development}}
+  \verb{url}
+  \verb http://climateinteractive.org/scoreboard/scoreboard-science-and-data/C-
+  \verb ROADS Analysis of Current Proposals090311.pdf
+  \endverb
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Sawin et al. - 2009 - Current Emissions Reductions Proposals in the
-  \verb  Lead-Up COP-15 Are Likely to be Insufficient to Stabilize Atmospheri.p
-  \verb df:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Imulation et al. - 2009 - Cop-15 a.pdf:pdf
   \endverb
   \field{year}{2009}
 \endentry
 
 \entry{UNFCCCCopenhagen}{misc}{}
-  \name{author}{1}{%
-    {{UNFCCC}{U.}%
+  \name{author}{1}{}{%
+    {{}%
+     {UNFCCC}{U.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -717,8 +764,9 @@
 \endentry
 
 \entry{KyotoManual}{book}{}
-  \name{author}{1}{%
-    {{{United Nations Framework Convention on Climate Change}}{U.}%
+  \name{author}{1}{}{%
+    {{}%
+     {{United Nations Framework Convention on Climate Change}}{U.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -732,40 +780,47 @@
     {Bonn}%
   }
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/United Nations Framework Convention on Climate Change - 2008 - Kyot
-  \verb o Protocol Reference Manual.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/United Nations Framework Convention on Climate Change - 2008 - K
+  \verb yoto Protocol Reference Manual.pdf:pdf
   \endverb
   \field{year}{2008}
 \endentry
 
 \entry{Watson2009}{report}{}
-  \name{author}{7}{%
-    {{Watson}{W.}%
+  \name{author}{7}{}{%
+    {{}%
+     {Watson}{W.}%
      {Robert}{R.}%
      {}{}%
      {}{}}%
-    {{Beinhocker}{B.}%
+    {{}%
+     {Beinhocker}{B.}%
      {Eric}{E.}%
      {}{}%
      {}{}}%
-    {{Vries}{V.}%
+    {{}%
+     {Vries}{V.}%
      {Bert}{B.}%
      {de}{d.}%
      {}{}}%
-    {{Hasselmann}{H.}%
+    {{}%
+     {Hasselmann}{H.}%
      {Klaus}{K.}%
      {}{}%
      {}{}}%
-    {{Lane}{L.}%
+    {{}%
+     {Lane}{L.}%
      {David}{D.}%
      {}{}%
      {}{}}%
-    {{Randers}{R.}%
+    {{}%
+     {Randers}{R.}%
      {Jorgen}{J.}%
      {}{}%
      {}{}}%
-    {{Schneider}{S.}%
+    {{}%
+     {Schneider}{S.}%
      {Stephen}{S.}%
      {}{}%
      {}{}}%
@@ -779,17 +834,18 @@
   \verb fic-review/C-ROADS Scientific Review Summary-1.pdf
   \endverb
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Watson et al. - 2009 - Summary Statement from the C-ROADS Scientifi
-  \verb c Review Panel.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Watson et al. - 2009 - Summary Statement from the C-ROADS Scient
+  \verb ific Review Panel.pdf:pdf
   \endverb
   \field{type}{techreport}
   \field{year}{2009}
 \endentry
 
 \entry{EnroadsWWW}{misc}{}
-  \name{author}{1}{%
-    {{{Climate Interactive}}{C.}%
+  \name{author}{1}{}{%
+    {{}%
+     {{Climate Interactive}}{C.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -806,16 +862,19 @@
 \endentry
 
 \entry{Harvey2013}{article}{}
-  \name{author}{3}{%
-    {{Harvey}{H.}%
+  \name{author}{3}{}{%
+    {{}%
+     {Harvey}{H.}%
      {Hal}{H.}%
      {}{}%
      {}{}}%
-    {{Orr}{O.}%
+    {{}%
+     {Orr}{O.}%
      {Franklin~M.}{F.~M.}%
      {}{}%
      {}{}}%
-    {{Vondrich}{V.}%
+    {{}%
+     {Vondrich}{V.}%
      {Clara}{C.}%
      {}{}%
      {}{}}%
@@ -829,13 +888,10 @@
   \field{number}{1}
   \field{pages}{8\bibrangedash 25}
   \field{title}{{A Trillion Tons}}
-  \verb{url}
-  \verb http://www.mitpressjournals.org/doi/abs/10.1162/DAED_a_00182
-  \endverb
   \field{volume}{142}
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Harvey, Orr, Vondrich - 2013 - A Trillion Tons.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Harvey, Orr, Vondrich - 2013 - A Trillion Tons.pdf:pdf
   \endverb
   \field{journaltitle}{Daedalus}
   \field{month}{01}
@@ -843,8 +899,9 @@
 \endentry
 
 \entry{Enroads}{misc}{}
-  \name{author}{1}{%
-    {{{Climate Interactive}}{C.}%
+  \name{author}{1}{}{%
+    {{}%
+     {{Climate Interactive}}{C.}%
      {}{}%
      {}{}%
      {}{}}%
@@ -855,8 +912,9 @@
 \endentry
 
 \entry{Nordhaus1992}{article}{}
-  \name{author}{1}{%
-    {{Nordhaus}{N.}%
+  \name{author}{1}{}{%
+    {{}%
+     {Nordhaus}{N.}%
      {W~D}{W.~D.}%
      {}{}%
      {}{}}%
@@ -881,14 +939,11 @@
   \field{number}{5086}
   \field{pages}{1315\bibrangedash 9}
   \field{title}{{An optimal transition path for controlling greenhouse gases.}}
-  \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/17778354
-  \endverb
   \field{volume}{258}
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Nordhaus - 1992 - An optimal transition path for controlling greenh
-  \verb ouse gases.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Nordhaus - 1992 - An optimal transition path for controlling gre
+  \verb enhouse gases.pdf:pdf
   \endverb
   \field{journaltitle}{Science (New York, N.Y.)}
   \field{month}{11}
@@ -896,39 +951,44 @@
 \endentry
 
 \entry{Evan2007}{thesis}{}
-  \name{author}{1}{%
-    {{Evan}{E.}%
-     {G~R~Davies}{G.~R.~D.}%
+  \name{author}{1}{}{%
+    {{}%
+     {Evan}{E.}%
+     {G.~R.~Davies}{G.~R.~D.}%
      {}{}%
      {}{}}%
   }
   \strng{namehash}{EGRD1}
   \strng{fullhash}{EGRD1}
+  \field{isbn}{978-0-494-39349-9}
   \field{pages}{347}
   \field{title}{{Modelling feedback in the society-biosphere-climate system}}
   \list{institution}{1}{%
     {The University of Western Ontario}%
   }
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Evan - 2007 - Modelling feedback in the society-biosphere-climate s
-  \verb ystem.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Evan - 2008 - Modelling feedback in the society-biosphere-climat
+  \verb e system.pdf:pdf
   \endverb
   \field{type}{phdthesis}
   \field{year}{2007}
 \endentry
 
 \entry{Kunsch2003}{article}{}
-  \name{author}{3}{%
-    {{Kunsch}{K.}%
+  \name{author}{3}{}{%
+    {{}%
+     {Kunsch}{K.}%
      {P.L.}{P.}%
      {}{}%
      {}{}}%
-    {{Springael}{S.}%
+    {{}%
+     {Springael}{S.}%
      {J.}{J.}%
      {}{}%
      {}{}}%
-    {{Brans}{B.}%
+    {{}%
+     {Brans}{B.}%
      {J.-P.}{J.-P.}%
      {}{}%
      {}{}}%
@@ -962,15 +1022,12 @@
   \field{pages}{386\bibrangedash 399}
   \field{title}{{The zero-emission certificates: A novel CO2-pollution
   reduction instrument applied to the electricity market}}
-  \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221703001607
-  \endverb
   \field{volume}{153}
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Kunsch, Springael, Brans - 2003 - The zero-emission certificates A
-  \verb novel CO2-pollution reduction instrument applied to the electricity m.p
-  \verb df:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Kunsch, Springael, Brans - 2004 - The zero-emission certificates
+  \verb  A novel CO2-pollution reduction instrument applied to the electricity
+  \verb m.pdf:pdf
   \endverb
   \field{journaltitle}{European Journal of Operational Research}
   \field{month}{03}
@@ -978,20 +1035,24 @@
 \endentry
 
 \entry{Shrestha2012}{article}{}
-  \name{author}{4}{%
-    {{Shrestha}{S.}%
+  \name{author}{4}{}{%
+    {{}%
+     {Shrestha}{S.}%
      {Eleeja}{E.}%
      {}{}%
      {}{}}%
-    {{Ahmad}{A.}%
+    {{}%
+     {Ahmad}{A.}%
      {Sajjad}{S.}%
      {}{}%
      {}{}}%
-    {{Johnson}{J.}%
+    {{}%
+     {Johnson}{J.}%
      {Walter}{W.}%
      {}{}%
      {}{}}%
-    {{Batista}{B.}%
+    {{}%
+     {Batista}{B.}%
      {Jacimaria~R.}{J.~R.}%
      {}{}%
      {}{}}%
@@ -1008,14 +1069,11 @@
   \field{issn}{03014215}
   \field{pages}{201\bibrangedash 212}
   \field{title}{{The carbon footprint of water management policy options}}
-  \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S0301421511009724
-  \endverb
   \field{volume}{42}
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Shrestha et al. - 2012 - The carbon footprint of water management p
-  \verb olicy options.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Shrestha et al. - 2012 - The carbon footprint of water managemen
+  \verb t policy options.pdf:pdf
   \endverb
   \field{journaltitle}{Energy Policy}
   \field{month}{03}
@@ -1023,28 +1081,34 @@
 \endentry
 
 \entry{Mediavilla2013}{article}{}
-  \name{author}{6}{%
-    {{Mediavilla}{M.}%
+  \name{author}{6}{}{%
+    {{}%
+     {Mediavilla}{M.}%
      {Margarita}{M.}%
      {}{}%
      {}{}}%
-    {{Castro}{C.}%
+    {{}%
+     {Castro}{C.}%
      {Carlos}{C.}%
      {de}{d.}%
      {}{}}%
-    {{Capell\'{a}n}{C.}%
+    {{}%
+     {Capell\'{a}n}{C.}%
      {I\~{n}igo}{I.~n.}%
      {}{}%
      {}{}}%
-    {{{Javier Miguel}}{J.}%
+    {{}%
+     {{Javier Miguel}}{J.}%
      {Luis}{L.}%
      {}{}%
      {}{}}%
-    {{Arto}{A.}%
+    {{}%
+     {Arto}{A.}%
      {I\~{n}aki}{I.~n.}%
      {}{}%
      {}{}}%
-    {{Frechoso}{F.}%
+    {{}%
+     {Frechoso}{F.}%
      {Fernando}{F.}%
      {}{}%
      {}{}}%
@@ -1076,14 +1140,11 @@
   \field{pages}{297\bibrangedash 311}
   \field{title}{{The transition towards renewable energies: Physical limits and
   temporal conditions}}
-  \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S0301421512008087
-  \endverb
   \field{volume}{52}
   \verb{file}
-  \verb :C\:/Users/jtsalmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloa
-  \verb ded/Mediavilla et al. - 2013 - The transition towards renewable energie
-  \verb s Physical limits and temporal conditions.pdf:pdf
+  \verb :C\:/Users/Juho Salmi/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+  \verb loaded/Mediavilla et al. - 2013 - The transition towards renewable ener
+  \verb gies Physical limits and temporal conditions.pdf:pdf
   \endverb
   \field{journaltitle}{Energy Policy}
   \field{month}{01}
